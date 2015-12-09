@@ -62,10 +62,10 @@ namespace PokeMath
             this.SpDefense = spDefense;
             this.Speed = speed;
 
-            fullHeal();
+            FullHeal();
         }
 
-        public void fullHeal()
+        public void FullHeal()
         {
             this.CurrHP = HP;
             this.Condition = Condition.OK;

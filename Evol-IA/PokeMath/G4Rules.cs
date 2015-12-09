@@ -29,7 +29,7 @@ namespace PokeMath
                                                           {  4,  2,  4,  4,  4,  4,  4,  8,  4,  4,  4,  4,  4,  8,  4,  4,  2,  2 },   // Da
                                                           {  4,  8,  4,  2,  4,  4,  4,  4,  2,  2,  4,  4,  4,  4,  4,  8,  8,  4 } }; // Fa
 
-        public float getTypeModifier(Type attackType, Type defType1, Type defType2 = Type.NONE)
+        public float GetTypeModifier(Type attackType, Type defType1, Type defType2 = Type.NONE)
         {
             if (defType2 == Type.NONE)
                 return (float)typeChart[(int)attackType,(int)defType1] / 4;
@@ -42,7 +42,7 @@ namespace PokeMath
         }
 
         //http://www.pokebip.com/pokemon/page__jeuxvideo__guide_tactique_strategie_pokemon__formules_mathematiques.html
-        public int damageFormula(Pokemon attP, Pokemon defP, Move m)
+        public override int DamageFormula(Pokemon attP, Pokemon defP, Move m)
         {
             int att = attP.Attack;
             if (m.Special)
@@ -62,7 +62,7 @@ namespace PokeMath
             if(attP.Type == m.Type || attP.Type2 == m.Type)
                 stab = 1.5f;
 
-            float typeMod = getTypeModifier(m.Type, defP.Type, defP.Type2);
+            float typeMod = GetTypeModifier(m.Type, defP.Type, defP.Type2);
 
             int res = (int)((float)attP.Level * 2 / 5) + 2;
             Console.WriteLine("Res : " + res);
@@ -83,11 +83,6 @@ namespace PokeMath
                 res = 1;
 
             return res;
-        }
-
-        public override void resolveTurn(Pokemon p1, Pokemon p2, Move a1, Move a2)
-        {
-            throw new NotImplementedException();
         }
     }
 

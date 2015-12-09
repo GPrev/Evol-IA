@@ -8,6 +8,6 @@ namespace PokeMath
 {
     public abstract class Rules
     {
-        public abstract void resolveTurn(Pokemon p1, Pokemon p2, Move a1, Move a2);
+        public abstract int DamageFormula(Pokemon attP, Pokemon defP, Move m);
     }
 }
