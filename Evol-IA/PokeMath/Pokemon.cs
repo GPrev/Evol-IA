@@ -12,8 +12,8 @@ namespace PokeMath
     {
         public string Name { get; set; }
 
-        int currHP;
-        int CurrHP
+        private int currHP;
+        public int CurrHP
         {
             get { return currHP; }
             set {

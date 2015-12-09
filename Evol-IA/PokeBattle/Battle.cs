@@ -27,6 +27,8 @@ namespace PokeBattle
         public void PlayTurn()
         {
             List<BattleAction> actions = new List<BattleAction>();
+            List<Pokemon> attP = new List<Pokemon>();
+            List<Move> moves = new List<Move>();
             foreach (Trainer t in Trainers)
             {
                 BattleAction a = t.ChooseAction();
@@ -35,12 +37,39 @@ namespace PokeBattle
                 // Pokemon switches
                 if (a.ActionType == ActionType.POKEMON)
                 {
-                    t.ActivePokemon = a.GetMoveOrPokemon().Item2;
+                    switchPokemon(t, a.GetMoveOrPokemon().Item2);
+                }
+                else if (a.ActionType == ActionType.FIGHT)
+                {
+                    attP.Add(t.ActivePokemon);
+                    moves.Add(a.GetMoveOrPokemon().Item1);
                 }
             }
 
-            rules.resolveTurn(Trainers[0].ActivePokemon, Trainers[1].ActivePokemon,
-                actions[0].GetMoveOrPokemon().Item1, actions[1].GetMoveOrPokemon().Item1);
+            // Attacks are now
+            List<int> priority = rules.OrderMoves(attP, moves);
+            for(int i = 0; i < priority.Count; ++i)
+            {
+                int p = priority[i];
+                Move m = moves[p];
+                Pokemon attacker = attP[p];
+                Pokemon defender = attP[1 - p]; // Only works for 2 pokemon
+
+                if(!attacker.Ko())
+                {
+                    outDel(attacker.Name + " uses " + m.Name + ".");
+                    defender.CurrHP -= rules.DamageFormula(attacker, defender, m);
+
+                    float effective = rules.GetTypeModifier(m, attacker);
+                    if (effective > 1)
+                        outDel("It's super effective !");
+                    else if (effective < 1)
+                        outDel("It's not very effective...");
+
+                    if(defender.Ko())
+                        outDel(defender.Name + " fainted !");
+                }
+            }
 
             // Resolve KOs
             foreach (Trainer t in Trainers)

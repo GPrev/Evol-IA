@@ -29,7 +29,7 @@ namespace PokeMath
                                                           {  4,  2,  4,  4,  4,  4,  4,  8,  4,  4,  4,  4,  4,  8,  4,  4,  2,  2 },   // Da
                                                           {  4,  8,  4,  2,  4,  4,  4,  4,  2,  2,  4,  4,  4,  4,  4,  8,  8,  4 } }; // Fa
 
-        public float GetTypeModifier(Type attackType, Type defType1, Type defType2 = Type.NONE)
+        public override float GetTypeModifier(Type attackType, Type defType1, Type defType2 = Type.NONE)
         {
             if (defType2 == Type.NONE)
                 return (float)typeChart[(int)attackType,(int)defType1] / 4;
@@ -83,6 +83,15 @@ namespace PokeMath
                 res = 1;
 
             return res;
+        }
+
+        public override bool FasterThan(Pokemon p1, Pokemon p2, Move m1, Move m2)
+        {
+            // If same speed, chooses at random
+            if (p1.Speed == p1.Speed)
+                return (new Random().Next()) % 2 == 0;
+            //else
+            return p1.Speed > p2.Speed;
         }
     }
 

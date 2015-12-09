@@ -13,9 +13,11 @@ namespace PokeMath
         public bool Special { get; set; }
 
         public Type Type { get; set; }
+        public string Name { get; set; }
 
-        public Move(Type type, int power, int acc, bool spe)
+        public Move(string name, Type type, int power, int acc, bool spe)
         {
+            Name = name;
             Type = type;
             Power = power;
             Accuracy = acc;
