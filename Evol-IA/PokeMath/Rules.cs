@@ -23,7 +23,7 @@ namespace PokeMath
         {
             // spots[i] = n means pokemon i will play after n others
             List<int> spots = new List<int>(pokemon.Count);
-            for (int i = 0; i<pokemon.Count; ++i)
+            for (int i = 0; i < pokemon.Count; ++i)
             {
                 for (int j = i + 1; j < pokemon.Count; ++j)
                 {
@@ -40,5 +40,6 @@ namespace PokeMath
                 result[spots[i]] = i;
             }
             return result;
+        }
     }
 }

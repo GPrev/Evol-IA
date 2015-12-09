@@ -20,7 +20,7 @@ namespace PokeBattle
         public Battle(List<Trainer> trainers, OutDel del = null)
         {
             Trainers = trainers;
-            if(del != null)
+            if (del != null)
                 outDel = del;
         }
 
@@ -48,14 +48,14 @@ namespace PokeBattle
 
             // Attacks are now
             List<int> priority = rules.OrderMoves(attP, moves);
-            for(int i = 0; i < priority.Count; ++i)
+            for (int i = 0; i < priority.Count; ++i)
             {
                 int p = priority[i];
                 Move m = moves[p];
                 Pokemon attacker = attP[p];
                 Pokemon defender = attP[1 - p]; // Only works for 2 pokemon
 
-                if(!attacker.Ko())
+                if (!attacker.Ko())
                 {
                     outDel(attacker.Name + " uses " + m.Name + ".");
                     defender.CurrHP -= rules.DamageFormula(attacker, defender, m);
@@ -66,7 +66,7 @@ namespace PokeBattle
                     else if (effective < 1)
                         outDel("It's not very effective...");
 
-                    if(defender.Ko())
+                    if (defender.Ko())
                         outDel(defender.Name + " fainted !");
                 }
             }
@@ -119,3 +119,4 @@ namespace PokeBattle
             return null;
         }
     }
+}
