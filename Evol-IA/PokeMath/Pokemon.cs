@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace PokeMath
 {
     public enum Condition { BURNED, FROZEN, PARALYZED, POISONED, ASLEEP, OK }
-    public enum Type { NORMAL, FIGHT, FLYING, POISON, GROUND, ROCK, BUG, GHOST, STEEL, FIRE, FIRE, WATER, ELECTRIC, PSYCHIC, ICE, DRAGON, DARK, FAIRY, NONE }
+    public enum Type { NORMAL, FIGHT, FLYING, POISON, GROUND, ROCK, BUG, GHOST, STEEL, FIRE, WATER, ELECTRIC, PSYCHIC, ICE, DRAGON, DARK, FAIRY, NONE }
     public class Pokemon
     {
         String Name { get; set; }

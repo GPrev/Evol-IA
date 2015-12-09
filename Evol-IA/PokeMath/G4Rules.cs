@@ -56,15 +56,33 @@ namespace PokeMath
             int mod2 = 1;
             int mod3 = 1;
 
-            int cc = 1;
-            int r = 1;
+            int cc = 1; //no criticals
+            int r = 92; //no random damage reductions (85 < r < 100)
             float stab = 1;
             if(attP.Type == m.Type || attP.Type2 == m.Type)
                 stab = 1.5f;
 
             float typeMod = getTypeModifier(m.Type, defP.Type, defP.Type2);
 
-            return (int)((((((((attP.Level * 2 / 5) + 2) * m.Power * att / 50) / def) * mod1) + 2) * cc * mod2 * r / 100) *stab * typeMod * mod3);
+            int res = (int)((float)attP.Level * 2 / 5) + 2;
+            Console.WriteLine("Res : " + res);
+            res = (int)((float)res * m.Power * att / 50);
+            Console.WriteLine("Res : " + res);
+            res /= def;
+            Console.WriteLine("Res : " + res);
+            res *= mod1;
+            Console.WriteLine("Res : " + res);
+            res += 2;
+            Console.WriteLine("Res : " + res);
+            res = (int)((float)res * cc * mod2 * r / 100);
+            Console.WriteLine("Res : " + res);
+            res *= (int)(stab * typeMod * mod3);
+            Console.WriteLine("Res : " + res);
+
+            if (res < 1)
+                res = 1;
+
+            return res;
         }
 
         public override void resolveTurn(Pokemon p1, Pokemon p2, Move a1, Move a2)
