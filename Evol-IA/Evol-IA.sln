@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeMath", "PokeMath\PokeMath.csproj", "{7138B211-9068-483C-88CE-2671D8443B47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeMathTests", "PokeMathTests\PokeMathTests.csproj", "{421A4ED1-5943-4733-8580-591902E6519B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7138B211-9068-483C-88CE-2671D8443B47} = {7138B211-9068-483C-88CE-2671D8443B47}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{7138B211-9068-483C-88CE-2671D8443B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7138B211-9068-483C-88CE-2671D8443B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7138B211-9068-483C-88CE-2671D8443B47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{421A4ED1-5943-4733-8580-591902E6519B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{421A4ED1-5943-4733-8580-591902E6519B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{421A4ED1-5943-4733-8580-591902E6519B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{421A4ED1-5943-4733-8580-591902E6519B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

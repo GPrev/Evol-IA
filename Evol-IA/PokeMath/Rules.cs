@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace PokeMath
 {
-    class Rules
+    public abstract class Rules
     {
-        public void resolveTurn(Pokemon p1, Pokemon p2, Move a1, Move a2);
+        public abstract void resolveTurn(Pokemon p1, Pokemon p2, Move a1, Move a2);
     }
 }

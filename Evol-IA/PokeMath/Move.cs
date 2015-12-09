@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PokeMath
 {
-    class Move
+    public class Move
     {
         public int Power { get; set; }
         public int Accuracy { get; set; }
