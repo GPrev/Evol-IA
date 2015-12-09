@@ -61,7 +61,7 @@ namespace PokeBattle
         private void switchPokemon(Trainer t, Pokemon pokemon)
         {
             t.ActivePokemon = pokemon;
-            outDel(t.Name + " sends " + pokemon.Name + " !");
+            outDel(t.Name + " sends out " + pokemon.Name + " !");
         }
 
         public Trainer PlayBattle()
