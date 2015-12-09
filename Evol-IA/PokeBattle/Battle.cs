@@ -7,11 +7,22 @@ using System.Threading.Tasks;
 
 namespace PokeBattle
 {
-    class Battle
+    public class Battle
     {
         static readonly Rules rules = new G4Rules();
 
+        public delegate void OutDel(string str);
+
+        public OutDel outDel = message => { Console.WriteLine(message); };
+
         List<Trainer> Trainers { get; set; }
+
+        public Battle(List<Trainer> trainers, OutDel del = null)
+        {
+            Trainers = trainers;
+            if(del != null)
+                outDel = del;
+        }
 
         public void PlayTurn()
         {
@@ -42,17 +53,25 @@ namespace PokeBattle
                 if (t.ActivePokemon.Ko())
                 {
                     PokemonAction a = t.ChoosePokemon();
-                    t.ActivePokemon = a.Pokemon;
+                    switchPokemon(t, a.Pokemon);
                 }
             }
         }
 
+        private void switchPokemon(Trainer t, Pokemon pokemon)
+        {
+            t.ActivePokemon = pokemon;
+            outDel(t.Name + " sends " + pokemon.Name + " !");
+        }
+
         public Trainer PlayBattle()
         {
+            outDel(Trainers[0].Name + " and " + Trainers[1].Name + " want to fight !");
             while (Winner() == null)
             {
                 PlayTurn();
             }
+            outDel(Winner().Name + " has lost !");
             return Winner();
         }
 
@@ -70,3 +89,4 @@ namespace PokeBattle
             //else
             return null;
         }
+    }

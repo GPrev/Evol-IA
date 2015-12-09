@@ -10,7 +10,7 @@ namespace PokeMath
     public enum Type { NORMAL, FIGHT, FLYING, POISON, GROUND, ROCK, BUG, GHOST, STEEL, FIRE, WATER, ELECTRIC, PSYCHIC, ICE, DRAGON, DARK, FAIRY, NONE }
     public class Pokemon
     {
-        String Name { get; set; }
+        public string Name { get; set; }
 
         int currHP;
         int CurrHP
