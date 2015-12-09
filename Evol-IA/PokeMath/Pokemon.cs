@@ -25,6 +25,11 @@ namespace PokeMath
             }
         }
 
+        public bool Ko()
+        {
+            return CurrHP == 0;
+        }
+
         Condition Condition { get; set; }
 
         #region Stats
