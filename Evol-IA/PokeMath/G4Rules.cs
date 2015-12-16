@@ -88,7 +88,7 @@ namespace PokeMath
         public override bool FasterThan(Pokemon p1, Pokemon p2, Move m1, Move m2)
         {
             // If same speed, chooses at random
-            if (p1.Speed == p1.Speed)
+            if (p1.Speed == p2.Speed)
                 return (new Random().Next()) % 2 == 0;
             //else
             return p1.Speed > p2.Speed;
