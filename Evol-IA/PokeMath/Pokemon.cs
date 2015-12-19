@@ -8,7 +8,7 @@ namespace PokeMath
 {
     public enum Condition { BURNED, FROZEN, PARALYZED, POISONED, ASLEEP, OK }
     public enum Type { NORMAL, FIGHT, FLYING, POISON, GROUND, ROCK, BUG, GHOST, STEEL, FIRE, WATER, GRASS, ELECTRIC, PSYCHIC, ICE, DRAGON, DARK, FAIRY, NONE }
-    public class Pokemon
+    public class Pokemon : ICloneable
     {
         public string Name { get; set; }
 
@@ -45,9 +45,9 @@ namespace PokeMath
         public Type Type { get; set; }
         public Type Type2 { get; set; }
 
-        List<Move> Moves { get; set; }
+        public List<Move> Moves { get; set; }
 
-        public Pokemon(String name, int level, Type type, Type type2, int hP, int attack, int spAttack, int defense, int spDefense, int speed)
+        public Pokemon(String name, int level, Type type, Type type2, int hP, int attack, int spAttack, int defense, int spDefense, int speed, List<Move> moves)
         {
             this.Name = name;
 
@@ -62,6 +62,8 @@ namespace PokeMath
             this.SpDefense = spDefense;
             this.Speed = speed;
 
+            this.Moves = moves;
+
             FullHeal();
         }
 
@@ -69,6 +71,12 @@ namespace PokeMath
         {
             this.CurrHP = HP;
             this.Condition = Condition.OK;
+        }
+
+        public object Clone()
+        {
+            return new Pokemon(Name, Level, Type, Type2, HP, Attack, SpAttack, Defense, SpDefense, Speed, Moves)
+            { CurrHP = this.CurrHP, Condition = this.Condition };
         }
     }
 }

@@ -9,7 +9,7 @@ namespace PokeMath
     public class G4Rules : Rules
     {
         // Multiplied by  4 (so 1 is 1/ 4). Do not call directly, use getTypeModifier(...) instead
-        //                                      No  Fi  Fl  Po  Gr  Ro  Bu  Gh  St  Fi  Wa  Gr  El  Ps  Ic  Dr  Da  Fa
+        //                                                  No  Fi  Fl  Po  Gr  Ro  Bu  Gh  St  Fi  Wa  Gr  El  Ps  Ic  Dr  Da  Fa
         static readonly int[,] typeChart = new int[,]   { {  4,  4,  4,  4,  4,  2,  4,  0,  2,  4,  4,  4,  4,  4,  4,  4,  4,  4 },   // No
                                                           {  8,  4,  2,  2,  4,  8,  2,  0,  8,  4,  4,  4,  4,  2,  8,  4,  8,  2 },   // Fi
                                                           {  4,  8,  4,  4,  4,  2,  8,  4,  2,  4,  4,  8,  2,  4,  4,  4,  4,  4 },   // Fl

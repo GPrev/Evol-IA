@@ -3,6 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PokeMath;
 
 using Type = PokeMath.Type;
+using System.Collections.Generic;
 
 namespace PokeMathTests
 {
@@ -22,14 +23,14 @@ namespace PokeMathTests
         {
             Assert.AreEqual(2, rules.GetTypeModifier(Type.ELECTRIC, Type.WATER));
 
-            Assert.AreEqual(.5, rules.GetTypeModifier(Type.WATER, Type.ELECTRIC));
+            Assert.AreEqual(.5, rules.GetTypeModifier(Type.FIRE, Type.WATER));
         }
 
         [TestMethod]
         public void DamageFormulaTest()
         {
-            Pokemon attP = new Pokemon("a", 50, Type.ELECTRIC, Type.NONE, 100, 50, 50, 50, 50, 50);
-            Pokemon defP = new Pokemon("b", 50, Type.WATER, Type.NONE, 100, 50, 50, 50, 50, 50);
+            Pokemon attP = new Pokemon("a", 50, Type.ELECTRIC, Type.NONE, 100, 50, 50, 50, 50, 50, new List<Move>());
+            Pokemon defP = new Pokemon("b", 50, Type.WATER, Type.NONE, 100, 50, 50, 50, 50, 50, new List<Move>());
             Move m = new Move("m", Type.ELECTRIC, 50, 100, true);
             //http://nuggetbridge.com/damagecalc/
             Assert.IsTrue(60 <= rules.DamageFormula(attP, defP, m));
@@ -39,8 +40,8 @@ namespace PokeMathTests
         [TestMethod]
         public void MinDamageTest()
         {
-            Pokemon attP = new Pokemon("b", 1, Type.WATER, Type.NONE, 20, 10, 10, 10, 10, 10);
-            Pokemon defP = new Pokemon("a", 100, Type.ELECTRIC, Type.NONE, 200, 100, 100, 100, 100, 100);
+            Pokemon attP = new Pokemon("b", 1, Type.WATER, Type.NONE, 20, 10, 10, 10, 10, 10, new List<Move>());
+            Pokemon defP = new Pokemon("a", 100, Type.ELECTRIC, Type.NONE, 200, 100, 100, 100, 100, 100, new List<Move>());
             Move m = new Move("m", Type.NORMAL, 20, 100, true);
             Assert.AreEqual(1, rules.DamageFormula(attP, defP, m));
         }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PokeBattle
 {
-    public abstract class Trainer
+    public class Trainer : ICloneable
     {
         public string Name { get; set; }
 
@@ -23,12 +23,6 @@ namespace PokeBattle
                 ActivePokemon = Team[0];
         }
 
-        public abstract BattleAction ChooseAction();
-
-        public abstract FightAction ChooseMove();
-
-        public abstract PokemonAction ChoosePokemon();
-
         public bool IsOutOfPokemon()
         {
             foreach(Pokemon p in Team)
@@ -37,6 +31,22 @@ namespace PokeBattle
                     return false;
             }
             return true;
+        }
+
+        public object Clone()
+        {
+            List<Pokemon> newTeam = new List<Pokemon>();
+            Pokemon newActive = null;
+            foreach (Pokemon p in Team)
+            {
+                Pokemon newP = p.Clone() as Pokemon;
+                newTeam.Add(newP);
+                if (p == ActivePokemon)
+                    newActive = newP;
+
+            }
+
+            return new Trainer(Name, newTeam) { ActivePokemon = newActive };
         }
     }
 }
