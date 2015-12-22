@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Evol_UI.MoveChoiceControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Evol_UI"
+             xmlns:pokemath="clr-namespace:PokeMath;assembly=PokeMath"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+
+    <UserControl.Resources>
+        <DataTemplate DataType="{x:Type pokemath:Move}">
+            <Grid>
+                <Button Content="{Binding Name}" HorizontalAlignment="Stretch"/>
+            </Grid>
+        </DataTemplate>
+    </UserControl.Resources>
+    
+    <Grid Name="LayoutRoot">
+        <ListBox ItemsSource="{Binding Pokemon.Moves}" HorizontalContentAlignment="Stretch"/>
+    </Grid>
+</UserControl>

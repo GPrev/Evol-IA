@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PokeMath
 {
-    public enum Condition { BURNED, FROZEN, PARALYZED, POISONED, ASLEEP, OK }
+    public enum Condition { OK, BURNED, FROZEN, PARALYZED, POISONED, ASLEEP, FAINTED }
     public enum Type { NORMAL, FIGHT, FLYING, POISON, GROUND, ROCK, BUG, GHOST, STEEL, FIRE, WATER, GRASS, ELECTRIC, PSYCHIC, ICE, DRAGON, DARK, FAIRY, NONE }
     public class Pokemon : ICloneable
     {
@@ -30,7 +30,7 @@ namespace PokeMath
             return CurrHP == 0;
         }
 
-        Condition Condition { get; set; }
+        public Condition Condition { get; set; }
 
         #region Stats
         public int Level { get; set; }

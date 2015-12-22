@@ -1,0 +1,34 @@
+﻿<Window x:Class="Evol_UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Evol_UI"
+        mc:Ignorable="d"
+        Title="Evol'IA" Height="350" Width="525">
+    <Window.Resources>
+        <Style TargetType="ListBox">
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+    </Window.Resources>
+    
+    <Grid Name="LayoutRoot">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <local:PokemonControl Pokemon="{Binding TrainerA.ActivePokemon}"/>
+            <local:PokemonControl Pokemon="{Binding TrainerB.ActivePokemon}" Grid.Column="1" />
+            <local:MoveChoiceControl Pokemon="{Binding TrainerA.ActivePokemon}" Grid.Row="1"/>
+            <local:MoveChoiceControl Pokemon="{Binding TrainerB.ActivePokemon}" Grid.Column="1" Grid.Row="1"/>
+            <local:PokemonChoiceControl Trainer="{Binding TrainerA}" Grid.Row="2"/>
+            <local:PokemonChoiceControl Trainer="{Binding TrainerB}" Grid.Column="1" Grid.Row="2"/>
+        </Grid>
+    </Grid>
+</Window>
