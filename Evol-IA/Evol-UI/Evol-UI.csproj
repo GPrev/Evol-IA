@@ -55,7 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="TrainerVM.cs" />
+    <Compile Include="ViewModel\BattleControlVM.cs" />
+    <Compile Include="UserControls\BattleControl.xaml.cs">
+      <DependentUpon>BattleControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\BattleVM.cs" />
+    <Compile Include="PlayerIntel.cs" />
+    <Compile Include="ViewModel\TrainerVM.cs" />
+    <Page Include="UserControls\BattleControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -68,37 +78,37 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="MoveChoiceControl.xaml">
+    <Page Include="UserControls\MoveChoiceControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PokemonChoiceControl.xaml">
+    <Page Include="UserControls\PokemonChoiceControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PokemonControl.xaml">
+    <Page Include="UserControls\PokemonControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="PokemonControlSmall.xaml">
+    <Page Include="UserControls\PokemonControlSmall.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MoveChoiceControl.xaml.cs">
+    <Compile Include="UserControls\MoveChoiceControl.xaml.cs">
       <DependentUpon>MoveChoiceControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PokemonChoiceControl.xaml.cs">
+    <Compile Include="UserControls\PokemonChoiceControl.xaml.cs">
       <DependentUpon>PokemonChoiceControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PokemonControl.xaml.cs">
+    <Compile Include="UserControls\PokemonControl.xaml.cs">
       <DependentUpon>PokemonControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PokemonControlSmall.xaml.cs">
+    <Compile Include="UserControls\PokemonControlSmall.xaml.cs">
       <DependentUpon>PokemonControlSmall.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PokemonVM.cs" />
+    <Compile Include="ViewModel\PokemonVM.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

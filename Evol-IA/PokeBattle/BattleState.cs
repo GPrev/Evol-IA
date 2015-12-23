@@ -11,7 +11,7 @@ namespace PokeBattle
     {
         Rules rules = Battle.rules;
 
-        List<Trainer> Trainers { get; set; }
+        public List<Trainer> Trainers { get; protected set; }
 
         public List<ActionType> NextActionTypes { get; private set; }
 

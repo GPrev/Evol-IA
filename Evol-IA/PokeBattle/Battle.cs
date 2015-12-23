@@ -26,7 +26,7 @@ namespace PokeBattle
 
             Trainers = new List<Trainer>();
             foreach (Intelligence i in Intelligences)
-                Trainers.Add(i.ChooseTeam());
+                Trainers.Add(i.Trainer);
 
             state = new BattleState(Trainers);
 

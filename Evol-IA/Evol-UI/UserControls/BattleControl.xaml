@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="Evol_UI.BattleControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Evol_UI"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid Name="LayoutRoot">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <local:PokemonControl VerticalAlignment="Center" Pokemon="{Binding VM.Oponent.ActivePokemon}"/>
+        <local:PokemonControl Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Pokemon="{Binding VM.Ally.ActivePokemon}"/>
+        <local:PokemonChoiceControl Grid.Row="2" Trainer="{Binding VM.Ally}"/>
+        <local:MoveChoiceControl Grid.Row="2" Grid.Column="1" Pokemon="{Binding VM.Ally.ActivePokemon}"/>
+    </Grid>
+</UserControl>

@@ -1,4 +1,5 @@
-﻿using PokeMath;
+﻿using PokeBattle;
+using PokeMath;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,15 @@ namespace Evol_UI
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static readonly DependencyProperty BattleProperty =
+        DependencyProperty.RegisterAttached("Battle", typeof(BattleVM), typeof(MainWindow));
+
+        public BattleVM Battle
+        {
+            get { return (BattleVM)GetValue(BattleProperty); }
+            set { SetValue(BattleProperty, value); }
+        }
+        /*
         public static readonly DependencyProperty TrainerAProperty =
         DependencyProperty.RegisterAttached("TrainerA", typeof(TrainerVM), typeof(MainWindow));
 
@@ -38,7 +48,7 @@ namespace Evol_UI
             get { return (TrainerVM)GetValue(TrainerBProperty); }
             set { SetValue(TrainerBProperty, value); }
         }
-
+        */
         public MainWindow()
         {
             InitializeComponent();
@@ -58,8 +68,11 @@ namespace Evol_UI
             TeamA.Add(new PokemonVM("pokA", 50, PokeMath.Type.BUG, PokeMath.Type.NONE, 50, 50, 50, 50, 50, 50, movesA));
             TeamA.Add(new PokemonVM("pokB", 50, PokeMath.Type.BUG, PokeMath.Type.NONE, 50, 50, 50, 50, 50, 50, movesB));
             TeamB.Add(new PokemonVM("pokC", 50, PokeMath.Type.BUG, PokeMath.Type.NONE, 50, 50, 50, 50, 50, 50, movesC));
-            TrainerA = new TrainerVM("TrA", TeamA);
-            TrainerB = new TrainerVM("TrB", TeamB);
+            List<Trainer> trainers  =new List<Trainer>();
+            trainers.Add(new TrainerVM("TrA", TeamA));
+            trainers.Add(new TrainerVM("TrB", TeamB));
+
+            Battle = new BattleVM(trainers);
         }
     }
 }

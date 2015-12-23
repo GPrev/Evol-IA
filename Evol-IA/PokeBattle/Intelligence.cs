@@ -10,6 +10,6 @@ namespace PokeBattle
     {
         BattleAction ChooseAction(BattleState s, int myId = 1, ActionType type = ActionType.ANY);
 
-        Trainer ChooseTeam();
+        Trainer Trainer { get; }
     }
 }
