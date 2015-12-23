@@ -60,7 +60,6 @@
       <DependentUpon>BattleControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\BattleVM.cs" />
-    <Compile Include="PlayerIntel.cs" />
     <Compile Include="ViewModel\TrainerVM.cs" />
     <Page Include="UserControls\BattleControl.xaml">
       <SubType>Designer</SubType>

@@ -20,10 +20,13 @@ namespace Evol_UI
 
         public BattleVM(List<Trainer> trainers) : base(trainers)
         {
-            PendingActions = new List<BattleAction>(Trainers.Count);
+            PendingActions = new List<BattleAction>();
             BattleControls = new ObservableCollection<BattleControlVM>();
             for (int i = 0; i < Trainers.Count; ++i)
+            {
                 BattleControls.Add(new BattleControlVM(this, i));
+                PendingActions.Add(null);
+            }
 
             NotifyPropertyChanged("PendingActions");
             NotifyPropertyChanged("BattleControls");

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PokeMath;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,6 +29,17 @@ namespace Evol_UI
             get { return (PokemonVM)GetValue(PokemonProperty); }
             set { SetValue(PokemonProperty, value); }
         }
+
+        public static readonly DependencyProperty SelectedProperty =
+        DependencyProperty.RegisterAttached("Selected", typeof(Move), typeof(MoveChoiceControl));
+
+        public Move Selected
+        {
+            get { return (Move)GetValue(SelectedProperty); }
+            set { SetValue(SelectedProperty, value); }
+
+        }
+
         public MoveChoiceControl()
         {
             InitializeComponent();

@@ -22,6 +22,7 @@
     </UserControl.Resources>
     
     <Grid Name="LayoutRoot">
-        <ListBox ItemsSource="{Binding Trainer.Team}" HorizontalContentAlignment="Stretch"/>
+        <ListBox ItemsSource="{Binding Trainer.Team}"  SelectedItem="{Binding Selected, Mode=TwoWay}"
+                 HorizontalContentAlignment="Stretch"/>
     </Grid>
 </UserControl>

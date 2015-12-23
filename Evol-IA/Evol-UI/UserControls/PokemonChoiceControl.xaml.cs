@@ -28,6 +28,17 @@ namespace Evol_UI
             get { return (TrainerVM)GetValue(TrainernProperty); }
             set { SetValue(TrainernProperty, value); }
         }
+
+        public static readonly DependencyProperty SelectedProperty =
+        DependencyProperty.RegisterAttached("Selected", typeof(PokemonVM), typeof(PokemonChoiceControl));
+
+        public PokemonVM Selected
+        {
+            get { return (PokemonVM)GetValue(SelectedProperty); }
+            set { SetValue(SelectedProperty, value); }
+
+        }
+
         public PokemonChoiceControl()
         {
             InitializeComponent();

@@ -19,7 +19,7 @@
 
         <local:PokemonControl VerticalAlignment="Center" Pokemon="{Binding VM.Oponent.ActivePokemon}"/>
         <local:PokemonControl Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Pokemon="{Binding VM.Ally.ActivePokemon}"/>
-        <local:PokemonChoiceControl Grid.Row="2" Trainer="{Binding VM.Ally}"/>
-        <local:MoveChoiceControl Grid.Row="2" Grid.Column="1" Pokemon="{Binding VM.Ally.ActivePokemon}"/>
+        <local:PokemonChoiceControl Grid.Row="2" Trainer="{Binding VM.Ally}" Selected="{Binding VM.PendingSwitch, Mode=TwoWay}"/>
+        <local:MoveChoiceControl Grid.Row="2" Grid.Column="1" Pokemon="{Binding VM.Ally.ActivePokemon}" Selected="{Binding VM.PendingMove, Mode=TwoWay}"/>
     </Grid>
 </UserControl>

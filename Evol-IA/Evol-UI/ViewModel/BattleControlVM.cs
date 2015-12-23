@@ -31,7 +31,14 @@ namespace Evol_UI
 
         public Move PendingMove
         {
-            get { return Battle.GetPendingAction(id).GetMove(); }
+            get
+            {
+                BattleAction a = Battle.GetPendingAction(id);
+                if (a == null)
+                    return null;
+                //else
+                return a.GetMove();
+            }
             set
             {
                 if(Battle.SeletAction(id, value))
@@ -44,7 +51,13 @@ namespace Evol_UI
 
         public Pokemon PendingSwitch
         {
-            get { return Battle.GetPendingAction(id).GetPokemon(); }
+            get {
+                BattleAction a = Battle.GetPendingAction(id);
+                if (a == null)
+                    return null;
+                //else
+                return a.GetPokemon();
+            }
             set
             {
                 if (Battle.SeletAction(id, value))
