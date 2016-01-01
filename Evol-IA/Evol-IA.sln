@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeBattle", "PokeBattle\Po
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evol-UI", "Evol-UI\Evol-UI.csproj", "{AABFDDA4-3EDC-4790-AD07-EC3A77D9A876}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evol-IA", "Evol-IA\Evol-IA.csproj", "{901588FB-505C-48E6-B15E-5EA29EE3B13E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{AABFDDA4-3EDC-4790-AD07-EC3A77D9A876}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AABFDDA4-3EDC-4790-AD07-EC3A77D9A876}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AABFDDA4-3EDC-4790-AD07-EC3A77D9A876}.Release|Any CPU.Build.0 = Release|Any CPU
+		{901588FB-505C-48E6-B15E-5EA29EE3B13E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901588FB-505C-48E6-B15E-5EA29EE3B13E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901588FB-505C-48E6-B15E-5EA29EE3B13E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901588FB-505C-48E6-B15E-5EA29EE3B13E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

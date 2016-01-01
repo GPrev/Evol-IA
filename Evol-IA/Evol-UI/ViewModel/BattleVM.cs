@@ -7,6 +7,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Evol_IA;
 
 namespace Evol_UI
 {
@@ -18,7 +19,36 @@ namespace Evol_UI
 
         public ObservableCollection<BattleControlVM> BattleControls { get; private set; }
 
+        private List<BattleAI> AIs;
+
+        // Give as many ais as trainers (set some to null if necessary)
+        public BattleVM(List<BattleAI> ais, List<Trainer> trainers) : base(ExtractTeams(ais, trainers))
+        {
+            this.AIs = ais;
+            Init();
+        }
+
         public BattleVM(List<Trainer> trainers) : base(trainers)
+        {
+            Init();
+        }
+
+        private static List<Trainer> ExtractTeams(List<BattleAI> ais, List<Trainer> trainers = null)
+        {
+            List<Trainer> res = new List<Trainer>();
+            for (int i = 0; i < ais.Count; ++i)
+            {
+                if (ais[i] != null)
+                    res[i] = ais[i].Trainer;
+                else if (trainers != null)
+                    res[i] = trainers[i];
+                else // Should not happen
+                    res[i] = null;
+            }
+            return res;
+        }
+
+        private void Init()
         {
             PendingActions = new List<BattleAction>();
             BattleControls = new ObservableCollection<BattleControlVM>();
@@ -65,6 +95,9 @@ namespace Evol_UI
                     MakeActions(PendingActions);
                     ResetPending();
                     NotifyPropertyChanged("BattleState");
+
+                    // Makes AI decisions
+                    MakeAIChoice();
                 }
             }
             return res;
@@ -75,6 +108,18 @@ namespace Evol_UI
             for (int i = 0; i < PendingActions.Count; ++i)
                 PendingActions[i] = null;
             NotifyPropertyChanged("PendingActions");
+        }
+
+        private void MakeAIChoice()
+        {
+            for (int i = 0; i < AIs.Count; ++i)
+            {
+                if(AIs[i] != null && NextActionTypes[i] != ActionType.NONE)
+                {
+                    BattleAction choice = AIs[i].ChooseAction(this, i, NextActionTypes[i]);
+                    SeletAction(i, choice);
+                }
+            }
         }
     }
 }

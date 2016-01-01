@@ -136,6 +136,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Evol-IA\Evol-IA.csproj">
+      <Project>{901588fb-505c-48e6-b15e-5ea29ee3b13e}</Project>
+      <Name>Evol-IA</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PokeBattle\PokeBattle.csproj">
       <Project>{1c782625-107e-4e8a-b8d1-9fe4e9322398}</Project>
       <Name>PokeBattle</Name>
