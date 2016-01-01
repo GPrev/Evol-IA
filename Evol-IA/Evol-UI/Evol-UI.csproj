@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Converters.cs" />
     <Compile Include="ViewModel\BattleControlVM.cs" />
     <Compile Include="UserControls\BattleControl.xaml.cs">
       <DependentUpon>BattleControl.xaml</DependentUpon>

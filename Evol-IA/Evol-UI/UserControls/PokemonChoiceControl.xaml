@@ -8,6 +8,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <UserControl.Resources>
+        <local:PokemonInListConverter x:Key="PokemonInListConverter" />
         <DataTemplate DataType="{x:Type pokemath:Pokemon}">
             <Grid>
                 <Border BorderThickness="1" BorderBrush="DarkGray" Padding="4,0">
@@ -23,10 +24,22 @@
                 </Border>
             </Grid>
         </DataTemplate>
+        <Style TargetType="ListBoxItem">
+            <Setter Property="IsEnabled"> <!--Focusable doesn't grey out, IsEnabled does-->
+                <Setter.Value>
+                    <MultiBinding Converter="{StaticResource PokemonInListConverter}">
+                        <Binding  ElementName="LayoutRoot" Path="DataContext.Trainer.AvailablePokemon" />
+                        <Binding />
+                    </MultiBinding>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </UserControl.Resources>
     
     <Grid Name="LayoutRoot">
-        <ListBox ItemsSource="{Binding Trainer.Team}"  SelectedItem="{Binding Selected, Mode=TwoWay}"
+        <ListBox ItemsSource="{Binding Trainer.Team}"
+                 IsSynchronizedWithCurrentItem="True"
+                 SelectedValue="{Binding Selected, Mode=TwoWay}"
                  HorizontalContentAlignment="Stretch"/>
     </Grid>
 </UserControl>

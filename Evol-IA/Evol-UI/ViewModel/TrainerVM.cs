@@ -22,6 +22,7 @@ namespace Evol_UI
                 base.ActivePokemon = value;
                 NotifyPropertyChanged("ActivePokemon");
                 NotifyPropertyChanged("ActivePokemonVM");
+                NotifyPropertyChanged("AvailablePokemon");
             }
         }
 
@@ -33,6 +34,21 @@ namespace Evol_UI
                 ActivePokemon = value;
                 NotifyPropertyChanged("ActivePokemon");
                 NotifyPropertyChanged("ActivePokemonVM");
+                NotifyPropertyChanged("AvailablePokemon");
+            }
+        }
+
+        public List<Pokemon> AvailablePokemon
+        {
+            get
+            {
+                List<Pokemon> res = new List<Pokemon>();
+                foreach(Pokemon p in Team)
+                {
+                    if (!(p == ActivePokemon || p.Ko()))
+                        res.Add(p);
+                }
+                return res;
             }
         }
         #endregion

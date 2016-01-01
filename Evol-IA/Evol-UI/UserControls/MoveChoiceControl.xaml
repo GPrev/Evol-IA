@@ -19,7 +19,9 @@
     </UserControl.Resources>
     
     <Grid Name="LayoutRoot">
-        <ListBox ItemsSource="{Binding Pokemon.Moves}" SelectedItem="{Binding Selected, Mode=TwoWay}"
+        <ListBox ItemsSource="{Binding Pokemon.Moves}" 
+                 IsSynchronizedWithCurrentItem="True" 
+                 SelectedValue="{Binding Selected, Mode=TwoWay}"
                  HorizontalContentAlignment="Stretch"/>
     </Grid>
 </UserControl>

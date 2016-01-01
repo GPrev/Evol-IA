@@ -64,6 +64,7 @@ namespace Evol_UI
                 {
                     MakeActions(PendingActions);
                     ResetPending();
+                    NotifyPropertyChanged("BattleState");
                 }
             }
             return res;
@@ -73,6 +74,7 @@ namespace Evol_UI
         {
             for (int i = 0; i < PendingActions.Count; ++i)
                 PendingActions[i] = null;
+            NotifyPropertyChanged("PendingActions");
         }
     }
 }

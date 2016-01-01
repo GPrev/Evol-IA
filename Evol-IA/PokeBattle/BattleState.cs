@@ -15,6 +15,8 @@ namespace PokeBattle
 
         public List<ActionType> NextActionTypes { get; private set; }
 
+        bool makingMoves = false;
+
         public BattleState(List<Trainer> trainers)
         {
             Trainers = trainers;
@@ -69,6 +71,9 @@ namespace PokeBattle
 
         public bool CanMakeActions(List<BattleAction> actions)
         {
+            if (makingMoves)
+                return false;
+
             for(int i = 0; i < Trainers.Count; ++i)
             {
                 if (NextActionTypes[i] != ActionType.NONE && actions[i] != null)
@@ -84,6 +89,7 @@ namespace PokeBattle
 
         public void MakeActions(List<BattleAction> actions)
         {
+            makingMoves = true;
             List<Pokemon> attP = new List<Pokemon>();
             List<Pokemon> defP = new List<Pokemon>();
             List<Move> moves = new List<Move>();
@@ -91,15 +97,18 @@ namespace PokeBattle
             {
                 BattleAction a = actions[i];
                 // Pokemon switches
-                if (a.GetActionType() == ActionType.POKEMON)
+                if (a != null)
                 {
-                    Trainers[i].ActivePokemon = a.GetMoveOrPokemon().Item2;
-                }
-                else if (a.GetActionType() == ActionType.FIGHT)
-                {
-                    attP.Add(Trainers[i].ActivePokemon);
-                    defP.Add(Trainers[1-i].ActivePokemon); // Only works for 2 pokemon
-                    moves.Add(a.GetMove());
+                    if (a.GetActionType() == ActionType.POKEMON)
+                    {
+                        Trainers[i].ActivePokemon = a.GetMoveOrPokemon().Item2;
+                    }
+                    else if (a.GetActionType() == ActionType.FIGHT)
+                    {
+                        attP.Add(Trainers[i].ActivePokemon);
+                        defP.Add(Trainers[1 - i].ActivePokemon); // Only works for 2 pokemon
+                        moves.Add(a.GetMove());
+                    }
                 }
             }
 
@@ -151,6 +160,7 @@ namespace PokeBattle
                     NextActionTypes[i] = ActionType.ANY;
                 }
             }
+            makingMoves = false;
         }
 
         bool HasWinner()

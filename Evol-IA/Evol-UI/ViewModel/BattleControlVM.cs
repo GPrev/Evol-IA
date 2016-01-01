@@ -18,11 +18,11 @@ namespace Evol_UI
         private int id;
 
         public Trainer Ally { get { return Battle.Trainers[id]; } }
-        public Trainer Oponent { get { return Battle.Trainers[1-id]; } } // Only for 1v1
+        public Trainer Oponent { get { return Battle.Trainers[1 - id]; } } // Only for 1v1
 
-        public bool CanAct { get { return CanMakeMove || CanSwitch; } }
-        
-        public bool CanMakeMove { get { return PossibleMoves.Count > 0; } }
+        public bool CanAct { get { return CanFight || CanSwitch; } }
+
+        public bool CanFight { get { return PossibleMoves.Count > 0; } }
 
         public bool CanSwitch { get { return PossibleSwitches.Count > 0; } }
 
@@ -44,8 +44,8 @@ namespace Evol_UI
                 Battle.SeletAction(id, value);
                 //if(Battle.SeletAction(id, value))
                 //{
-                    NotifyPropertyChanged("PendingMove");
-                    NotifyPropertyChanged("PendingSwitch");
+                NotifyPropertyChanged("PendingMove");
+                NotifyPropertyChanged("PendingSwitch");
                 //}
             }
         }
@@ -64,8 +64,8 @@ namespace Evol_UI
                 Battle.SeletAction(id, value);
                 //if (Battle.SeletAction(id, value))
                 //{
-                    NotifyPropertyChanged("PendingMove");
-                    NotifyPropertyChanged("PendingSwitch");
+                NotifyPropertyChanged("PendingMove");
+                NotifyPropertyChanged("PendingSwitch");
                 //}
             }
         }
@@ -74,6 +74,8 @@ namespace Evol_UI
         {
             this.Battle = battle;
             this.id = tID;
+
+            Battle.PropertyChanged += OnBattlePropertyChanged;
 
             PossibleMoves = new List<Move>();
             PossibleSwitches = new List<Pokemon>();
@@ -90,21 +92,46 @@ namespace Evol_UI
 
         private void RefreshPossibleLists()
         {
-            List<BattleAction> moves = Battle.GetPossibleMoves(id);
             PossibleMoves.Clear();
-            foreach (BattleAction a in moves)
-                PossibleMoves.Add(a.GetMove());
-
-            List<BattleAction> switches = Battle.GetPossiblePokemon(id);
             PossibleSwitches.Clear();
-            foreach (BattleAction a in switches)
-                PossibleSwitches.Add(a.GetPokemon());
+
+            if (Battle.NextActionTypes[id] == ActionType.FIGHT
+                || Battle.NextActionTypes[id] == ActionType.ANY)
+            {
+                List<BattleAction> moves = Battle.GetPossibleMoves(id);
+                foreach (BattleAction a in moves)
+                    PossibleMoves.Add(a.GetMove());
+            }
+
+            if (Battle.NextActionTypes[id] == ActionType.POKEMON
+                || Battle.NextActionTypes[id] == ActionType.ANY)
+            {
+                List<BattleAction> switches = Battle.GetPossiblePokemon(id);
+                foreach (BattleAction a in switches)
+                    PossibleSwitches.Add(a.GetPokemon());
+            }
 
             NotifyPropertyChanged("PossibleMoves");
             NotifyPropertyChanged("PossibleSwitches");
-            NotifyPropertyChanged("CanMakeMove");
+            NotifyPropertyChanged("CanFight");
             NotifyPropertyChanged("CanSwitch");
             NotifyPropertyChanged("CanAct");
+        }
+
+        void OnBattlePropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
+            switch (e.PropertyName)
+            {
+                case "PendingActions":
+                    NotifyPropertyChanged("PendingMove");
+                    NotifyPropertyChanged("PendingSwitch");
+                    break;
+                case "BattleState":
+                    RefreshPossibleLists();
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }
