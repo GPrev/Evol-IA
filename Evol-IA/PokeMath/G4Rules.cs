@@ -65,19 +65,12 @@ namespace PokeMath
             float typeMod = GetTypeModifier(m.Type, defP.Type, defP.Type2);
 
             int res = (int)((float)attP.Level * 2 / 5) + 2;
-            Console.WriteLine("Res : " + res);
             res = (int)((float)res * m.Power * att / 50);
-            Console.WriteLine("Res : " + res);
             res /= def;
-            Console.WriteLine("Res : " + res);
             res *= mod1;
-            Console.WriteLine("Res : " + res);
             res += 2;
-            Console.WriteLine("Res : " + res);
             res = (int)((float)res * cc * mod2 * r / 100);
-            Console.WriteLine("Res : " + res);
             res *= (int)(stab * typeMod * mod3);
-            Console.WriteLine("Res : " + res);
 
             if (res < 1)
                 res = 1;
