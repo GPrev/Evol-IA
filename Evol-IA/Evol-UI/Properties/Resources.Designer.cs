@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Evol_UI.Properties
-{
-
-
+namespace Evol_UI.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
     /// </summary>
@@ -22,49 +22,119 @@ namespace Evol_UI.Properties
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    internal class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Evol_UI.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Remplace la propriété CurrentUICulture du thread actuel pour toutes
         ///   les recherches de ressources à l'aide de cette classe de ressource fortement typée.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;PokemonVM xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        ///  &lt;Name&gt;Venusaur&lt;/Name&gt;
+        ///  &lt;CurrHP&gt;163&lt;/CurrHP&gt;
+        ///  &lt;Condition&gt;OK&lt;/Condition&gt;
+        ///  &lt;Level&gt;50&lt;/Level&gt;
+        ///  &lt;HP&gt;158&lt;/HP&gt;
+        ///  &lt;Attack&gt;105&lt;/Attack&gt;
+        ///  &lt;SpAttack&gt;123&lt;/SpAttack&gt;
+        ///  &lt;Defense&gt;106&lt;/Defense&gt;
+        ///  &lt;SpDefense&gt;123&lt;/SpDefense&gt;
+        ///  &lt;Speed&gt;102&lt;/Speed&gt;
+        ///  &lt;Type&gt;GRASS&lt;/Type&gt;
+        ///  &lt;Type2&gt;NONE&lt;/Type2&gt;
+        ///  &lt;Moves&gt;
+        ///    &lt;Move&gt;
+        ///      &lt;Power&gt;75&lt;/Power&gt;
+        ///      &lt;Accuracy&gt;100&lt;/A [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string _003 {
+            get {
+                return ResourceManager.GetString("_003", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;PokemonVM xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        ///  &lt;Name&gt;Charizard&lt;/Name&gt;
+        ///  &lt;CurrHP&gt;156&lt;/CurrHP&gt;
+        ///  &lt;Condition&gt;OK&lt;/Condition&gt;
+        ///  &lt;Level&gt;50&lt;/Level&gt;
+        ///  &lt;HP&gt;156&lt;/HP&gt;
+        ///  &lt;Attack&gt;107&lt;/Attack&gt;
+        ///  &lt;SpAttack&gt;132&lt;/SpAttack&gt;
+        ///  &lt;Defense&gt;101&lt;/Defense&gt;
+        ///  &lt;SpDefense&gt;108&lt;/SpDefense&gt;
+        ///  &lt;Speed&gt;122&lt;/Speed&gt;
+        ///  &lt;Type&gt;FIRE&lt;/Type&gt;
+        ///  &lt;Type2&gt;NONE&lt;/Type2&gt;
+        ///  &lt;Moves&gt;
+        ///    &lt;Move&gt;
+        ///      &lt;Power&gt;75&lt;/Power&gt;
+        ///      &lt;Accuracy&gt;100&lt;/A [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string _006 {
+            get {
+                return ResourceManager.GetString("_006", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;PokemonVM xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        ///  &lt;Name&gt;Blastoise&lt;/Name&gt;
+        ///  &lt;CurrHP&gt;127&lt;/CurrHP&gt;
+        ///  &lt;Condition&gt;OK&lt;/Condition&gt;
+        ///  &lt;Level&gt;50&lt;/Level&gt;
+        ///  &lt;HP&gt;127&lt;/HP&gt;
+        ///  &lt;Attack&gt;106&lt;/Attack&gt;
+        ///  &lt;SpAttack&gt;108&lt;/SpAttack&gt;
+        ///  &lt;Defense&gt;123&lt;/Defense&gt;
+        ///  &lt;SpDefense&gt;128&lt;/SpDefense&gt;
+        ///  &lt;Speed&gt;100&lt;/Speed&gt;
+        ///  &lt;Type&gt;WATER&lt;/Type&gt;
+        ///  &lt;Type2&gt;NONE&lt;/Type2&gt;
+        ///  &lt;Moves&gt;
+        ///    &lt;Move&gt;
+        ///      &lt;Power&gt;120&lt;/Power&gt;
+        ///      &lt;Accuracy&gt;80&lt;/ [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string _009 {
+            get {
+                return ResourceManager.GetString("_009", resourceCulture);
             }
         }
     }

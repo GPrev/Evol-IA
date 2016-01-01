@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokemonVM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Charizard</Name>
+  <CurrHP>156</CurrHP>
+  <Condition>OK</Condition>
+  <Level>50</Level>
+  <HP>156</HP>
+  <Attack>107</Attack>
+  <SpAttack>132</SpAttack>
+  <Defense>101</Defense>
+  <SpDefense>108</SpDefense>
+  <Speed>122</Speed>
+  <Type>FIRE</Type>
+  <Type2>NONE</Type2>
+  <Moves>
+    <Move>
+      <Power>75</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>FIRE</Type>
+      <Name>Fire Punch</Name>
+    </Move>
+    <Move>
+      <Power>60</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>FLYING</Type>
+      <Name>Wing Attack</Name>
+    </Move>
+    <Move>
+      <Power>0</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>NORMAL</Type>
+      <Name>Growl</Name>
+    </Move>
+    <Move>
+      <Power>0</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>NORMAL</Type>
+      <Name>Scary Face</Name>
+    </Move>
+  </Moves>
+</PokemonVM>

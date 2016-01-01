@@ -10,6 +10,7 @@ using Type = PokeMath.Type;
 
 namespace Evol_UI
 {
+    [Serializable]
     public class PokemonVM : Pokemon, INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;

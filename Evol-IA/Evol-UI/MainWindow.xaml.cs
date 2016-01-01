@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -33,44 +34,33 @@ namespace Evol_UI
             get { return (BattleVM)GetValue(BattleProperty); }
             set { SetValue(BattleProperty, value); }
         }
-        /*
-        public static readonly DependencyProperty TrainerAProperty =
-        DependencyProperty.RegisterAttached("TrainerA", typeof(TrainerVM), typeof(MainWindow));
 
-        public TrainerVM TrainerA
-        {
-            get { return (TrainerVM)GetValue(TrainerAProperty); }
-            set { SetValue(TrainerAProperty, value); }
-        }
-
-        public static readonly DependencyProperty TrainerBProperty =
-        DependencyProperty.RegisterAttached("TrainerB", typeof(TrainerVM), typeof(MainWindow));
-
-        public TrainerVM TrainerB
-        {
-            get { return (TrainerVM)GetValue(TrainerBProperty); }
-            set { SetValue(TrainerBProperty, value); }
-        }
-        */
         public MainWindow()
         {
             InitializeComponent();
             LayoutRoot.DataContext = this;
-            List<Move> movesA = new List<Move>();
-            movesA.Add(new Move("MoveA", PokeMath.Type.BUG, 50, 80, false));
-            movesA.Add(new Move("MoveB", PokeMath.Type.BUG, 50, 80, false));
-            movesA.Add(new Move("MoveC", PokeMath.Type.BUG, 50, 80, false));
-            List<Move> movesB = new List<Move>();
-            movesB.Add(new Move("MoveD", PokeMath.Type.BUG, 50, 80, false));
-            movesB.Add(new Move("MoveE", PokeMath.Type.BUG, 50, 80, false));
-            List<Move> movesC = new List<Move>();
-            movesC.Add(new Move("MoveF", PokeMath.Type.BUG, 50, 80, false));
-            movesC.Add(new Move("MoveG", PokeMath.Type.BUG, 50, 80, false));
+
+            Assembly a = Assembly.GetExecutingAssembly();
+            Stream file1 = GenerateStreamFromString(Properties.Resources._003);
+            Stream file2 = GenerateStreamFromString(Properties.Resources._006);
+            Stream file3 = GenerateStreamFromString(Properties.Resources._009);
+
+            PokemonVM p1, p2, p3;
+            XmlSerializer serializer = new XmlSerializer(typeof(PokemonVM));
+            p1 = (PokemonVM)serializer.Deserialize(file1);
+            p2 = (PokemonVM)serializer.Deserialize(file2);
+            p3 = (PokemonVM)serializer.Deserialize(file3);
+
+            p1.FullHeal();
+            p2.FullHeal();
+            p3.FullHeal();
+
             List<Pokemon> TeamA = new List<Pokemon>();
             List<Pokemon> TeamB = new List<Pokemon>();
-            TeamA.Add(new PokemonVM("pokA", 50, PokeMath.Type.BUG, PokeMath.Type.NONE, 50, 50, 50, 50, 50, 50, movesA));
-            TeamA.Add(new PokemonVM("pokB", 50, PokeMath.Type.BUG, PokeMath.Type.NONE, 50, 50, 50, 50, 50, 50, movesB));
-            TeamB.Add(new PokemonVM("pokC", 50, PokeMath.Type.BUG, PokeMath.Type.NONE, 50, 50, 50, 50, 50, 50, movesC));
+            TeamA.Add(p1);
+            TeamA.Add(p2);
+            TeamB.Add(p3);
+
             List<Trainer> trainers  =new List<Trainer>();
             trainers.Add(new TrainerVM("TrA", TeamA));
             trainers.Add(new TrainerVM("TrB", TeamB));
@@ -80,17 +70,16 @@ namespace Evol_UI
             ais.Add(new DumbAI(trainers[1])); // AI
 
             Battle = new BattleVM(ais, trainers);
+        }
 
-            // Sample serializing code
-            XmlSerializer serializer = new XmlSerializer(typeof(PokemonVM));
-            TextWriter writer = new StreamWriter("TestPok.xml");
-            serializer.Serialize(writer, TeamA[0]);
-            writer.Close();
-
-            // Sample deserializing code
-            FileStream fs = new FileStream("TestPok.xml", FileMode.Open);
-            PokemonVM po;
-            po = (PokemonVM)serializer.Deserialize(fs);
+        private Stream GenerateStreamFromString(string s)
+        {
+            MemoryStream stream = new MemoryStream();
+            StreamWriter writer = new StreamWriter(stream);
+            writer.Write(s);
+            writer.Flush();
+            stream.Position = 0;
+            return stream;
         }
     }
 }

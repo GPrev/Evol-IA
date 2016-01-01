@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokemonVM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Blastoise</Name>
+  <CurrHP>127</CurrHP>
+  <Condition>OK</Condition>
+  <Level>50</Level>
+  <HP>127</HP>
+  <Attack>106</Attack>
+  <SpAttack>108</SpAttack>
+  <Defense>123</Defense>
+  <SpDefense>128</SpDefense>
+  <Speed>100</Speed>
+  <Type>WATER</Type>
+  <Type2>NONE</Type2>
+  <Moves>
+    <Move>
+      <Power>120</Power>
+      <Accuracy>80</Accuracy>
+      <Special>true</Special>
+      <Type>WATER</Type>
+      <Name>Hydro Pump</Name>
+    </Move>
+    <Move>
+      <Power>20</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>NORMAL</Type>
+      <Name>Rapid Spin</Name>
+    </Move>
+    <Move>
+      <Power>20</Power>
+      <Accuracy>100</Accuracy>
+      <Special>true</Special>
+      <Type>GROUND</Type>
+      <Name>Mud-slap</Name>
+    </Move>
+    <Move>
+      <Power>0</Power>
+      <Accuracy>0</Accuracy>
+      <Special>false</Special>
+      <Type>WATER</Type>
+      <Name>Withdraw</Name>
+    </Move>
+  </Moves>
+</PokemonVM>

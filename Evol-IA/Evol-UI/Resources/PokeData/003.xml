@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokemonVM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Venusaur</Name>
+  <CurrHP>163</CurrHP>
+  <Condition>OK</Condition>
+  <Level>50</Level>
+  <HP>158</HP>
+  <Attack>105</Attack>
+  <SpAttack>123</SpAttack>
+  <Defense>106</Defense>
+  <SpDefense>123</SpDefense>
+  <Speed>102</Speed>
+  <Type>GRASS</Type>
+  <Type2>NONE</Type2>
+  <Moves>
+    <Move>
+      <Power>75</Power>
+      <Accuracy>100</Accuracy>
+      <Special>true</Special>
+      <Type>GRASS</Type>
+      <Name>Giga Drain</Name>
+    </Move>
+    <Move>
+      <Power>50</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>NORMAL</Type>
+      <Name>Tackle</Name>
+    </Move>
+    <Move>
+      <Power>0</Power>
+      <Accuracy>75</Accuracy>
+      <Special>false</Special>
+      <Type>POISON</Type>
+      <Name>Poison Powder</Name>
+    </Move>
+    <Move>
+      <Power>0</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>NORMAL</Type>
+      <Name>Growl</Name>
+    </Move>
+  </Moves>
+</PokemonVM>

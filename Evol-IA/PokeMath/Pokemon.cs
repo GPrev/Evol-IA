@@ -49,7 +49,10 @@ namespace PokeMath
 
         public List<Move> Moves { get; set; }
 
-        public Pokemon() { }
+        public Pokemon()
+        {
+            FullHeal();
+        }
 
         public Pokemon(String name, int level, Type type, Type type2, int hP, int attack, int spAttack, int defense, int spDefense, int speed, List<Move> moves)
         {
