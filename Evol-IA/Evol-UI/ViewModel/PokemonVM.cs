@@ -15,7 +15,7 @@ namespace Evol_UI
         public event PropertyChangedEventHandler PropertyChanged;
 
         #region New Fields
-        public new int CurrHP
+        public override int CurrHP
         {
             get
             {
@@ -28,7 +28,7 @@ namespace Evol_UI
             }
         }
 
-        public new Condition Condition
+        public override Condition Condition
         {
             get
             {

@@ -22,7 +22,12 @@ namespace PokeMath
         public List<int> OrderMoves(List<Pokemon> pokemon, List<Move> moves)
         {
             // spots[i] = n means pokemon i will play after n others
-            List<int> spots = new List<int>(pokemon.Count);
+            List<int> spots = new List<int>();
+
+            // Makes spots the right size
+            for (int i = 0; i < pokemon.Count; ++i)
+                spots.Add(0);
+
             for (int i = 0; i < pokemon.Count; ++i)
             {
                 for (int j = i + 1; j < pokemon.Count; ++j)
@@ -35,6 +40,11 @@ namespace PokeMath
             }
             // This will contain the pokemon ids ordered by speed
             List<int> result = new List<int>();
+
+            // Makes result the right size
+            for (int i = 0; i < pokemon.Count; ++i)
+                result.Add(0);
+
             for (int i = 0; i < pokemon.Count; ++i)
             {
                 result[spots[i]] = i;

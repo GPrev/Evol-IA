@@ -13,7 +13,7 @@ namespace PokeBattle
 
         public List<Pokemon> Team { get; set; }
 
-        public Pokemon ActivePokemon { get; set; }
+        public virtual Pokemon ActivePokemon { get; set; }
 
         public Trainer(string name, List<Pokemon> team)
         {

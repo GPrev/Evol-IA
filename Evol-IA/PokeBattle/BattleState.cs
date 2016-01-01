@@ -71,7 +71,7 @@ namespace PokeBattle
         {
             for(int i = 0; i < Trainers.Count; ++i)
             {
-                if (NextActionTypes[i] == ActionType.NONE && actions[i] == null)
+                if (NextActionTypes[i] != ActionType.NONE && actions[i] != null)
                 {
                     if (!GetNextActions(i).Contains(actions[i]))
                         return false;
@@ -85,19 +85,21 @@ namespace PokeBattle
         public void MakeActions(List<BattleAction> actions)
         {
             List<Pokemon> attP = new List<Pokemon>();
+            List<Pokemon> defP = new List<Pokemon>();
             List<Move> moves = new List<Move>();
             for (int i = 0; i < Trainers.Count; ++i)
             {
                 BattleAction a = actions[i];
                 // Pokemon switches
-                if (a.ActionType == ActionType.POKEMON)
+                if (a.GetActionType() == ActionType.POKEMON)
                 {
                     Trainers[i].ActivePokemon = a.GetMoveOrPokemon().Item2;
                 }
-                else if (a.ActionType == ActionType.FIGHT)
+                else if (a.GetActionType() == ActionType.FIGHT)
                 {
                     attP.Add(Trainers[i].ActivePokemon);
-                    moves.Add(a.GetMoveOrPokemon().Item1);
+                    defP.Add(Trainers[1-i].ActivePokemon); // Only works for 2 pokemon
+                    moves.Add(a.GetMove());
                 }
             }
 
@@ -108,7 +110,7 @@ namespace PokeBattle
                 int p = priority[i];
                 Move m = moves[p];
                 Pokemon attacker = attP[p];
-                Pokemon defender = attP[1 - p]; // Only works for 2 pokemon
+                Pokemon defender = defP[p];
 
                 if (!attacker.Ko())
                 {
@@ -146,7 +148,7 @@ namespace PokeBattle
                 //Next turn
                 for (int i = 0; i < Trainers.Count; ++i)
                 {
-                    NextActionTypes[i] = ActionType.FIGHT;
+                    NextActionTypes[i] = ActionType.ANY;
                 }
             }
         }

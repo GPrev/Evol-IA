@@ -13,7 +13,7 @@ namespace PokeMath
         public string Name { get; set; }
 
         private int currHP;
-        public int CurrHP
+        public virtual int CurrHP
         {
             get { return currHP; }
             set {
@@ -30,7 +30,7 @@ namespace PokeMath
             return CurrHP == 0;
         }
 
-        public Condition Condition { get; set; }
+        public virtual Condition Condition { get; set; }
 
         #region Stats
         public int Level { get; set; }

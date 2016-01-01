@@ -14,7 +14,7 @@ namespace Evol_UI
         public event PropertyChangedEventHandler PropertyChanged;
 
         #region New Fields
-        public new Pokemon ActivePokemon
+        public override Pokemon ActivePokemon
         {
             get { return base.ActivePokemon; }
             set

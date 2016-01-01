@@ -10,13 +10,17 @@
     <UserControl.Resources>
         <DataTemplate DataType="{x:Type pokemath:Pokemon}">
             <Grid>
-                <DockPanel>
-                    <local:PokemonControlSmall Pokemon="{Binding}" VerticalAlignment="Center" DockPanel.Dock="Left"/>
-                    <StackPanel Orientation="Vertical">
-                        <Button Content="Summary"/>
-                        <Button Content="Shift"/>
-                    </StackPanel>
-                </DockPanel>
+                <Border BorderThickness="1" BorderBrush="DarkGray" Padding="4,0">
+                    <DockPanel>
+                        <local:PokemonControlSmall Pokemon="{Binding}" VerticalAlignment="Center" DockPanel.Dock="Left"/>
+                        <!--
+                        <StackPanel Orientation="Vertical">
+                            <Button Content="Summary"/>
+                            <Button Content="Shift"/>
+                        </StackPanel>
+                        -->
+                    </DockPanel>
+                </Border>
             </Grid>
         </DataTemplate>
     </UserControl.Resources>

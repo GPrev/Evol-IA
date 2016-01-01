@@ -5,9 +5,9 @@ namespace PokeBattle
 {
     public enum ActionType { FIGHT, POKEMON, BAG, RUN, ANY, NONE }
 
-    public abstract class BattleAction
+    public abstract class BattleAction : IEquatable<BattleAction>
     {
-        public ActionType ActionType { get; protected set; }
+        public abstract ActionType GetActionType();
 
         /// <summary>
         /// Returns the chosen move or pokemon, the other being null.
@@ -18,6 +18,32 @@ namespace PokeBattle
         public Pokemon GetPokemon() { return GetMoveOrPokemon().Item2; }
 
         public abstract String GetMessage();
+
+        public override bool Equals(Object o)
+        {
+            return Equals(o as BattleAction);
+        }
+        public bool Equals(BattleAction a)
+        {
+            if (a == null)
+                return false;
+            //else
+            bool res = true;
+
+            res &= (a.GetActionType() == GetActionType());
+
+            if (a.GetMove() == null)
+                res &= (GetMove() == null);
+            else
+                res &= (a.GetMove().Equals(GetMove()));
+
+            if (a.GetPokemon() == null)
+                res &= (GetPokemon() == null);
+            else
+                res &= (a.GetPokemon().Equals(GetPokemon()));
+
+            return res;
+        }
     }
 
     public class FightAction : BattleAction
@@ -26,10 +52,7 @@ namespace PokeBattle
         public Pokemon Defender { get; set; }
         public Move Move { get; set; }
 
-        public FightAction()
-        {
-            ActionType = ActionType.FIGHT;
-        }
+        public override ActionType GetActionType() { return ActionType.FIGHT; }
 
         public FightAction(Pokemon attacker, Pokemon defender, Move m)
         {
@@ -62,10 +85,7 @@ namespace PokeBattle
         public Trainer Trainer { get; set; }
         public Pokemon Pokemon { get; set; }
 
-        public PokemonAction()
-        {
-            ActionType = ActionType.POKEMON;
-        }
+        public override ActionType GetActionType() { return ActionType.POKEMON; }
 
         public PokemonAction(Trainer t, Pokemon p)
         {

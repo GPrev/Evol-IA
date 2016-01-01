@@ -41,11 +41,12 @@ namespace Evol_UI
             }
             set
             {
-                if(Battle.SeletAction(id, value))
-                {
+                Battle.SeletAction(id, value);
+                //if(Battle.SeletAction(id, value))
+                //{
                     NotifyPropertyChanged("PendingMove");
                     NotifyPropertyChanged("PendingSwitch");
-                }
+                //}
             }
         }
 
@@ -60,11 +61,12 @@ namespace Evol_UI
             }
             set
             {
-                if (Battle.SeletAction(id, value))
-                {
+                Battle.SeletAction(id, value);
+                //if (Battle.SeletAction(id, value))
+                //{
                     NotifyPropertyChanged("PendingMove");
                     NotifyPropertyChanged("PendingSwitch");
-                }
+                //}
             }
         }
 

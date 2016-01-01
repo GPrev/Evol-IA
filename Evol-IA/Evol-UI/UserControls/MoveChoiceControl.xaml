@@ -11,7 +11,9 @@
     <UserControl.Resources>
         <DataTemplate DataType="{x:Type pokemath:Move}">
             <Grid>
-                <Button Content="{Binding Name}" HorizontalAlignment="Stretch"/>
+                <Border BorderThickness="1" BorderBrush="DarkGray" >
+                    <TextBlock Text="{Binding Name}" HorizontalAlignment="Stretch" TextAlignment="Center" />
+                </Border>
             </Grid>
         </DataTemplate>
     </UserControl.Resources>
