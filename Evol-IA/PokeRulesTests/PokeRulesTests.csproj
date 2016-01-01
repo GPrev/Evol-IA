@@ -54,9 +54,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PokeMath\PokeMath.csproj">
+    <ProjectReference Include="..\PokeRules\PokeRules.csproj">
       <Project>{7138b211-9068-483c-88ce-2671d8443b47}</Project>
-      <Name>PokeMath</Name>
+      <Name>PokeRules</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

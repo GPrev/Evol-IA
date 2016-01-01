@@ -1,10 +1,11 @@
-﻿using System;
+﻿using PokeRules;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PokeBattle
+namespace PokeRules
 {
     public interface Intelligence
     {

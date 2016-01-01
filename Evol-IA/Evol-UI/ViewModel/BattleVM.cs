@@ -1,5 +1,5 @@
-﻿using PokeBattle;
-using PokeMath;
+﻿using PokeRules;
+using PokeRules;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -25,6 +25,8 @@ namespace Evol_UI
         public BattleVM(List<BattleAI> ais, List<Trainer> trainers) : base(ExtractTeams(ais, trainers))
         {
             this.AIs = ais;
+            this.outD = message => { Console.WriteLine(message); };
+            DisplayInitMessage();
             Init();
         }
 
@@ -78,7 +80,7 @@ namespace Evol_UI
         public bool SeletAction(int tID, Move m)
         {
             Pokemon attacker = Trainers[tID].ActivePokemon;
-            Pokemon defender = Trainers[1-tID].ActivePokemon; // Only works in 1v1
+            Trainer defender = Trainers[1-tID]; // Only works in 1v1
             return SeletAction(tID, new FightAction(attacker, defender, m));
         }
 
@@ -110,6 +112,8 @@ namespace Evol_UI
         {
             for (int i = 0; i < PendingActions.Count; ++i)
                 PendingActions[i] = null;
+            for (int i = PendingActions.Count; i < Trainers.Count; ++i)
+                PendingActions.Add(null);
             NotifyPropertyChanged("PendingActions");
         }
 

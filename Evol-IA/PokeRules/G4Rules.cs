@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PokeMath
+namespace PokeRules
 {
     public class G4Rules : Rules
     {
@@ -44,6 +44,9 @@ namespace PokeMath
         //http://www.pokebip.com/pokemon/page__jeuxvideo__guide_tactique_strategie_pokemon__formules_mathematiques.html
         public override int DamageFormula(Pokemon attP, Pokemon defP, Move m)
         {
+            if (m.Power == 0)
+                return 0;
+
             int att = attP.Attack;
             if (m.Special)
                 att = attP.SpAttack;
@@ -78,13 +81,25 @@ namespace PokeMath
             return res;
         }
 
-        public override bool FasterThan(Pokemon p1, Pokemon p2, Move m1, Move m2)
+        public override int FasterThan(ActionType a1, ActionType a2)
         {
-            // If same speed, chooses at random
-            if (p1.Speed == p2.Speed)
-                return (new Random().Next()) % 2 == 0;
+            // Fight goes after the rest, else we don't care
+            if (a1 == a2)
+                return 0;
             //else
-            return p1.Speed > p2.Speed;
+            if (a1 == ActionType.FIGHT)
+                return 1;
+            //else
+            if (a2 == ActionType.FIGHT)
+                return -1;
+            //else
+            return 0;
+        }
+
+        public override int FasterThan(FightAction a1, FightAction a2)
+        {
+            // Compare speeds
+            return a2.Attacker.Speed - a1.Attacker.Speed;
         }
     }
 

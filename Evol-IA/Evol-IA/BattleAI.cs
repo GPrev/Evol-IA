@@ -1,5 +1,5 @@
-﻿using PokeBattle;
-using PokeMath;
+﻿using PokeRules;
+using PokeRules;
 using System;
 using System.Collections.Generic;
 using System.Linq;

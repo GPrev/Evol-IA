@@ -1,9 +1,11 @@
-﻿using PokeMath;
+﻿using PokeRules;
 using System;
 
-namespace PokeBattle
+namespace PokeRules
 {
     public enum ActionType { FIGHT, POKEMON, BAG, RUN, ANY, NONE }
+
+    public delegate void OutDel(string str);
 
     public abstract class BattleAction : IEquatable<BattleAction>
     {
@@ -16,8 +18,6 @@ namespace PokeBattle
 
         public Move GetMove() { return GetMoveOrPokemon().Item1; }
         public Pokemon GetPokemon() { return GetMoveOrPokemon().Item2; }
-
-        public abstract String GetMessage();
 
         public override bool Equals(Object o)
         {
@@ -44,20 +44,29 @@ namespace PokeBattle
 
             return res;
         }
+
+        public abstract bool CanBeExecuted();
+        protected abstract void Execute(OutDel outD = null);
+        public void SafeExecute(OutDel outD = null)
+        {
+            if (CanBeExecuted())
+                Execute(outD);
+        }
     }
 
     public class FightAction : BattleAction
     {
         public Pokemon Attacker { get; set; }
-        public Pokemon Defender { get; set; }
+        public Trainer DefendingTrainer { get; set; }
+        public Pokemon Defender { get { return DefendingTrainer.ActivePokemon; } }
         public Move Move { get; set; }
 
         public override ActionType GetActionType() { return ActionType.FIGHT; }
 
-        public FightAction(Pokemon attacker, Pokemon defender, Move m)
+        public FightAction(Pokemon attacker, Trainer defender, Move m)
         {
             this.Attacker = attacker;
-            this.Defender = defender;
+            this.DefendingTrainer = defender;
             this.Move = m;
         }
 
@@ -66,17 +75,30 @@ namespace PokeBattle
             return new Tuple<Move, Pokemon>(Move, null);
         }
 
-        public override string GetMessage()
+        public override bool CanBeExecuted()
         {
-            string res = Attacker.Name + " uses " + Move.Name + ".";
+            return !Attacker.Ko() && !Defender.Ko();
+        }
 
-            float effective = Battle.rules.GetTypeModifier(Move, Defender);
-            if (effective > 1)
-                res += System.Environment.NewLine + "It's super effective !";
-            else if (effective < 1)
-                res += System.Environment.NewLine + "It's not very effective...";
+        protected override void Execute(OutDel outD = null)
+        {
+            if (outD != null)
+                outD(Attacker.Name + " uses " + Move.Name + ".");
 
-            return res;
+            int damage = Rules.ActiveRules.DamageFormula(Attacker, Defender, Move);
+            Defender.CurrHP -= damage;
+
+            if (damage > 0 && outD != null)
+            {
+                float effective = Rules.ActiveRules.GetTypeModifier(Move, Defender);
+                if (effective > 1)
+                    outD("It's super effective !");
+                else if (effective < 1)
+                    outD("It's not very effective...");
+
+                if(Defender.Ko())
+                    outD(Defender.Name + " fainted !");
+            }
         }
     }
 
@@ -98,9 +120,16 @@ namespace PokeBattle
             return new Tuple<Move, Pokemon>(null, Pokemon);
         }
 
-        public override string GetMessage()
+        public override bool CanBeExecuted()
         {
-            return Trainer.Name + " sends out " + Pokemon.Name + " !";
+            return true;
+        }
+
+        protected override void Execute(OutDel outD = null)
+        {
+            if (outD != null)
+                outD(Trainer.Name + " sends out " + Pokemon.Name + " !");
+            Trainer.ActivePokemon = Pokemon;
         }
     }
 }

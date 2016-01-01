@@ -1,11 +1,11 @@
-﻿using PokeMath;
+﻿using PokeRules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PokeBattle
+namespace PokeRules
 {
     public class Battle
     {
@@ -36,7 +36,6 @@ namespace PokeBattle
 
         public Trainer PlayBattle()
         {
-            outDel(Trainers[0].Name + " and " + Trainers[1].Name + " want to fight !");
             while (state.Winner() < 0)
             {
                 List<BattleAction> actions = new List<BattleAction>();
@@ -50,7 +49,6 @@ namespace PokeBattle
                 }
                 state.MakeActions(actions);
             }
-            outDel(Trainers[state.Winner()].Name + " has lost !");
             return Trainers[state.Winner()];
         }
     }

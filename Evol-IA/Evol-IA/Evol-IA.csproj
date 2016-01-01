@@ -46,13 +46,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PokeBattle\PokeBattle.csproj">
-      <Project>{1c782625-107e-4e8a-b8d1-9fe4e9322398}</Project>
-      <Name>PokeBattle</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PokeMath\PokeMath.csproj">
+    <ProjectReference Include="..\PokeRules\PokeRules.csproj">
       <Project>{7138b211-9068-483c-88ce-2671d8443b47}</Project>
-      <Name>PokeMath</Name>
+      <Name>PokeRules</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

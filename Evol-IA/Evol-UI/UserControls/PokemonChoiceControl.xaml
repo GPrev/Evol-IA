@@ -4,12 +4,12 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Evol_UI"
-             xmlns:pokemath="clr-namespace:PokeMath;assembly=PokeMath"
+             xmlns:PokeRules="clr-namespace:PokeRules;assembly=PokeRules"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
     <UserControl.Resources>
         <local:PokemonInListConverter x:Key="PokemonInListConverter" />
-        <DataTemplate DataType="{x:Type pokemath:Pokemon}">
+        <DataTemplate DataType="{x:Type PokeRules:Pokemon}">
             <Grid>
                 <Border BorderThickness="1" BorderBrush="DarkGray" Padding="4,0">
                     <DockPanel>

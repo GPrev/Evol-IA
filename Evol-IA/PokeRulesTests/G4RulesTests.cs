@@ -1,11 +1,11 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PokeMath;
+using PokeRules;
 
-using Type = PokeMath.Type;
+using Type = PokeRules.Type;
 using System.Collections.Generic;
 
-namespace PokeMathTests
+namespace PokeRulesTests
 {
     [TestClass]
     public class G4RulesTests

@@ -1,6 +1,6 @@
 ﻿using Evol_IA;
-using PokeBattle;
-using PokeMath;
+using PokeRules;
+using PokeRules;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -62,8 +62,8 @@ namespace Evol_UI
             TeamB.Add(p3);
 
             List<Trainer> trainers  =new List<Trainer>();
-            trainers.Add(new TrainerVM("TrA", TeamA));
-            trainers.Add(new TrainerVM("TrB", TeamB));
+            trainers.Add(new TrainerVM("Red", TeamA));
+            trainers.Add(new TrainerVM("Blue", TeamB));
 
             List<BattleAI> ais = new List<BattleAI>();
             ais.Add(null); // Player

@@ -1,11 +1,11 @@
-﻿using PokeMath;
+﻿using PokeRules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PokeBattle
+namespace PokeRules
 {
     public class BattleState
     {
@@ -17,12 +17,23 @@ namespace PokeBattle
 
         bool makingMoves = false;
 
-        public BattleState(List<Trainer> trainers)
+        protected OutDel outD = null;
+
+        public BattleState(List<Trainer> trainers, OutDel outD = null)
         {
             Trainers = trainers;
             NextActionTypes = new List<ActionType>();
             foreach (Trainer t in Trainers)
                 NextActionTypes.Add(ActionType.ANY);
+
+            this.outD = outD;
+        }
+
+        protected void DisplayInitMessage()
+        {
+            outD(Trainers[0].Name + " and " + Trainers[1].Name + " want to fight !");
+            outD(Trainers[0].Name + " sends out " + Trainers[0].ActivePokemon.Name + " !");
+            outD(Trainers[1].Name + " sends out " + Trainers[1].ActivePokemon.Name + " !");
         }
 
         public List<BattleAction> GetNextActions(int trainerId)
@@ -55,7 +66,7 @@ namespace PokeBattle
                 foreach (Move m in Trainers[trainerId].ActivePokemon.Moves)
                 {
                     //1-id only works when 2 trainers
-                    res.Add(new FightAction(Trainers[trainerId].ActivePokemon, Trainers[1 - trainerId].ActivePokemon, m));
+                    res.Add(new FightAction(Trainers[trainerId].ActivePokemon, Trainers[1 - trainerId], m));
                 }
             }
             return res;
@@ -93,41 +104,10 @@ namespace PokeBattle
         public void MakeActions(List<BattleAction> actions)
         {
             makingMoves = true;
-            List<Pokemon> attP = new List<Pokemon>();
-            List<Pokemon> defP = new List<Pokemon>();
-            List<Move> moves = new List<Move>();
-            for (int i = 0; i < Trainers.Count; ++i)
+            rules.OrderActions(actions);
+            for (int i = 0; i < actions.Count; ++i)
             {
-                BattleAction a = actions[i];
-                // Pokemon switches
-                if (a != null)
-                {
-                    if (a.GetActionType() == ActionType.POKEMON)
-                    {
-                        Trainers[i].ActivePokemon = a.GetMoveOrPokemon().Item2;
-                    }
-                    else if (a.GetActionType() == ActionType.FIGHT)
-                    {
-                        attP.Add(Trainers[i].ActivePokemon);
-                        defP.Add(Trainers[1 - i].ActivePokemon); // Only works for 2 pokemon
-                        moves.Add(a.GetMove());
-                    }
-                }
-            }
-
-            // Attacks are now
-            List<int> priority = rules.OrderMoves(attP, moves);
-            for (int i = 0; i < priority.Count; ++i)
-            {
-                int p = priority[i];
-                Move m = moves[p];
-                Pokemon attacker = attP[p];
-                Pokemon defender = defP[p];
-
-                if (!attacker.Ko())
-                {
-                    defender.CurrHP -= rules.DamageFormula(attacker, defender, m);
-                }
+                actions[i].SafeExecute(outD);
             }
 
             for (int i = 0; i < Trainers.Count; ++i)
@@ -147,6 +127,8 @@ namespace PokeBattle
                         {
                             NextActionTypes[j] = ActionType.NONE;
                         }
+                        outD(Trainers[i].Name + " has lost !");
+                        makingMoves = false;
                         return;
                     }
                     //else
@@ -158,6 +140,7 @@ namespace PokeBattle
             if(!needsChange)
             {
                 //Next turn
+                outD("============================");
                 for (int i = 0; i < Trainers.Count; ++i)
                 {
                     NextActionTypes[i] = ActionType.ANY;

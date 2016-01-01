@@ -1,4 +1,4 @@
-﻿using PokeMath;
+﻿using PokeRules;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
