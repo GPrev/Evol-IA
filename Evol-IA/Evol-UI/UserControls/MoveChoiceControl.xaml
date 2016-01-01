@@ -11,17 +11,13 @@
     <UserControl.Resources>
         <DataTemplate DataType="{x:Type pokemath:Move}">
             <Grid>
-                <Border BorderThickness="1" BorderBrush="DarkGray" >
-                    <TextBlock Text="{Binding Name}" HorizontalAlignment="Stretch" TextAlignment="Center" />
-                </Border>
+                <Button Content="{Binding Name}" HorizontalAlignment="Stretch" Click="Move_Click" />
             </Grid>
         </DataTemplate>
     </UserControl.Resources>
     
     <Grid Name="LayoutRoot">
         <ListBox ItemsSource="{Binding Pokemon.Moves}" 
-                 IsSynchronizedWithCurrentItem="True" 
-                 SelectedValue="{Binding Selected, Mode=TwoWay}"
                  HorizontalContentAlignment="Stretch"/>
     </Grid>
 </UserControl>

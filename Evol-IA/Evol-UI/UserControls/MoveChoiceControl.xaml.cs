@@ -45,5 +45,15 @@ namespace Evol_UI
             InitializeComponent();
             LayoutRoot.DataContext = this;
         }
+
+        private void Move_Click(object sender, RoutedEventArgs e)
+        {
+            Control c = sender as Control;
+            if(c != null)
+            {
+                Move m = c.DataContext as Move;
+                Selected = m;
+            }
+        }
     }
 }

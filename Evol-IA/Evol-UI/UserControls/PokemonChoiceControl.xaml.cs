@@ -44,5 +44,15 @@ namespace Evol_UI
             InitializeComponent();
             LayoutRoot.DataContext = this;
         }
+
+        private void Pokemon_Click(object sender, RoutedEventArgs e)
+        {
+            Control c = sender as Control;
+            if (c != null)
+            {
+                PokemonVM p = c.DataContext as PokemonVM;
+                Selected = p;
+            }
+        }
     }
 }

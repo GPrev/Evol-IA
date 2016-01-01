@@ -14,32 +14,25 @@
                 <Border BorderThickness="1" BorderBrush="DarkGray" Padding="4,0">
                     <DockPanel>
                         <local:PokemonControlSmall Pokemon="{Binding}" VerticalAlignment="Center" DockPanel.Dock="Left"/>
-                        <!--
                         <StackPanel Orientation="Vertical">
                             <Button Content="Summary"/>
-                            <Button Content="Shift"/>
+                            <Button Content="Shift" Click="Pokemon_Click" >
+                                <Button.IsEnabled>
+                                    <MultiBinding Converter="{StaticResource PokemonInListConverter}">
+                                        <Binding  ElementName="LayoutRoot" Path="DataContext.Trainer.AvailablePokemon" />
+                                        <Binding />
+                                    </MultiBinding>
+                                </Button.IsEnabled>
+                            </Button>
                         </StackPanel>
-                        -->
                     </DockPanel>
                 </Border>
             </Grid>
         </DataTemplate>
-        <Style TargetType="ListBoxItem">
-            <Setter Property="IsEnabled"> <!--Focusable doesn't grey out, IsEnabled does-->
-                <Setter.Value>
-                    <MultiBinding Converter="{StaticResource PokemonInListConverter}">
-                        <Binding  ElementName="LayoutRoot" Path="DataContext.Trainer.AvailablePokemon" />
-                        <Binding />
-                    </MultiBinding>
-                </Setter.Value>
-            </Setter>
-        </Style>
     </UserControl.Resources>
     
     <Grid Name="LayoutRoot">
         <ListBox ItemsSource="{Binding Trainer.Team}"
-                 IsSynchronizedWithCurrentItem="True"
-                 SelectedValue="{Binding Selected, Mode=TwoWay}"
                  HorizontalContentAlignment="Stretch"/>
     </Grid>
 </UserControl>

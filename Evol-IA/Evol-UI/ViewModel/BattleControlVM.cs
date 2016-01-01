@@ -22,9 +22,9 @@ namespace Evol_UI
 
         public bool CanAct { get { return CanFight || CanSwitch; } }
 
-        public bool CanFight { get { return PossibleMoves.Count > 0; } }
+        public bool CanFight { get { return PossibleMoves.Count > 0 && Battle.GetPendingAction(id) == null; } }
 
-        public bool CanSwitch { get { return PossibleSwitches.Count > 0; } }
+        public bool CanSwitch { get { return PossibleSwitches.Count > 0 && Battle.GetPendingAction(id) == null; } }
 
         public List<Move> PossibleMoves { get; set; }
         public List<Pokemon> PossibleSwitches { get; set; }
@@ -46,6 +46,8 @@ namespace Evol_UI
                 //{
                 NotifyPropertyChanged("PendingMove");
                 NotifyPropertyChanged("PendingSwitch");
+                NotifyPropertyChanged("CanFight");
+                NotifyPropertyChanged("CanSwitch");
                 //}
             }
         }
@@ -66,6 +68,8 @@ namespace Evol_UI
                 //{
                 NotifyPropertyChanged("PendingMove");
                 NotifyPropertyChanged("PendingSwitch");
+                NotifyPropertyChanged("CanFight");
+                NotifyPropertyChanged("CanSwitch");
                 //}
             }
         }
@@ -125,6 +129,8 @@ namespace Evol_UI
                 case "PendingActions":
                     NotifyPropertyChanged("PendingMove");
                     NotifyPropertyChanged("PendingSwitch");
+                    NotifyPropertyChanged("CanFight");
+                    NotifyPropertyChanged("CanSwitch");
                     break;
                 case "BattleState":
                     RefreshPossibleLists();
