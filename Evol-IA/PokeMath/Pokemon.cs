@@ -8,6 +8,8 @@ namespace PokeMath
 {
     public enum Condition { OK, BURNED, FROZEN, PARALYZED, POISONED, ASLEEP, FAINTED }
     public enum Type { NORMAL, FIGHT, FLYING, POISON, GROUND, ROCK, BUG, GHOST, STEEL, FIRE, WATER, GRASS, ELECTRIC, PSYCHIC, ICE, DRAGON, DARK, FAIRY, NONE }
+
+    [Serializable]
     public class Pokemon : ICloneable
     {
         public string Name { get; set; }
@@ -46,6 +48,8 @@ namespace PokeMath
         public Type Type2 { get; set; }
 
         public List<Move> Moves { get; set; }
+
+        public Pokemon() { }
 
         public Pokemon(String name, int level, Type type, Type type2, int hP, int attack, int spAttack, int defense, int spDefense, int speed, List<Move> moves)
         {

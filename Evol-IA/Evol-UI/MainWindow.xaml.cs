@@ -1,7 +1,9 @@
-﻿using PokeBattle;
+﻿using Evol_IA;
+using PokeBattle;
 using PokeMath;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +16,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xml.Serialization;
 
 namespace Evol_UI
 {
@@ -72,7 +75,22 @@ namespace Evol_UI
             trainers.Add(new TrainerVM("TrA", TeamA));
             trainers.Add(new TrainerVM("TrB", TeamB));
 
-            Battle = new BattleVM(trainers);
+            List<BattleAI> ais = new List<BattleAI>();
+            ais.Add(null); // Player
+            ais.Add(new DumbAI(trainers[1])); // AI
+
+            Battle = new BattleVM(ais, trainers);
+
+            // Sample serializing code
+            XmlSerializer serializer = new XmlSerializer(typeof(PokemonVM));
+            TextWriter writer = new StreamWriter("TestPok.xml");
+            serializer.Serialize(writer, TeamA[0]);
+            writer.Close();
+
+            // Sample deserializing code
+            FileStream fs = new FileStream("TestPok.xml", FileMode.Open);
+            PokemonVM po;
+            po = (PokemonVM)serializer.Deserialize(fs);
         }
     }
 }

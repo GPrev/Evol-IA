@@ -39,11 +39,11 @@ namespace Evol_UI
             for (int i = 0; i < ais.Count; ++i)
             {
                 if (ais[i] != null)
-                    res[i] = ais[i].Trainer;
+                    res.Add(ais[i].Trainer);
                 else if (trainers != null)
-                    res[i] = trainers[i];
+                    res.Add(trainers[i]);
                 else // Should not happen
-                    res[i] = null;
+                    res.Add(null);
             }
             return res;
         }
@@ -60,6 +60,9 @@ namespace Evol_UI
 
             NotifyPropertyChanged("PendingActions");
             NotifyPropertyChanged("BattleControls");
+
+            // AIs first move
+            MakeAIChoice();
         }
 
         private void NotifyPropertyChanged(String prop)
@@ -112,12 +115,15 @@ namespace Evol_UI
 
         private void MakeAIChoice()
         {
-            for (int i = 0; i < AIs.Count; ++i)
+            if (AIs != null)
             {
-                if(AIs[i] != null && NextActionTypes[i] != ActionType.NONE)
+                for (int i = 0; i < AIs.Count; ++i)
                 {
-                    BattleAction choice = AIs[i].ChooseAction(this, i, NextActionTypes[i]);
-                    SeletAction(i, choice);
+                    if (AIs[i] != null && NextActionTypes[i] != ActionType.NONE)
+                    {
+                        BattleAction choice = AIs[i].ChooseAction(this, i, NextActionTypes[i]);
+                        SeletAction(i, choice);
+                    }
                 }
             }
         }

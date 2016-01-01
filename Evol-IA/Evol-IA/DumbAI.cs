@@ -8,11 +8,21 @@ using PokeMath;
 
 namespace Evol_IA
 {
-    class DumbAI : BattleAI
+    public class DumbAI : BattleAI
     {
+        public Trainer trainer;
+
         public override Trainer Trainer
         {
-            get { return new Trainer("Dumb AI", new List<Pokemon>()); }
+            get { return trainer; }
+        }
+
+        public DumbAI(Trainer t = null)
+        {
+            if (t == null)
+                trainer = new Trainer("DumbAI AI", new List<Pokemon>());
+            else
+                trainer = t;
         }
 
         public override BattleAction ChooseAction(BattleState s, int myId = 1, ActionType type = ActionType.ANY)
@@ -22,6 +32,19 @@ namespace Evol_IA
                 return actions[0];
             else
                 return null;
+        }
+
+        public override Trainer MakeTeam(List<Pokemon> availablePokemon, bool allowDoubles = false, int nbPokemon = 3)
+        {
+            if (availablePokemon.Count >= nbPokemon)
+            {
+                trainer.Team.Clear();
+                for (int i = 0; i < nbPokemon; ++i)
+                    trainer.Team.Add(availablePokemon[i]);
+
+                trainer.ActivePokemon = trainer.Team[0];
+            }
+            return Trainer;
         }
     }
 }

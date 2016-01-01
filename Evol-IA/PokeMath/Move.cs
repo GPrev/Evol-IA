@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace PokeMath
 {
+    [Serializable]
     public class Move
     {
         public int Power { get; set; }
@@ -14,6 +15,8 @@ namespace PokeMath
 
         public Type Type { get; set; }
         public string Name { get; set; }
+
+        public Move() { }
 
         public Move(string name, Type type, int power, int acc, bool spe)
         {

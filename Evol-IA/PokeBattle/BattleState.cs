@@ -50,10 +50,13 @@ namespace PokeBattle
         public List<BattleAction> GetPossibleMoves(int trainerId)
         {
             List<BattleAction> res = new List<BattleAction>();
-            foreach (Move m in Trainers[trainerId].ActivePokemon.Moves)
+            if (Trainers[trainerId].ActivePokemon != null)
             {
-                //1-id only works when 2 trainers
-                res.Add(new FightAction(Trainers[trainerId].ActivePokemon, Trainers[1-trainerId].ActivePokemon, m));
+                foreach (Move m in Trainers[trainerId].ActivePokemon.Moves)
+                {
+                    //1-id only works when 2 trainers
+                    res.Add(new FightAction(Trainers[trainerId].ActivePokemon, Trainers[1 - trainerId].ActivePokemon, m));
+                }
             }
             return res;
         }
