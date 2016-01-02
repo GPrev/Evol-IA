@@ -81,5 +81,11 @@ namespace Evol_UI
             stream.Position = 0;
             return stream;
         }
+
+        private void OnLogChanged(object sender, TextChangedEventArgs e)
+        {
+            TextBox textBox = sender as TextBox;
+            textBox.ScrollToEnd();
+        }
     }
 }

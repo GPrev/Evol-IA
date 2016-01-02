@@ -20,11 +20,13 @@ namespace Evol_UI
 
         private List<BattleAI> AIs;
 
+        public String Log { get; private set; } = "";
+
         // Give as many ais as trainers (set some to null if necessary)
         public BattleVM(List<BattleAI> ais, List<Trainer> trainers) : base(ExtractTeams(ais, trainers))
         {
             this.AIs = ais;
-            this.outD = message => { Console.WriteLine(message); };
+            this.outD = message => { AppendLog(message); };
             DisplayInitMessage();
             Init();
         }
@@ -130,6 +132,17 @@ namespace Evol_UI
                     }
                 }
             }
+        }
+
+        private void AppendLog(string message)
+        {
+            if (Log.Length > 0)
+                Log += System.Environment.NewLine;
+            Log += message;
+
+            NotifyPropertyChanged("Log");
+
+            Console.WriteLine(message);
         }
     }
 }
