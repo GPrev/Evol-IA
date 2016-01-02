@@ -1,5 +1,4 @@
 ﻿using PokeRules;
-using PokeRules;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -42,13 +41,11 @@ namespace Evol_UI
             set
             {
                 Battle.SeletAction(id, value);
-                //if(Battle.SeletAction(id, value))
-                //{
+
                 NotifyPropertyChanged("PendingMove");
                 NotifyPropertyChanged("PendingSwitch");
                 NotifyPropertyChanged("CanFight");
                 NotifyPropertyChanged("CanSwitch");
-                //}
             }
         }
 
@@ -64,13 +61,11 @@ namespace Evol_UI
             set
             {
                 Battle.SeletAction(id, value);
-                //if (Battle.SeletAction(id, value))
-                //{
+
                 NotifyPropertyChanged("PendingMove");
                 NotifyPropertyChanged("PendingSwitch");
                 NotifyPropertyChanged("CanFight");
                 NotifyPropertyChanged("CanSwitch");
-                //}
             }
         }
 

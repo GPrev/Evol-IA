@@ -1,5 +1,4 @@
-﻿using PokeRules;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,8 +8,6 @@ namespace PokeRules
 {
     public class BattleState : ICloneable
     {
-        Rules rules = Battle.rules;
-
         public List<Trainer> Trainers { get; protected set; }
 
         public List<ActionType> NextActionTypes { get; private set; }
@@ -104,7 +101,7 @@ namespace PokeRules
         public void MakeActions(List<BattleAction> actions)
         {
             makingMoves = true;
-            rules.OrderActions(actions);
+            Rules.ActiveRules.OrderActions(actions);
             for (int i = 0; i < actions.Count; ++i)
             {
                 actions[i].SafeExecute(outD);

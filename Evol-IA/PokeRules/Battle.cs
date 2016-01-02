@@ -1,5 +1,4 @@
-﻿using PokeRules;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,8 +8,6 @@ namespace PokeRules
 {
     public class Battle
     {
-        public static readonly Rules rules = new G4Rules();
-
         public delegate void OutDel(string str);
 
         public OutDel outDel = message => { Console.WriteLine(message); };

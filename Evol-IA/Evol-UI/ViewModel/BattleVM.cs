@@ -1,5 +1,4 @@
 ﻿using PokeRules;
-using PokeRules;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -99,10 +98,11 @@ namespace Evol_UI
                 {
                     MakeActions(PendingActions);
                     ResetPending();
-                    NotifyPropertyChanged("BattleState");
 
                     // Makes AI decisions
                     MakeAIChoice();
+
+                    NotifyPropertyChanged("BattleState");
                 }
             }
             return res;

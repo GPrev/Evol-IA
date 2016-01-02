@@ -1,5 +1,4 @@
-﻿using PokeRules;
-using System;
+﻿using System;
 
 namespace PokeRules
 {
