@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PokeRules
 {
-    public class BattleState
+    public class BattleState : ICloneable
     {
         Rules rules = Battle.rules;
 
@@ -177,6 +177,22 @@ namespace PokeRules
                     return false;
             }
             return true;
+        }
+
+        public object Clone()
+        {
+            // Clone Trainers
+            List<Trainer> newTrainers = new List<Trainer>();
+            foreach (Trainer t in Trainers)
+                newTrainers.Add(t.Clone() as Trainer);
+
+            // Clone ActionTypes
+            List<ActionType> newNexts = new List<ActionType>();
+            foreach (ActionType t in NextActionTypes)
+                newNexts.Add(t);
+
+            BattleState res = new BattleState(newTrainers) { NextActionTypes = newNexts };
+            return res;
         }
     }
 }
