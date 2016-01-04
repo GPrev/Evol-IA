@@ -67,7 +67,7 @@ namespace Evol_UI
 
             List<BattleAI> ais = new List<BattleAI>();
             ais.Add(null); // Player
-            ais.Add(new DumbAI(trainers[1])); // AI
+            ais.Add(new MinMaxAI(trainers[1])); // AI
 
             Battle = new BattleVM(ais, trainers);
         }

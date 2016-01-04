@@ -25,6 +25,7 @@ namespace PokeRules
 
             this.outD = outD;
         }
+        
 
         protected void DisplayInitMessage()
         {
@@ -146,7 +147,7 @@ namespace PokeRules
             makingMoves = false;
         }
 
-        bool HasWinner()
+        public bool HasWinner()
         {
             return Winner() >= 0;
         }
