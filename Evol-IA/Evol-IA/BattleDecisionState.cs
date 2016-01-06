@@ -36,11 +36,11 @@ namespace Evol_IA
             {
                 if(i == id)
                 {
-                    newActions[i] = a;
+                    newActions.Add(a);
                 }
                 else
                 {
-                    newActions[i] = this.pendingActions[i];
+                    newActions.Add(this.pendingActions[i]);
                 }
             }
             BattleDecisionState res;
