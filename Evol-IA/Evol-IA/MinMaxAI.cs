@@ -10,6 +10,7 @@ namespace Evol_IA
     public class MinMaxAI : BattleAI
     {
         public Trainer trainer;
+        int maxprof;
 
         public override Trainer Trainer
         {
@@ -26,6 +27,7 @@ namespace Evol_IA
 
         public override BattleAction ChooseAction(BattleDecisionState s, int myId = 1, ActionType type = ActionType.ANY)
         {
+            maxprof = 10;
             int max = -10000;
             int tmp;
             BattleAction act=null;
@@ -40,7 +42,7 @@ namespace Evol_IA
 
                 //      sclone.MakeActions(l);
                 Console.WriteLine("foreach");
-                tmp = Min(sclone,a);
+                tmp = Min(sclone,a,0);
                 if (tmp> max)
                 {
                     act = a;
@@ -51,11 +53,12 @@ namespace Evol_IA
         }
      
 
-        public int Max(BattleState s, int myId = 1)
+        public int Max(BattleState s, int prof, int myId = 1)
         {
-            if (s.HasWinner())
-            { if (trainer.IsOutOfPokemon())   return 0;
-                return 1;}
+            if (s.HasWinner() || prof == maxprof)
+            {
+                return eval(s);
+            }
 
             int max = -100;
             int tmp = -1 ;
@@ -64,7 +67,7 @@ namespace Evol_IA
             BattleState sclone = (BattleState) s.Clone();
             foreach (BattleAction a in actions)
                 {
-                    tmp = Min(sclone,a);
+                    tmp = Min(sclone,a,prof+1);
                     if (tmp > max)
                     {
                     max = tmp;
@@ -74,12 +77,12 @@ namespace Evol_IA
         }
 
 
-        public int Min(BattleState s, BattleAction amax, int myId = 0)
+        public int Min(BattleState s, BattleAction amax, int prof, int myId = 0)
         {
 
-            if (s.HasWinner())
-            {  if (trainer.IsOutOfPokemon()) return 1;
-                return 0;  }
+            if (s.HasWinner()|| prof==maxprof)
+            { return eval(s); }
+
             int min = 100;
             int tmp = -1;
 
@@ -89,12 +92,13 @@ namespace Evol_IA
             foreach (BattleAction a in actions)
             {
                 Console.WriteLine("foreach min");
+
                 List<BattleAction> l = new List<BattleAction>();
                 l.Add(a);
                 l.Add(amax);
 
                 sclone.MakeActions(l);
-                tmp =Max(sclone);
+                tmp =Max(sclone,prof+1);
                 if (tmp < min)
                 {
                     min = tmp;
@@ -103,7 +107,18 @@ namespace Evol_IA
             return min;
         }
     
-
+        public int eval(BattleState s)
+        {
+            if (trainer.IsOutOfPokemon())
+            {
+                return 0; //0 si l'IA n'a plus de pokémons
+            }
+            else if (s.HasWinner())
+            {
+                return 5; //5 si il y a un vainqueur et que l'IA a encore des pokémons
+            }
+            else { return 1; } //1 autrement (l'arbre n'a pas été parcouru en entier)
+        }
 
 
         public override Trainer MakeTeam(List<Pokemon> availablePokemon, bool allowDoubles = false, int nbPokemon = 3)
