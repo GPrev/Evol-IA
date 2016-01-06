@@ -23,7 +23,10 @@ namespace PokeRules
             foreach (Trainer t in Trainers)
                 NextActionTypes.Add(ActionType.ANY);
 
-            this.outD = outD;
+            if(outD == null)
+                this.outD = message => { return; };
+            else
+                this.outD = outD;
         }
         
 
