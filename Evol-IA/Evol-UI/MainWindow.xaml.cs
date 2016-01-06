@@ -1,6 +1,5 @@
 ﻿using Evol_IA;
 using PokeRules;
-using PokeRules;
 using System;
 using System.Collections.Generic;
 using System.IO;
