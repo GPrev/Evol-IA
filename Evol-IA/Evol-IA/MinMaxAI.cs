@@ -25,14 +25,14 @@ namespace Evol_IA
                 trainer = t;
         }
 
-        public override BattleAction ChooseAction(BattleState s, int myId = 1, ActionType type = ActionType.ANY)
+        public override BattleAction ChooseAction(BattleDecisionState s, int myId = 1, ActionType type = ActionType.ANY)
         {
             int max = -10000;
             int tmp;
             BattleAction act=null;
 
-            List<BattleAction> actions = s.GetNextActions(myId);
-            BattleState sclone = (BattleState) s.Clone();
+            List<BattleAction> actions = s.State.GetNextActions(myId);
+            BattleState sclone = (BattleState) s.State.Clone();
 
             foreach (BattleAction a in actions)
             {

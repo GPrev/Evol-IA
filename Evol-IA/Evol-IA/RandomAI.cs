@@ -27,9 +27,9 @@ namespace Evol_IA
                 trainer = t;
         }
 
-        public override BattleAction ChooseAction(BattleState s, int myId = 1, ActionType type = ActionType.ANY)
+        public override BattleAction ChooseAction(BattleDecisionState s, int myId = 1, ActionType type = ActionType.ANY)
         {
-            List<BattleAction> actions = s.GetNextActions(myId);
+            List<BattleAction> actions = s.State.GetNextActions(myId);
             if (actions.Count > 0)
                 return actions[myRand.Next(actions.Count)];
             else

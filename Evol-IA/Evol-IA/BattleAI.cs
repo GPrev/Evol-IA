@@ -14,6 +14,11 @@ namespace Evol_IA
 
         public abstract Trainer MakeTeam(List<Pokemon> availablePokemon, bool allowDoubles = false, int nbPokemon = 3);
 
-        public abstract BattleAction ChooseAction(BattleState s, int myId = 1, ActionType type = ActionType.ANY);
+        public BattleAction ChooseAction(BattleState s, int myId = 1, ActionType type = ActionType.ANY)
+        {
+            return ChooseAction(new BattleDecisionState(s), myId, type);
+        }
+
+        public abstract BattleAction ChooseAction(BattleDecisionState s, int myId = 1, ActionType type = ActionType.ANY);
     }
 }
