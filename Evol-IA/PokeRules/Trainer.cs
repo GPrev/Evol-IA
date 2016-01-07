@@ -13,7 +13,23 @@ namespace PokeRules
 
         public List<Pokemon> Team { get; set; }
 
-        public virtual Pokemon ActivePokemon { get; set; }
+        int activeID = 0;
+
+        public virtual Pokemon ActivePokemon
+        {
+            get
+            {
+                if (Team.Count > activeID)
+                    return Team[activeID];
+                else
+                    return null;
+            }
+            set
+            {
+                if(Team.Contains(value))
+                    activeID = Team.IndexOf(value);
+            }
+        }
 
         public Trainer(string name, List<Pokemon> team)
         {
@@ -46,7 +62,9 @@ namespace PokeRules
 
             }
 
-            return new Trainer(Name, newTeam) { ActivePokemon = newActive };
+            Trainer res =  new Trainer(Name, newTeam);
+            res.activeID = this.activeID;
+            return res;
         }
     }
 }
