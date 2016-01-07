@@ -67,7 +67,7 @@ namespace PokeRules
                 foreach (Move m in Trainers[trainerId].ActivePokemon.Moves)
                 {
                     //1-id only works when 2 trainers
-                    res.Add(new FightAction(Trainers[trainerId].ActivePokemon, Trainers[1 - trainerId], m));
+                    res.Add(new FightAction(trainerId, 1 - trainerId, m));
                 }
             }
             return res;
@@ -76,10 +76,11 @@ namespace PokeRules
         public List<BattleAction> GetPossiblePokemon(int trainerId)
         {
             List<BattleAction> res = new List<BattleAction>();
-            foreach (Pokemon p in Trainers[trainerId].Team)
+            for(int i = 0; i < Trainers[trainerId].Team.Count; ++i)
             {
+                Pokemon p = Trainers[trainerId].Team[i];
                 if (p != Trainers[trainerId].ActivePokemon && !p.Ko())
-                    res.Add(new PokemonAction(Trainers[trainerId],  p));
+                    res.Add(new PokemonAction(trainerId, i));
             }
             return res;
         }
@@ -105,10 +106,10 @@ namespace PokeRules
         public void MakeActions(List<BattleAction> actions)
         {
             makingMoves = true;
-            Rules.ActiveRules.OrderActions(actions);
+            Rules.ActiveRules.OrderActions(this, actions);
             for (int i = 0; i < actions.Count; ++i)
             {
-                actions[i].SafeExecute(outD);
+                actions[i].SafeExecute(this, outD);
             }
 
             for (int i = 0; i < Trainers.Count; ++i)

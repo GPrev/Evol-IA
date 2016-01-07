@@ -32,11 +32,11 @@ namespace Evol_UI
         {
             get
             {
-                BattleAction a = Battle.GetPendingAction(id);
+                FightAction a = Battle.GetPendingAction(id) as FightAction;
                 if (a == null)
                     return null;
                 //else
-                return a.GetMove();
+                return a.Move;
             }
             set
             {
@@ -52,11 +52,11 @@ namespace Evol_UI
         public Pokemon PendingSwitch
         {
             get {
-                BattleAction a = Battle.GetPendingAction(id);
+                PokemonAction a = Battle.GetPendingAction(id) as PokemonAction;
                 if (a == null)
                     return null;
                 //else
-                return a.GetPokemon();
+                return a.getPokemon(Battle);
             }
             set
             {
@@ -99,7 +99,11 @@ namespace Evol_UI
             {
                 List<BattleAction> moves = Battle.GetPossibleMoves(id);
                 foreach (BattleAction a in moves)
-                    PossibleMoves.Add(a.GetMove());
+                {
+                    FightAction aa = a as FightAction;
+                    if(aa != null)
+                        PossibleMoves.Add(aa.Move);
+                }
             }
 
             if (Battle.NextActionTypes[id] == ActionType.POKEMON
@@ -107,7 +111,11 @@ namespace Evol_UI
             {
                 List<BattleAction> switches = Battle.GetPossiblePokemon(id);
                 foreach (BattleAction a in switches)
-                    PossibleSwitches.Add(a.GetPokemon());
+                {
+                    PokemonAction aa = a as PokemonAction;
+                    if (aa != null)
+                        PossibleSwitches.Add(aa.getPokemon(Battle));
+                }
             }
 
             NotifyPropertyChanged("PossibleMoves");

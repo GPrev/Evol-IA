@@ -96,10 +96,10 @@ namespace PokeRules
             return 0;
         }
 
-        public override int FasterThan(FightAction a1, FightAction a2)
+        public override int FasterThan(BattleState s, FightAction a1, FightAction a2)
         {
             // Compare speeds
-            return a2.Attacker.Speed - a1.Attacker.Speed;
+            return a2.getAttacker(s).Speed - a1.getAttacker(s).Speed;
         }
     }
 

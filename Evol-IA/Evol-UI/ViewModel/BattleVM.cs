@@ -80,14 +80,12 @@ namespace Evol_UI
 
         public bool SeletAction(int tID, Move m)
         {
-            Pokemon attacker = Trainers[tID].ActivePokemon;
-            Trainer defender = Trainers[1-tID]; // Only works in 1v1
-            return SeletAction(tID, new FightAction(attacker, defender, m));
+            return SeletAction(tID, new FightAction(tID, 1 - tID, m)); // Only works in 1v1
         }
 
         public bool SeletAction(int tID, Pokemon p)
         {
-            return SeletAction(tID, new PokemonAction(Trainers[tID], p));
+            return SeletAction(tID, new PokemonAction(tID, Trainers[tID].Team.IndexOf(p)));
         }
 
         public bool SeletAction(int tID, BattleAction action)

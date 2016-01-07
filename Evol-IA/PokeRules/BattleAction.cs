@@ -10,125 +10,136 @@ namespace PokeRules
     {
         public abstract ActionType GetActionType();
 
-        /// <summary>
-        /// Returns the chosen move or pokemon, the other being null.
-        /// </summary>
-        public abstract Tuple<Move, Pokemon> GetMoveOrPokemon();
-
-        public Move GetMove() { return GetMoveOrPokemon().Item1; }
-        public Pokemon GetPokemon() { return GetMoveOrPokemon().Item2; }
-
         public override bool Equals(Object o)
         {
             return Equals(o as BattleAction);
         }
-        public bool Equals(BattleAction a)
+        public virtual bool Equals(BattleAction a)
         {
             if (a == null)
                 return false;
             //else
-            bool res = true;
-
-            res &= (a.GetActionType() == GetActionType());
-
-            if (a.GetMove() == null)
-                res &= (GetMove() == null);
-            else
-                res &= (a.GetMove().Equals(GetMove()));
-
-            if (a.GetPokemon() == null)
-                res &= (GetPokemon() == null);
-            else
-                res &= (a.GetPokemon().Equals(GetPokemon()));
-
-            return res;
+            return (a.GetActionType() == GetActionType());
         }
 
-        public abstract bool CanBeExecuted();
-        protected abstract void Execute(OutDel outD = null);
-        public void SafeExecute(OutDel outD = null)
+        public abstract bool CanBeExecuted(BattleState s);
+        protected abstract void Execute(BattleState s, OutDel outD = null);
+        public void SafeExecute(BattleState s, OutDel outD = null)
         {
-            if (CanBeExecuted())
-                Execute(outD);
+            if (CanBeExecuted(s))
+                Execute(s, outD);
         }
     }
 
     public class FightAction : BattleAction
     {
-        public Pokemon Attacker { get; set; }
-        public Trainer DefendingTrainer { get; set; }
-        public Pokemon Defender { get { return DefendingTrainer.ActivePokemon; } }
+        public int attackerID;
+        public int defenderID;
         public Move Move { get; set; }
 
         public override ActionType GetActionType() { return ActionType.FIGHT; }
 
-        public FightAction(Pokemon attacker, Trainer defender, Move m)
+        public FightAction(int attacker, int defender, Move m)
         {
-            this.Attacker = attacker;
-            this.DefendingTrainer = defender;
+            this.attackerID = attacker;
+            this.defenderID = defender;
             this.Move = m;
         }
 
-        public override Tuple<Move, Pokemon> GetMoveOrPokemon()
+        public override bool CanBeExecuted(BattleState s)
         {
-            return new Tuple<Move, Pokemon>(Move, null);
+            return !getAttacker(s).Ko() && !getDefender(s).Ko();
         }
 
-        public override bool CanBeExecuted()
-        {
-            return !Attacker.Ko() && !Defender.Ko();
-        }
-
-        protected override void Execute(OutDel outD = null)
+        protected override void Execute(BattleState s, OutDel outD = null)
         {
             if (outD != null)
-                outD(Attacker.Name + " uses " + Move.Name + ".");
+                outD(getAttacker(s).Name + " uses " + Move.Name + ".");
 
-            int damage = Rules.ActiveRules.DamageFormula(Attacker, Defender, Move);
-            Defender.CurrHP -= damage;
+            int damage = Rules.ActiveRules.DamageFormula(getAttacker(s), getDefender(s), Move);
+            getDefender(s).CurrHP -= damage;
 
             if (damage > 0 && outD != null)
             {
-                float effective = Rules.ActiveRules.GetTypeModifier(Move, Defender);
+                float effective = Rules.ActiveRules.GetTypeModifier(Move, getDefender(s));
                 if (effective > 1)
                     outD("It's super effective !");
                 else if (effective < 1)
                     outD("It's not very effective...");
 
-                if(Defender.Ko())
-                    outD(Defender.Name + " fainted !");
+                if(getDefender(s).Ko())
+                    outD(getDefender(s).Name + " fainted !");
             }
+        }
+
+        public Pokemon getAttacker(BattleState s)
+        {
+            return s.Trainers[attackerID].ActivePokemon;
+        }
+
+        public Pokemon getDefender(BattleState s)
+        {
+            return s.Trainers[defenderID].ActivePokemon;
+        }
+
+        public override bool Equals(BattleAction a)
+        {
+            if (!base.Equals(a))
+                return false;
+            //else
+            FightAction aa = a as FightAction;
+            if (aa == null)
+                return false;
+            //else
+            return attackerID == aa.attackerID && defenderID == aa.defenderID && Move.Equals(aa.Move);
         }
     }
 
     public class PokemonAction : BattleAction
     {
-        public Trainer Trainer { get; set; }
-        public Pokemon Pokemon { get; set; }
+        public int trainerID;
+        public int pokemonID;
 
         public override ActionType GetActionType() { return ActionType.POKEMON; }
 
-        public PokemonAction(Trainer t, Pokemon p)
+        public PokemonAction(int trainer, int pokemon)
         {
-            this.Trainer = t;
-            this.Pokemon = p;
+            this.trainerID = trainer;
+            this.pokemonID = pokemon;
         }
 
-        public override Tuple<Move, Pokemon> GetMoveOrPokemon()
-        {
-            return new Tuple<Move, Pokemon>(null, Pokemon);
-        }
-
-        public override bool CanBeExecuted()
+        public override bool CanBeExecuted(BattleState s)
         {
             return true;
         }
 
-        protected override void Execute(OutDel outD = null)
+        protected override void Execute(BattleState s, OutDel outD = null)
         {
             if (outD != null)
-                outD(Trainer.Name + " sends out " + Pokemon.Name + " !");
-            Trainer.ActivePokemon = Pokemon;
+                outD(getTrainer(s).Name + " sends out " + getPokemon(s).Name + " !");
+            getTrainer(s).ActivePokemon = getPokemon(s);
+        }
+
+        public Trainer getTrainer(BattleState s)
+        {
+            return s.Trainers[trainerID];
+        }
+
+        public Pokemon getPokemon(BattleState s)
+        {
+            return getTrainer(s).Team[pokemonID];
+        }
+
+        public override bool Equals(BattleAction a)
+        {
+            if (!base.Equals(a))
+                return false;
+            //else
+            PokemonAction aa = a as PokemonAction;
+            if (aa == null)
+                return false;
+            //else
+            return trainerID == aa.trainerID && pokemonID == aa.pokemonID;
         }
     }
 }
