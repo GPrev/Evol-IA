@@ -43,23 +43,26 @@ namespace Evol_UI
             Stream file1 = GenerateStreamFromString(Properties.Resources._003);
             Stream file2 = GenerateStreamFromString(Properties.Resources._006);
             Stream file3 = GenerateStreamFromString(Properties.Resources._009);
+            Stream file4 = GenerateStreamFromString(Properties.Resources._006);
 
-            PokemonVM p1, p2, p3;
+            PokemonVM p1, p2, p3, p4;
             XmlSerializer serializer = new XmlSerializer(typeof(PokemonVM));
             p1 = (PokemonVM)serializer.Deserialize(file1);
             p2 = (PokemonVM)serializer.Deserialize(file2);
             p3 = (PokemonVM)serializer.Deserialize(file3);
+            p4 = (PokemonVM)serializer.Deserialize(file4);
 
             p1.FullHeal();
             p2.FullHeal();
             p3.FullHeal();
+            p4.FullHeal();
 
             List<Pokemon> TeamA = new List<Pokemon>();
             List<Pokemon> TeamB = new List<Pokemon>();
             TeamA.Add(p1);
             TeamA.Add(p2);
             TeamB.Add(p3);
-
+            TeamB.Add(p4);
             List<Trainer> trainers  =new List<Trainer>();
             trainers.Add(new TrainerVM("Red", TeamA));
             trainers.Add(new TrainerVM("Blue", TeamB));
