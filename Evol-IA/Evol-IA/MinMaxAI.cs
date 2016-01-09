@@ -33,41 +33,46 @@ namespace Evol_IA
             BattleAction act=null;
 
             List<BattleAction> actions = s.State.GetNextActions(myId);
-            BattleState sclone = (BattleState) s.State.Clone();
 
             foreach (BattleAction a in actions)
             {
-                //  List<BattleAction> l = new List<BattleAction>();
-                //    l.Add(a);
 
-                //      sclone.MakeActions(l);
-                Console.WriteLine("foreach");
-                tmp = Min(sclone,a,0);
+                BattleDecisionState sc = s.GetChild(a, myId);
+                tmp = Min(sc, 0);
                 if (tmp> max)
                 {
                     act = a;
+                    max = tmp;
+                        //pour qu'il prenne la première action qui le fait gagner pour gagner du temps
+                       if (max == 5)
+                    {
+                        return act; 
+                    }
+
+
                 }
             }
-
+            
             return act;
         }
      
 
-        public int Max(BattleState s, int prof, int myId = 1)
+        public int Max(BattleDecisionState s, int prof, int myId = 1)
         {
-            if (s.HasWinner() || prof == maxprof)
+            if (s.State.HasWinner() || prof == maxprof)
             {
-                return eval(s);
+                return eval(s.State);
             }
 
             int max = -100;
             int tmp = -1 ;
            
-            List<BattleAction> actions = s.GetNextActions(myId);
-            BattleState sclone = (BattleState) s.Clone();
+            List<BattleAction> actions = s.State.GetNextActions(myId);
+
             foreach (BattleAction a in actions)
                 {
-                    tmp = Min(sclone,a,prof+1);
+                      BattleDecisionState sc = s.GetChild(a, myId);
+                    tmp = Min(sc,prof+1);
                     if (tmp > max)
                     {
                     max = tmp;
@@ -77,28 +82,22 @@ namespace Evol_IA
         }
 
 
-        public int Min(BattleState s, BattleAction amax, int prof, int myId = 0)
+        public int Min(BattleDecisionState s, int prof, int myId = 0)
         {
 
-            if (s.HasWinner()|| prof==maxprof)
-            { return eval(s); }
+            if (s.State.HasWinner()|| prof==maxprof)
+            {
+                   return eval(s.State); }
 
             int min = 100;
             int tmp = -1;
 
-            List<BattleAction> actions = s.GetNextActions(myId);
-            BattleState sclone = (BattleState) s.Clone();
+            List<BattleAction> actions = s.State.GetNextActions(myId);
 
             foreach (BattleAction a in actions)
             {
-                Console.WriteLine("foreach min");
-
-                List<BattleAction> l = new List<BattleAction>();
-                l.Add(a);
-                l.Add(amax);
-
-                sclone.MakeActions(l);
-                tmp =Max(sclone,prof+1);
+                BattleDecisionState sc = s.GetChild(a, myId);
+                tmp = Max(sc,prof+1);
                 if (tmp < min)
                 {
                     min = tmp;
@@ -111,13 +110,17 @@ namespace Evol_IA
         {
             if (trainer.IsOutOfPokemon())
             {
+                Console.WriteLine("IA Loses");
                 return 0; //0 si l'IA n'a plus de pokémons
             }
             else if (s.HasWinner())
             {
+                Console.WriteLine("IA Wins");
                 return 5; //5 si il y a un vainqueur et que l'IA a encore des pokémons
             }
-            else { return 1; } //1 autrement (l'arbre n'a pas été parcouru en entier)
+            else {                
+                        return 1;
+            } //1 autrement (l'arbre n'a pas été parcouru en entier)
         }
 
 
