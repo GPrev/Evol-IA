@@ -28,10 +28,6 @@ namespace Evol_IATests
             trainers.Add(new Trainer("Red", TeamA));
             trainers.Add(new Trainer("Blue", TeamB));
 
-            List<BattleAI> ais = new List<BattleAI>();
-            ais.Add(null); // Player
-            ais.Add(new MinMaxAI(trainers[1])); // AI
-
             s = new BattleDecisionState(new BattleState(trainers));
         }
 
