@@ -49,6 +49,17 @@ namespace PokeRules
             return true;
         }
 
+        public int getNumberOfPokemon()
+        {
+            int c=0;
+            foreach (Pokemon p in Team)
+            {
+                if (!p.Ko())
+                    c = c + 1;    
+            }
+            return c; 
+        }
+
         public object Clone()
         {
             List<Pokemon> newTeam = new List<Pokemon>();

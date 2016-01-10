@@ -46,6 +46,7 @@ namespace Evol_IA
                         //pour qu'il prenne la première action qui le fait gagner pour gagner du temps
                        if (max == 5)
                     {
+                        Console.WriteLine("IA should win");
                         return act; 
                     }
 
@@ -111,15 +112,18 @@ namespace Evol_IA
             if (trainer.IsOutOfPokemon())
             {
                 Console.WriteLine("IA Loses");
-                return 0; //0 si l'IA n'a plus de pokémons
+                return -5; //0 si l'IA n'a plus de pokémons
             }
             else if (s.HasWinner())
             {
                 Console.WriteLine("IA Wins");
                 return 5; //5 si il y a un vainqueur et que l'IA a encore des pokémons
             }
-            else {                
-                        return 1;
+            else {
+                Trainer t0 = s.Trainers[0];
+                Trainer t1 = s.Trainers[1];
+                return t1.getNumberOfPokemon() - t0.getNumberOfPokemon(); 
+
             } //1 autrement (l'arbre n'a pas été parcouru en entier)
         }
 
