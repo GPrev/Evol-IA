@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PokemonVM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Charizard</Name>
-  <CurrHP>156</CurrHP>
-  <Condition>OK</Condition>
   <Level>50</Level>
   <HP>156</HP>
   <Attack>107</Attack>
@@ -42,4 +40,4 @@
       <Name>Scary Face</Name>
     </Move>
   </Moves>
-</PokemonVM>
+</PokeData>

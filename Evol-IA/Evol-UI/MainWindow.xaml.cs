@@ -45,12 +45,17 @@ namespace Evol_UI
             Stream file3 = GenerateStreamFromString(Properties.Resources._009);
             Stream file4 = GenerateStreamFromString(Properties.Resources._006);
 
+            PokeData d1, d2, d3;
             PokemonVM p1, p2, p3, p4;
-            XmlSerializer serializer = new XmlSerializer(typeof(PokemonVM));
-            p1 = (PokemonVM)serializer.Deserialize(file1);
-            p2 = (PokemonVM)serializer.Deserialize(file2);
-            p3 = (PokemonVM)serializer.Deserialize(file3);
-            p4 = (PokemonVM)serializer.Deserialize(file4);
+            XmlSerializer serializer = new XmlSerializer(typeof(PokeData));
+            d1 = (PokeData)serializer.Deserialize(file1);
+            d2 = (PokeData)serializer.Deserialize(file2);
+            d3 = (PokeData)serializer.Deserialize(file3);
+
+            p1 = new PokemonVM(d1);
+            p2 = new PokemonVM(d2);
+            p3 = new PokemonVM(d3);
+            p4 = new PokemonVM(d2);
 
             p1.FullHeal();
             p2.FullHeal();

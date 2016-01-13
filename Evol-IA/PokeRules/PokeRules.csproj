@@ -45,6 +45,7 @@
     <Compile Include="Intelligence.cs" />
     <Compile Include="Move.cs" />
     <Compile Include="G4Rules.cs" />
+    <Compile Include="PokeData.cs" />
     <Compile Include="Pokemon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rules.cs" />

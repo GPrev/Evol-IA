@@ -70,6 +70,8 @@ namespace Evol_UI
 
         public PokemonVM() : base() { }
 
+        public PokemonVM(PokeData data) : base(data) { }
+
         public PokemonVM(String name, int level, Type type, Type type2, int hP, int attack, int spAttack, int defense, int spDefense, int speed, List<Move> moves) :
             base(name, level, type, type2, hP, attack, spAttack, defense, spDefense, speed, moves)
         {}

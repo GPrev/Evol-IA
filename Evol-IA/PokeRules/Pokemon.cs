@@ -7,12 +7,28 @@ using System.Threading.Tasks;
 namespace PokeRules
 {
     public enum Condition { OK, BURNED, FROZEN, PARALYZED, POISONED, ASLEEP, FAINTED }
-    public enum Type { NORMAL, FIGHT, FLYING, POISON, GROUND, ROCK, BUG, GHOST, STEEL, FIRE, WATER, GRASS, ELECTRIC, PSYCHIC, ICE, DRAGON, DARK, FAIRY, NONE }
 
     [Serializable]
     public class Pokemon : ICloneable
     {
-        public string Name { get; set; }
+        private PokeData data;
+
+        #region Proxys
+        public string Name { get { return data.Name; } }
+
+        public int Level { get { return data.Level; } }
+        public int HP { get { return data.HP; } }
+        public int Attack { get { return data.Attack; } }
+        public int SpAttack { get { return data.SpAttack; } }
+        public int Defense { get { return data.Defense; } }
+        public int SpDefense { get { return data.SpDefense; } }
+        public int Speed { get { return data.Speed; } }
+
+        public Type Type { get { return data.Type; } }
+        public Type Type2 { get { return data.Type2; } }
+
+        public List<Move> Moves { get { return data.Moves; } }
+        #endregion
 
         private int currHP;
         public virtual int CurrHP
@@ -33,22 +49,7 @@ namespace PokeRules
         }
 
         public virtual Condition Condition { get; set; }
-
-        #region Stats
-        public int Level { get; set; }
-        public int HP { get; set; }
-        public int Attack { get; set; }
-        public int SpAttack { get; set; }
-        public int Defense { get; set; }
-        public int SpDefense { get; set; }
-        public int Speed { get; set; }
-        #endregion
-
-        public Type Type { get; set; }
-        public Type Type2 { get; set; }
-
-        public List<Move> Moves { get; set; }
-
+        
         public Pokemon()
         {
             FullHeal();
@@ -56,21 +57,14 @@ namespace PokeRules
 
         public Pokemon(String name, int level, Type type, Type type2, int hP, int attack, int spAttack, int defense, int spDefense, int speed, List<Move> moves)
         {
-            this.Name = name;
+            data = new PokeData(name, level, type, type2, hP, attack, spAttack, defense, spDefense, speed, moves);
 
-            this.Type = type;
-            this.Type2 = type2;
+            FullHeal();
+        }
 
-            this.Level = level;
-            this.HP = hP;
-            this.Attack = attack;
-            this.SpAttack = spAttack;
-            this.Defense = defense;
-            this.SpDefense = spDefense;
-            this.Speed = speed;
-
-            this.Moves = moves;
-
+        public Pokemon(PokeData data)
+        {
+            this.data = data;
             FullHeal();
         }
 
@@ -82,7 +76,7 @@ namespace PokeRules
 
         public object Clone()
         {
-            return new Pokemon(Name, Level, Type, Type2, HP, Attack, SpAttack, Defense, SpDefense, Speed, Moves)
+            return new Pokemon(data)
             { CurrHP = this.CurrHP, Condition = this.Condition };
         }
     }

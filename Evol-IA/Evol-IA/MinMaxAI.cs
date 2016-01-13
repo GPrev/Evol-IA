@@ -41,8 +41,6 @@ namespace Evol_IA
                 BattleDecisionState sc = s.GetChild(a, myId);
                 tmp = Min(sc, 0, myId);
 
-                Console.WriteLine("Action " + a + " Score " + tmp);
-
                 if (tmp> max)
                 {
                     act = a;

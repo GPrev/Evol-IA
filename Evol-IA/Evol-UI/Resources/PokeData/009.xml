@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PokemonVM xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Blastoise</Name>
-  <CurrHP>127</CurrHP>
-  <Condition>OK</Condition>
   <Level>50</Level>
   <HP>127</HP>
   <Attack>106</Attack>
@@ -42,4 +40,4 @@
       <Name>Withdraw</Name>
     </Move>
   </Moves>
-</PokemonVM>
+</PokeData>
