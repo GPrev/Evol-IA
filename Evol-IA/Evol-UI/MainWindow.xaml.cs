@@ -40,18 +40,17 @@ namespace Evol_UI
             LayoutRoot.DataContext = this;
 
             Assembly a = Assembly.GetExecutingAssembly();
-            Stream file1 = GenerateStreamFromString(Properties.Resources._003);
-            Stream file2 = GenerateStreamFromString(Properties.Resources._006);
-            Stream file3 = GenerateStreamFromString(Properties.Resources._009);
-            Stream file4 = GenerateStreamFromString(Properties.Resources._006);
+            Stream file1 = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString("_003"));
+            Stream file2 = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString("_006"));
+            Stream file3 = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString("_009"));
 
             PokeData d1, d2, d3;
-            PokemonVM p1, p2, p3, p4;
             XmlSerializer serializer = new XmlSerializer(typeof(PokeData));
             d1 = (PokeData)serializer.Deserialize(file1);
             d2 = (PokeData)serializer.Deserialize(file2);
             d3 = (PokeData)serializer.Deserialize(file3);
 
+            PokemonVM p1, p2, p3, p4;
             p1 = new PokemonVM(d1);
             p2 = new PokemonVM(d2);
             p3 = new PokemonVM(d3);
