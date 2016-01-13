@@ -23,13 +23,14 @@ namespace Evol_IA
                 trainer = new Trainer("DumbAI AI", new List<Pokemon>());
             else
                 trainer = t;
+
+            maxprof = 5;
         }
 
         public override BattleAction ChooseAction(BattleDecisionState s, int myId = 1, ActionType type = ActionType.ANY)
         {
-            maxprof = 10;
-            int max = -10000;
-            int tmp;
+            float max = -10000;
+            float tmp;
             BattleAction act=null;
 
             List<BattleAction> actions = s.State.GetNextActions(myId);
@@ -38,19 +39,20 @@ namespace Evol_IA
             {
 
                 BattleDecisionState sc = s.GetChild(a, myId);
-                tmp = Min(sc, 0);
+                tmp = Min(sc, 0, myId);
+
+                Console.WriteLine("Action " + a + " Score " + tmp);
+
                 if (tmp> max)
                 {
                     act = a;
                     max = tmp;
-                        //pour qu'il prenne la première action qui le fait gagner pour gagner du temps
-                       if (max == 5)
+                    //pour qu'il prenne la première action qui le fait gagner pour gagner du temps
+                    if (max == 1)
                     {
                         Console.WriteLine("IA should win");
-                        return act; 
+                        return act;
                     }
-
-
                 }
             }
             
@@ -58,47 +60,46 @@ namespace Evol_IA
         }
      
 
-        public int Max(BattleDecisionState s, int prof, int myId = 1)
+        public float Max(BattleDecisionState s, int prof, int myId)
         {
             if (s.State.HasWinner() || prof == maxprof)
             {
-                return eval(s.State);
+                return eval(s.State, myId);
             }
 
-            int max = -100;
-            int tmp = -1 ;
-           
-            List<BattleAction> actions = s.State.GetNextActions(myId);
+            float max = -100;
+            float tmp = -1 ;
 
-            foreach (BattleAction a in actions)
+            List<BattleDecisionState> children = s.GetChildren(myId);
+
+            foreach (BattleDecisionState sc in children)
+            {
+                tmp = Min(sc, prof + 1, myId);
+                if (tmp > max)
                 {
-                      BattleDecisionState sc = s.GetChild(a, myId);
-                    tmp = Min(sc,prof+1);
-                    if (tmp > max)
-                    {
                     max = tmp;
-                    }
                 }
+            }
             return max;
         }
 
 
-        public int Min(BattleDecisionState s, int prof, int myId = 0)
+        public float Min(BattleDecisionState s, int prof, int myId)
         {
+            int otherId = 1 - myId;
 
             if (s.State.HasWinner()|| prof==maxprof)
             {
-                   return eval(s.State); }
+                   return eval(s.State, myId); }
 
-            int min = 100;
-            int tmp = -1;
+            float min = 100;
+            float tmp = -1;
 
-            List<BattleAction> actions = s.State.GetNextActions(myId);
+            List<BattleDecisionState> children = s.GetChildren(otherId);
 
-            foreach (BattleAction a in actions)
+            foreach (BattleDecisionState sc in children)
             {
-                BattleDecisionState sc = s.GetChild(a, myId);
-                tmp = Max(sc,prof+1);
+                tmp = Max(sc,prof+1, myId);
                 if (tmp < min)
                 {
                     min = tmp;
@@ -107,26 +108,25 @@ namespace Evol_IA
             return min;
         }
     
-        public int eval(BattleState s)
+        public float eval(BattleState s, int myID)
         {
-            if (trainer.IsOutOfPokemon())
-            {
-                Console.WriteLine("IA Loses");
-                return -5; //0 si l'IA n'a plus de pokémons
-            }
-            else if (s.HasWinner())
-            {
-                Console.WriteLine("IA Wins");
-                return 5; //5 si il y a un vainqueur et que l'IA a encore des pokémons
-            }
-            else {
-                Trainer t0 = s.Trainers[0];
-                Trainer t1 = s.Trainers[1];
-                return t1.getNumberOfPokemon() - t0.getNumberOfPokemon(); 
+            Trainer other = s.Trainers[1 - myID];
+            Trainer me = s.Trainers[myID];
+            int o = getLifeTotal(other);
+            int m = getLifeTotal(me);
 
-            } //1 autrement (l'arbre n'a pas été parcouru en entier)
+            return (float)m / (o + m);
         }
 
+        private int getLifeTotal(Trainer t)
+        {
+            int res = 0;
+            foreach(Pokemon p in t.Team)
+            {
+                res += p.CurrHP;
+            }
+            return res;
+        }
 
         public override Trainer MakeTeam(List<Pokemon> availablePokemon, bool allowDoubles = false, int nbPokemon = 3)
         {

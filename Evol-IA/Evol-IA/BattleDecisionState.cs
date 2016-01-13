@@ -66,6 +66,11 @@ namespace Evol_IA
             {
                 res.Add(GetChild(a, id));
             }
+            // If no possible action, returns a clone
+            if(res.Count == 0)
+            {
+                res.Add(new BattleDecisionState(State, pendingActions));
+            }
 
             return res;
         }
