@@ -43,30 +43,35 @@ namespace Evol_UI
             Stream file1 = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString("_003"));
             Stream file2 = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString("_006"));
             Stream file3 = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString("_009"));
+            Stream file4 = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString("_135"));
+            Stream file5 = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString("_196"));
+            Stream file6 = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString("_197"));
 
-            PokeData d1, d2, d3;
+            PokeData d1, d2, d3, d4, d5, d6;
             XmlSerializer serializer = new XmlSerializer(typeof(PokeData));
             d1 = (PokeData)serializer.Deserialize(file1);
             d2 = (PokeData)serializer.Deserialize(file2);
             d3 = (PokeData)serializer.Deserialize(file3);
+            d4 = (PokeData)serializer.Deserialize(file4);
+            d5 = (PokeData)serializer.Deserialize(file5);
+            d6 = (PokeData)serializer.Deserialize(file6);
 
-            PokemonVM p1, p2, p3, p4;
+            PokemonVM p1, p2, p3, p4, p5, p6;
             p1 = new PokemonVM(d1);
             p2 = new PokemonVM(d2);
             p3 = new PokemonVM(d3);
-            p4 = new PokemonVM(d2);
-
-            p1.FullHeal();
-            p2.FullHeal();
-            p3.FullHeal();
-            p4.FullHeal();
+            p4 = new PokemonVM(d4);
+            p5 = new PokemonVM(d5);
+            p6 = new PokemonVM(d6);
 
             List<Pokemon> TeamA = new List<Pokemon>();
             List<Pokemon> TeamB = new List<Pokemon>();
-            TeamA.Add(p1);
-            TeamA.Add(p2);
+            TeamB.Add(p1);
+            TeamB.Add(p2);
             TeamB.Add(p3);
-            TeamB.Add(p4);
+            TeamA.Add(p4);
+            TeamA.Add(p5);
+            TeamA.Add(p6);
             List<Trainer> trainers  =new List<Trainer>();
             trainers.Add(new TrainerVM("Red", TeamA));
             trainers.Add(new TrainerVM("Blue", TeamB));

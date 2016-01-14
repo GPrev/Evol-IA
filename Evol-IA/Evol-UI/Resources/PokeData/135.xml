@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Jolteon</Name>
+  <Level>50</Level>
+  <HP>143</HP>
+  <Attack>88</Attack>
+  <SpAttack>83</SpAttack>
+  <Defense>106</Defense>
+  <SpDefense>118</SpDefense>
+  <Speed>152</Speed>
+  <Type>ELECTRIC</Type>
+  <Type2>NONE</Type2>
+  <Moves>
+    <Move>
+      <Power>120</Power>
+      <Accuracy>50</Accuracy>
+      <Special>true</Special>
+      <Type>ELECTRIC</Type>
+      <Name>Zap Cannon</Name>
+    </Move>
+    <Move>
+      <Power>14</Power>
+      <Accuracy>85</Accuracy>
+      <Special>false</Special>
+      <Type>BUG</Type>
+      <Name>Pin Missile</Name>
+    </Move>
+    <Move>
+      <Power>30</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>FIGHT</Type>
+      <Name>Double Kick</Name>
+    </Move>
+    <Move>
+      <Power>0</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>GROUND</Type>
+      <Name>Sand-attack</Name>
+    </Move>
+  </Moves>
+</PokeData>

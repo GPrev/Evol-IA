@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Umbreon</Name>
+  <Level>50</Level>
+  <HP>173</HP>
+  <Attack>88</Attack>
+  <SpAttack>83</SpAttack>
+  <Defense>133</Defense>
+  <SpDefense>153</SpDefense>
+  <Speed>87</Speed>
+  <Type>DARK</Type>
+  <Type2>NONE</Type2>
+  <Moves>
+    <Move>
+      <Power>60</Power>
+      <Accuracy>0</Accuracy>
+      <Special>false</Special>
+      <Type>DARK</Type>
+      <Name>Faint Attack</Name>
+    </Move>
+    <Move>
+      <Power>40</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>NORMAL</Type>
+      <Name>Quick Attack</Name>
+    </Move>
+    <Move>
+      <Power>0</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>GROUND</Type>
+      <Name>Sand-attack</Name>
+    </Move>
+    <Move>
+      <Power>0</Power>
+      <Accuracy>0</Accuracy>
+      <Special>false</Special>
+      <Type>NORMAL</Type>
+      <Name>Mean Look</Name>
+    </Move>
+  </Moves>
+</PokeData>
