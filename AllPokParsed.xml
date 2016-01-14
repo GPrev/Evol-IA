@@ -1,0 +1,6644 @@
+</Name>
+	<Level>
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Bulbasaur</Name>
+	<Level>50</Level>
+	<HP>135</HP>
+	<Attack>84</Attack>
+	<Defense>85</Defense>
+	<SpAttack>100</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>81</Speed>
+	<Moves>
+		<Move>
+			<Name>Razor Leaf</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+		<Move>
+			<Name>Growth</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Ivysaur</Name>
+	<Level>50</Level>
+	<HP>145</HP>
+	<Attack>93</Attack>
+	<Defense>93</Defense>
+	<SpAttack>110</SpAttack>
+	<SpDefense>110</SpDefense>
+	<Speed>91</Speed>
+	<Moves>
+		<Move>
+			<Name>Solarbeam</Name>
+		</Move>
+		<Move>
+			<Name>Fury Cutter</Name>
+		</Move>
+		<Move>
+			<Name>Leech Seed</Name>
+		</Move>
+		<Move>
+			<Name>Sunny Day</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Venusaur</Name>
+	<Level>50</Level>
+	<HP>158</HP>
+	<Attack>105</Attack>
+	<Defense>106</Defense>
+	<SpAttack>123</SpAttack>
+	<SpDefense>123</SpDefense>
+	<Speed>102</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Tackle</Name>
+		</Move>
+		<Move>
+			<Name>Poisonpowder</Name>
+		</Move>
+		<Move>
+			<Name>Growl</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Charmander</Name>
+	<Level>50</Level>
+	<HP>129</HP>
+	<Attack>87</Attack>
+	<Defense>79</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>101</Speed>
+	<Moves>
+		<Move>
+			<Name>Flamethrower</Name>
+		</Move>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Dragonbreath</Name>
+		</Move>
+		<Move>
+			<Name>Sunny Day</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Charmeleon</Name>
+	<Level>50</Level>
+	<HP>143</HP>
+	<Attack>95</Attack>
+	<Defense>88</Defense>
+	<SpAttack>110</SpAttack>
+	<SpDefense>95</SpDefense>
+	<Speed>111</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Smokescreen</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Charizard</Name>
+	<Level>50</Level>
+	<HP>156</HP>
+	<Attack>107</Attack>
+	<Defense>101</Defense>
+	<SpAttack>132</SpAttack>
+	<SpDefense>108</SpDefense>
+	<Speed>122</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Punch</Name>
+		</Move>
+		<Move>
+			<Name>Wing Attack</Name>
+		</Move>
+		<Move>
+			<Name>Growl</Name>
+		</Move>
+		<Move>
+			<Name>Scary Face</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Squirtle</Name>
+	<Level>50</Level>
+	<HP>134</HP>
+	<Attack>83</Attack>
+	<Defense>101</Defense>
+	<SpAttack>85</SpAttack>
+	<SpDefense>99</SpDefense>
+	<Speed>79</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Bite</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Rain Dance</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Wartortle</Name>
+	<Level>50</Level>
+	<HP>144</HP>
+	<Attack>94</Attack>
+	<Defense>110</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>110</SpDefense>
+	<Speed>89</Speed>
+	<Moves>
+		<Move>
+			<Name>Waterfall</Name>
+		</Move>
+		<Move>
+			<Name>Icy Wind</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Rapid Spin</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Blastoise</Name>
+	<Level>50</Level>
+	<HP>127</HP>
+	<Attack>106</Attack>
+	<Defense>123</Defense>
+	<SpAttack>108</SpAttack>
+	<SpDefense>128</SpDefense>
+	<Speed>100</Speed>
+	<Moves>
+		<Move>
+			<Name>Hydro Pump</Name>
+		</Move>
+		<Move>
+			<Name>Rapid Spin</Name>
+		</Move>
+		<Move>
+			<Name>Mud-slap</Name>
+		</Move>
+		<Move>
+			<Name>Withdraw</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Caterpie</Name>
+	<Level>50</Level>
+	<HP>139</HP>
+	<Attack>69</Attack>
+	<Defense>74</Defense>
+	<SpAttack>61</SpAttack>
+	<SpDefense>61</SpDefense>
+	<Speed>85</Speed>
+	<Moves>
+		<Move>
+			<Name>Tackle</Name>
+		</Move>
+		<Move>
+			<Name>String Shot</Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Metapod</Name>
+	<Level>50</Level>
+	<HP>144</HP>
+	<Attack>59</Attack>
+	<Defense>94</Defense>
+	<SpAttack>66</SpAttack>
+	<SpDefense>66</SpDefense>
+	<Speed>70</Speed>
+	<Moves>
+		<Move>
+			<Name>Harden</Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Butterfree</Name>
+	<Level>50</Level>
+	<HP>147</HP>
+	<Attack>78</Attack>
+	<Defense>82</Defense>
+	<SpAttack>112</SpAttack>
+	<SpDefense>112</SpDefense>
+	<Speed>102</Speed>
+	<Moves>
+		<Move>
+			<Name>Gust</Name>
+		</Move>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Hyper Beam</Name>
+		</Move>
+		<Move>
+			<Name>Stun Spore</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Weedle</Name>
+	<Level>50</Level>
+	<HP>134</HP>
+	<Attack>74</Attack>
+	<Defense>69</Defense>
+	<SpAttack>61</SpAttack>
+	<SpDefense>61</SpDefense>
+	<Speed>90</Speed>
+	<Moves>
+		<Move>
+			<Name>Poison Sting</Name>
+		</Move>
+		<Move>
+			<Name>String Shot</Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Kakuna</Name>
+	<Level>50</Level>
+	<HP>139</HP>
+	<Attack>64</Attack>
+	<Defense>89</Defense>
+	<SpAttack>66</SpAttack>
+	<SpDefense>66</SpDefense>
+	<Speed>75</Speed>
+	<Moves>
+		<Move>
+			<Name>Harden</Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Beedrill</Name>
+	<Level>50</Level>
+	<HP>152</HP>
+	<Attack>113</Attack>
+	<Defense>72</Defense>
+	<SpAttack>77</SpAttack>
+	<SpDefense>112</SpDefense>
+	<Speed>107</Speed>
+	<Moves>
+		<Move>
+			<Name>Twineedle</Name>
+		</Move>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Pursuit</Name>
+		</Move>
+		<Move>
+			<Name>Focus Energy</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Pidgey</Name>
+	<Level>50</Level>
+	<HP>132</HP>
+	<Attack>82</Attack>
+	<Defense>78</Defense>
+	<SpAttack>72</SpAttack>
+	<SpDefense>72</SpDefense>
+	<Speed>93</Speed>
+	<Moves>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Return</Name>
+		</Move>
+		<Move>
+			<Name>Steel Wing</Name>
+		</Move>
+		<Move>
+			<Name>Sand-attack</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Pidgeotto</Name>
+	<Level>50</Level>
+	<HP>153</HP>
+	<Attack>95</Attack>
+	<Defense>91</Defense>
+	<SpAttack>85</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>107</Speed>
+	<Moves>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Frustration</Name>
+		</Move>
+		<Move>
+			<Name>Steel Wing</Name>
+		</Move>
+		<Move>
+			<Name>Mirror Move</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Pidgeot</Name>
+	<Level>50</Level>
+	<HP>164</HP>
+	<Attack>107</Attack>
+	<Defense>102</Defense>
+	<SpAttack>96</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>117</Speed>
+	<Moves>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Steel Wing</Name>
+		</Move>
+		<Move>
+			<Name>Whirlwind</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Rattata</Name>
+	<Level>50</Level>
+	<HP>122</HP>
+	<Attack>93</Attack>
+	<Defense>73</Defense>
+	<SpAttack>62</SpAttack>
+	<SpDefense>72</SpDefense>
+	<Speed>109</Speed>
+	<Moves>
+		<Move>
+			<Name>Super Fang</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Shadow Ball</Name>
+		</Move>
+		<Move>
+			<Name>Focus Energy</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Raticate</Name>
+	<Level>50</Level>
+	<HP>140</HP>
+	<Attack>112</Attack>
+	<Defense>90</Defense>
+	<SpAttack>80</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>128</Speed>
+	<Moves>
+		<Move>
+			<Name>Super Fang</Name>
+		</Move>
+		<Move>
+			<Name>Hyper Fang</Name>
+		</Move>
+		<Move>
+			<Name>Pursuit</Name>
+		</Move>
+		<Move>
+			<Name>Scary Face</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Spearow</Name>
+	<Level>50</Level>
+	<HP>132</HP>
+	<Attack>97</Attack>
+	<Defense>68</Defense>
+	<SpAttack>68</SpAttack>
+	<SpDefense>68</SpDefense>
+	<Speed>107</Speed>
+	<Moves>
+		<Move>
+			<Name>Drill Peck</Name>
+		</Move>
+		<Move>
+			<Name>Frustration</Name>
+		</Move>
+		<Move>
+			<Name>Steel Wing</Name>
+		</Move>
+		<Move>
+			<Name>Mirror Move</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Fearow</Name>
+	<Level>50</Level>
+	<HP>150</HP>
+	<Attack>121</Attack>
+	<Defense>95</Defense>
+	<SpAttack>91</SpAttack>
+	<SpDefense>91</SpDefense>
+	<Speed>131</Speed>
+	<Moves>
+		<Move>
+			<Name>Drill Peck</Name>
+		</Move>
+		<Move>
+			<Name>Hyper Beam</Name>
+		</Move>
+		<Move>
+			<Name>Pursuit</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Ekans</Name>
+	<Level>50</Level>
+	<HP>127</HP>
+	<Attack>97</Attack>
+	<Defense>82</Defense>
+	<SpAttack>77</SpAttack>
+	<SpDefense>91</SpDefense>
+	<Speed>92</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Glare</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Arbok</Name>
+	<Level>50</Level>
+	<HP>145</HP>
+	<Attack>116</Attack>
+	<Defense>99</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>109</SpDefense>
+	<Speed>111</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Bite</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Glare</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Pikachu</Name>
+	<Level>50</Level>
+	<HP>125</HP>
+	<Attack>90</Attack>
+	<Defense>66</Defense>
+	<SpAttack>85</SpAttack>
+	<SpDefense>75</SpDefense>
+	<Speed>126</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunderbolt</Name>
+		</Move>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Iron Tail</Name>
+		</Move>
+		<Move>
+			<Name>Thunder Wave</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Raichu</Name>
+	<Level>50</Level>
+	<HP>141</HP>
+	<Attack>117</Attack>
+	<Defense>82</Defense>
+	<SpAttack>116</SpAttack>
+	<SpDefense>106</SpDefense>
+	<Speed>126</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Quick Attack</Name>
+		</Move>
+		<Move>
+			<Name>Thunder Wave</Name>
+		</Move>
+		<Move>
+			<Name>Tail Whip</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Sandshrew</Name>
+	<Level>50</Level>
+	<HP>140</HP>
+	<Attack>110</Attack>
+	<Defense>121</Defense>
+	<SpAttack>55</SpAttack>
+	<SpDefense>65</SpDefense>
+	<Speed>76</Speed>
+	<Moves>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Fury Cutter</Name>
+		</Move>
+		<Move>
+			<Name>Sandstorm</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Sandslash</Name>
+	<Level>50</Level>
+	<HP>156</HP>
+	<Attack>127</Attack>
+	<Defense>137</Defense>
+	<SpAttack>71</SpAttack>
+	<SpDefense>81</SpDefense>
+	<Speed>91</Speed>
+	<Moves>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Fury Swipes</Name>
+		</Move>
+		<Move>
+			<Name>Sand-attack</Name>
+		</Move>
+		<Move>
+			<Name>Sandstorm</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Nidoran&#9792;</Name>
+	<Level>50</Level>
+	<HP>147</HP>
+	<Attack>84</Attack>
+	<Defense>90</Defense>
+	<SpAttack>77</SpAttack>
+	<SpDefense>77</SpDefense>
+	<Speed>78</Speed>
+	<Moves>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Iron Tail</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Nidorina</Name>
+	<Level>50</Level>
+	<HP>157</HP>
+	<Attack>95</Attack>
+	<Defense>99</Defense>
+	<SpAttack>87</SpAttack>
+	<SpDefense>87</SpDefense>
+	<Speed>88</Speed>
+	<Moves>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Bite</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Nidoqueen</Name>
+	<Level>50</Level>
+	<HP>171</HP>
+	<Attack>109</Attack>
+	<Defense>114</Defense>
+	<SpAttack>101</SpAttack>
+	<SpDefense>111</SpDefense>
+	<Speed>102</Speed>
+	<Moves>
+		<Move>
+			<Name>Body Slam</Name>
+		</Move>
+		<Move>
+			<Name>Mud-slap</Name>
+		</Move>
+		<Move>
+			<Name>Ice Punch</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Nidoran&#9794;</Name>
+	<Level>50</Level>
+	<HP>138</HP>
+	<Attack>94</Attack>
+	<Defense>78</Defense>
+	<SpAttack>77</SpAttack>
+	<SpDefense>77</SpDefense>
+	<Speed>87</Speed>
+	<Moves>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Iron Tail</Name>
+		</Move>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Horn Drill</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Nidorino</Name>
+	<Level>50</Level>
+	<HP>148</HP>
+	<Attack>105</Attack>
+	<Defense>89</Defense>
+	<SpAttack>87</SpAttack>
+	<SpDefense>87</SpDefense>
+	<Speed>97</Speed>
+	<Moves>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Double Kick</Name>
+		</Move>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Horn Drill</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Nidoking</Name>
+	<Level>50</Level>
+	<HP>162</HP>
+	<Attack>119</Attack>
+	<Defense>104</Defense>
+	<SpAttack>111</SpAttack>
+	<SpDefense>101</SpDefense>
+	<Speed>111</Speed>
+	<Moves>
+		<Move>
+			<Name>Horn Attack</Name>
+		</Move>
+		<Move>
+			<Name>Mud-slap</Name>
+		</Move>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Horn Drill</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Clefairy</Name>
+	<Level>50</Level>
+	<HP>160</HP>
+	<Attack>80</Attack>
+	<Defense>84</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>71</Speed>
+	<Moves>
+		<Move>
+			<Name>Metronome</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Moonlight</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Clefable</Name>
+	<Level>50</Level>
+	<HP>176</HP>
+	<Attack>97</Attack>
+	<Defense>100</Defense>
+	<SpAttack>111</SpAttack>
+	<SpDefense>116</SpDefense>
+	<Speed>86</Speed>
+	<Moves>
+		<Move>
+			<Name>Metronome</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Ice Punch</Name>
+		</Move>
+		<Move>
+			<Name>Encore</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Vulpix</Name>
+	<Level>50</Level>
+	<HP>130</HP>
+	<Attack>78</Attack>
+	<Defense>78</Defense>
+	<SpAttack>87</SpAttack>
+	<SpDefense>102</SpDefense>
+	<Speed>102</Speed>
+	<Moves>
+		<Move>
+			<Name>Flamethrower</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Confuse Ray</Name>
+		</Move>
+		<Move>
+			<Name>Sunny Day</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Ninetales</Name>
+	<Level>50</Level>
+	<HP>151</HP>
+	<Attack>99</Attack>
+	<Defense>98</Defense>
+	<SpAttack>104</SpAttack>
+	<SpDefense>123</SpDefense>
+	<Speed>122</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Quick Attack</Name>
+		</Move>
+		<Move>
+			<Name>Safeguard</Name>
+		</Move>
+		<Move>
+			<Name>Roar</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Jigglypuff</Name>
+	<Level>50</Level>
+	<HP>207</HP>
+	<Attack>82</Attack>
+	<Defense>58</Defense>
+	<SpAttack>82</SpAttack>
+	<SpDefense>62</SpDefense>
+	<Speed>57</Speed>
+	<Moves>
+		<Move>
+			<Name>Body Slam</Name>
+		</Move>
+		<Move>
+			<Name>Rollout</Name>
+		</Move>
+		<Move>
+			<Name>Defense Curl</Name>
+		</Move>
+		<Move>
+			<Name>Sing</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Wigglytuff</Name>
+	<Level>50</Level>
+	<HP>225</HP>
+	<Attack>101</Attack>
+	<Defense>75</Defense>
+	<SpAttack>105</SpAttack>
+	<SpDefense>80</SpDefense>
+	<Speed>76</Speed>
+	<Moves>
+		<Move>
+			<Name>Double-edge</Name>
+		</Move>
+		<Move>
+			<Name>Fire Punch</Name>
+		</Move>
+		<Move>
+			<Name>Disable</Name>
+		</Move>
+		<Move>
+			<Name>Sing</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Zubat</Name>
+	<Level>50</Level>
+	<HP>134</HP>
+	<Attack>84</Attack>
+	<Defense>74</Defense>
+	<SpAttack>71</SpAttack>
+	<SpDefense>81</SpDefense>
+	<Speed>95</Speed>
+	<Moves>
+		<Move>
+			<Name>Wing Attack</Name>
+		</Move>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Confuse Ray</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Golbat</Name>
+	<Level>50</Level>
+	<HP>156</HP>
+	<Attack>107</Attack>
+	<Defense>97</Defense>
+	<SpAttack>91</SpAttack>
+	<SpDefense>101</SpDefense>
+	<Speed>116</Speed>
+	<Moves>
+		<Move>
+			<Name>Wing Attack</Name>
+		</Move>
+		<Move>
+			<Name>Bite</Name>
+		</Move>
+		<Move>
+			<Name>Steel Wing</Name>
+		</Move>
+		<Move>
+			<Name>Haze</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Oddish</Name>
+	<Level>50</Level>
+	<HP>135</HP>
+	<Attack>85</Attack>
+	<Defense>91</Defense>
+	<SpAttack>110</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>66</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Moonlight</Name>
+		</Move>
+		<Move>
+			<Name>Stun Spore</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Gloom</Name>
+	<Level>50</Level>
+	<HP>147</HP>
+	<Attack>98</Attack>
+	<Defense>102</Defense>
+	<SpAttack>117</SpAttack>
+	<SpDefense>107</SpDefense>
+	<Speed>72</Speed>
+	<Moves>
+		<Move>
+			<Name>Solarbeam</Name>
+		</Move>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Sleep Powder</Name>
+		</Move>
+		<Move>
+			<Name>Sunny Day</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Vileplume</Name>
+	<Level>50</Level>
+	<HP>156</HP>
+	<Attack>107</Attack>
+	<Defense>112</Defense>
+	<SpAttack>126</SpAttack>
+	<SpDefense>116</SpDefense>
+	<Speed>76</Speed>
+	<Moves>
+		<Move>
+			<Name>Petal Dance</Name>
+		</Move>
+		<Move>
+			<Name>Acid</Name>
+		</Move>
+		<Move>
+			<Name>Sweet Scent</Name>
+		</Move>
+		<Move>
+			<Name>Poisonpowder</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Paras</Name>
+	<Level>50</Level>
+	<HP>127</HP>
+	<Attack>107</Attack>
+	<Defense>93</Defense>
+	<SpAttack>82</SpAttack>
+	<SpDefense>92</SpDefense>
+	<Speed>62</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Spore</Name>
+		</Move>
+		<Move>
+			<Name>Growth</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Parasect</Name>
+	<Level>50</Level>
+	<HP>145</HP>
+	<Attack>126</Attack>
+	<Defense>110</Defense>
+	<SpAttack>90</SpAttack>
+	<SpDefense>110</SpDefense>
+	<Speed>61</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Fury Cutter</Name>
+		</Move>
+		<Move>
+			<Name>Spore</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Venonat</Name>
+	<Level>50</Level>
+	<HP>150</HP>
+	<Attack>90</Attack>
+	<Defense>86</Defense>
+	<SpAttack>75</SpAttack>
+	<SpDefense>90</SpDefense>
+	<Speed>81</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Supersonic</Name>
+		</Move>
+		<Move>
+			<Name>Stun Spore</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Venomoth</Name>
+	<Level>50</Level>
+	<HP>153</HP>
+	<Attack>94</Attack>
+	<Defense>89</Defense>
+	<SpAttack>118</SpAttack>
+	<SpDefense>103</SpDefense>
+	<Speed>118</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Leech Life</Name>
+		</Move>
+		<Move>
+			<Name>Foresight</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Diglett</Name>
+	<Level>50</Level>
+	<HP>102</HP>
+	<Attack>92</Attack>
+	<Defense>63</Defense>
+	<SpAttack>72</SpAttack>
+	<SpDefense>82</SpDefense>
+	<Speed>132</Speed>
+	<Moves>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Fissure</Name>
+		</Move>
+		<Move>
+			<Name>Sand-attack</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Dugtrio</Name>
+	<Level>50</Level>
+	<HP>120</HP>
+	<Attack>111</Attack>
+	<Defense>80</Defense>
+	<SpAttack>80</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>151</Speed>
+	<Moves>
+		<Move>
+			<Name>Magnitude</Name>
+		</Move>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+		<Move>
+			<Name>Curse</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Meowth</Name>
+	<Level>50</Level>
+	<HP>132</HP>
+	<Attack>82</Attack>
+	<Defense>73</Defense>
+	<SpAttack>77</SpAttack>
+	<SpDefense>77</SpDefense>
+	<Speed>127</Speed>
+	<Moves>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Faint Attack</Name>
+		</Move>
+		<Move>
+			<Name>Shadow Ball</Name>
+		</Move>
+		<Move>
+			<Name>Screech</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Persian</Name>
+	<Level>50</Level>
+	<HP>150</HP>
+	<Attack>101</Attack>
+	<Defense>90</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>95</SpDefense>
+	<Speed>146</Speed>
+	<Moves>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Bite</Name>
+		</Move>
+		<Move>
+			<Name>Roar</Name>
+		</Move>
+		<Move>
+			<Name>Growl</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Psyduck</Name>
+	<Level>50</Level>
+	<HP>140</HP>
+	<Attack>87</Attack>
+	<Defense>84</Defense>
+	<SpAttack>100</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>91</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Swagger</Name>
+		</Move>
+		<Move>
+			<Name>Psych Up</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Golduck</Name>
+	<Level>50</Level>
+	<HP>158</HP>
+	<Attack>105</Attack>
+	<Defense>101</Defense>
+	<SpAttack>118</SpAttack>
+	<SpDefense>103</SpDefense>
+	<Speed>107</Speed>
+	<Moves>
+		<Move>
+			<Name>Hydro Pump</Name>
+		</Move>
+		<Move>
+			<Name>Fury Swipes</Name>
+		</Move>
+		<Move>
+			<Name>Confusion</Name>
+		</Move>
+		<Move>
+			<Name>Psych Up</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Mankey</Name>
+	<Level>50</Level>
+	<HP>130</HP>
+	<Attack>115</Attack>
+	<Defense>71</Defense>
+	<SpAttack>70</SpAttack>
+	<SpDefense>80</SpDefense>
+	<Speed>106</Speed>
+	<Moves>
+		<Move>
+			<Name>Cross Chop</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Double Team</Name>
+		</Move>
+		<Move>
+			<Name>Screech</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Primeape</Name>
+	<Level>50</Level>
+	<HP>146</HP>
+	<Attack>132</Attack>
+	<Defense>87</Defense>
+	<SpAttack>86</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>121</Speed>
+	<Moves>
+		<Move>
+			<Name>Cross Chop</Name>
+		</Move>
+		<Move>
+			<Name>Thrash</Name>
+		</Move>
+		<Move>
+			<Name>Curse</Name>
+		</Move>
+		<Move>
+			<Name>Focus Energy</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Growlithe</Name>
+	<Level>50</Level>
+	<HP>142</HP>
+	<Attack>103</Attack>
+	<Defense>77</Defense>
+	<SpAttack>102</SpAttack>
+	<SpDefense>82</SpDefense>
+	<Speed>92</Speed>
+	<Moves>
+		<Move>
+			<Name>Flamethrower</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Sunny Day</Name>
+		</Move>
+		<Move>
+			<Name>Roar</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Arcanine</Name>
+	<Level>50</Level>
+	<HP>164</HP>
+	<Attack>129</Attack>
+	<Defense>99</Defense>
+	<SpAttack>119</SpAttack>
+	<SpDefense>99</SpDefense>
+	<Speed>114</Speed>
+	<Moves>
+		<Move>
+			<Name>Flame Wheel</Name>
+		</Move>
+		<Move>
+			<Name>Extremespeed</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+		<Move>
+			<Name>Roar</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Poliwag</Name>
+	<Level>50</Level>
+	<HP>130</HP>
+	<Attack>85</Attack>
+	<Defense>76</Defense>
+	<SpAttack>75</SpAttack>
+	<SpDefense>75</SpDefense>
+	<Speed>126</Speed>
+	<Moves>
+		<Move>
+			<Name>Hydro Pump</Name>
+		</Move>
+		<Move>
+			<Name>Body Slam</Name>
+		</Move>
+		<Move>
+			<Name>Hypnosis</Name>
+		</Move>
+		<Move>
+			<Name>Rain Dance</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Poliwhirl</Name>
+	<Level>50</Level>
+	<HP>152</HP>
+	<Attack>98</Attack>
+	<Defense>97</Defense>
+	<SpAttack>82</SpAttack>
+	<SpDefense>82</SpDefense>
+	<Speed>122</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Snore</Name>
+		</Move>
+		<Move>
+			<Name>Belly Drum</Name>
+		</Move>
+		<Move>
+			<Name>Rest</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Poliwrath</Name>
+	<Level>50</Level>
+	<HP>168</HP>
+	<Attack>108</Attack>
+	<Defense>118</Defense>
+	<SpAttack>93</SpAttack>
+	<SpDefense>113</SpDefense>
+	<Speed>92</Speed>
+	<Moves>
+		<Move>
+			<Name>Dynamicpunch</Name>
+		</Move>
+		<Move>
+			<Name>Hydro Pump</Name>
+		</Move>
+		<Move>
+			<Name>Doubleslap</Name>
+		</Move>
+		<Move>
+			<Name>Mind Reader</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Abra</Name>
+	<Level>50</Level>
+	<HP>115</HP>
+	<Attack>55</Attack>
+	<Defense>51</Defense>
+	<SpAttack>140</SpAttack>
+	<SpDefense>90</SpDefense>
+	<Speed>126</Speed>
+	<Moves>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Ice Punch</Name>
+		</Move>
+		<Move>
+			<Name>Swagger</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Kadabra</Name>
+	<Level>50</Level>
+	<HP>125</HP>
+	<Attack>66</Attack>
+	<Defense>60</Defense>
+	<SpAttack>150</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>136</Speed>
+	<Moves>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Thunderpunch</Name>
+		</Move>
+		<Move>
+			<Name>Reflect</Name>
+		</Move>
+		<Move>
+			<Name>Kinesis</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Alakazam</Name>
+	<Level>50</Level>
+	<HP>136</HP>
+	<Attack>77</Attack>
+	<Defense>72</Defense>
+	<SpAttack>161</SpAttack>
+	<SpDefense>111</SpDefense>
+	<Speed>146</Speed>
+	<Moves>
+		<Move>
+			<Name>Psybeam</Name>
+		</Move>
+		<Move>
+			<Name>Future Sight</Name>
+		</Move>
+		<Move>
+			<Name>Thief</Name>
+		</Move>
+		<Move>
+			<Name>Kinesis</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Machop</Name>
+	<Level>50</Level>
+	<HP>160</HP>
+	<Attack>115</Attack>
+	<Defense>86</Defense>
+	<SpAttack>70</SpAttack>
+	<SpDefense>70</SpDefense>
+	<Speed>71</Speed>
+	<Moves>
+		<Move>
+			<Name>Cross Chop</Name>
+		</Move>
+		<Move>
+			<Name>Seismic Toss</Name>
+		</Move>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Double Team</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Machoke</Name>
+	<Level>50</Level>
+	<HP>165</HP>
+	<Attack>131</Attack>
+	<Defense>100</Defense>
+	<SpAttack>80</SpAttack>
+	<SpDefense>90</SpDefense>
+	<Speed>76</Speed>
+	<Moves>
+		<Move>
+			<Name>Vital Throw</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Foresight</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Machamp</Name>
+	<Level>50</Level>
+	<HP>170</HP>
+	<Attack>155</Attack>
+	<Defense>105</Defense>
+	<SpAttack>90</SpAttack>
+	<SpDefense>110</SpDefense>
+	<Speed>79</Speed>
+	<Moves>
+		<Move>
+			<Name>Submission</Name>
+		</Move>
+		<Move>
+			<Name>Scary Face</Name>
+		</Move>
+		<Move>
+			<Name>Thunderpunch</Name>
+		</Move>
+		<Move>
+			<Name>Fire Punch</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Bellsprout</Name>
+	<Level>50</Level>
+	<HP>140</HP>
+	<Attack>110</Attack>
+	<Defense>71</Defense>
+	<SpAttack>105</SpAttack>
+	<SpDefense>65</SpDefense>
+	<Speed>76</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+		<Move>
+			<Name>Growth</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Weepinbell</Name>
+	<Level>50</Level>
+	<HP>152</HP>
+	<Attack>123</Attack>
+	<Defense>82</Defense>
+	<SpAttack>117</SpAttack>
+	<SpDefense>77</SpDefense>
+	<Speed>87</Speed>
+	<Moves>
+		<Move>
+			<Name>Razor Leaf</Name>
+		</Move>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Stun Spore</Name>
+		</Move>
+		<Move>
+			<Name>Growth</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Victreebel</Name>
+	<Level>50</Level>
+	<HP>161</HP>
+	<Attack>132</Attack>
+	<Defense>92</Defense>
+	<SpAttack>126</SpAttack>
+	<SpDefense>86</SpDefense>
+	<Speed>96</Speed>
+	<Moves>
+		<Move>
+			<Name>Solarbeam</Name>
+		</Move>
+		<Move>
+			<Name>Acid</Name>
+		</Move>
+		<Move>
+			<Name>Sleep Powder</Name>
+		</Move>
+		<Move>
+			<Name>Growth</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Tentacool</Name>
+	<Level>50</Level>
+	<HP>130</HP>
+	<Attack>75</Attack>
+	<Defense>71</Defense>
+	<SpAttack>85</SpAttack>
+	<SpDefense>135</SpDefense>
+	<Speed>106</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Screech</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Tentacruel</Name>
+	<Level>50</Level>
+	<HP>158</HP>
+	<Attack>93</Attack>
+	<Defense>88</Defense>
+	<SpAttack>103</SpAttack>
+	<SpDefense>143</SpDefense>
+	<Speed>122</Speed>
+	<Moves>
+		<Move>
+			<Name>Bubblebeam</Name>
+		</Move>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Wrap</Name>
+		</Move>
+		<Move>
+			<Name>Barrier</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Geodude</Name>
+	<Level>50</Level>
+	<HP>130</HP>
+	<Attack>115</Attack>
+	<Defense>136</Defense>
+	<SpAttack>65</SpAttack>
+	<SpDefense>65</SpDefense>
+	<Speed>56</Speed>
+	<Moves>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Rollout</Name>
+		</Move>
+		<Move>
+			<Name>Explosion</Name>
+		</Move>
+		<Move>
+			<Name>Defense Curl</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Graveler</Name>
+	<Level>50</Level>
+	<HP>142</HP>
+	<Attack>128</Attack>
+	<Defense>147</Defense>
+	<SpAttack>77</SpAttack>
+	<SpDefense>77</SpDefense>
+	<Speed>67</Speed>
+	<Moves>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Rollout</Name>
+		</Move>
+		<Move>
+			<Name>Selfdestruct</Name>
+		</Move>
+		<Move>
+			<Name>Sandstorm</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Golem</Name>
+	<Level>50</Level>
+	<HP>161</HP>
+	<Attack>137</Attack>
+	<Defense>157</Defense>
+	<SpAttack>81</SpAttack>
+	<SpDefense>91</SpDefense>
+	<Speed>71</Speed>
+	<Moves>
+		<Move>
+			<Name>Magnitude</Name>
+		</Move>
+		<Move>
+			<Name>Rock Throw</Name>
+		</Move>
+		<Move>
+			<Name>Rock Smash</Name>
+		</Move>
+		<Move>
+			<Name>Harden</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Ponyta</Name>
+	<Level>50</Level>
+	<HP>135</HP>
+	<Attack>116</Attack>
+	<Defense>85</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>95</SpDefense>
+	<Speed>121</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Iron Tail</Name>
+		</Move>
+		<Move>
+			<Name>Sunny Day</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Rapidash</Name>
+	<Level>50</Level>
+	<HP>144</HP>
+	<Attack>125</Attack>
+	<Defense>95</Defense>
+	<SpAttack>104</SpAttack>
+	<SpDefense>104</SpDefense>
+	<Speed>129</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Spin</Name>
+		</Move>
+		<Move>
+			<Name>Stomp</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Slowpoke</Name>
+	<Level>50</Level>
+	<HP>180</HP>
+	<Attack>100</Attack>
+	<Defense>101</Defense>
+	<SpAttack>75</SpAttack>
+	<SpDefense>75</SpDefense>
+	<Speed>51</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Amnesia</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Slowbro</Name>
+	<Level>50</Level>
+	<HP>178</HP>
+	<Attack>104</Attack>
+	<Defense>138</Defense>
+	<SpAttack>128</SpAttack>
+	<SpDefense>108</SpDefense>
+	<Speed>59</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Confusion</Name>
+		</Move>
+		<Move>
+			<Name>Disable</Name>
+		</Move>
+		<Move>
+			<Name>Growl</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Magnemite</Name>
+	<Level>50</Level>
+	<HP>115</HP>
+	<Attack>70</Attack>
+	<Defense>106</Defense>
+	<SpAttack>130</SpAttack>
+	<SpDefense>90</SpDefense>
+	<Speed>81</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Frustration</Name>
+		</Move>
+		<Move>
+			<Name>Supersonic</Name>
+		</Move>
+		<Move>
+			<Name>Thunder Wave</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Magneton</Name>
+	<Level>50</Level>
+	<HP>131</HP>
+	<Attack>87</Attack>
+	<Defense>122</Defense>
+	<SpAttack>146</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>96</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Flash</Name>
+		</Move>
+		<Move>
+			<Name>Thunder Wave</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Farfetch'd</Name>
+	<Level>50</Level>
+	<HP>139</HP>
+	<Attack>98</Attack>
+	<Defense>87</Defense>
+	<SpAttack>90</SpAttack>
+	<SpDefense>94</SpDefense>
+	<Speed>92</Speed>
+	<Moves>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Steel Wing</Name>
+		</Move>
+		<Move>
+			<Name>Swords Dance</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Doduo</Name>
+	<Level>50</Level>
+	<HP>125</HP>
+	<Attack>120</Attack>
+	<Defense>81</Defense>
+	<SpAttack>70</SpAttack>
+	<SpDefense>70</SpDefense>
+	<Speed>111</Speed>
+	<Moves>
+		<Move>
+			<Name>Drill Peck</Name>
+		</Move>
+		<Move>
+			<Name>Tri Attack</Name>
+		</Move>
+		<Move>
+			<Name>Steel Wing</Name>
+		</Move>
+		<Move>
+			<Name>Double Team</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Dodrio</Name>
+	<Level>50</Level>
+	<HP>141</HP>
+	<Attack>137</Attack>
+	<Defense>97</Defense>
+	<SpAttack>86</SpAttack>
+	<SpDefense>86</SpDefense>
+	<Speed>126</Speed>
+	<Moves>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Tri Attack</Name>
+		</Move>
+		<Move>
+			<Name>Pursuit</Name>
+		</Move>
+		<Move>
+			<Name>Growl</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Seel</Name>
+	<Level>50</Level>
+	<HP>155</HP>
+	<Attack>80</Attack>
+	<Defense>91</Defense>
+	<SpAttack>80</SpAttack>
+	<SpDefense>105</SpDefense>
+	<Speed>81</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Ice Beam</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Safeguard</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Dewgong</Name>
+	<Level>50</Level>
+	<HP>171</HP>
+	<Attack>97</Attack>
+	<Defense>107</Defense>
+	<SpAttack>96</SpAttack>
+	<SpDefense>121</SpDefense>
+	<Speed>96</Speed>
+	<Moves>
+		<Move>
+			<Name>Waterfall</Name>
+		</Move>
+		<Move>
+			<Name>Aurora Beam</Name>
+		</Move>
+		<Move>
+			<Name>Sleep Talk</Name>
+		</Move>
+		<Move>
+			<Name>Rest</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Grimer</Name>
+	<Level>50</Level>
+	<HP>170</HP>
+	<Attack>115</Attack>
+	<Defense>86</Defense>
+	<SpAttack>75</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>61</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Frustration</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+		<Move>
+			<Name>Screech</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Muk</Name>
+	<Level>50</Level>
+	<HP>184</HP>
+	<Attack>130</Attack>
+	<Defense>100</Defense>
+	<SpAttack>89</SpAttack>
+	<SpDefense>124</SpDefense>
+	<Speed>74</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge</Name>
+		</Move>
+		<Move>
+			<Name>Dynamicpunch</Name>
+		</Move>
+		<Move>
+			<Name>Disable</Name>
+		</Move>
+		<Move>
+			<Name>Acid Armor</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Shellder</Name>
+	<Level>50</Level>
+	<HP>120</HP>
+	<Attack>100</Attack>
+	<Defense>136</Defense>
+	<SpAttack>80</SpAttack>
+	<SpDefense>60</SpDefense>
+	<Speed>76</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Ice Beam</Name>
+		</Move>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Supersonic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Cloyster</Name>
+	<Level>50</Level>
+	<HP>128</HP>
+	<Attack>118</Attack>
+	<Defense>203</Defense>
+	<SpAttack>108</SpAttack>
+	<SpDefense>68</SpDefense>
+	<Speed>92</Speed>
+	<Moves>
+		<Move>
+			<Name>Clamp</Name>
+		</Move>
+		<Move>
+			<Name>Aurora Beam</Name>
+		</Move>
+		<Move>
+			<Name>Spike Cannon</Name>
+		</Move>
+		<Move>
+			<Name>Withdraw</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Gastly</Name>
+	<Level>50</Level>
+	<HP>120</HP>
+	<Attack>70</Attack>
+	<Defense>66</Defense>
+	<SpAttack>135</SpAttack>
+	<SpDefense>70</SpDefense>
+	<Speed>116</Speed>
+	<Moves>
+		<Move>
+			<Name>Shadow Ball</Name>
+		</Move>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Curse</Name>
+		</Move>
+		<Move>
+			<Name>Confuse Ray</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Haunter</Name>
+	<Level>50</Level>
+	<HP>130</HP>
+	<Attack>81</Attack>
+	<Defense>75</Defense>
+	<SpAttack>145</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>126</Speed>
+	<Moves>
+		<Move>
+			<Name>Shadow Ball</Name>
+		</Move>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Spite</Name>
+		</Move>
+		<Move>
+			<Name>Destiny Bond</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Gengar</Name>
+	<Level>50</Level>
+	<HP>139</HP>
+	<Attack>90</Attack>
+	<Defense>85</Defense>
+	<SpAttack>154</SpAttack>
+	<SpDefense>99</SpDefense>
+	<Speed>134</Speed>
+	<Moves>
+		<Move>
+			<Name>Night Shade</Name>
+		</Move>
+		<Move>
+			<Name>Thief</Name>
+		</Move>
+		<Move>
+			<Name>Nightmare</Name>
+		</Move>
+		<Move>
+			<Name>Hypnosis</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Onix</Name>
+	<Level>50</Level>
+	<HP>122</HP>
+	<Attack>78</Attack>
+	<Defense>192</Defense>
+	<SpAttack>62</SpAttack>
+	<SpDefense>77</SpDefense>
+	<Speed>102</Speed>
+	<Moves>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Rock Throw</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Sandstorm</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Drowzee</Name>
+	<Level>50</Level>
+	<HP>150</HP>
+	<Attack>83</Attack>
+	<Defense>81</Defense>
+	<SpAttack>78</SpAttack>
+	<SpDefense>125</SpDefense>
+	<Speed>78</Speed>
+	<Moves>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Dream Eater</Name>
+		</Move>
+		<Move>
+			<Name>Hypnosis</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Hypno</Name>
+	<Level>50</Level>
+	<HP>166</HP>
+	<Attack>100</Attack>
+	<Defense>97</Defense>
+	<SpAttack>99</SpAttack>
+	<SpDefense>141</SpDefense>
+	<Speed>93</Speed>
+	<Moves>
+		<Move>
+			<Name>Confusion</Name>
+		</Move>
+		<Move>
+			<Name>Dream Eater</Name>
+		</Move>
+		<Move>
+			<Name>Psych Up</Name>
+		</Move>
+		<Move>
+			<Name>Hypnosis</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Krabby</Name>
+	<Level>50</Level>
+	<HP>120</HP>
+	<Attack>140</Attack>
+	<Defense>126</Defense>
+	<SpAttack>60</SpAttack>
+	<SpDefense>60</SpDefense>
+	<Speed>86</Speed>
+	<Moves>
+		<Move>
+			<Name>Crabhammer</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Guillotine</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Kingler</Name>
+	<Level>50</Level>
+	<HP>136</HP>
+	<Attack>157</Attack>
+	<Defense>142</Defense>
+	<SpAttack>76</SpAttack>
+	<SpDefense>76</SpDefense>
+	<Speed>101</Speed>
+	<Moves>
+		<Move>
+			<Name>Crabhammer</Name>
+		</Move>
+		<Move>
+			<Name>Vicegrip</Name>
+		</Move>
+		<Move>
+			<Name>Guillotine</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Voltorb</Name>
+	<Level>50</Level>
+	<HP>130</HP>
+	<Attack>65</Attack>
+	<Defense>86</Defense>
+	<SpAttack>90</SpAttack>
+	<SpDefense>90</SpDefense>
+	<Speed>136</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Selfdestruct</Name>
+		</Move>
+		<Move>
+			<Name>Mirror Coat</Name>
+		</Move>
+		<Move>
+			<Name>Rain Dance</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Electrode</Name>
+	<Level>50</Level>
+	<HP>141</HP>
+	<Attack>77</Attack>
+	<Defense>97</Defense>
+	<SpAttack>106</SpAttack>
+	<SpDefense>106</SpDefense>
+	<Speed>166</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Sonicboom</Name>
+		</Move>
+		<Move>
+			<Name>Flash</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Exeggcute</Name>
+	<Level>50</Level>
+	<HP>150</HP>
+	<Attack>75</Attack>
+	<Defense>116</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>80</SpDefense>
+	<Speed>76</Speed>
+	<Moves>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Stun Spore</Name>
+		</Move>
+		<Move>
+			<Name>Leech Seed</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Exeggutor</Name>
+	<Level>50</Level>
+	<HP>173</HP>
+	<Attack>118</Attack>
+	<Defense>108</Defense>
+	<SpAttack>148</SpAttack>
+	<SpDefense>88</SpDefense>
+	<Speed>77</Speed>
+	<Moves>
+		<Move>
+			<Name>Egg Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Confusion</Name>
+		</Move>
+		<Move>
+			<Name>Nightmare</Name>
+		</Move>
+		<Move>
+			<Name>Sleep Powder</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Cubone</Name>
+	<Level>50</Level>
+	<HP>140</HP>
+	<Attack>85</Attack>
+	<Defense>131</Defense>
+	<SpAttack>75</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>71</Speed>
+	<Moves>
+		<Move>
+			<Name>Bonemerang</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Icy Wind</Name>
+		</Move>
+		<Move>
+			<Name>Focus Energy</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Marowak</Name>
+	<Level>50</Level>
+	<HP>145</HP>
+	<Attack>111</Attack>
+	<Defense>140</Defense>
+	<SpAttack>80</SpAttack>
+	<SpDefense>110</SpDefense>
+	<Speed>76</Speed>
+	<Moves>
+		<Move>
+			<Name>Bone Rush</Name>
+		</Move>
+		<Move>
+			<Name>Thrash</Name>
+		</Move>
+		<Move>
+			<Name>Thunderpunch</Name>
+		</Move>
+		<Move>
+			<Name>Focus Energy</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Hitmonlee</Name>
+	<Level>50</Level>
+	<HP>133</HP>
+	<Attack>149</Attack>
+	<Defense>81</Defense>
+	<SpAttack>63</SpAttack>
+	<SpDefense>138</SpDefense>
+	<Speed>116</Speed>
+	<Moves>
+		<Move>
+			<Name>Hi Jump Kick</Name>
+		</Move>
+		<Move>
+			<Name>Mega Kick</Name>
+		</Move>
+		<Move>
+			<Name>Reversal</Name>
+		</Move>
+		<Move>
+			<Name>Meditate</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Hitmonchan</Name>
+	<Level>50</Level>
+	<HP>133</HP>
+	<Attack>134</Attack>
+	<Defense>107</Defense>
+	<SpAttack>63</SpAttack>
+	<SpDefense>138</SpDefense>
+	<Speed>105</Speed>
+	<Moves>
+		<Move>
+			<Name>Mach Punch</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Ice Punch</Name>
+		</Move>
+		<Move>
+			<Name>Counter</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Lickitung</Name>
+	<Level>50</Level>
+	<HP>177</HP>
+	<Attack>88</Attack>
+	<Defense>107</Defense>
+	<SpAttack>92</SpAttack>
+	<SpDefense>107</SpDefense>
+	<Speed>62</Speed>
+	<Moves>
+		<Move>
+			<Name>Hyper Beam</Name>
+		</Move>
+		<Move>
+			<Name>Shadow Ball</Name>
+		</Move>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Supersonic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Koffing</Name>
+	<Level>50</Level>
+	<HP>130</HP>
+	<Attack>100</Attack>
+	<Defense>131</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>80</SpDefense>
+	<Speed>71</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Explosion</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Weezing</Name>
+	<Level>50</Level>
+	<HP>146</HP>
+	<Attack>117</Attack>
+	<Defense>147</Defense>
+	<SpAttack>111</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>86</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge</Name>
+		</Move>
+		<Move>
+			<Name>Zap Cannon</Name>
+		</Move>
+		<Move>
+			<Name>Selfdestruct</Name>
+		</Move>
+		<Move>
+			<Name>Haze</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Rhyhorn</Name>
+	<Level>50</Level>
+	<HP>170</HP>
+	<Attack>120</Attack>
+	<Defense>131</Defense>
+	<SpAttack>65</SpAttack>
+	<SpDefense>65</SpDefense>
+	<Speed>61</Speed>
+	<Moves>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Rollout</Name>
+		</Move>
+		<Move>
+			<Name>Iron Tail</Name>
+		</Move>
+		<Move>
+			<Name>Scary Face</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Rhydon</Name>
+	<Level>50</Level>
+	<HP>186</HP>
+	<Attack>157</Attack>
+	<Defense>147</Defense>
+	<SpAttack>71</SpAttack>
+	<SpDefense>71</SpDefense>
+	<Speed>66</Speed>
+	<Moves>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Stomp</Name>
+		</Move>
+		<Move>
+			<Name>Zap Cannon</Name>
+		</Move>
+		<Move>
+			<Name>Scary Face</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Chansey</Name>
+	<Level>50</Level>
+	<HP>331</HP>
+	<Attack>32</Attack>
+	<Defense>32</Defense>
+	<SpAttack>61</SpAttack>
+	<SpDefense>131</SpDefense>
+	<Speed>76</Speed>
+	<Moves>
+		<Move>
+			<Name>Egg Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Dream Eater</Name>
+		</Move>
+		<Move>
+			<Name>Sing</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Tangela</Name>
+	<Level>50</Level>
+	<HP>150</HP>
+	<Attack>86</Attack>
+	<Defense>145</Defense>
+	<SpAttack>130</SpAttack>
+	<SpDefense>70</SpDefense>
+	<Speed>91</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Thief</Name>
+		</Move>
+		<Move>
+			<Name>Sleep Powder</Name>
+		</Move>
+		<Move>
+			<Name>Growth</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Kangaskhan</Name>
+	<Level>50</Level>
+	<HP>186</HP>
+	<Attack>122</Attack>
+	<Defense>107</Defense>
+	<SpAttack>66</SpAttack>
+	<SpDefense>106</SpDefense>
+	<Speed>116</Speed>
+	<Moves>
+		<Move>
+			<Name>Dizzy Punch</Name>
+		</Move>
+		<Move>
+			<Name>Bite</Name>
+		</Move>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Horsea</Name>
+	<Level>50</Level>
+	<HP>122</HP>
+	<Attack>77</Attack>
+	<Defense>108</Defense>
+	<SpAttack>107</SpAttack>
+	<SpDefense>62</SpDefense>
+	<Speed>97</Speed>
+	<Moves>
+		<Move>
+			<Name>Hydro Pump</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Rain Dance</Name>
+		</Move>
+		<Move>
+			<Name>Smokescreen</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Seadra</Name>
+	<Level>50</Level>
+	<HP>140</HP>
+	<Attack>96</Attack>
+	<Defense>125</Defense>
+	<SpAttack>125</SpAttack>
+	<SpDefense>75</SpDefense>
+	<Speed>116</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Dragonbreath</Name>
+		</Move>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Smokescreen</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Goldeen</Name>
+	<Level>50</Level>
+	<HP>135</HP>
+	<Attack>102</Attack>
+	<Defense>96</Defense>
+	<SpAttack>70</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>99</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Horn Attack</Name>
+		</Move>
+		<Move>
+			<Name>Horn Drill</Name>
+		</Move>
+		<Move>
+			<Name>Supersonic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Seaking</Name>
+	<Level>50</Level>
+	<HP>163</HP>
+	<Attack>121</Attack>
+	<Defense>93</Defense>
+	<SpAttack>93</SpAttack>
+	<SpDefense>108</SpDefense>
+	<Speed>97</Speed>
+	<Moves>
+		<Move>
+			<Name>Waterfall</Name>
+		</Move>
+		<Move>
+			<Name>Flail</Name>
+		</Move>
+		<Move>
+			<Name>Horn Drill</Name>
+		</Move>
+		<Move>
+			<Name>Supersonic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Staryu</Name>
+	<Level>50</Level>
+	<HP>120</HP>
+	<Attack>80</Attack>
+	<Defense>91</Defense>
+	<SpAttack>105</SpAttack>
+	<SpDefense>90</SpDefense>
+	<Speed>121</Speed>
+	<Moves>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Hydro Pump</Name>
+		</Move>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Recover</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Starmie</Name>
+	<Level>50</Level>
+	<HP>138</HP>
+	<Attack>98</Attack>
+	<Defense>108</Defense>
+	<SpAttack>123</SpAttack>
+	<SpDefense>108</SpDefense>
+	<Speed>137</Speed>
+	<Moves>
+		<Move>
+			<Name>Waterfall</Name>
+		</Move>
+		<Move>
+			<Name>Zap Cannon</Name>
+		</Move>
+		<Move>
+			<Name>Rapid Spin</Name>
+		</Move>
+		<Move>
+			<Name>Harden</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Mr. Mime</Name>
+	<Level>50</Level>
+	<HP>121</HP>
+	<Attack>72</Attack>
+	<Defense>92</Defense>
+	<SpAttack>126</SpAttack>
+	<SpDefense>146</SpDefense>
+	<Speed>116</Speed>
+	<Moves>
+		<Move>
+			<Name>Psybeam</Name>
+		</Move>
+		<Move>
+			<Name>Barrier</Name>
+		</Move>
+		<Move>
+			<Name>Baton Pass</Name>
+		</Move>
+		<Move>
+			<Name>Substitute</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Scyther</Name>
+	<Level>50</Level>
+	<HP>149</HP>
+	<Attack>135</Attack>
+	<Defense>105</Defense>
+	<SpAttack>79</SpAttack>
+	<SpDefense>104</SpDefense>
+	<Speed>129</Speed>
+	<Moves>
+		<Move>
+			<Name>Wing Attack</Name>
+		</Move>
+		<Move>
+			<Name>Pursuit</Name>
+		</Move>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Focus Energy</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Jynx</Name>
+	<Level>50</Level>
+	<HP>146</HP>
+	<Attack>77</Attack>
+	<Defense>62</Defense>
+	<SpAttack>141</SpAttack>
+	<SpDefense>121</SpDefense>
+	<Speed>121</Speed>
+	<Moves>
+		<Move>
+			<Name>Ice Punch</Name>
+		</Move>
+		<Move>
+			<Name>Confusion</Name>
+		</Move>
+		<Move>
+			<Name>Lick</Name>
+		</Move>
+		<Move>
+			<Name>Mean Look</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Electabuzz</Name>
+	<Level>50</Level>
+	<HP>146</HP>
+	<Attack>110</Attack>
+	<Defense>84</Defense>
+	<SpAttack>121</SpAttack>
+	<SpDefense>111</SpDefense>
+	<Speed>131</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunderpunch</Name>
+		</Move>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Light Screen</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Magmar</Name>
+	<Level>50</Level>
+	<HP>146</HP>
+	<Attack>122</Attack>
+	<Defense>84</Defense>
+	<SpAttack>126</SpAttack>
+	<SpDefense>111</SpDefense>
+	<Speed>119</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Punch</Name>
+		</Move>
+		<Move>
+			<Name>Smog</Name>
+		</Move>
+		<Move>
+			<Name>Smokescreen</Name>
+		</Move>
+		<Move>
+			<Name>Confuse Ray</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Pinsir</Name>
+	<Level>50</Level>
+	<HP>144</HP>
+	<Attack>150</Attack>
+	<Defense>125</Defense>
+	<SpAttack>79</SpAttack>
+	<SpDefense>94</SpDefense>
+	<Speed>109</Speed>
+	<Moves>
+		<Move>
+			<Name>Fury Cutter</Name>
+		</Move>
+		<Move>
+			<Name>Vicegrip</Name>
+		</Move>
+		<Move>
+			<Name>Submission</Name>
+		</Move>
+		<Move>
+			<Name>Focus Energy</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Tauros</Name>
+	<Level>50</Level>
+	<HP>156</HP>
+	<Attack>127</Attack>
+	<Defense>122</Defense>
+	<SpAttack>66</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>136</Speed>
+	<Moves>
+		<Move>
+			<Name>Take Down</Name>
+		</Move>
+		<Move>
+			<Name>Pursuit</Name>
+		</Move>
+		<Move>
+			<Name>Rock Smash</Name>
+		</Move>
+		<Move>
+			<Name>Scary Face</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Magikarp</Name>
+	<Level>50</Level>
+	<HP>114</HP>
+	<Attack>49</Attack>
+	<Defense>94</Defense>
+	<SpAttack>56</SpAttack>
+	<SpDefense>61</SpDefense>
+	<Speed>120</Speed>
+	<Moves>
+		<Move>
+			<Name>Tackle</Name>
+		</Move>
+		<Move>
+			<Name>Flail</Name>
+		</Move>
+		<Move>
+			<Name>Splash</Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Gyarados</Name>
+	<Level>50</Level>
+	<HP>173</HP>
+	<Attack>148</Attack>
+	<Defense>102</Defense>
+	<SpAttack>83</SpAttack>
+	<SpDefense>123</SpDefense>
+	<Speed>103</Speed>
+	<Moves>
+		<Move>
+			<Name>Waterfall</Name>
+		</Move>
+		<Move>
+			<Name>Dragon Rage</Name>
+		</Move>
+		<Move>
+			<Name>Twister</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Lapras</Name>
+	<Level>50</Level>
+	<HP>208</HP>
+	<Attack>108</Attack>
+	<Defense>103</Defense>
+	<SpAttack>108</SpAttack>
+	<SpDefense>118</SpDefense>
+	<Speed>82</Speed>
+	<Moves>
+		<Move>
+			<Name>Whirlpool</Name>
+		</Move>
+		<Move>
+			<Name>Icy Wind</Name>
+		</Move>
+		<Move>
+			<Name>Perish Song</Name>
+		</Move>
+		<Move>
+			<Name>Mist</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Ditto</Name>
+	<Level>50</Level>
+	<HP>138</HP>
+	<Attack>83</Attack>
+	<Defense>84</Defense>
+	<SpAttack>83</SpAttack>
+	<SpDefense>83</SpDefense>
+	<Speed>84</Speed>
+	<Moves>
+		<Move>
+			<Name>Transform</Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Eevee</Name>
+	<Level>50</Level>
+	<HP>145</HP>
+	<Attack>90</Attack>
+	<Defense>86</Defense>
+	<SpAttack>80</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>91</Speed>
+	<Moves>
+		<Move>
+			<Name>Take Down</Name>
+		</Move>
+		<Move>
+			<Name>Iron Tail</Name>
+		</Move>
+		<Move>
+			<Name>Shadow Ball</Name>
+		</Move>
+		<Move>
+			<Name>Sand-attack</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Vaporeon</Name>
+	<Level>50</Level>
+	<HP>208</HP>
+	<Attack>88</Attack>
+	<Defense>83</Defense>
+	<SpAttack>133</SpAttack>
+	<SpDefense>118</SpDefense>
+	<Speed>87</Speed>
+	<Moves>
+		<Move>
+			<Name>Waterfall</Name>
+		</Move>
+		<Move>
+			<Name>Quick Attack</Name>
+		</Move>
+		<Move>
+			<Name>Acid Armor</Name>
+		</Move>
+		<Move>
+			<Name>Sand-attack</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Jolteon</Name>
+	<Level>50</Level>
+	<HP>143</HP>
+	<Attack>88</Attack>
+	<Defense>83</Defense>
+	<SpAttack>133</SpAttack>
+	<SpDefense>118</SpDefense>
+	<Speed>152</Speed>
+	<Moves>
+		<Move>
+			<Name>Zap Cannon</Name>
+		</Move>
+		<Move>
+			<Name>Pin Missile</Name>
+		</Move>
+		<Move>
+			<Name>Double Kick</Name>
+		</Move>
+		<Move>
+			<Name>Sand-attack</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Flareon</Name>
+	<Level>50</Level>
+	<HP>143</HP>
+	<Attack>153</Attack>
+	<Defense>83</Defense>
+	<SpAttack>118</SpAttack>
+	<SpDefense>133</SpDefense>
+	<Speed>87</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Smog</Name>
+		</Move>
+		<Move>
+			<Name>Quick Attack</Name>
+		</Move>
+		<Move>
+			<Name>Tail Whip</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Porygon</Name>
+	<Level>50</Level>
+	<HP>152</HP>
+	<Attack>93</Attack>
+	<Defense>102</Defense>
+	<SpAttack>117</SpAttack>
+	<SpDefense>107</SpDefense>
+	<Speed>72</Speed>
+	<Moves>
+		<Move>
+			<Name>Tri Attack</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Sharpen</Name>
+		</Move>
+		<Move>
+			<Name>Conversion 2</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Omanyte</Name>
+	<Level>50</Level>
+	<HP>122</HP>
+	<Attack>73</Attack>
+	<Defense>132</Defense>
+	<SpAttack>122</SpAttack>
+	<SpDefense>87</SpDefense>
+	<Speed>67</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Ancientpower</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Protect</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Omastar</Name>
+	<Level>50</Level>
+	<HP>151</HP>
+	<Attack>87</Attack>
+	<Defense>152</Defense>
+	<SpAttack>141</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>81</Speed>
+	<Moves>
+		<Move>
+			<Name>Water Gun</Name>
+		</Move>
+		<Move>
+			<Name>Ancientpower</Name>
+		</Move>
+		<Move>
+			<Name>Spike Cannon</Name>
+		</Move>
+		<Move>
+			<Name>Bite</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Kabuto</Name>
+	<Level>50</Level>
+	<HP>117</HP>
+	<Attack>113</Attack>
+	<Defense>122</Defense>
+	<SpAttack>87</SpAttack>
+	<SpDefense>77</SpDefense>
+	<Speed>87</Speed>
+	<Moves>
+		<Move>
+			<Name>Rollout</Name>
+		</Move>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Kabutops</Name>
+	<Level>50</Level>
+	<HP>141</HP>
+	<Attack>142</Attack>
+	<Defense>132</Defense>
+	<SpAttack>91</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>106</Speed>
+	<Moves>
+		<Move>
+			<Name>Ancientpower</Name>
+		</Move>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+		<Move>
+			<Name>Endure</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Aerodactyl</Name>
+	<Level>50</Level>
+	<HP>158</HP>
+	<Attack>128</Attack>
+	<Defense>88</Defense>
+	<SpAttack>83</SpAttack>
+	<SpDefense>98</SpDefense>
+	<Speed>152</Speed>
+	<Moves>
+		<Move>
+			<Name>Ancientpower</Name>
+		</Move>
+		<Move>
+			<Name>Bite</Name>
+		</Move>
+		<Move>
+			<Name>Curse</Name>
+		</Move>
+		<Move>
+			<Name>Supersonic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Snorlax</Name>
+	<Level>50</Level>
+	<HP>238</HP>
+	<Attack>133</Attack>
+	<Defense>88</Defense>
+	<SpAttack>88</SpAttack>
+	<SpDefense>133</SpDefense>
+	<Speed>52</Speed>
+	<Moves>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Fire Punch</Name>
+		</Move>
+		<Move>
+			<Name>Defense Curl</Name>
+		</Move>
+		<Move>
+			<Name>Curse</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Articuno</Name>
+	<Level>50</Level>
+	<HP>155</HP>
+	<Attack>94</Attack>
+	<Defense>110</Defense>
+	<SpAttack>105</SpAttack>
+	<SpDefense>135</SpDefense>
+	<Speed>94</Speed>
+	<Moves>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Peck</Name>
+		</Move>
+		<Move>
+			<Name>Agility</Name>
+		</Move>
+		<Move>
+			<Name>Mist</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Zapdos</Name>
+	<Level>50</Level>
+	<HP>155</HP>
+	<Attack>99</Attack>
+	<Defense>95</Defense>
+	<SpAttack>135</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>109</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Rock Smash</Name>
+		</Move>
+		<Move>
+			<Name>Flash</Name>
+		</Move>
+		<Move>
+			<Name>Detect</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Moltres</Name>
+	<Level>50</Level>
+	<HP>155</HP>
+	<Attack>109</Attack>
+	<Defense>100</Defense>
+	<SpAttack>135</SpAttack>
+	<SpDefense>95</SpDefense>
+	<Speed>99</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Sky Attack</Name>
+		</Move>
+		<Move>
+			<Name>Roar</Name>
+		</Move>
+		<Move>
+			<Name>Endure</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Dratini</Name>
+	<Level>50</Level>
+	<HP>131</HP>
+	<Attack>99</Attack>
+	<Defense>81</Defense>
+	<SpAttack>85</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>86</Speed>
+	<Moves>
+		<Move>
+			<Name>Outrage</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Safeguard</Name>
+		</Move>
+		<Move>
+			<Name>Thunder Wave</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Dragonair</Name>
+	<Level>50</Level>
+	<HP>146</HP>
+	<Attack>115</Attack>
+	<Defense>95</Defense>
+	<SpAttack>100</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>101</Speed>
+	<Moves>
+		<Move>
+			<Name>Dragonbreath</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Thunder Wave</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Dragonite</Name>
+	<Level>50</Level>
+	<HP>151</HP>
+	<Attack>139</Attack>
+	<Defense>100</Defense>
+	<SpAttack>105</SpAttack>
+	<SpDefense>105</SpDefense>
+	<Speed>85</Speed>
+	<Moves>
+		<Move>
+			<Name>Twister</Name>
+		</Move>
+		<Move>
+			<Name>Wing Attack</Name>
+		</Move>
+		<Move>
+			<Name>Dragon Rage</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Chikorita</Name>
+	<Level>50</Level>
+	<HP>135</HP>
+	<Attack>84</Attack>
+	<Defense>101</Defense>
+	<SpAttack>84</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>81</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Body Slam</Name>
+		</Move>
+		<Move>
+			<Name>Light Screen</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Bayleef</Name>
+	<Level>50</Level>
+	<HP>145</HP>
+	<Attack>93</Attack>
+	<Defense>110</Defense>
+	<SpAttack>93</SpAttack>
+	<SpDefense>110</SpDefense>
+	<Speed>91</Speed>
+	<Moves>
+		<Move>
+			<Name>Razor Leaf</Name>
+		</Move>
+		<Move>
+			<Name>Body Slam</Name>
+		</Move>
+		<Move>
+			<Name>Safeguard</Name>
+		</Move>
+		<Move>
+			<Name>Synthesis</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Meganium</Name>
+	<Level>50</Level>
+	<HP>158</HP>
+	<Attack>105</Attack>
+	<Defense>123</Defense>
+	<SpAttack>106</SpAttack>
+	<SpDefense>123</SpDefense>
+	<Speed>102</Speed>
+	<Moves>
+		<Move>
+			<Name>Solarbeam</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Poisonpowder</Name>
+		</Move>
+		<Move>
+			<Name>Reflect</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Cyndaquil</Name>
+	<Level>50</Level>
+	<HP>129</HP>
+	<Attack>87</Attack>
+	<Defense>79</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>101</Speed>
+	<Moves>
+		<Move>
+			<Name>Flamethrower</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Sunny Day</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Quilava</Name>
+	<Level>50</Level>
+	<HP>143</HP>
+	<Attack>95</Attack>
+	<Defense>88</Defense>
+	<SpAttack>110</SpAttack>
+	<SpDefense>95</SpDefense>
+	<Speed>111</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Rollout</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Smokescreen</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Typhlosion</Name>
+	<Level>50</Level>
+	<HP>156</HP>
+	<Attack>107</Attack>
+	<Defense>101</Defense>
+	<SpAttack>132</SpAttack>
+	<SpDefense>108</SpDefense>
+	<Speed>122</Speed>
+	<Moves>
+		<Move>
+			<Name>Flame Wheel</Name>
+		</Move>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Rock Smash</Name>
+		</Move>
+		<Move>
+			<Name>Smokescreen</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Totodile</Name>
+	<Level>50</Level>
+	<HP>140</HP>
+	<Attack>100</Attack>
+	<Defense>100</Defense>
+	<SpAttack>79</SpAttack>
+	<SpDefense>83</SpDefense>
+	<Speed>79</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Screech</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Croconaw</Name>
+	<Level>50</Level>
+	<HP>150</HP>
+	<Attack>111</Attack>
+	<Defense>110</Defense>
+	<SpAttack>89</SpAttack>
+	<SpDefense>93</SpDefense>
+	<Speed>89</Speed>
+	<Moves>
+		<Move>
+			<Name>Hydro Pump</Name>
+		</Move>
+		<Move>
+			<Name>Ice Punch</Name>
+		</Move>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Scary Face</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Feraligatr</Name>
+	<Level>50</Level>
+	<HP>159</HP>
+	<Attack>123</Attack>
+	<Defense>119</Defense>
+	<SpAttack>98</SpAttack>
+	<SpDefense>102</SpDefense>
+	<Speed>97</Speed>
+	<Moves>
+		<Move>
+			<Name>Water Gun</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Dynamicpunch</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Sentret</Name>
+	<Level>50</Level>
+	<HP>129</HP>
+	<Attack>85</Attack>
+	<Defense>73</Defense>
+	<SpAttack>76</SpAttack>
+	<SpDefense>86</SpDefense>
+	<Speed>60</Speed>
+	<Moves>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Shadow Ball</Name>
+		</Move>
+		<Move>
+			<Name>Rollout</Name>
+		</Move>
+		<Move>
+			<Name>Defense Curl</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Furret</Name>
+	<Level>50</Level>
+	<HP>170</HP>
+	<Attack>107</Attack>
+	<Defense>94</Defense>
+	<SpAttack>75</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>121</Speed>
+	<Moves>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Ice Punch</Name>
+		</Move>
+		<Move>
+			<Name>Thunderpunch</Name>
+		</Move>
+		<Move>
+			<Name>Amnesia</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Hoothoot</Name>
+	<Level>50</Level>
+	<HP>152</HP>
+	<Attack>67</Attack>
+	<Defense>68</Defense>
+	<SpAttack>73</SpAttack>
+	<SpDefense>93</SpDefense>
+	<Speed>87</Speed>
+	<Moves>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Dream Eater</Name>
+		</Move>
+		<Move>
+			<Name>Hypnosis</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Noctowl</Name>
+	<Level>50</Level>
+	<HP>185</HP>
+	<Attack>81</Attack>
+	<Defense>80</Defense>
+	<SpAttack>106</SpAttack>
+	<SpDefense>126</SpDefense>
+	<Speed>101</Speed>
+	<Moves>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Take Down</Name>
+		</Move>
+		<Move>
+			<Name>Confusion</Name>
+		</Move>
+		<Move>
+			<Name>Foresight</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Ledyba</Name>
+	<Level>50</Level>
+	<HP>132</HP>
+	<Attack>57</Attack>
+	<Defense>68</Defense>
+	<SpAttack>77</SpAttack>
+	<SpDefense>117</SpDefense>
+	<Speed>92</Speed>
+	<Moves>
+		<Move>
+			<Name>Double-edge</Name>
+		</Move>
+		<Move>
+			<Name>Ice Punch</Name>
+		</Move>
+		<Move>
+			<Name>Reflect</Name>
+		</Move>
+		<Move>
+			<Name>Safeguard</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Ledian</Name>
+	<Level>50</Level>
+	<HP>142</HP>
+	<Attack>68</Attack>
+	<Defense>82</Defense>
+	<SpAttack>87</SpAttack>
+	<SpDefense>142</SpDefense>
+	<Speed>117</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Hyper Beam</Name>
+		</Move>
+		<Move>
+			<Name>Supersonic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Spinarak</Name>
+	<Level>50</Level>
+	<HP>134</HP>
+	<Attack>99</Attack>
+	<Defense>79</Defense>
+	<SpAttack>81</SpAttack>
+	<SpDefense>81</SpDefense>
+	<Speed>70</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Leech Life</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Night Shade</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Ariados</Name>
+	<Level>50</Level>
+	<HP>157</HP>
+	<Attack>123</Attack>
+	<Defense>102</Defense>
+	<SpAttack>92</SpAttack>
+	<SpDefense>92</SpDefense>
+	<Speed>72</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Protect</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+		<Move>
+			<Name>Spider Web</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Crobat</Name>
+	<Level>50</Level>
+	<HP>163</HP>
+	<Attack>13</Attack>
+	<Defense>103</Defense>
+	<SpAttack>93</SpAttack>
+	<SpDefense>103</SpDefense>
+	<Speed>152</Speed>
+	<Moves>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Bite</Name>
+		</Move>
+		<Move>
+			<Name>Leech Life</Name>
+		</Move>
+		<Move>
+			<Name>Supersonic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Chinchou</Name>
+	<Level>50</Level>
+	<HP>165</HP>
+	<Attack>73</Attack>
+	<Defense>74</Defense>
+	<SpAttack>91</SpAttack>
+	<SpDefense>91</SpDefense>
+	<Speed>103</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Rain Dance</Name>
+		</Move>
+		<Move>
+			<Name>Confuse Ray</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Lanturn</Name>
+	<Level>50</Level>
+	<HP>206</HP>
+	<Attack>85</Attack>
+	<Defense>85</Defense>
+	<SpAttack>102</SpAttack>
+	<SpDefense>102</SpDefense>
+	<Speed>93</Speed>
+	<Moves>
+		<Move>
+			<Name>Hydro Pump</Name>
+		</Move>
+		<Move>
+			<Name>Spark</Name>
+		</Move>
+		<Move>
+			<Name>Flail</Name>
+		</Move>
+		<Move>
+			<Name>Supersonic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Pichu</Name>
+	<Level>50</Level>
+	<HP>114</HP>
+	<Attack>79</Attack>
+	<Defense>54</Defense>
+	<SpAttack>76</SpAttack>
+	<SpDefense>76</SpDefense>
+	<Speed>100</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+		<Move>
+			<Name>Sweet Kiss</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Cleffa</Name>
+	<Level>50</Level>
+	<HP>144</HP>
+	<Attack>64</Attack>
+	<Defense>67</Defense>
+	<SpAttack>86</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>55</Speed>
+	<Moves>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Encore</Name>
+		</Move>
+		<Move>
+			<Name>Sweet Kiss</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Igglybuff</Name>
+	<Level>50</Level>
+	<HP>184</HP>
+	<Attack>69</Attack>
+	<Defense>54</Defense>
+	<SpAttack>81</SpAttack>
+	<SpDefense>61</SpDefense>
+	<Speed>55</Speed>
+	<Moves>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Dream Eater</Name>
+		</Move>
+		<Move>
+			<Name>Sing</Name>
+		</Move>
+		<Move>
+			<Name>Sweet Kiss</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Togepi</Name>
+	<Level>50</Level>
+	<HP>129</HP>
+	<Attack>59</Attack>
+	<Defense>104</Defense>
+	<SpAttack>81</SpAttack>
+	<SpDefense>106</SpDefense>
+	<Speed>60</Speed>
+	<Moves>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Metronome</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+		<Move>
+			<Name>Sweet Kiss</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Togetic</Name>
+	<Level>50</Level>
+	<HP>140</HP>
+	<Attack>71</Attack>
+	<Defense>115</Defense>
+	<SpAttack>110</SpAttack>
+	<SpDefense>135</SpDefense>
+	<Speed>71</Speed>
+	<Moves>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Double-edge</Name>
+		</Move>
+		<Move>
+			<Name>Metronome</Name>
+		</Move>
+		<Move>
+			<Name>Charm</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Natu</Name>
+	<Level>50</Level>
+	<HP>130</HP>
+	<Attack>85</Attack>
+	<Defense>81</Defense>
+	<SpAttack>105</SpAttack>
+	<SpDefense>80</SpDefense>
+	<Speed>106</Speed>
+	<Moves>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Future Sight</Name>
+		</Move>
+		<Move>
+			<Name>Night Shade</Name>
+		</Move>
+		<Move>
+			<Name>Confuse Ray</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Xatu</Name>
+	<Level>50</Level>
+	<HP>146</HP>
+	<Attack>102</Attack>
+	<Defense>97</Defense>
+	<SpAttack>121</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>121</Speed>
+	<Moves>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Future Sight</Name>
+		</Move>
+		<Move>
+			<Name>Night Shade</Name>
+		</Move>
+		<Move>
+			<Name>Flash</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Mareep</Name>
+	<Level>50</Level>
+	<HP>147</HP>
+	<Attack>77</Attack>
+	<Defense>78</Defense>
+	<SpAttack>102</SpAttack>
+	<SpDefense>82</SpDefense>
+	<Speed>72</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Light Screen</Name>
+		</Move>
+		<Move>
+			<Name>Thunder Wave</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Flaaffy</Name>
+	<Level>50</Level>
+	<HP>157</HP>
+	<Attack>88</Attack>
+	<Defense>87</Defense>
+	<SpAttack>112</SpAttack>
+	<SpDefense>92</SpDefense>
+	<Speed>77</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunderpunch</Name>
+		</Move>
+		<Move>
+			<Name>Fire Punch</Name>
+		</Move>
+		<Move>
+			<Name>Cotton Spore</Name>
+		</Move>
+		<Move>
+			<Name>Light Screen</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Ampharos</Name>
+	<Level>50</Level>
+	<HP>169</HP>
+	<Attack>100</Attack>
+	<Defense>100</Defense>
+	<SpAttack>139</SpAttack>
+	<SpDefense>114</SpDefense>
+	<Speed>79</Speed>
+	<Moves>
+		<Move>
+			<Name>Zap Cannon</Name>
+		</Move>
+		<Move>
+			<Name>Dynamicpunch</Name>
+		</Move>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Flash</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Bellossom</Name>
+	<Level>50</Level>
+	<HP>156</HP>
+	<Attack>107</Attack>
+	<Defense>112</Defense>
+	<SpAttack>116</SpAttack>
+	<SpDefense>126</SpDefense>
+	<Speed>76</Speed>
+	<Moves>
+		<Move>
+			<Name>Petal Dance</Name>
+		</Move>
+		<Move>
+			<Name>Cut</Name>
+		</Move>
+		<Move>
+			<Name>Poisonpowder</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Marill</Name>
+	<Level>50</Level>
+	<HP>164</HP>
+	<Attack>59</Attack>
+	<Defense>89</Defense>
+	<SpAttack>61</SpAttack>
+	<SpDefense>91</SpDefense>
+	<Speed>80</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Rollout</Name>
+		</Move>
+		<Move>
+			<Name>Defense Curl</Name>
+		</Move>
+		<Move>
+			<Name>Swagger</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Azumarill</Name>
+	<Level>50</Level>
+	<HP>185</HP>
+	<Attack>81</Attack>
+	<Defense>110</Defense>
+	<SpAttack>80</SpAttack>
+	<SpDefense>110</SpDefense>
+	<Speed>81</Speed>
+	<Moves>
+		<Move>
+			<Name>Waterfall</Name>
+		</Move>
+		<Move>
+			<Name>Icy Wind</Name>
+		</Move>
+		<Move>
+			<Name>Defense Curl</Name>
+		</Move>
+		<Move>
+			<Name>Rain Dance</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Sudowoodo</Name>
+	<Level>50</Level>
+	<HP>155</HP>
+	<Attack>131</Attack>
+	<Defense>145</Defense>
+	<SpAttack>60</SpAttack>
+	<SpDefense>95</SpDefense>
+	<Speed>61</Speed>
+	<Moves>
+		<Move>
+			<Name>Rock Slide</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Mimic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Politoed</Name>
+	<Level>50</Level>
+	<HP>169</HP>
+	<Attack>100</Attack>
+	<Defense>100</Defense>
+	<SpAttack>114</SpAttack>
+	<SpDefense>124</SpDefense>
+	<Speed>94</Speed>
+	<Moves>
+		<Move>
+			<Name>Whirlpool</Name>
+		</Move>
+		<Move>
+			<Name>Icy Wind</Name>
+		</Move>
+		<Move>
+			<Name>Perish Song</Name>
+		</Move>
+		<Move>
+			<Name>Swagger</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Hoppip</Name>
+	<Level>50</Level>
+	<HP>129</HP>
+	<Attack>74</Attack>
+	<Defense>79</Defense>
+	<SpAttack>76</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>90</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Leech Seed</Name>
+		</Move>
+		<Move>
+			<Name>Sleep Powder</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Skiploom</Name>
+	<Level>50</Level>
+	<HP>145</HP>
+	<Attack>80</Attack>
+	<Defense>86</Defense>
+	<SpAttack>80</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>116</Speed>
+	<Moves>
+		<Move>
+			<Name>Solarbeam</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Synthesis</Name>
+		</Move>
+		<Move>
+			<Name>Sunny Day</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Jumpluff</Name>
+	<Level>50</Level>
+	<HP>158</HP>
+	<Attack>84</Attack>
+	<Defense>98</Defense>
+	<SpAttack>83</SpAttack>
+	<SpDefense>113</SpDefense>
+	<Speed>139</Speed>
+	<Moves>
+		<Move>
+			<Name>Mega Drain</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Stun Spore</Name>
+		</Move>
+		<Move>
+			<Name>Leech Seed</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Aipom</Name>
+	<Level>50</Level>
+	<HP>142</HP>
+	<Attack>103</Attack>
+	<Defense>87</Defense>
+	<SpAttack>72</SpAttack>
+	<SpDefense>87</SpDefense>
+	<Speed>117</Speed>
+	<Moves>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Double Team</Name>
+		</Move>
+		<Move>
+			<Name>Baton Pass</Name>
+		</Move>
+		<Move>
+			<Name>Agility</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Sunkern</Name>
+	<Level>50</Level>
+	<HP>124</HP>
+	<Attack>69</Attack>
+	<Defense>69</Defense>
+	<SpAttack>71</SpAttack>
+	<SpDefense>71</SpDefense>
+	<Speed>70</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+		<Move>
+			<Name>Growth</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Sunflora</Name>
+	<Level>50</Level>
+	<HP>160</HP>
+	<Attack>106</Attack>
+	<Defense>85</Defense>
+	<SpAttack>135</SpAttack>
+	<SpDefense>115</SpDefense>
+	<Speed>61</Speed>
+	<Moves>
+		<Move>
+			<Name>Razor Leaf</Name>
+		</Move>
+		<Move>
+			<Name>Hyper Beam</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+		<Move>
+			<Name>Growth</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Yanma</Name>
+	<Level>50</Level>
+	<HP>152</HP>
+	<Attack>98</Attack>
+	<Defense>77</Defense>
+	<SpAttack>107</SpAttack>
+	<SpDefense>77</SpDefense>
+	<Speed>127</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Swagger</Name>
+		</Move>
+		<Move>
+			<Name>Double Team</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Wooper</Name>
+	<Level>50</Level>
+	<HP>149</HP>
+	<Attack>84</Attack>
+	<Defense>84</Defense>
+	<SpAttack>66</SpAttack>
+	<SpDefense>66</SpDefense>
+	<Speed>55</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Ice Punch</Name>
+		</Move>
+		<Move>
+			<Name>Amnesia</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Quagsire</Name>
+	<Level>50</Level>
+	<HP>180</HP>
+	<Attack>116</Attack>
+	<Defense>115</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>95</SpDefense>
+	<Speed>66</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Slam</Name>
+		</Move>
+		<Move>
+			<Name>Haze </Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Espeon</Name>
+	<Level>50</Level>
+	<HP>143</HP>
+	<Attack>88</Attack>
+	<Defense>83</Defense>
+	<SpAttack>153</SpAttack>
+	<SpDefense>118</SpDefense>
+	<Speed>132</Speed>
+	<Moves>
+		<Move>
+			<Name>Psybeam</Name>
+		</Move>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Tail Whip</Name>
+		</Move>
+		<Move>
+			<Name>Psych Up</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Umbreon</Name>
+	<Level>50</Level>
+	<HP>173</HP>
+	<Attack>88</Attack>
+	<Defense>133</Defense>
+	<SpAttack>83</SpAttack>
+	<SpDefense>153</SpDefense>
+	<Speed>87</Speed>
+	<Moves>
+		<Move>
+			<Name>Faint Attack</Name>
+		</Move>
+		<Move>
+			<Name>Quick Attack</Name>
+		</Move>
+		<Move>
+			<Name>Sand-attack</Name>
+		</Move>
+		<Move>
+			<Name>Mean Look</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Murkrow</Name>
+	<Level>50</Level>
+	<HP>145</HP>
+	<Attack>116</Attack>
+	<Defense>72</Defense>
+	<SpAttack>115</SpAttack>
+	<SpDefense>72</SpDefense>
+	<Speed>122</Speed>
+	<Moves>
+		<Move>
+			<Name>Faint Attack</Name>
+		</Move>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Night Shade</Name>
+		</Move>
+		<Move>
+			<Name>Haze</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Slowking</Name>
+	<Level>50</Level>
+	<HP>176</HP>
+	<Attack>102</Attack>
+	<Defense>107</Defense>
+	<SpAttack>126</SpAttack>
+	<SpDefense>136</SpDefense>
+	<Speed>56</Speed>
+	<Moves>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Water Gun</Name>
+		</Move>
+		<Move>
+			<Name>Disable</Name>
+		</Move>
+		<Move>
+			<Name>Growl</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Misdreavus</Name>
+	<Level>50</Level>
+	<HP>145</HP>
+	<Attack>91</Attack>
+	<Defense>90</Defense>
+	<SpAttack>115</SpAttack>
+	<SpDefense>115</SpDefense>
+	<Speed>116</Speed>
+	<Moves>
+		<Move>
+			<Name>Shadow Ball</Name>
+		</Move>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Psywave</Name>
+		</Move>
+		<Move>
+			<Name>Pain Split</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Unown</Name>
+	<Level>50</Level>
+	<HP>132</HP>
+	<Attack>107</Attack>
+	<Defense>82</Defense>
+	<SpAttack>107</SpAttack>
+	<SpDefense>83</SpDefense>
+	<Speed>82</Speed>
+	<Moves>
+		<Move>
+			<Name>Hidden Power</Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Wobbuffet</Name>
+	<Level>50</Level>
+	<HP>275</HP>
+	<Attack>64</Attack>
+	<Defense>88</Defense>
+	<SpAttack>63</SpAttack>
+	<SpDefense>88</SpDefense>
+	<Speed>64</Speed>
+	<Moves>
+		<Move>
+			<Name>Counter</Name>
+		</Move>
+		<Move>
+			<Name>Mirror Coat</Name>
+		</Move>
+		<Move>
+			<Name>Safeguard</Name>
+		</Move>
+		<Move>
+			<Name>Destiny Bond</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Girafarig</Name>
+	<Level>50</Level>
+	<HP>151</HP>
+	<Attack>107</Attack>
+	<Defense>92</Defense>
+	<SpAttack>116</SpAttack>
+	<SpDefense>91</SpDefense>
+	<Speed>111</Speed>
+	<Moves>
+		<Move>
+			<Name>Psybeam</Name>
+		</Move>
+		<Move>
+			<Name>Stomp</Name>
+		</Move>
+		<Move>
+			<Name>Crunch</Name>
+		</Move>
+		<Move>
+			<Name>Agility</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Pineco</Name>
+	<Level>50</Level>
+	<HP>142</HP>
+	<Attack>102</Attack>
+	<Defense>128</Defense>
+	<SpAttack>72</SpAttack>
+	<SpDefense>72</SpDefense>
+	<Speed>52</Speed>
+	<Moves>
+		<Move>
+			<Name>Double-edge</Name>
+		</Move>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Explosion</Name>
+		</Move>
+		<Move>
+			<Name>Spikes</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Forretress</Name>
+	<Level>50</Level>
+	<HP>156</HP>
+	<Attack>117</Attack>
+	<Defense>167</Defense>
+	<SpAttack>86</SpAttack>
+	<SpDefense>86</SpDefense>
+	<Speed>66</Speed>
+	<Moves>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Rollout</Name>
+		</Move>
+		<Move>
+			<Name>Sandstorm</Name>
+		</Move>
+		<Move>
+			<Name>Spikes</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Dunsparce</Name>
+	<Level>50</Level>
+	<HP>185</HP>
+	<Attack>101</Attack>
+	<Defense>100</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>95</SpDefense>
+	<Speed>76</Speed>
+	<Moves>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+		<Move>
+			<Name>Glare</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Gligar</Name>
+	<Level>50</Level>
+	<HP>150</HP>
+	<Attack>106</Attack>
+	<Defense>135</Defense>
+	<SpAttack>65</SpAttack>
+	<SpDefense>95</SpDefense>
+	<Speed>116</Speed>
+	<Moves>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Faint Attack</Name>
+		</Move>
+		<Move>
+			<Name>Guillotine</Name>
+		</Move>
+		<Move>
+			<Name>Sand-attack</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Steelix</Name>
+	<Level>50</Level>
+	<HP>153</HP>
+	<Attack>108</Attack>
+	<Defense>223</Defense>
+	<SpAttack>78</SpAttack>
+	<SpDefense>88</SpDefense>
+	<Speed>52</Speed>
+	<Moves>
+		<Move>
+			<Name>Iron Tail</Name>
+		</Move>
+		<Move>
+			<Name>Mud-slap</Name>
+		</Move>
+		<Move>
+			<Name>Rock Throw</Name>
+		</Move>
+		<Move>
+			<Name>Sandstorm</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Snubbull</Name>
+	<Level>50</Level>
+	<HP>152</HP>
+	<Attack>117</Attack>
+	<Defense>88</Defense>
+	<SpAttack>77</SpAttack>
+	<SpDefense>77</SpDefense>
+	<Speed>67</Speed>
+	<Moves>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Shadow Ball</Name>
+		</Move>
+		<Move>
+			<Name>Charm</Name>
+		</Move>
+		<Move>
+			<Name>Swagger</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Granbull</Name>
+	<Level>50</Level>
+	<HP>173</HP>
+	<Attack>149</Attack>
+	<Defense>103</Defense>
+	<SpAttack>88</SpAttack>
+	<SpDefense>88</SpDefense>
+	<Speed>74</Speed>
+	<Moves>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Dynamicpunch</Name>
+		</Move>
+		<Move>
+			<Name>Bite</Name>
+		</Move>
+		<Move>
+			<Name>Scary Face</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Qwilfish</Name>
+	<Level>50</Level>
+	<HP>150</HP>
+	<Attack>126</Attack>
+	<Defense>105</Defense>
+	<SpAttack>85</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>116</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Hydro Pump</Name>
+		</Move>
+		<Move>
+			<Name>Pin Missile</Name>
+		</Move>
+		<Move>
+			<Name>Minimize</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Scizor</Name>
+	<Level>50</Level>
+	<HP>149</HP>
+	<Attack>155</Attack>
+	<Defense>125</Defense>
+	<SpAttack>79</SpAttack>
+	<SpDefense>104</SpDefense>
+	<Speed>89</Speed>
+	<Moves>
+		<Move>
+			<Name>Metal Claw</Name>
+		</Move>
+		<Move>
+			<Name>Cut</Name>
+		</Move>
+		<Move>
+			<Name>Agility</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Shuckle</Name>
+	<Level>50</Level>
+	<HP>105</HP>
+	<Attack>41</Attack>
+	<Defense>260</Defense>
+	<SpAttack>40</SpAttack>
+	<SpDefense>260</SpDefense>
+	<Speed>36</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Rollout</Name>
+		</Move>
+		<Move>
+			<Name>Bide</Name>
+		</Move>
+		<Move>
+			<Name>Sandstorm</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Heracross</Name>
+	<Level>50</Level>
+	<HP>158</HP>
+	<Attack>148</Attack>
+	<Defense>98</Defense>
+	<SpAttack>63</SpAttack>
+	<SpDefense>118</SpDefense>
+	<Speed>107</Speed>
+	<Moves>
+		<Move>
+			<Name>Reversal</Name>
+		</Move>
+		<Move>
+			<Name>Cut</Name>
+		</Move>
+		<Move>
+			<Name>Counter</Name>
+		</Move>
+		<Move>
+			<Name>Endure</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Sneasel</Name>
+	<Level>50</Level>
+	<HP>140</HP>
+	<Attack>126</Attack>
+	<Defense>85</Defense>
+	<SpAttack>65</SpAttack>
+	<SpDefense>105</SpDefense>
+	<Speed>146</Speed>
+	<Moves>
+		<Move>
+			<Name>Ice Punch</Name>
+		</Move>
+		<Move>
+			<Name>Beat Up</Name>
+		</Move>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Screech</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Teddiursa</Name>
+	<Level>50</Level>
+	<HP>150</HP>
+	<Attack>115</Attack>
+	<Defense>86</Defense>
+	<SpAttack>85</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>76</Speed>
+	<Moves>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Faint Attack</Name>
+		</Move>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Ursaring</Name>
+	<Level>50</Level>
+	<HP>169</HP>
+	<Attack>155</Attack>
+	<Defense>100</Defense>
+	<SpAttack>99</SpAttack>
+	<SpDefense>99</SpDefense>
+	<Speed>79</Speed>
+	<Moves>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Fire Punch</Name>
+		</Move>
+		<Move>
+			<Name>Snore</Name>
+		</Move>
+		<Move>
+			<Name>Rest</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Slugma</Name>
+	<Level>50</Level>
+	<HP>134</HP>
+	<Attack>79</Attack>
+	<Defense>79</Defense>
+	<SpAttack>111</SpAttack>
+	<SpDefense>81</SpDefense>
+	<Speed>60</Speed>
+	<Moves>
+		<Move>
+			<Name>Flamethrower</Name>
+		</Move>
+		<Move>
+			<Name>Rock Slide</Name>
+		</Move>
+		<Move>
+			<Name>Body Slam</Name>
+		</Move>
+		<Move>
+			<Name>Amnesia</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Magcargo</Name>
+	<Level>50</Level>
+	<HP>135</HP>
+	<Attack>81</Attack>
+	<Defense>150</Defense>
+	<SpAttack>110</SpAttack>
+	<SpDefense>110</SpDefense>
+	<Speed>61</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Rock Slide</Name>
+		</Move>
+		<Move>
+			<Name>Smog</Name>
+		</Move>
+		<Move>
+			<Name>Amnesia</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Swinub</Name>
+	<Level>50</Level>
+	<HP>144</HP>
+	<Attack>89</Attack>
+	<Defense>79</Defense>
+	<SpAttack>71</SpAttack>
+	<SpDefense>71</SpDefense>
+	<Speed>90</Speed>
+	<Moves>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Mist</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Piloswine</Name>
+	<Level>50</Level>
+	<HP>183</HP>
+	<Attack>129</Attack>
+	<Defense>108</Defense>
+	<SpAttack>88</SpAttack>
+	<SpDefense>88</SpDefense>
+	<Speed>79</Speed>
+	<Moves>
+		<Move>
+			<Name>Icy Wind</Name>
+		</Move>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Fury Attack</Name>
+		</Move>
+		<Move>
+			<Name>Mist</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Corsola</Name>
+	<Level>50</Level>
+	<HP>142</HP>
+	<Attack>88</Attack>
+	<Defense>117</Defense>
+	<SpAttack>97</SpAttack>
+	<SpDefense>117</SpDefense>
+	<Speed>67</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Ancientpower</Name>
+		</Move>
+		<Move>
+			<Name>Mirror Coat</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Remoraid</Name>
+	<Level>50</Level>
+	<HP>127</HP>
+	<Attack>102</Attack>
+	<Defense>73</Defense>
+	<SpAttack>102</SpAttack>
+	<SpDefense>72</SpDefense>
+	<Speed>102</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Ice Beam</Name>
+		</Move>
+		<Move>
+			<Name>Hyper Beam</Name>
+		</Move>
+		<Move>
+			<Name>Lock-on</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Octillery</Name>
+	<Level>50</Level>
+	<HP>156</HP>
+	<Attack>132</Attack>
+	<Defense>102</Defense>
+	<SpAttack>131</SpAttack>
+	<SpDefense>101</SpDefense>
+	<Speed>71</Speed>
+	<Moves>
+		<Move>
+			<Name>Octazooka</Name>
+		</Move>
+		<Move>
+			<Name>Hyper Beam</Name>
+		</Move>
+		<Move>
+			<Name>Focus Energy</Name>
+		</Move>
+		<Move>
+			<Name>Lock-on</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Delibird</Name>
+	<Level>50</Level>
+	<HP>135</HP>
+	<Attack>90</Attack>
+	<Defense>81</Defense>
+	<SpAttack>100</SpAttack>
+	<SpDefense>80</SpDefense>
+	<Speed>111</Speed>
+	<Moves>
+		<Move>
+			<Name>Present</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Double Team</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Mantine</Name>
+	<Level>50</Level>
+	<HP>146</HP>
+	<Attack>67</Attack>
+	<Defense>97</Defense>
+	<SpAttack>106</SpAttack>
+	<SpDefense>166</SpDefense>
+	<Speed>96</Speed>
+	<Moves>
+		<Move>
+			<Name>Wing Attack</Name>
+		</Move>
+		<Move>
+			<Name>Waterfall</Name>
+		</Move>
+		<Move>
+			<Name>Take Down</Name>
+		</Move>
+		<Move>
+			<Name>Supersonic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Skarmory</Name>
+	<Level>50</Level>
+	<HP>146</HP>
+	<Attack>107</Attack>
+	<Defense>167</Defense>
+	<SpAttack>66</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>96</Speed>
+	<Moves>
+		<Move>
+			<Name>Steel Wing</Name>
+		</Move>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Fury Attack</Name>
+		</Move>
+		<Move>
+			<Name>Agility</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Houndour</Name>
+	<Level>50</Level>
+	<HP>135</HP>
+	<Attack>95</Attack>
+	<Defense>66</Defense>
+	<SpAttack>115</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>101</Speed>
+	<Moves>
+		<Move>
+			<Name>Flamethrower</Name>
+		</Move>
+		<Move>
+			<Name>Crunch</Name>
+		</Move>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Sunny Day</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Houndoom</Name>
+	<Level>50</Level>
+	<HP>154</HP>
+	<Attack>115</Attack>
+	<Defense>75</Defense>
+	<SpAttack>134</SpAttack>
+	<SpDefense>104</SpDefense>
+	<Speed>119</Speed>
+	<Moves>
+		<Move>
+			<Name>Ember</Name>
+		</Move>
+		<Move>
+			<Name>Bite</Name>
+		</Move>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Roar</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Kingdra</Name>
+	<Level>50</Level>
+	<HP>153</HP>
+	<Attack>118</Attack>
+	<Defense>118</Defense>
+	<SpAttack>118</SpAttack>
+	<SpDefense>118</SpDefense>
+	<Speed>107</Speed>
+	<Moves>
+		<Move>
+			<Name>Waterfall</Name>
+		</Move>
+		<Move>
+			<Name>Twister</Name>
+		</Move>
+		<Move>
+			<Name>Frustration</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Phanpy</Name>
+	<Level>50</Level>
+	<HP>180</HP>
+	<Attack>95</Attack>
+	<Defense>96</Defense>
+	<SpAttack>75</SpAttack>
+	<SpDefense>75</SpDefense>
+	<Speed>76</Speed>
+	<Moves>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Double-edge</Name>
+		</Move>
+		<Move>
+			<Name>Double Team</Name>
+		</Move>
+		<Move>
+			<Name>Swagger</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Donphan</Name>
+	<Level>50</Level>
+	<HP>169</HP>
+	<Attack>145</Attack>
+	<Defense>145</Defense>
+	<SpAttack>84</SpAttack>
+	<SpDefense>84</SpDefense>
+	<Speed>74</Speed>
+	<Moves>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Rapid Spin</Name>
+		</Move>
+		<Move>
+			<Name>Sandstorm</Name>
+		</Move>
+		<Move>
+			<Name>Growl</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Porygon2</Name>
+	<Level>50</Level>
+	<HP>163</HP>
+	<Attack>103</Attack>
+	<Defense>113</Defense>
+	<SpAttack>1278</SpAttack>
+	<SpDefense>118</SpDefense>
+	<Speed>82</Speed>
+	<Moves>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Zap Cannon</Name>
+		</Move>
+		<Move>
+			<Name>Thief</Name>
+		</Move>
+		<Move>
+			<Name>Conversion</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Stantler</Name>
+	<Level>50</Level>
+	<HP>154</HP>
+	<Attack>122</Attack>
+	<Defense>89</Defense>
+	<SpAttack>111</SpAttack>
+	<SpDefense>91</SpDefense>
+	<Speed>111</Speed>
+	<Moves>
+		<Move>
+			<Name>Stomp</Name>
+		</Move>
+		<Move>
+			<Name>Dream Eater</Name>
+		</Move>
+		<Move>
+			<Name>Mud-slap</Name>
+		</Move>
+		<Move>
+			<Name>Hypnosis</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Smeargle</Name>
+	<Level>50</Level>
+	<HP>149</HP>
+	<Attack>59</Attack>
+	<Defense>74</Defense>
+	<SpAttack>61</SpAttack>
+	<SpDefense>86</SpDefense>
+	<Speed>115</Speed>
+	<Moves>
+		<Move>
+			<Name>Body Slam</Name>
+		</Move>
+		<Move>
+			<Name>Mach Punch</Name>
+		</Move>
+		<Move>
+			<Name>Flamethrower</Name>
+		</Move>
+		<Move>
+			<Name>Confuse Ray</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Tyrogue</Name>
+	<Level>50</Level>
+	<HP>129</HP>
+	<Attack>74</Attack>
+	<Defense>74</Defense>
+	<SpAttack>76</SpAttack>
+	<SpDefense>76</SpDefense>
+	<Speed>75</Speed>
+	<Moves>
+		<Move>
+			<Name>Rock Smash</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Double Team</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Hitmontop</Name>
+	<Level>50</Level>
+	<HP>136</HP>
+	<Attack>127</Attack>
+	<Defense>126</Defense>
+	<SpAttack>66</SpAttack>
+	<SpDefense>141</SpDefense>
+	<Speed>102</Speed>
+	<Moves>
+		<Move>
+			<Name>Triple Kick</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Focus Energy</Name>
+		</Move>
+		<Move>
+			<Name>Counter</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Smoochum</Name>
+	<Level>50</Level>
+	<HP>135</HP>
+	<Attack>65</Attack>
+	<Defense>51</Defense>
+	<SpAttack>120</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>101</Speed>
+	<Moves>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Sing</Name>
+		</Move>
+		<Move>
+			<Name>Sweet Kiss</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Elekid</Name>
+	<Level>50</Level>
+	<HP>132</HP>
+	<Attack>96</Attack>
+	<Defense>69</Defense>
+	<SpAttack>97</SpAttack>
+	<SpDefense>87</SpDefense>
+	<Speed>127</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunderbolt</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Screech</Name>
+		</Move>
+		<Move>
+			<Name>Light Screen</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Magby</Name>
+	<Level>50</Level>
+	<HP>132</HP>
+	<Attack>108</Attack>
+	<Defense>69</Defense>
+	<SpAttack>102</SpAttack>
+	<SpDefense>87</SpDefense>
+	<Speed>115</Speed>
+	<Moves>
+		<Move>
+			<Name>Flamethrower</Name>
+		</Move>
+		<Move>
+			<Name>Iron Tail</Name>
+		</Move>
+		<Move>
+			<Name>Confuse Ray</Name>
+		</Move>
+		<Move>
+			<Name>Sunny Day</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Miltank</Name>
+	<Level>50</Level>
+	<HP>176</HP>
+	<Attack>107</Attack>
+	<Defense>132</Defense>
+	<SpAttack>66</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>126</Speed>
+	<Moves>
+		<Move>
+			<Name>Stomp</Name>
+		</Move>
+		<Move>
+			<Name>Ice Punch</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+		<Move>
+			<Name>Bide</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Blissey</Name>
+	<Level>50</Level>
+	<HP>333</HP>
+	<Attack>33</Attack>
+	<Defense>33</Defense>
+	<SpAttack>98</SpAttack>
+	<SpDefense>158</SpDefense>
+	<Speed>77</Speed>
+	<Moves>
+		<Move>
+			<Name>Egg Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Defense Curl</Name>
+		</Move>
+		<Move>
+			<Name>Flash</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Raikou</Name>
+	<Level>50</Level>
+	<HP>160</HP>
+	<Attack>100</Attack>
+	<Defense>90</Defense>
+	<SpAttack>130</SpAttack>
+	<SpDefense>115</SpDefense>
+	<Speed>130</Speed>
+	<Moves>
+		<Move>
+			<Name>Spark</Name>
+		</Move>
+		<Move>
+			<Name>Quick Attack</Name>
+		</Move>
+		<Move>
+			<Name>Flash</Name>
+		</Move>
+		<Move>
+			<Name>Roar</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Entei</Name>
+	<Level>50</Level>
+	<HP>182</HP>
+	<Attack>127</Attack>
+	<Defense>97</Defense>
+	<SpAttack>102</SpAttack>
+	<SpDefense>87</SpDefense>
+	<Speed>112</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Rock Smash</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+		<Move>
+			<Name>Roar</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Suicune</Name>
+	<Level>50</Level>
+	<HP>170</HP>
+	<Attack>90</Attack>
+	<Defense>130</Defense>
+	<SpAttack>105</SpAttack>
+	<SpDefense>130</SpDefense>
+	<Speed>100</Speed>
+	<Moves>
+		<Move>
+			<Name>Bubblebeam</Name>
+		</Move>
+		<Move>
+			<Name>Gust</Name>
+		</Move>
+		<Move>
+			<Name>Curse</Name>
+		</Move>
+		<Move>
+			<Name>Roar</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Larvitar</Name>
+	<Level>50</Level>
+	<HP>142</HP>
+	<Attack>101</Attack>
+	<Defense>88</Defense>
+	<SpAttack>82</SpAttack>
+	<SpDefense>87</SpDefense>
+	<Speed>78</Speed>
+	<Moves>
+		<Move>
+			<Name>Rock Slide</Name>
+		</Move>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Hyper Beam</Name>
+		</Move>
+		<Move>
+			<Name>Swagger</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Pupitar</Name>
+	<Level>50</Level>
+	<HP>155</HP>
+	<Attack>115</Attack>
+	<Defense>100</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>82</Speed>
+	<Moves>
+		<Move>
+			<Name>Rock Slide</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Hyper Beam</Name>
+		</Move>
+		<Move>
+			<Name>Screech</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Tyranitar</Name>
+	<Level>50</Level>
+	<HP>160</HP>
+	<Attack>139</Attack>
+	<Defense>115</Defense>
+	<SpAttack>100</SpAttack>
+	<SpDefense>105</SpDefense>
+	<Speed>66</Speed>
+	<Moves>
+		<Move>
+			<Name>Bite</Name>
+		</Move>
+		<Move>
+			<Name>Mud-slap</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+		<Move>
+			<Name>Sandstorm</Name>
+		</Move>
+	</Moves>
+</PokeData>
+</div>
