@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Magby</Name>
+	<Name>Hitmontop</Name>
 	<Level>50</Level>
-	<HP>132</HP>
-	<Attack>108</Attack>
-	<Defense>69</Defense>
-	<SpAttack>102</SpAttack>
-	<SpDefense>87</SpDefense>
-	<Speed>115</Speed>
+	<HP>136</HP>
+	<Attack>127</Attack>
+	<Defense>126</Defense>
+	<SpAttack>66</SpAttack>
+	<SpDefense>141</SpDefense>
+	<Speed>102</Speed>
 	<Moves>
 		<Move>
-			<Name>Flamethrower</Name>
+			<Name>Triple Kick</Name>
 		</Move>
 		<Move>
-			<Name>Iron Tail</Name>
+			<Name>Strength</Name>
 		</Move>
 		<Move>
-			<Name>Confuse Ray</Name>
+			<Name>Focus Energy</Name>
 		</Move>
 		<Move>
-			<Name>Sunny Day</Name>
+			<Name>Counter</Name>
 		</Move>
 	</Moves>
 </PokeData>

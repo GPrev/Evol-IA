@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Dunsparce</Name>
+	<Name>Girafarig</Name>
 	<Level>50</Level>
-	<HP>185</HP>
-	<Attack>101</Attack>
-	<Defense>100</Defense>
-	<SpAttack>95</SpAttack>
-	<SpDefense>95</SpDefense>
-	<Speed>76</Speed>
+	<HP>151</HP>
+	<Attack>107</Attack>
+	<Defense>92</Defense>
+	<SpAttack>116</SpAttack>
+	<SpDefense>91</SpDefense>
+	<Speed>111</Speed>
 	<Moves>
 		<Move>
-			<Name>Strength</Name>
+			<Name>Psybeam</Name>
 		</Move>
 		<Move>
-			<Name>Dig</Name>
+			<Name>Stomp</Name>
 		</Move>
 		<Move>
-			<Name>Attract</Name>
+			<Name>Crunch</Name>
 		</Move>
 		<Move>
-			<Name>Glare</Name>
+			<Name>Agility</Name>
 		</Move>
 	</Moves>
 </PokeData>

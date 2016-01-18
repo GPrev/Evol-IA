@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Hitmontop</Name>
+	<Name>Stantler</Name>
 	<Level>50</Level>
-	<HP>136</HP>
-	<Attack>127</Attack>
-	<Defense>126</Defense>
-	<SpAttack>66</SpAttack>
-	<SpDefense>141</SpDefense>
-	<Speed>102</Speed>
+	<HP>154</HP>
+	<Attack>122</Attack>
+	<Defense>89</Defense>
+	<SpAttack>111</SpAttack>
+	<SpDefense>91</SpDefense>
+	<Speed>111</Speed>
 	<Moves>
 		<Move>
-			<Name>Triple Kick</Name>
+			<Name>Stomp</Name>
 		</Move>
 		<Move>
-			<Name>Strength</Name>
+			<Name>Dream Eater</Name>
 		</Move>
 		<Move>
-			<Name>Focus Energy</Name>
+			<Name>Mud-slap</Name>
 		</Move>
 		<Move>
-			<Name>Counter</Name>
+			<Name>Hypnosis</Name>
 		</Move>
 	</Moves>
 </PokeData>

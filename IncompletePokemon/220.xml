@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Remoraid</Name>
+	<Name>Swinub</Name>
 	<Level>50</Level>
-	<HP>127</HP>
-	<Attack>102</Attack>
-	<Defense>73</Defense>
-	<SpAttack>102</SpAttack>
-	<SpDefense>72</SpDefense>
-	<Speed>102</Speed>
+	<HP>144</HP>
+	<Attack>89</Attack>
+	<Defense>79</Defense>
+	<SpAttack>71</SpAttack>
+	<SpDefense>71</SpDefense>
+	<Speed>90</Speed>
 	<Moves>
 		<Move>
-			<Name>Surf</Name>
+			<Name>Blizzard</Name>
 		</Move>
 		<Move>
-			<Name>Ice Beam</Name>
+			<Name>Earthquake</Name>
 		</Move>
 		<Move>
-			<Name>Hyper Beam</Name>
+			<Name>Strength</Name>
 		</Move>
 		<Move>
-			<Name>Lock-on</Name>
+			<Name>Mist</Name>
 		</Move>
 	</Moves>
 </PokeData>

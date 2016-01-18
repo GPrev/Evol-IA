@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Cleffa</Name>
+	<Name>Chinchou</Name>
 	<Level>50</Level>
-	<HP>144</HP>
-	<Attack>64</Attack>
-	<Defense>67</Defense>
-	<SpAttack>86</SpAttack>
-	<SpDefense>96</SpDefense>
-	<Speed>55</Speed>
+	<HP>165</HP>
+	<Attack>73</Attack>
+	<Defense>74</Defense>
+	<SpAttack>91</SpAttack>
+	<SpDefense>91</SpDefense>
+	<Speed>103</Speed>
 	<Moves>
 		<Move>
-			<Name>Headbutt</Name>
+			<Name>Surf</Name>
 		</Move>
 		<Move>
-			<Name>Psychic</Name>
+			<Name>Thunder</Name>
 		</Move>
 		<Move>
-			<Name>Encore</Name>
+			<Name>Rain Dance</Name>
 		</Move>
 		<Move>
-			<Name>Sweet Kiss</Name>
+			<Name>Confuse Ray</Name>
 		</Move>
 	</Moves>
 </PokeData>

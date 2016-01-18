@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Suicune</Name>
+	<Name>Blissey</Name>
 	<Level>50</Level>
-	<HP>170</HP>
-	<Attack>90</Attack>
-	<Defense>130</Defense>
-	<SpAttack>105</SpAttack>
-	<SpDefense>130</SpDefense>
-	<Speed>100</Speed>
+	<HP>333</HP>
+	<Attack>33</Attack>
+	<Defense>33</Defense>
+	<SpAttack>98</SpAttack>
+	<SpDefense>158</SpDefense>
+	<Speed>77</Speed>
 	<Moves>
 		<Move>
-			<Name>Bubblebeam</Name>
+			<Name>Egg Bomb</Name>
 		</Move>
 		<Move>
-			<Name>Gust</Name>
+			<Name>Thunder</Name>
 		</Move>
 		<Move>
-			<Name>Curse</Name>
+			<Name>Defense Curl</Name>
 		</Move>
 		<Move>
-			<Name>Roar</Name>
+			<Name>Flash</Name>
 		</Move>
 	</Moves>
 </PokeData>

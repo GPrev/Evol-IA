@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Typhlosion</Name>
+	<Name>Meganium</Name>
 	<Level>50</Level>
-	<HP>156</HP>
-	<Attack>107</Attack>
-	<Defense>101</Defense>
-	<SpAttack>132</SpAttack>
-	<SpDefense>108</SpDefense>
-	<Speed>122</Speed>
+	<HP>158</HP>
+	<Attack>105</Attack>
+	<Defense>123</Defense>
+	<SpAttack>106</SpAttack>
+	<SpDefense>123</SpDefense>
+	<Speed>102</Speed>
 	<Moves>
 		<Move>
-			<Name>Flame Wheel</Name>
+			<Name>Solarbeam</Name>
 		</Move>
 		<Move>
-			<Name>Swift</Name>
+			<Name>Strength</Name>
 		</Move>
 		<Move>
-			<Name>Rock Smash</Name>
+			<Name>Poisonpowder</Name>
 		</Move>
 		<Move>
-			<Name>Smokescreen</Name>
+			<Name>Reflect</Name>
 		</Move>
 	</Moves>
 </PokeData>

@@ -1,6 +1,3 @@
-</Name>
-	<Level>
-
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Name>Bulbasaur</Name>
@@ -4021,6 +4018,87 @@
 			<Name>Leer</Name>
 		</Move>
 	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Dragonite</Name>
+	<Level>50</Level>
+	<HP>151</HP>
+	<Attack>139</Attack>
+	<Defense>100</Defense>
+	<SpAttack>105</SpAttack>
+	<SpDefense>105</SpDefense>
+	<Speed>85</Speed>
+	<Moves>
+		<Move>
+			<Name>Twister</Name>
+		</Move>
+		<Move>
+			<Name>Wing Attack</Name>
+		</Move>
+		<Move>
+			<Name>Dragon Rage</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</PokeData>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </PokeData>
 
 

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Wooper</Name>
+	<Name>Sunkern</Name>
 	<Level>50</Level>
-	<HP>149</HP>
-	<Attack>84</Attack>
-	<Defense>84</Defense>
-	<SpAttack>66</SpAttack>
-	<SpDefense>66</SpDefense>
-	<Speed>55</Speed>
+	<HP>124</HP>
+	<Attack>69</Attack>
+	<Defense>69</Defense>
+	<SpAttack>71</SpAttack>
+	<SpDefense>71</SpDefense>
+	<Speed>70</Speed>
 	<Moves>
 		<Move>
-			<Name>Surf</Name>
+			<Name>Giga Drain</Name>
 		</Move>
 		<Move>
-			<Name>Earthquake</Name>
+			<Name>Sludge Bomb</Name>
 		</Move>
 		<Move>
-			<Name>Ice Punch</Name>
+			<Name>Attract</Name>
 		</Move>
 		<Move>
-			<Name>Amnesia</Name>
+			<Name>Growth</Name>
 		</Move>
 	</Moves>
 </PokeData>

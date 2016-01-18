@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Hoothoot</Name>
+	<Name>Feraligatr</Name>
 	<Level>50</Level>
-	<HP>152</HP>
-	<Attack>67</Attack>
-	<Defense>68</Defense>
-	<SpAttack>73</SpAttack>
-	<SpDefense>93</SpDefense>
-	<Speed>87</Speed>
+	<HP>159</HP>
+	<Attack>123</Attack>
+	<Defense>119</Defense>
+	<SpAttack>98</SpAttack>
+	<SpDefense>102</SpDefense>
+	<Speed>97</Speed>
 	<Moves>
 		<Move>
-			<Name>Fly</Name>
+			<Name>Water Gun</Name>
 		</Move>
 		<Move>
-			<Name>Swift</Name>
+			<Name>Dig</Name>
 		</Move>
 		<Move>
-			<Name>Dream Eater</Name>
+			<Name>Dynamicpunch</Name>
 		</Move>
 		<Move>
-			<Name>Hypnosis</Name>
+			<Name>Leer</Name>
 		</Move>
 	</Moves>
 </PokeData>

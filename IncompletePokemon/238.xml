@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Miltank</Name>
+	<Name>Smoochum</Name>
 	<Level>50</Level>
-	<HP>176</HP>
-	<Attack>107</Attack>
-	<Defense>132</Defense>
-	<SpAttack>66</SpAttack>
-	<SpDefense>96</SpDefense>
-	<Speed>126</Speed>
+	<HP>135</HP>
+	<Attack>65</Attack>
+	<Defense>51</Defense>
+	<SpAttack>120</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>101</Speed>
 	<Moves>
 		<Move>
-			<Name>Stomp</Name>
+			<Name>Psychic</Name>
 		</Move>
 		<Move>
-			<Name>Ice Punch</Name>
+			<Name>Blizzard</Name>
 		</Move>
 		<Move>
-			<Name>Attract</Name>
+			<Name>Sing</Name>
 		</Move>
 		<Move>
-			<Name>Bide</Name>
+			<Name>Sweet Kiss</Name>
 		</Move>
 	</Moves>
 </PokeData>

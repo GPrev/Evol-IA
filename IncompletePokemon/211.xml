@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Heracross</Name>
+	<Name>Qwilfish</Name>
 	<Level>50</Level>
-	<HP>158</HP>
-	<Attack>148</Attack>
-	<Defense>98</Defense>
-	<SpAttack>63</SpAttack>
-	<SpDefense>118</SpDefense>
-	<Speed>107</Speed>
+	<HP>150</HP>
+	<Attack>126</Attack>
+	<Defense>105</Defense>
+	<SpAttack>85</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>116</Speed>
 	<Moves>
 		<Move>
-			<Name>Reversal</Name>
+			<Name>Sludge Bomb</Name>
 		</Move>
 		<Move>
-			<Name>Cut</Name>
+			<Name>Hydro Pump</Name>
 		</Move>
 		<Move>
-			<Name>Counter</Name>
+			<Name>Pin Missile</Name>
 		</Move>
 		<Move>
-			<Name>Endure</Name>
+			<Name>Minimize</Name>
 		</Move>
 	</Moves>
 </PokeData>

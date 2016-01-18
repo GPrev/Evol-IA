@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Sneasel</Name>
+	<Name>Scizor</Name>
 	<Level>50</Level>
-	<HP>140</HP>
-	<Attack>126</Attack>
-	<Defense>85</Defense>
-	<SpAttack>65</SpAttack>
-	<SpDefense>105</SpDefense>
-	<Speed>146</Speed>
+	<HP>149</HP>
+	<Attack>155</Attack>
+	<Defense>125</Defense>
+	<SpAttack>79</SpAttack>
+	<SpDefense>104</SpDefense>
+	<Speed>89</Speed>
 	<Moves>
 		<Move>
-			<Name>Ice Punch</Name>
+			<Name>Metal Claw</Name>
 		</Move>
 		<Move>
-			<Name>Beat Up</Name>
+			<Name>Cut</Name>
 		</Move>
 		<Move>
-			<Name>Slash</Name>
+			<Name>Agility</Name>
 		</Move>
 		<Move>
-			<Name>Screech</Name>
+			<Name>Leer</Name>
 		</Move>
 	</Moves>
 </PokeData>

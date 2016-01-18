@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Bellossom</Name>
+	<Name>Mareep</Name>
 	<Level>50</Level>
-	<HP>156</HP>
-	<Attack>107</Attack>
-	<Defense>112</Defense>
-	<SpAttack>116</SpAttack>
-	<SpDefense>126</SpDefense>
-	<Speed>76</Speed>
+	<HP>147</HP>
+	<Attack>77</Attack>
+	<Defense>78</Defense>
+	<SpAttack>102</SpAttack>
+	<SpDefense>82</SpDefense>
+	<Speed>72</Speed>
 	<Moves>
 		<Move>
-			<Name>Petal Dance</Name>
+			<Name>Thunder</Name>
 		</Move>
 		<Move>
-			<Name>Cut</Name>
+			<Name>Headbutt</Name>
 		</Move>
 		<Move>
-			<Name>Poisonpowder</Name>
+			<Name>Light Screen</Name>
 		</Move>
 		<Move>
-			<Name>Attract</Name>
+			<Name>Thunder Wave</Name>
 		</Move>
 	</Moves>
 </PokeData>

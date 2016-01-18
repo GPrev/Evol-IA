@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Blissey</Name>
+	<Name>Elekid</Name>
 	<Level>50</Level>
-	<HP>333</HP>
-	<Attack>33</Attack>
-	<Defense>33</Defense>
-	<SpAttack>98</SpAttack>
-	<SpDefense>158</SpDefense>
-	<Speed>77</Speed>
+	<HP>132</HP>
+	<Attack>96</Attack>
+	<Defense>69</Defense>
+	<SpAttack>97</SpAttack>
+	<SpDefense>87</SpDefense>
+	<Speed>127</Speed>
 	<Moves>
 		<Move>
-			<Name>Egg Bomb</Name>
+			<Name>Thunderbolt</Name>
 		</Move>
 		<Move>
-			<Name>Thunder</Name>
+			<Name>Headbutt</Name>
 		</Move>
 		<Move>
-			<Name>Defense Curl</Name>
+			<Name>Screech</Name>
 		</Move>
 		<Move>
-			<Name>Flash</Name>
+			<Name>Light Screen</Name>
 		</Move>
 	</Moves>
 </PokeData>

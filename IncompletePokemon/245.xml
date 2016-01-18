@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Tyranitar</Name>
+	<Name>Suicune</Name>
 	<Level>50</Level>
-	<HP>160</HP>
-	<Attack>139</Attack>
-	<Defense>115</Defense>
-	<SpAttack>100</SpAttack>
-	<SpDefense>105</SpDefense>
-	<Speed>66</Speed>
+	<HP>170</HP>
+	<Attack>90</Attack>
+	<Defense>130</Defense>
+	<SpAttack>105</SpAttack>
+	<SpDefense>130</SpDefense>
+	<Speed>100</Speed>
 	<Moves>
 		<Move>
-			<Name>Bite</Name>
+			<Name>Bubblebeam</Name>
 		</Move>
 		<Move>
-			<Name>Mud-slap</Name>
+			<Name>Gust</Name>
 		</Move>
 		<Move>
-			<Name>Leer</Name>
+			<Name>Curse</Name>
 		</Move>
 		<Move>
-			<Name>Sandstorm</Name>
+			<Name>Roar</Name>
 		</Move>
 	</Moves>
 </PokeData>
-</div>
+
+

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Phanpy</Name>
+	<Name>Houndour</Name>
 	<Level>50</Level>
-	<HP>180</HP>
+	<HP>135</HP>
 	<Attack>95</Attack>
-	<Defense>96</Defense>
-	<SpAttack>75</SpAttack>
-	<SpDefense>75</SpDefense>
-	<Speed>76</Speed>
+	<Defense>66</Defense>
+	<SpAttack>115</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>101</Speed>
 	<Moves>
 		<Move>
-			<Name>Earthquake</Name>
+			<Name>Flamethrower</Name>
 		</Move>
 		<Move>
-			<Name>Double-edge</Name>
+			<Name>Crunch</Name>
 		</Move>
 		<Move>
-			<Name>Double Team</Name>
+			<Name>Sludge Bomb</Name>
 		</Move>
 		<Move>
-			<Name>Swagger</Name>
+			<Name>Sunny Day</Name>
 		</Move>
 	</Moves>
 </PokeData>

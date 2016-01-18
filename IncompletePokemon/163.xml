@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Ledian</Name>
+	<Name>Hoothoot</Name>
 	<Level>50</Level>
-	<HP>142</HP>
-	<Attack>68</Attack>
-	<Defense>82</Defense>
-	<SpAttack>87</SpAttack>
-	<SpDefense>142</SpDefense>
-	<Speed>117</Speed>
+	<HP>152</HP>
+	<Attack>67</Attack>
+	<Defense>68</Defense>
+	<SpAttack>73</SpAttack>
+	<SpDefense>93</SpDefense>
+	<Speed>87</Speed>
 	<Moves>
 		<Move>
-			<Name>Giga Drain</Name>
+			<Name>Fly</Name>
 		</Move>
 		<Move>
-			<Name>Dig</Name>
+			<Name>Swift</Name>
 		</Move>
 		<Move>
-			<Name>Hyper Beam</Name>
+			<Name>Dream Eater</Name>
 		</Move>
 		<Move>
-			<Name>Supersonic</Name>
+			<Name>Hypnosis</Name>
 		</Move>
 	</Moves>
 </PokeData>

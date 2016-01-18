@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Murkrow</Name>
+	<Name>Quagsire</Name>
 	<Level>50</Level>
-	<HP>145</HP>
+	<HP>180</HP>
 	<Attack>116</Attack>
-	<Defense>72</Defense>
-	<SpAttack>115</SpAttack>
-	<SpDefense>72</SpDefense>
-	<Speed>122</Speed>
+	<Defense>115</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>95</SpDefense>
+	<Speed>66</Speed>
 	<Moves>
 		<Move>
-			<Name>Faint Attack</Name>
+			<Name>Surf</Name>
 		</Move>
 		<Move>
-			<Name>Fly</Name>
+			<Name>Dig</Name>
 		</Move>
 		<Move>
-			<Name>Night Shade</Name>
+			<Name>Slam</Name>
 		</Move>
 		<Move>
-			<Name>Haze</Name>
+			<Name>Haze </Name>
 		</Move>
 	</Moves>
 </PokeData>

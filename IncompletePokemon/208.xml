@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Qwilfish</Name>
+	<Name>Steelix</Name>
 	<Level>50</Level>
-	<HP>150</HP>
-	<Attack>126</Attack>
-	<Defense>105</Defense>
-	<SpAttack>85</SpAttack>
-	<SpDefense>85</SpDefense>
-	<Speed>116</Speed>
+	<HP>153</HP>
+	<Attack>108</Attack>
+	<Defense>223</Defense>
+	<SpAttack>78</SpAttack>
+	<SpDefense>88</SpDefense>
+	<Speed>52</Speed>
 	<Moves>
 		<Move>
-			<Name>Sludge Bomb</Name>
+			<Name>Iron Tail</Name>
 		</Move>
 		<Move>
-			<Name>Hydro Pump</Name>
+			<Name>Mud-slap</Name>
 		</Move>
 		<Move>
-			<Name>Pin Missile</Name>
+			<Name>Rock Throw</Name>
 		</Move>
 		<Move>
-			<Name>Minimize</Name>
+			<Name>Sandstorm</Name>
 		</Move>
 	</Moves>
 </PokeData>

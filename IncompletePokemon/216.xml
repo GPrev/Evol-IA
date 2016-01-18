@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Magcargo</Name>
+	<Name>Teddiursa</Name>
 	<Level>50</Level>
-	<HP>135</HP>
-	<Attack>81</Attack>
-	<Defense>150</Defense>
-	<SpAttack>110</SpAttack>
-	<SpDefense>110</SpDefense>
-	<Speed>61</Speed>
+	<HP>150</HP>
+	<Attack>115</Attack>
+	<Defense>86</Defense>
+	<SpAttack>85</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>76</Speed>
 	<Moves>
 		<Move>
-			<Name>Fire Blast</Name>
+			<Name>Slash</Name>
 		</Move>
 		<Move>
-			<Name>Rock Slide</Name>
+			<Name>Faint Attack</Name>
 		</Move>
 		<Move>
-			<Name>Smog</Name>
+			<Name>Earthquake</Name>
 		</Move>
 		<Move>
-			<Name>Amnesia</Name>
+			<Name>Attract</Name>
 		</Move>
 	</Moves>
 </PokeData>

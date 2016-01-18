@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Teddiursa</Name>
+	<Name>Shuckle</Name>
 	<Level>50</Level>
-	<HP>150</HP>
-	<Attack>115</Attack>
-	<Defense>86</Defense>
-	<SpAttack>85</SpAttack>
-	<SpDefense>85</SpDefense>
-	<Speed>76</Speed>
+	<HP>105</HP>
+	<Attack>41</Attack>
+	<Defense>260</Defense>
+	<SpAttack>40</SpAttack>
+	<SpDefense>260</SpDefense>
+	<Speed>36</Speed>
 	<Moves>
 		<Move>
-			<Name>Slash</Name>
+			<Name>Sludge Bomb</Name>
 		</Move>
 		<Move>
-			<Name>Faint Attack</Name>
+			<Name>Rollout</Name>
 		</Move>
 		<Move>
-			<Name>Earthquake</Name>
+			<Name>Bide</Name>
 		</Move>
 		<Move>
-			<Name>Attract</Name>
+			<Name>Sandstorm</Name>
 		</Move>
 	</Moves>
 </PokeData>

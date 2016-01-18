@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Stantler</Name>
+	<Name>Phanpy</Name>
 	<Level>50</Level>
-	<HP>154</HP>
-	<Attack>122</Attack>
-	<Defense>89</Defense>
-	<SpAttack>111</SpAttack>
-	<SpDefense>91</SpDefense>
-	<Speed>111</Speed>
+	<HP>180</HP>
+	<Attack>95</Attack>
+	<Defense>96</Defense>
+	<SpAttack>75</SpAttack>
+	<SpDefense>75</SpDefense>
+	<Speed>76</Speed>
 	<Moves>
 		<Move>
-			<Name>Stomp</Name>
+			<Name>Earthquake</Name>
 		</Move>
 		<Move>
-			<Name>Dream Eater</Name>
+			<Name>Double-edge</Name>
 		</Move>
 		<Move>
-			<Name>Mud-slap</Name>
+			<Name>Double Team</Name>
 		</Move>
 		<Move>
-			<Name>Hypnosis</Name>
+			<Name>Swagger</Name>
 		</Move>
 	</Moves>
 </PokeData>

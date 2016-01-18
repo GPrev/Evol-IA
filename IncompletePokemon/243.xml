@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Larvitar</Name>
+	<Name>Raikou</Name>
 	<Level>50</Level>
-	<HP>142</HP>
-	<Attack>101</Attack>
-	<Defense>88</Defense>
-	<SpAttack>82</SpAttack>
-	<SpDefense>87</SpDefense>
-	<Speed>78</Speed>
+	<HP>160</HP>
+	<Attack>100</Attack>
+	<Defense>90</Defense>
+	<SpAttack>130</SpAttack>
+	<SpDefense>115</SpDefense>
+	<Speed>130</Speed>
 	<Moves>
 		<Move>
-			<Name>Rock Slide</Name>
+			<Name>Spark</Name>
 		</Move>
 		<Move>
-			<Name>Earthquake</Name>
+			<Name>Quick Attack</Name>
 		</Move>
 		<Move>
-			<Name>Hyper Beam</Name>
+			<Name>Flash</Name>
 		</Move>
 		<Move>
-			<Name>Swagger</Name>
+			<Name>Roar</Name>
 		</Move>
 	</Moves>
 </PokeData>

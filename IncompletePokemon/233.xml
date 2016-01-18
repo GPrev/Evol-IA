@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Tyrogue</Name>
+	<Name>Porygon2</Name>
 	<Level>50</Level>
-	<HP>129</HP>
-	<Attack>74</Attack>
-	<Defense>74</Defense>
-	<SpAttack>76</SpAttack>
-	<SpDefense>76</SpDefense>
-	<Speed>75</Speed>
+	<HP>163</HP>
+	<Attack>103</Attack>
+	<Defense>113</Defense>
+	<SpAttack>1278</SpAttack>
+	<SpDefense>118</SpDefense>
+	<Speed>82</Speed>
 	<Moves>
 		<Move>
-			<Name>Rock Smash</Name>
+			<Name>Swift</Name>
 		</Move>
 		<Move>
-			<Name>Strength</Name>
+			<Name>Zap Cannon</Name>
 		</Move>
 		<Move>
-			<Name>Double Team</Name>
+			<Name>Thief</Name>
 		</Move>
 		<Move>
-			<Name>Attract</Name>
+			<Name>Conversion</Name>
 		</Move>
 	</Moves>
 </PokeData>

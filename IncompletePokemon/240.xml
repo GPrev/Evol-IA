@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Raikou</Name>
+	<Name>Magby</Name>
 	<Level>50</Level>
-	<HP>160</HP>
-	<Attack>100</Attack>
-	<Defense>90</Defense>
-	<SpAttack>130</SpAttack>
-	<SpDefense>115</SpDefense>
-	<Speed>130</Speed>
+	<HP>132</HP>
+	<Attack>108</Attack>
+	<Defense>69</Defense>
+	<SpAttack>102</SpAttack>
+	<SpDefense>87</SpDefense>
+	<Speed>115</Speed>
 	<Moves>
 		<Move>
-			<Name>Spark</Name>
+			<Name>Flamethrower</Name>
 		</Move>
 		<Move>
-			<Name>Quick Attack</Name>
+			<Name>Iron Tail</Name>
 		</Move>
 		<Move>
-			<Name>Flash</Name>
+			<Name>Confuse Ray</Name>
 		</Move>
 		<Move>
-			<Name>Roar</Name>
+			<Name>Sunny Day</Name>
 		</Move>
 	</Moves>
 </PokeData>

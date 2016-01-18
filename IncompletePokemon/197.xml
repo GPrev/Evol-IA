@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Misdreavus</Name>
+	<Name>Umbreon</Name>
 	<Level>50</Level>
-	<HP>145</HP>
-	<Attack>91</Attack>
-	<Defense>90</Defense>
-	<SpAttack>115</SpAttack>
-	<SpDefense>115</SpDefense>
-	<Speed>116</Speed>
+	<HP>173</HP>
+	<Attack>88</Attack>
+	<Defense>133</Defense>
+	<SpAttack>83</SpAttack>
+	<SpDefense>153</SpDefense>
+	<Speed>87</Speed>
 	<Moves>
 		<Move>
-			<Name>Shadow Ball</Name>
+			<Name>Faint Attack</Name>
 		</Move>
 		<Move>
-			<Name>Thunder</Name>
+			<Name>Quick Attack</Name>
 		</Move>
 		<Move>
-			<Name>Psywave</Name>
+			<Name>Sand-attack</Name>
 		</Move>
 		<Move>
-			<Name>Pain Split</Name>
+			<Name>Mean Look</Name>
 		</Move>
 	</Moves>
 </PokeData>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Girafarig</Name>
+	<Name>Misdreavus</Name>
 	<Level>50</Level>
-	<HP>151</HP>
-	<Attack>107</Attack>
-	<Defense>92</Defense>
-	<SpAttack>116</SpAttack>
-	<SpDefense>91</SpDefense>
-	<Speed>111</Speed>
+	<HP>145</HP>
+	<Attack>91</Attack>
+	<Defense>90</Defense>
+	<SpAttack>115</SpAttack>
+	<SpDefense>115</SpDefense>
+	<Speed>116</Speed>
 	<Moves>
 		<Move>
-			<Name>Psybeam</Name>
+			<Name>Shadow Ball</Name>
 		</Move>
 		<Move>
-			<Name>Stomp</Name>
+			<Name>Thunder</Name>
 		</Move>
 		<Move>
-			<Name>Crunch</Name>
+			<Name>Psywave</Name>
 		</Move>
 		<Move>
-			<Name>Agility</Name>
+			<Name>Pain Split</Name>
 		</Move>
 	</Moves>
 </PokeData>

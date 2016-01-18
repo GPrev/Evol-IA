@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Smoochum</Name>
+	<Name>Smeargle</Name>
 	<Level>50</Level>
-	<HP>135</HP>
-	<Attack>65</Attack>
-	<Defense>51</Defense>
-	<SpAttack>120</SpAttack>
-	<SpDefense>100</SpDefense>
-	<Speed>101</Speed>
+	<HP>149</HP>
+	<Attack>59</Attack>
+	<Defense>74</Defense>
+	<SpAttack>61</SpAttack>
+	<SpDefense>86</SpDefense>
+	<Speed>115</Speed>
 	<Moves>
 		<Move>
-			<Name>Psychic</Name>
+			<Name>Body Slam</Name>
 		</Move>
 		<Move>
-			<Name>Blizzard</Name>
+			<Name>Mach Punch</Name>
 		</Move>
 		<Move>
-			<Name>Sing</Name>
+			<Name>Flamethrower</Name>
 		</Move>
 		<Move>
-			<Name>Sweet Kiss</Name>
+			<Name>Confuse Ray</Name>
 		</Move>
 	</Moves>
 </PokeData>

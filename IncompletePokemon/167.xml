@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Chinchou</Name>
+	<Name>Spinarak</Name>
 	<Level>50</Level>
-	<HP>165</HP>
-	<Attack>73</Attack>
-	<Defense>74</Defense>
-	<SpAttack>91</SpAttack>
-	<SpDefense>91</SpDefense>
-	<Speed>103</Speed>
+	<HP>134</HP>
+	<Attack>99</Attack>
+	<Defense>79</Defense>
+	<SpAttack>81</SpAttack>
+	<SpDefense>81</SpDefense>
+	<Speed>70</Speed>
 	<Moves>
 		<Move>
-			<Name>Surf</Name>
+			<Name>Sludge Bomb</Name>
 		</Move>
 		<Move>
-			<Name>Thunder</Name>
+			<Name>Leech Life</Name>
 		</Move>
 		<Move>
-			<Name>Rain Dance</Name>
+			<Name>Dig</Name>
 		</Move>
 		<Move>
-			<Name>Confuse Ray</Name>
+			<Name>Night Shade</Name>
 		</Move>
 	</Moves>
 </PokeData>

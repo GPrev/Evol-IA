@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Meganium</Name>
+	<Name>Tyranitar</Name>
 	<Level>50</Level>
-	<HP>158</HP>
-	<Attack>105</Attack>
-	<Defense>123</Defense>
-	<SpAttack>106</SpAttack>
-	<SpDefense>123</SpDefense>
-	<Speed>102</Speed>
+	<HP>160</HP>
+	<Attack>139</Attack>
+	<Defense>115</Defense>
+	<SpAttack>100</SpAttack>
+	<SpDefense>105</SpDefense>
+	<Speed>66</Speed>
 	<Moves>
 		<Move>
-			<Name>Solarbeam</Name>
+			<Name>Bite</Name>
 		</Move>
 		<Move>
-			<Name>Strength</Name>
+			<Name>Mud-slap</Name>
 		</Move>
 		<Move>
-			<Name>Poisonpowder</Name>
+			<Name>Leer</Name>
 		</Move>
 		<Move>
-			<Name>Reflect</Name>
+			<Name>Sandstorm</Name>
 		</Move>
 	</Moves>
 </PokeData>
-
-
+</div>

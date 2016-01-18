@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Gligar</Name>
+	<Name>Pineco</Name>
 	<Level>50</Level>
-	<HP>150</HP>
-	<Attack>106</Attack>
-	<Defense>135</Defense>
-	<SpAttack>65</SpAttack>
-	<SpDefense>95</SpDefense>
-	<Speed>116</Speed>
+	<HP>142</HP>
+	<Attack>102</Attack>
+	<Defense>128</Defense>
+	<SpAttack>72</SpAttack>
+	<SpDefense>72</SpDefense>
+	<Speed>52</Speed>
 	<Moves>
 		<Move>
-			<Name>Slash</Name>
+			<Name>Double-edge</Name>
 		</Move>
 		<Move>
-			<Name>Faint Attack</Name>
+			<Name>Giga Drain</Name>
 		</Move>
 		<Move>
-			<Name>Guillotine</Name>
+			<Name>Explosion</Name>
 		</Move>
 		<Move>
-			<Name>Sand-attack</Name>
+			<Name>Spikes</Name>
 		</Move>
 	</Moves>
 </PokeData>

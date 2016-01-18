@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Lanturn</Name>
+	<Name>Ariados</Name>
 	<Level>50</Level>
-	<HP>206</HP>
-	<Attack>85</Attack>
-	<Defense>85</Defense>
-	<SpAttack>102</SpAttack>
-	<SpDefense>102</SpDefense>
-	<Speed>93</Speed>
+	<HP>157</HP>
+	<Attack>123</Attack>
+	<Defense>102</Defense>
+	<SpAttack>92</SpAttack>
+	<SpDefense>92</SpDefense>
+	<Speed>72</Speed>
 	<Moves>
 		<Move>
-			<Name>Hydro Pump</Name>
+			<Name>Sludge Bomb</Name>
 		</Move>
 		<Move>
-			<Name>Spark</Name>
+			<Name>Protect</Name>
 		</Move>
 		<Move>
-			<Name>Flail</Name>
+			<Name>Toxic</Name>
 		</Move>
 		<Move>
-			<Name>Supersonic</Name>
+			<Name>Spider Web</Name>
 		</Move>
 	</Moves>
 </PokeData>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Ariados</Name>
+	<Name>Ledyba</Name>
 	<Level>50</Level>
-	<HP>157</HP>
-	<Attack>123</Attack>
-	<Defense>102</Defense>
-	<SpAttack>92</SpAttack>
-	<SpDefense>92</SpDefense>
-	<Speed>72</Speed>
+	<HP>132</HP>
+	<Attack>57</Attack>
+	<Defense>68</Defense>
+	<SpAttack>77</SpAttack>
+	<SpDefense>117</SpDefense>
+	<Speed>92</Speed>
 	<Moves>
 		<Move>
-			<Name>Sludge Bomb</Name>
+			<Name>Double-edge</Name>
 		</Move>
 		<Move>
-			<Name>Protect</Name>
+			<Name>Ice Punch</Name>
 		</Move>
 		<Move>
-			<Name>Toxic</Name>
+			<Name>Reflect</Name>
 		</Move>
 		<Move>
-			<Name>Spider Web</Name>
+			<Name>Safeguard</Name>
 		</Move>
 	</Moves>
 </PokeData>

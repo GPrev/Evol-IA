@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Ampharos</Name>
+	<Name>Xatu</Name>
 	<Level>50</Level>
-	<HP>169</HP>
-	<Attack>100</Attack>
-	<Defense>100</Defense>
-	<SpAttack>139</SpAttack>
-	<SpDefense>114</SpDefense>
-	<Speed>79</Speed>
+	<HP>146</HP>
+	<Attack>102</Attack>
+	<Defense>97</Defense>
+	<SpAttack>121</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>121</Speed>
 	<Moves>
 		<Move>
-			<Name>Zap Cannon</Name>
+			<Name>Fly</Name>
 		</Move>
 		<Move>
-			<Name>Dynamicpunch</Name>
+			<Name>Future Sight</Name>
 		</Move>
 		<Move>
-			<Name>Swift</Name>
+			<Name>Night Shade</Name>
 		</Move>
 		<Move>
 			<Name>Flash</Name>

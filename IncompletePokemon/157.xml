@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Feraligatr</Name>
+	<Name>Typhlosion</Name>
 	<Level>50</Level>
-	<HP>159</HP>
-	<Attack>123</Attack>
-	<Defense>119</Defense>
-	<SpAttack>98</SpAttack>
-	<SpDefense>102</SpDefense>
-	<Speed>97</Speed>
+	<HP>156</HP>
+	<Attack>107</Attack>
+	<Defense>101</Defense>
+	<SpAttack>132</SpAttack>
+	<SpDefense>108</SpDefense>
+	<Speed>122</Speed>
 	<Moves>
 		<Move>
-			<Name>Water Gun</Name>
+			<Name>Flame Wheel</Name>
 		</Move>
 		<Move>
-			<Name>Dig</Name>
+			<Name>Swift</Name>
 		</Move>
 		<Move>
-			<Name>Dynamicpunch</Name>
+			<Name>Rock Smash</Name>
 		</Move>
 		<Move>
-			<Name>Leer</Name>
+			<Name>Smokescreen</Name>
 		</Move>
 	</Moves>
 </PokeData>

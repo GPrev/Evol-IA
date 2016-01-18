@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Elekid</Name>
+	<Name>Tyrogue</Name>
 	<Level>50</Level>
-	<HP>132</HP>
-	<Attack>96</Attack>
-	<Defense>69</Defense>
-	<SpAttack>97</SpAttack>
-	<SpDefense>87</SpDefense>
-	<Speed>127</Speed>
+	<HP>129</HP>
+	<Attack>74</Attack>
+	<Defense>74</Defense>
+	<SpAttack>76</SpAttack>
+	<SpDefense>76</SpDefense>
+	<Speed>75</Speed>
 	<Moves>
 		<Move>
-			<Name>Thunderbolt</Name>
+			<Name>Rock Smash</Name>
 		</Move>
 		<Move>
-			<Name>Headbutt</Name>
+			<Name>Strength</Name>
 		</Move>
 		<Move>
-			<Name>Screech</Name>
+			<Name>Double Team</Name>
 		</Move>
 		<Move>
-			<Name>Light Screen</Name>
+			<Name>Attract</Name>
 		</Move>
 	</Moves>
 </PokeData>

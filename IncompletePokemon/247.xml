@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Bayleef</Name>
+	<Name>Pupitar</Name>
 	<Level>50</Level>
-	<HP>145</HP>
-	<Attack>93</Attack>
-	<Defense>110</Defense>
-	<SpAttack>93</SpAttack>
-	<SpDefense>110</SpDefense>
-	<Speed>91</Speed>
+	<HP>155</HP>
+	<Attack>115</Attack>
+	<Defense>100</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>82</Speed>
 	<Moves>
 		<Move>
-			<Name>Razor Leaf</Name>
+			<Name>Rock Slide</Name>
 		</Move>
 		<Move>
-			<Name>Body Slam</Name>
+			<Name>Dig</Name>
 		</Move>
 		<Move>
-			<Name>Safeguard</Name>
+			<Name>Hyper Beam</Name>
 		</Move>
 		<Move>
-			<Name>Synthesis</Name>
+			<Name>Screech</Name>
 		</Move>
 	</Moves>
 </PokeData>

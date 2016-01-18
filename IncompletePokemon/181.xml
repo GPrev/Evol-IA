@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Azumarill</Name>
+	<Name>Ampharos</Name>
 	<Level>50</Level>
-	<HP>185</HP>
-	<Attack>81</Attack>
-	<Defense>110</Defense>
-	<SpAttack>80</SpAttack>
-	<SpDefense>110</SpDefense>
-	<Speed>81</Speed>
+	<HP>169</HP>
+	<Attack>100</Attack>
+	<Defense>100</Defense>
+	<SpAttack>139</SpAttack>
+	<SpDefense>114</SpDefense>
+	<Speed>79</Speed>
 	<Moves>
 		<Move>
-			<Name>Waterfall</Name>
+			<Name>Zap Cannon</Name>
 		</Move>
 		<Move>
-			<Name>Icy Wind</Name>
+			<Name>Dynamicpunch</Name>
 		</Move>
 		<Move>
-			<Name>Defense Curl</Name>
+			<Name>Swift</Name>
 		</Move>
 		<Move>
-			<Name>Rain Dance</Name>
+			<Name>Flash</Name>
 		</Move>
 	</Moves>
 </PokeData>

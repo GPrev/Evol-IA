@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Scizor</Name>
+	<Name>Snubbull</Name>
 	<Level>50</Level>
-	<HP>149</HP>
-	<Attack>155</Attack>
-	<Defense>125</Defense>
-	<SpAttack>79</SpAttack>
-	<SpDefense>104</SpDefense>
-	<Speed>89</Speed>
+	<HP>152</HP>
+	<Attack>117</Attack>
+	<Defense>88</Defense>
+	<SpAttack>77</SpAttack>
+	<SpDefense>77</SpDefense>
+	<Speed>67</Speed>
 	<Moves>
 		<Move>
-			<Name>Metal Claw</Name>
+			<Name>Strength</Name>
 		</Move>
 		<Move>
-			<Name>Cut</Name>
+			<Name>Shadow Ball</Name>
 		</Move>
 		<Move>
-			<Name>Agility</Name>
+			<Name>Charm</Name>
 		</Move>
 		<Move>
-			<Name>Leer</Name>
+			<Name>Swagger</Name>
 		</Move>
 	</Moves>
 </PokeData>

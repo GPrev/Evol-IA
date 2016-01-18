@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Sunflora</Name>
+	<Name>Larvitar</Name>
 	<Level>50</Level>
-	<HP>160</HP>
-	<Attack>106</Attack>
-	<Defense>85</Defense>
-	<SpAttack>135</SpAttack>
-	<SpDefense>115</SpDefense>
-	<Speed>61</Speed>
+	<HP>142</HP>
+	<Attack>101</Attack>
+	<Defense>88</Defense>
+	<SpAttack>82</SpAttack>
+	<SpDefense>87</SpDefense>
+	<Speed>78</Speed>
 	<Moves>
 		<Move>
-			<Name>Razor Leaf</Name>
+			<Name>Rock Slide</Name>
+		</Move>
+		<Move>
+			<Name>Earthquake</Name>
 		</Move>
 		<Move>
 			<Name>Hyper Beam</Name>
 		</Move>
 		<Move>
-			<Name>Toxic</Name>
-		</Move>
-		<Move>
-			<Name>Growth</Name>
+			<Name>Swagger</Name>
 		</Move>
 	</Moves>
 </PokeData>

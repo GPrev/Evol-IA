@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Ledyba</Name>
+	<Name>Furret</Name>
 	<Level>50</Level>
-	<HP>132</HP>
-	<Attack>57</Attack>
-	<Defense>68</Defense>
-	<SpAttack>77</SpAttack>
-	<SpDefense>117</SpDefense>
-	<Speed>92</Speed>
+	<HP>170</HP>
+	<Attack>107</Attack>
+	<Defense>94</Defense>
+	<SpAttack>75</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>121</Speed>
 	<Moves>
 		<Move>
-			<Name>Double-edge</Name>
+			<Name>Strength</Name>
 		</Move>
 		<Move>
 			<Name>Ice Punch</Name>
 		</Move>
 		<Move>
-			<Name>Reflect</Name>
+			<Name>Thunderpunch</Name>
 		</Move>
 		<Move>
-			<Name>Safeguard</Name>
+			<Name>Amnesia</Name>
 		</Move>
 	</Moves>
 </PokeData>

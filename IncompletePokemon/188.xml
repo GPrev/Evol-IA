@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Sunkern</Name>
+	<Name>Skiploom</Name>
 	<Level>50</Level>
-	<HP>124</HP>
-	<Attack>69</Attack>
-	<Defense>69</Defense>
-	<SpAttack>71</SpAttack>
-	<SpDefense>71</SpDefense>
-	<Speed>70</Speed>
+	<HP>145</HP>
+	<Attack>80</Attack>
+	<Defense>86</Defense>
+	<SpAttack>80</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>116</Speed>
 	<Moves>
 		<Move>
-			<Name>Giga Drain</Name>
+			<Name>Solarbeam</Name>
 		</Move>
 		<Move>
-			<Name>Sludge Bomb</Name>
+			<Name>Headbutt</Name>
 		</Move>
 		<Move>
-			<Name>Attract</Name>
+			<Name>Synthesis</Name>
 		</Move>
 		<Move>
-			<Name>Growth</Name>
+			<Name>Sunny Day</Name>
 		</Move>
 	</Moves>
 </PokeData>

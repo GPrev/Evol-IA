@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Slowking</Name>
+	<Name>Espeon</Name>
 	<Level>50</Level>
-	<HP>176</HP>
-	<Attack>102</Attack>
-	<Defense>107</Defense>
-	<SpAttack>126</SpAttack>
-	<SpDefense>136</SpDefense>
-	<Speed>56</Speed>
+	<HP>143</HP>
+	<Attack>88</Attack>
+	<Defense>83</Defense>
+	<SpAttack>153</SpAttack>
+	<SpDefense>118</SpDefense>
+	<Speed>132</Speed>
 	<Moves>
 		<Move>
-			<Name>Psychic</Name>
+			<Name>Psybeam</Name>
 		</Move>
 		<Move>
-			<Name>Water Gun</Name>
+			<Name>Swift</Name>
 		</Move>
 		<Move>
-			<Name>Disable</Name>
+			<Name>Tail Whip</Name>
 		</Move>
 		<Move>
-			<Name>Growl</Name>
+			<Name>Psych Up</Name>
 		</Move>
 	</Moves>
 </PokeData>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Spinarak</Name>
+	<Name>Noctowl</Name>
 	<Level>50</Level>
-	<HP>134</HP>
-	<Attack>99</Attack>
-	<Defense>79</Defense>
-	<SpAttack>81</SpAttack>
-	<SpDefense>81</SpDefense>
-	<Speed>70</Speed>
+	<HP>185</HP>
+	<Attack>81</Attack>
+	<Defense>80</Defense>
+	<SpAttack>106</SpAttack>
+	<SpDefense>126</SpDefense>
+	<Speed>101</Speed>
 	<Moves>
 		<Move>
-			<Name>Sludge Bomb</Name>
+			<Name>Fly</Name>
 		</Move>
 		<Move>
-			<Name>Leech Life</Name>
+			<Name>Take Down</Name>
 		</Move>
 		<Move>
-			<Name>Dig</Name>
+			<Name>Confusion</Name>
 		</Move>
 		<Move>
-			<Name>Night Shade</Name>
+			<Name>Foresight</Name>
 		</Move>
 	</Moves>
 </PokeData>

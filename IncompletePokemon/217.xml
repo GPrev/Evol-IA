@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Swinub</Name>
+	<Name>Ursaring</Name>
 	<Level>50</Level>
-	<HP>144</HP>
-	<Attack>89</Attack>
-	<Defense>79</Defense>
-	<SpAttack>71</SpAttack>
-	<SpDefense>71</SpDefense>
-	<Speed>90</Speed>
+	<HP>169</HP>
+	<Attack>155</Attack>
+	<Defense>100</Defense>
+	<SpAttack>99</SpAttack>
+	<SpDefense>99</SpDefense>
+	<Speed>79</Speed>
 	<Moves>
 		<Move>
-			<Name>Blizzard</Name>
+			<Name>Dig</Name>
 		</Move>
 		<Move>
-			<Name>Earthquake</Name>
+			<Name>Fire Punch</Name>
 		</Move>
 		<Move>
-			<Name>Strength</Name>
+			<Name>Snore</Name>
 		</Move>
 		<Move>
-			<Name>Mist</Name>
+			<Name>Rest</Name>
 		</Move>
 	</Moves>
 </PokeData>

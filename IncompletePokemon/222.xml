@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Delibird</Name>
+	<Name>Corsola</Name>
 	<Level>50</Level>
-	<HP>135</HP>
-	<Attack>90</Attack>
-	<Defense>81</Defense>
-	<SpAttack>100</SpAttack>
-	<SpDefense>80</SpDefense>
-	<Speed>111</Speed>
+	<HP>142</HP>
+	<Attack>88</Attack>
+	<Defense>117</Defense>
+	<SpAttack>97</SpAttack>
+	<SpDefense>117</SpDefense>
+	<Speed>67</Speed>
 	<Moves>
 		<Move>
-			<Name>Present</Name>
+			<Name>Surf</Name>
 		</Move>
 		<Move>
-			<Name>Blizzard</Name>
+			<Name>Ancientpower</Name>
 		</Move>
 		<Move>
-			<Name>Fly</Name>
+			<Name>Mirror Coat</Name>
 		</Move>
 		<Move>
-			<Name>Double Team</Name>
+			<Name>Attract</Name>
 		</Move>
 	</Moves>
 </PokeData>

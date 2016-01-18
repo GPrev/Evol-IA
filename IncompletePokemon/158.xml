@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Sentret</Name>
+	<Name>Totodile</Name>
 	<Level>50</Level>
-	<HP>129</HP>
-	<Attack>85</Attack>
-	<Defense>73</Defense>
-	<SpAttack>76</SpAttack>
-	<SpDefense>86</SpDefense>
-	<Speed>60</Speed>
+	<HP>140</HP>
+	<Attack>100</Attack>
+	<Defense>100</Defense>
+	<SpAttack>79</SpAttack>
+	<SpDefense>83</SpDefense>
+	<Speed>79</Speed>
 	<Moves>
 		<Move>
-			<Name>Headbutt</Name>
+			<Name>Surf</Name>
 		</Move>
 		<Move>
-			<Name>Shadow Ball</Name>
+			<Name>Blizzard</Name>
 		</Move>
 		<Move>
-			<Name>Rollout</Name>
+			<Name>Slash</Name>
 		</Move>
 		<Move>
-			<Name>Defense Curl</Name>
+			<Name>Screech</Name>
 		</Move>
 	</Moves>
 </PokeData>

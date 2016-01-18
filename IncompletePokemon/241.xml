@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Entei</Name>
+	<Name>Miltank</Name>
 	<Level>50</Level>
-	<HP>182</HP>
-	<Attack>127</Attack>
-	<Defense>97</Defense>
-	<SpAttack>102</SpAttack>
-	<SpDefense>87</SpDefense>
-	<Speed>112</Speed>
+	<HP>176</HP>
+	<Attack>107</Attack>
+	<Defense>132</Defense>
+	<SpAttack>66</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>126</Speed>
 	<Moves>
 		<Move>
-			<Name>Fire Blast</Name>
+			<Name>Stomp</Name>
 		</Move>
 		<Move>
-			<Name>Rock Smash</Name>
+			<Name>Ice Punch</Name>
 		</Move>
 		<Move>
-			<Name>Leer</Name>
+			<Name>Attract</Name>
 		</Move>
 		<Move>
-			<Name>Roar</Name>
+			<Name>Bide</Name>
 		</Move>
 	</Moves>
 </PokeData>

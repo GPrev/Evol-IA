@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Name>Croconaw</Name>
+	<Name>Quilava</Name>
 	<Level>50</Level>
-	<HP>150</HP>
-	<Attack>111</Attack>
-	<Defense>110</Defense>
-	<SpAttack>89</SpAttack>
-	<SpDefense>93</SpDefense>
-	<Speed>89</Speed>
+	<HP>143</HP>
+	<Attack>95</Attack>
+	<Defense>88</Defense>
+	<SpAttack>110</SpAttack>
+	<SpDefense>95</SpDefense>
+	<Speed>111</Speed>
 	<Moves>
 		<Move>
-			<Name>Hydro Pump</Name>
+			<Name>Fire Blast</Name>
 		</Move>
 		<Move>
-			<Name>Ice Punch</Name>
+			<Name>Rollout</Name>
 		</Move>
 		<Move>
-			<Name>Slash</Name>
+			<Name>Strength</Name>
 		</Move>
 		<Move>
-			<Name>Scary Face</Name>
+			<Name>Smokescreen</Name>
 		</Move>
 	</Moves>
 </PokeData>
