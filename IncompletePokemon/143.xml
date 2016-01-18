@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Articuno</Name>
+	<Level>50</Level>
+	<HP>155</HP>
+	<Attack>94</Attack>
+	<Defense>110</Defense>
+	<SpAttack>105</SpAttack>
+	<SpDefense>135</SpDefense>
+	<Speed>94</Speed>
+	<Moves>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Peck</Name>
+		</Move>
+		<Move>
+			<Name>Agility</Name>
+		</Move>
+		<Move>
+			<Name>Mist</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

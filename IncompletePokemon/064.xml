@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Alakazam</Name>
+	<Level>50</Level>
+	<HP>136</HP>
+	<Attack>77</Attack>
+	<Defense>72</Defense>
+	<SpAttack>161</SpAttack>
+	<SpDefense>111</SpDefense>
+	<Speed>146</Speed>
+	<Moves>
+		<Move>
+			<Name>Psybeam</Name>
+		</Move>
+		<Move>
+			<Name>Future Sight</Name>
+		</Move>
+		<Move>
+			<Name>Thief</Name>
+		</Move>
+		<Move>
+			<Name>Kinesis</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

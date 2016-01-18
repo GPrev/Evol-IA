@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Corsola</Name>
+	<Level>50</Level>
+	<HP>142</HP>
+	<Attack>88</Attack>
+	<Defense>117</Defense>
+	<SpAttack>97</SpAttack>
+	<SpDefense>117</SpDefense>
+	<Speed>67</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Ancientpower</Name>
+		</Move>
+		<Move>
+			<Name>Mirror Coat</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Wartortle</Name>
+	<Level>50</Level>
+	<HP>144</HP>
+	<Attack>94</Attack>
+	<Defense>110</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>110</SpDefense>
+	<Speed>89</Speed>
+	<Moves>
+		<Move>
+			<Name>Waterfall</Name>
+		</Move>
+		<Move>
+			<Name>Icy Wind</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Rapid Spin</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

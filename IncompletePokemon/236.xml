@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Elekid</Name>
+	<Level>50</Level>
+	<HP>132</HP>
+	<Attack>96</Attack>
+	<Defense>69</Defense>
+	<SpAttack>97</SpAttack>
+	<SpDefense>87</SpDefense>
+	<Speed>127</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunderbolt</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Screech</Name>
+		</Move>
+		<Move>
+			<Name>Light Screen</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

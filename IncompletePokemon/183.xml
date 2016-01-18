@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Politoed</Name>
+	<Level>50</Level>
+	<HP>169</HP>
+	<Attack>100</Attack>
+	<Defense>100</Defense>
+	<SpAttack>114</SpAttack>
+	<SpDefense>124</SpDefense>
+	<Speed>94</Speed>
+	<Moves>
+		<Move>
+			<Name>Whirlpool</Name>
+		</Move>
+		<Move>
+			<Name>Icy Wind</Name>
+		</Move>
+		<Move>
+			<Name>Perish Song</Name>
+		</Move>
+		<Move>
+			<Name>Swagger</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

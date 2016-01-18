@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Gloom</Name>
+	<Level>50</Level>
+	<HP>147</HP>
+	<Attack>98</Attack>
+	<Defense>102</Defense>
+	<SpAttack>117</SpAttack>
+	<SpDefense>107</SpDefense>
+	<Speed>72</Speed>
+	<Moves>
+		<Move>
+			<Name>Solarbeam</Name>
+		</Move>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Sleep Powder</Name>
+		</Move>
+		<Move>
+			<Name>Sunny Day</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

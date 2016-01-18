@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Pikachu</Name>
+	<Level>50</Level>
+	<HP>125</HP>
+	<Attack>90</Attack>
+	<Defense>66</Defense>
+	<SpAttack>85</SpAttack>
+	<SpDefense>75</SpDefense>
+	<Speed>126</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunderbolt</Name>
+		</Move>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Iron Tail</Name>
+		</Move>
+		<Move>
+			<Name>Thunder Wave</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

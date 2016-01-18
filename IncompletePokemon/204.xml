@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Gligar</Name>
+	<Level>50</Level>
+	<HP>150</HP>
+	<Attack>106</Attack>
+	<Defense>135</Defense>
+	<SpAttack>65</SpAttack>
+	<SpDefense>95</SpDefense>
+	<Speed>116</Speed>
+	<Moves>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Faint Attack</Name>
+		</Move>
+		<Move>
+			<Name>Guillotine</Name>
+		</Move>
+		<Move>
+			<Name>Sand-attack</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

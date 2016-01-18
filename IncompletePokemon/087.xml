@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Grimer</Name>
+	<Level>50</Level>
+	<HP>170</HP>
+	<Attack>115</Attack>
+	<Defense>86</Defense>
+	<SpAttack>75</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>61</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Frustration</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+		<Move>
+			<Name>Screech</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Espeon</Name>
+	<Level>50</Level>
+	<HP>143</HP>
+	<Attack>88</Attack>
+	<Defense>83</Defense>
+	<SpAttack>153</SpAttack>
+	<SpDefense>118</SpDefense>
+	<Speed>132</Speed>
+	<Moves>
+		<Move>
+			<Name>Psybeam</Name>
+		</Move>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Tail Whip</Name>
+		</Move>
+		<Move>
+			<Name>Psych Up</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

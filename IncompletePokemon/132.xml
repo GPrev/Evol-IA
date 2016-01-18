@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Eevee</Name>
+	<Level>50</Level>
+	<HP>145</HP>
+	<Attack>90</Attack>
+	<Defense>86</Defense>
+	<SpAttack>80</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>91</Speed>
+	<Moves>
+		<Move>
+			<Name>Take Down</Name>
+		</Move>
+		<Move>
+			<Name>Iron Tail</Name>
+		</Move>
+		<Move>
+			<Name>Shadow Ball</Name>
+		</Move>
+		<Move>
+			<Name>Sand-attack</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

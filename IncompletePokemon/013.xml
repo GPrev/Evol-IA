@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Kakuna</Name>
+	<Level>50</Level>
+	<HP>139</HP>
+	<Attack>64</Attack>
+	<Defense>89</Defense>
+	<SpAttack>66</SpAttack>
+	<SpDefense>66</SpDefense>
+	<Speed>75</Speed>
+	<Moves>
+		<Move>
+			<Name>Harden</Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

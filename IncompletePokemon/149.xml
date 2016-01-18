@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Chikorita</Name>
+	<Level>50</Level>
+	<HP>135</HP>
+	<Attack>84</Attack>
+	<Defense>101</Defense>
+	<SpAttack>84</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>81</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Body Slam</Name>
+		</Move>
+		<Move>
+			<Name>Light Screen</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

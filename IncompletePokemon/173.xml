@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Togetic</Name>
+	<Level>50</Level>
+	<HP>140</HP>
+	<Attack>71</Attack>
+	<Defense>115</Defense>
+	<SpAttack>110</SpAttack>
+	<SpDefense>135</SpDefense>
+	<Speed>71</Speed>
+	<Moves>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Double-edge</Name>
+		</Move>
+		<Move>
+			<Name>Metronome</Name>
+		</Move>
+		<Move>
+			<Name>Charm</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

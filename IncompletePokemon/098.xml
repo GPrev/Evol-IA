@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Kingler</Name>
+	<Level>50</Level>
+	<HP>136</HP>
+	<Attack>157</Attack>
+	<Defense>142</Defense>
+	<SpAttack>76</SpAttack>
+	<SpDefense>76</SpDefense>
+	<Speed>101</Speed>
+	<Moves>
+		<Move>
+			<Name>Crabhammer</Name>
+		</Move>
+		<Move>
+			<Name>Vicegrip</Name>
+		</Move>
+		<Move>
+			<Name>Guillotine</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

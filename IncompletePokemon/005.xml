@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Charizard</Name>
+	<Level>50</Level>
+	<HP>156</HP>
+	<Attack>107</Attack>
+	<Defense>101</Defense>
+	<SpAttack>132</SpAttack>
+	<SpDefense>108</SpDefense>
+	<Speed>122</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Punch</Name>
+		</Move>
+		<Move>
+			<Name>Wing Attack</Name>
+		</Move>
+		<Move>
+			<Name>Growl</Name>
+		</Move>
+		<Move>
+			<Name>Scary Face</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

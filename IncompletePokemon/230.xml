@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Porygon2</Name>
+	<Level>50</Level>
+	<HP>163</HP>
+	<Attack>103</Attack>
+	<Defense>113</Defense>
+	<SpAttack>1278</SpAttack>
+	<SpDefense>118</SpDefense>
+	<Speed>82</Speed>
+	<Moves>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Zap Cannon</Name>
+		</Move>
+		<Move>
+			<Name>Thief</Name>
+		</Move>
+		<Move>
+			<Name>Conversion</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

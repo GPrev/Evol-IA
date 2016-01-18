@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Beedrill</Name>
+	<Level>50</Level>
+	<HP>152</HP>
+	<Attack>113</Attack>
+	<Defense>72</Defense>
+	<SpAttack>77</SpAttack>
+	<SpDefense>112</SpDefense>
+	<Speed>107</Speed>
+	<Moves>
+		<Move>
+			<Name>Twineedle</Name>
+		</Move>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Pursuit</Name>
+		</Move>
+		<Move>
+			<Name>Focus Energy</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

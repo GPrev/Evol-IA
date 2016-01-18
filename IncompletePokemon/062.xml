@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Abra</Name>
+	<Level>50</Level>
+	<HP>115</HP>
+	<Attack>55</Attack>
+	<Defense>51</Defense>
+	<SpAttack>140</SpAttack>
+	<SpDefense>90</SpDefense>
+	<Speed>126</Speed>
+	<Moves>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Ice Punch</Name>
+		</Move>
+		<Move>
+			<Name>Swagger</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

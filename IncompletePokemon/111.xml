@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Rhydon</Name>
+	<Level>50</Level>
+	<HP>186</HP>
+	<Attack>157</Attack>
+	<Defense>147</Defense>
+	<SpAttack>71</SpAttack>
+	<SpDefense>71</SpDefense>
+	<Speed>66</Speed>
+	<Moves>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Stomp</Name>
+		</Move>
+		<Move>
+			<Name>Zap Cannon</Name>
+		</Move>
+		<Move>
+			<Name>Scary Face</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

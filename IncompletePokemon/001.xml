@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Ivysaur</Name>
+	<Level>50</Level>
+	<HP>145</HP>
+	<Attack>93</Attack>
+	<Defense>93</Defense>
+	<SpAttack>110</SpAttack>
+	<SpDefense>110</SpDefense>
+	<Speed>91</Speed>
+	<Moves>
+		<Move>
+			<Name>Solarbeam</Name>
+		</Move>
+		<Move>
+			<Name>Fury Cutter</Name>
+		</Move>
+		<Move>
+			<Name>Leech Seed</Name>
+		</Move>
+		<Move>
+			<Name>Sunny Day</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

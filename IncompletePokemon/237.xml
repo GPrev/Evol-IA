@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Magby</Name>
+	<Level>50</Level>
+	<HP>132</HP>
+	<Attack>108</Attack>
+	<Defense>69</Defense>
+	<SpAttack>102</SpAttack>
+	<SpDefense>87</SpDefense>
+	<Speed>115</Speed>
+	<Moves>
+		<Move>
+			<Name>Flamethrower</Name>
+		</Move>
+		<Move>
+			<Name>Iron Tail</Name>
+		</Move>
+		<Move>
+			<Name>Confuse Ray</Name>
+		</Move>
+		<Move>
+			<Name>Sunny Day</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

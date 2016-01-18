@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Metapod</Name>
+	<Level>50</Level>
+	<HP>144</HP>
+	<Attack>59</Attack>
+	<Defense>94</Defense>
+	<SpAttack>66</SpAttack>
+	<SpDefense>66</SpDefense>
+	<Speed>70</Speed>
+	<Moves>
+		<Move>
+			<Name>Harden</Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

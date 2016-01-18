@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Pinsir</Name>
+	<Level>50</Level>
+	<HP>144</HP>
+	<Attack>150</Attack>
+	<Defense>125</Defense>
+	<SpAttack>79</SpAttack>
+	<SpDefense>94</SpDefense>
+	<Speed>109</Speed>
+	<Moves>
+		<Move>
+			<Name>Fury Cutter</Name>
+		</Move>
+		<Move>
+			<Name>Vicegrip</Name>
+		</Move>
+		<Move>
+			<Name>Submission</Name>
+		</Move>
+		<Move>
+			<Name>Focus Energy</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

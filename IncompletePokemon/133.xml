@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Vaporeon</Name>
+	<Level>50</Level>
+	<HP>208</HP>
+	<Attack>88</Attack>
+	<Defense>83</Defense>
+	<SpAttack>133</SpAttack>
+	<SpDefense>118</SpDefense>
+	<Speed>87</Speed>
+	<Moves>
+		<Move>
+			<Name>Waterfall</Name>
+		</Move>
+		<Move>
+			<Name>Quick Attack</Name>
+		</Move>
+		<Move>
+			<Name>Acid Armor</Name>
+		</Move>
+		<Move>
+			<Name>Sand-attack</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

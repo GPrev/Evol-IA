@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Marill</Name>
+	<Level>50</Level>
+	<HP>164</HP>
+	<Attack>59</Attack>
+	<Defense>89</Defense>
+	<SpAttack>61</SpAttack>
+	<SpDefense>91</SpDefense>
+	<Speed>80</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Rollout</Name>
+		</Move>
+		<Move>
+			<Name>Defense Curl</Name>
+		</Move>
+		<Move>
+			<Name>Swagger</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

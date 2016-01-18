@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Caterpie</Name>
+	<Level>50</Level>
+	<HP>139</HP>
+	<Attack>69</Attack>
+	<Defense>74</Defense>
+	<SpAttack>61</SpAttack>
+	<SpDefense>61</SpDefense>
+	<Speed>85</Speed>
+	<Moves>
+		<Move>
+			<Name>Tackle</Name>
+		</Move>
+		<Move>
+			<Name>String Shot</Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

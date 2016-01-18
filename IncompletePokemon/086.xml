@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Dewgong</Name>
+	<Level>50</Level>
+	<HP>171</HP>
+	<Attack>97</Attack>
+	<Defense>107</Defense>
+	<SpAttack>96</SpAttack>
+	<SpDefense>121</SpDefense>
+	<Speed>96</Speed>
+	<Moves>
+		<Move>
+			<Name>Waterfall</Name>
+		</Move>
+		<Move>
+			<Name>Aurora Beam</Name>
+		</Move>
+		<Move>
+			<Name>Sleep Talk</Name>
+		</Move>
+		<Move>
+			<Name>Rest</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Jynx</Name>
+	<Level>50</Level>
+	<HP>146</HP>
+	<Attack>77</Attack>
+	<Defense>62</Defense>
+	<SpAttack>141</SpAttack>
+	<SpDefense>121</SpDefense>
+	<Speed>121</Speed>
+	<Moves>
+		<Move>
+			<Name>Ice Punch</Name>
+		</Move>
+		<Move>
+			<Name>Confusion</Name>
+		</Move>
+		<Move>
+			<Name>Lick</Name>
+		</Move>
+		<Move>
+			<Name>Mean Look</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Girafarig</Name>
+	<Level>50</Level>
+	<HP>151</HP>
+	<Attack>107</Attack>
+	<Defense>92</Defense>
+	<SpAttack>116</SpAttack>
+	<SpDefense>91</SpDefense>
+	<Speed>111</Speed>
+	<Moves>
+		<Move>
+			<Name>Psybeam</Name>
+		</Move>
+		<Move>
+			<Name>Stomp</Name>
+		</Move>
+		<Move>
+			<Name>Crunch</Name>
+		</Move>
+		<Move>
+			<Name>Agility</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

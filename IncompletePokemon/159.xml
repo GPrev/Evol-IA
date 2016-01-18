@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Furret</Name>
+	<Level>50</Level>
+	<HP>170</HP>
+	<Attack>107</Attack>
+	<Defense>94</Defense>
+	<SpAttack>75</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>121</Speed>
+	<Moves>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Ice Punch</Name>
+		</Move>
+		<Move>
+			<Name>Thunderpunch</Name>
+		</Move>
+		<Move>
+			<Name>Amnesia</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

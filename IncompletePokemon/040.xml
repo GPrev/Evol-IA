@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Zubat</Name>
+	<Level>50</Level>
+	<HP>134</HP>
+	<Attack>84</Attack>
+	<Defense>74</Defense>
+	<SpAttack>71</SpAttack>
+	<SpDefense>81</SpDefense>
+	<Speed>95</Speed>
+	<Moves>
+		<Move>
+			<Name>Wing Attack</Name>
+		</Move>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Confuse Ray</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

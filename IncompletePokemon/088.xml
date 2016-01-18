@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Muk</Name>
+	<Level>50</Level>
+	<HP>184</HP>
+	<Attack>130</Attack>
+	<Defense>100</Defense>
+	<SpAttack>89</SpAttack>
+	<SpDefense>124</SpDefense>
+	<Speed>74</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge</Name>
+		</Move>
+		<Move>
+			<Name>Dynamicpunch</Name>
+		</Move>
+		<Move>
+			<Name>Disable</Name>
+		</Move>
+		<Move>
+			<Name>Acid Armor</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

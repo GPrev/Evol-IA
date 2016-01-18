@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Kabutops</Name>
+	<Level>50</Level>
+	<HP>141</HP>
+	<Attack>142</Attack>
+	<Defense>132</Defense>
+	<SpAttack>91</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>106</Speed>
+	<Moves>
+		<Move>
+			<Name>Ancientpower</Name>
+		</Move>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+		<Move>
+			<Name>Endure</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

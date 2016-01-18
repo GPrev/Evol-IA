@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Tangela</Name>
+	<Level>50</Level>
+	<HP>150</HP>
+	<Attack>86</Attack>
+	<Defense>145</Defense>
+	<SpAttack>130</SpAttack>
+	<SpDefense>70</SpDefense>
+	<Speed>91</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Thief</Name>
+		</Move>
+		<Move>
+			<Name>Sleep Powder</Name>
+		</Move>
+		<Move>
+			<Name>Growth</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Koffing</Name>
+	<Level>50</Level>
+	<HP>130</HP>
+	<Attack>100</Attack>
+	<Defense>131</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>80</SpDefense>
+	<Speed>71</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Explosion</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

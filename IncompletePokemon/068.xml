@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Bellsprout</Name>
+	<Level>50</Level>
+	<HP>140</HP>
+	<Attack>110</Attack>
+	<Defense>71</Defense>
+	<SpAttack>105</SpAttack>
+	<SpDefense>65</SpDefense>
+	<Speed>76</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+		<Move>
+			<Name>Growth</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

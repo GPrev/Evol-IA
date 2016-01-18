@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Tentacruel</Name>
+	<Level>50</Level>
+	<HP>158</HP>
+	<Attack>93</Attack>
+	<Defense>88</Defense>
+	<SpAttack>103</SpAttack>
+	<SpDefense>143</SpDefense>
+	<Speed>122</Speed>
+	<Moves>
+		<Move>
+			<Name>Bubblebeam</Name>
+		</Move>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Wrap</Name>
+		</Move>
+		<Move>
+			<Name>Barrier</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

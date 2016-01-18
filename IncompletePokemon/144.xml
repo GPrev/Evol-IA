@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Zapdos</Name>
+	<Level>50</Level>
+	<HP>155</HP>
+	<Attack>99</Attack>
+	<Defense>95</Defense>
+	<SpAttack>135</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>109</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Rock Smash</Name>
+		</Move>
+		<Move>
+			<Name>Flash</Name>
+		</Move>
+		<Move>
+			<Name>Detect</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

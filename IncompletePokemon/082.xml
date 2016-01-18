@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Farfetch'd</Name>
+	<Level>50</Level>
+	<HP>139</HP>
+	<Attack>98</Attack>
+	<Defense>87</Defense>
+	<SpAttack>90</SpAttack>
+	<SpDefense>94</SpDefense>
+	<Speed>92</Speed>
+	<Moves>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Steel Wing</Name>
+		</Move>
+		<Move>
+			<Name>Swords Dance</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

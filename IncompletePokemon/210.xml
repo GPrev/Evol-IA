@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Shuckle</Name>
+	<Level>50</Level>
+	<HP>105</HP>
+	<Attack>41</Attack>
+	<Defense>260</Defense>
+	<SpAttack>40</SpAttack>
+	<SpDefense>260</SpDefense>
+	<Speed>36</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Rollout</Name>
+		</Move>
+		<Move>
+			<Name>Bide</Name>
+		</Move>
+		<Move>
+			<Name>Sandstorm</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

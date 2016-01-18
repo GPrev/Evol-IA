@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Weepinbell</Name>
+	<Level>50</Level>
+	<HP>152</HP>
+	<Attack>123</Attack>
+	<Defense>82</Defense>
+	<SpAttack>117</SpAttack>
+	<SpDefense>77</SpDefense>
+	<Speed>87</Speed>
+	<Moves>
+		<Move>
+			<Name>Razor Leaf</Name>
+		</Move>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Stun Spore</Name>
+		</Move>
+		<Move>
+			<Name>Growth</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

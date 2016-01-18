@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Doduo</Name>
+	<Level>50</Level>
+	<HP>125</HP>
+	<Attack>120</Attack>
+	<Defense>81</Defense>
+	<SpAttack>70</SpAttack>
+	<SpDefense>70</SpDefense>
+	<Speed>111</Speed>
+	<Moves>
+		<Move>
+			<Name>Drill Peck</Name>
+		</Move>
+		<Move>
+			<Name>Tri Attack</Name>
+		</Move>
+		<Move>
+			<Name>Steel Wing</Name>
+		</Move>
+		<Move>
+			<Name>Double Team</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

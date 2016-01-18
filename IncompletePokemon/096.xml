@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Hypno</Name>
+	<Level>50</Level>
+	<HP>166</HP>
+	<Attack>100</Attack>
+	<Defense>97</Defense>
+	<SpAttack>99</SpAttack>
+	<SpDefense>141</SpDefense>
+	<Speed>93</Speed>
+	<Moves>
+		<Move>
+			<Name>Confusion</Name>
+		</Move>
+		<Move>
+			<Name>Dream Eater</Name>
+		</Move>
+		<Move>
+			<Name>Psych Up</Name>
+		</Move>
+		<Move>
+			<Name>Hypnosis</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

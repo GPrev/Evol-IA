@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Krabby</Name>
+	<Level>50</Level>
+	<HP>120</HP>
+	<Attack>140</Attack>
+	<Defense>126</Defense>
+	<SpAttack>60</SpAttack>
+	<SpDefense>60</SpDefense>
+	<Speed>86</Speed>
+	<Moves>
+		<Move>
+			<Name>Crabhammer</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Guillotine</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

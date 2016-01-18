@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Kingdra</Name>
+	<Level>50</Level>
+	<HP>153</HP>
+	<Attack>118</Attack>
+	<Defense>118</Defense>
+	<SpAttack>118</SpAttack>
+	<SpDefense>118</SpDefense>
+	<Speed>107</Speed>
+	<Moves>
+		<Move>
+			<Name>Waterfall</Name>
+		</Move>
+		<Move>
+			<Name>Twister</Name>
+		</Move>
+		<Move>
+			<Name>Frustration</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

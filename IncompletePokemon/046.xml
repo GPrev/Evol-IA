@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Parasect</Name>
+	<Level>50</Level>
+	<HP>145</HP>
+	<Attack>126</Attack>
+	<Defense>110</Defense>
+	<SpAttack>90</SpAttack>
+	<SpDefense>110</SpDefense>
+	<Speed>61</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Fury Cutter</Name>
+		</Move>
+		<Move>
+			<Name>Spore</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

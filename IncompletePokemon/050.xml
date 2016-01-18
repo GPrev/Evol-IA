@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Dugtrio</Name>
+	<Level>50</Level>
+	<HP>120</HP>
+	<Attack>111</Attack>
+	<Defense>80</Defense>
+	<SpAttack>80</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>151</Speed>
+	<Moves>
+		<Move>
+			<Name>Magnitude</Name>
+		</Move>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+		<Move>
+			<Name>Curse</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

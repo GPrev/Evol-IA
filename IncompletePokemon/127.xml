@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Tauros</Name>
+	<Level>50</Level>
+	<HP>156</HP>
+	<Attack>127</Attack>
+	<Defense>122</Defense>
+	<SpAttack>66</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>136</Speed>
+	<Moves>
+		<Move>
+			<Name>Take Down</Name>
+		</Move>
+		<Move>
+			<Name>Pursuit</Name>
+		</Move>
+		<Move>
+			<Name>Rock Smash</Name>
+		</Move>
+		<Move>
+			<Name>Scary Face</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

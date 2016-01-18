@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Hitmonlee</Name>
+	<Level>50</Level>
+	<HP>133</HP>
+	<Attack>149</Attack>
+	<Defense>81</Defense>
+	<SpAttack>63</SpAttack>
+	<SpDefense>138</SpDefense>
+	<Speed>116</Speed>
+	<Moves>
+		<Move>
+			<Name>Hi Jump Kick</Name>
+		</Move>
+		<Move>
+			<Name>Mega Kick</Name>
+		</Move>
+		<Move>
+			<Name>Reversal</Name>
+		</Move>
+		<Move>
+			<Name>Meditate</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

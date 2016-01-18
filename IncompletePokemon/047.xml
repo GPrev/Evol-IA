@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Venonat</Name>
+	<Level>50</Level>
+	<HP>150</HP>
+	<Attack>90</Attack>
+	<Defense>86</Defense>
+	<SpAttack>75</SpAttack>
+	<SpDefense>90</SpDefense>
+	<Speed>81</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Supersonic</Name>
+		</Move>
+		<Move>
+			<Name>Stun Spore</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

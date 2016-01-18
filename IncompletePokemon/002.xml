@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Venusaur</Name>
+	<Level>50</Level>
+	<HP>158</HP>
+	<Attack>105</Attack>
+	<Defense>106</Defense>
+	<SpAttack>123</SpAttack>
+	<SpDefense>123</SpDefense>
+	<Speed>102</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Tackle</Name>
+		</Move>
+		<Move>
+			<Name>Poisonpowder</Name>
+		</Move>
+		<Move>
+			<Name>Growl</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

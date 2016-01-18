@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Cloyster</Name>
+	<Level>50</Level>
+	<HP>128</HP>
+	<Attack>118</Attack>
+	<Defense>203</Defense>
+	<SpAttack>108</SpAttack>
+	<SpDefense>68</SpDefense>
+	<Speed>92</Speed>
+	<Moves>
+		<Move>
+			<Name>Clamp</Name>
+		</Move>
+		<Move>
+			<Name>Aurora Beam</Name>
+		</Move>
+		<Move>
+			<Name>Spike Cannon</Name>
+		</Move>
+		<Move>
+			<Name>Withdraw</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

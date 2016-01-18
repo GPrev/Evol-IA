@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Croconaw</Name>
+	<Level>50</Level>
+	<HP>150</HP>
+	<Attack>111</Attack>
+	<Defense>110</Defense>
+	<SpAttack>89</SpAttack>
+	<SpDefense>93</SpDefense>
+	<Speed>89</Speed>
+	<Moves>
+		<Move>
+			<Name>Hydro Pump</Name>
+		</Move>
+		<Move>
+			<Name>Ice Punch</Name>
+		</Move>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Scary Face</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

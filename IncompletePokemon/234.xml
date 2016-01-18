@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Hitmontop</Name>
+	<Level>50</Level>
+	<HP>136</HP>
+	<Attack>127</Attack>
+	<Defense>126</Defense>
+	<SpAttack>66</SpAttack>
+	<SpDefense>141</SpDefense>
+	<Speed>102</Speed>
+	<Moves>
+		<Move>
+			<Name>Triple Kick</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Focus Energy</Name>
+		</Move>
+		<Move>
+			<Name>Counter</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

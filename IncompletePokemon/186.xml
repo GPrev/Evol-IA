@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Jumpluff</Name>
+	<Level>50</Level>
+	<HP>158</HP>
+	<Attack>84</Attack>
+	<Defense>98</Defense>
+	<SpAttack>83</SpAttack>
+	<SpDefense>113</SpDefense>
+	<Speed>139</Speed>
+	<Moves>
+		<Move>
+			<Name>Mega Drain</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Stun Spore</Name>
+		</Move>
+		<Move>
+			<Name>Leech Seed</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

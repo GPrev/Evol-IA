@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Snorlax</Name>
+	<Level>50</Level>
+	<HP>238</HP>
+	<Attack>133</Attack>
+	<Defense>88</Defense>
+	<SpAttack>88</SpAttack>
+	<SpDefense>133</SpDefense>
+	<Speed>52</Speed>
+	<Moves>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Fire Punch</Name>
+		</Move>
+		<Move>
+			<Name>Defense Curl</Name>
+		</Move>
+		<Move>
+			<Name>Curse</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

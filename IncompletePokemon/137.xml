@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Omanyte</Name>
+	<Level>50</Level>
+	<HP>122</HP>
+	<Attack>73</Attack>
+	<Defense>132</Defense>
+	<SpAttack>122</SpAttack>
+	<SpDefense>87</SpDefense>
+	<Speed>67</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Ancientpower</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Protect</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

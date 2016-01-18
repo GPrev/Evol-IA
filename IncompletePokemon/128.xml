@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Magikarp</Name>
+	<Level>50</Level>
+	<HP>114</HP>
+	<Attack>49</Attack>
+	<Defense>94</Defense>
+	<SpAttack>56</SpAttack>
+	<SpDefense>61</SpDefense>
+	<Speed>120</Speed>
+	<Moves>
+		<Move>
+			<Name>Tackle</Name>
+		</Move>
+		<Move>
+			<Name>Flail</Name>
+		</Move>
+		<Move>
+			<Name>Splash</Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

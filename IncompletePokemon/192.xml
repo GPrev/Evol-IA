@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Quagsire</Name>
+	<Level>50</Level>
+	<HP>180</HP>
+	<Attack>116</Attack>
+	<Defense>115</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>95</SpDefense>
+	<Speed>66</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Slam</Name>
+		</Move>
+		<Move>
+			<Name>Haze </Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

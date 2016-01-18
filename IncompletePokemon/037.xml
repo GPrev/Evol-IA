@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Ninetales</Name>
+	<Level>50</Level>
+	<HP>151</HP>
+	<Attack>99</Attack>
+	<Defense>98</Defense>
+	<SpAttack>104</SpAttack>
+	<SpDefense>123</SpDefense>
+	<Speed>122</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Quick Attack</Name>
+		</Move>
+		<Move>
+			<Name>Safeguard</Name>
+		</Move>
+		<Move>
+			<Name>Roar</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Houndour</Name>
+	<Level>50</Level>
+	<HP>135</HP>
+	<Attack>95</Attack>
+	<Defense>66</Defense>
+	<SpAttack>115</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>101</Speed>
+	<Moves>
+		<Move>
+			<Name>Flamethrower</Name>
+		</Move>
+		<Move>
+			<Name>Crunch</Name>
+		</Move>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Sunny Day</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

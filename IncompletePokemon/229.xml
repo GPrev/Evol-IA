@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Donphan</Name>
+	<Level>50</Level>
+	<HP>169</HP>
+	<Attack>145</Attack>
+	<Defense>145</Defense>
+	<SpAttack>84</SpAttack>
+	<SpDefense>84</SpDefense>
+	<Speed>74</Speed>
+	<Moves>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Rapid Spin</Name>
+		</Move>
+		<Move>
+			<Name>Sandstorm</Name>
+		</Move>
+		<Move>
+			<Name>Growl</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

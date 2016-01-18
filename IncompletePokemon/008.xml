@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Blastoise</Name>
+	<Level>50</Level>
+	<HP>127</HP>
+	<Attack>106</Attack>
+	<Defense>123</Defense>
+	<SpAttack>108</SpAttack>
+	<SpDefense>128</SpDefense>
+	<Speed>100</Speed>
+	<Moves>
+		<Move>
+			<Name>Hydro Pump</Name>
+		</Move>
+		<Move>
+			<Name>Rapid Spin</Name>
+		</Move>
+		<Move>
+			<Name>Mud-slap</Name>
+		</Move>
+		<Move>
+			<Name>Withdraw</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

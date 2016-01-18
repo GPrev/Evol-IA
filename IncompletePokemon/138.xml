@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Omastar</Name>
+	<Level>50</Level>
+	<HP>151</HP>
+	<Attack>87</Attack>
+	<Defense>152</Defense>
+	<SpAttack>141</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>81</Speed>
+	<Moves>
+		<Move>
+			<Name>Water Gun</Name>
+		</Move>
+		<Move>
+			<Name>Ancientpower</Name>
+		</Move>
+		<Move>
+			<Name>Spike Cannon</Name>
+		</Move>
+		<Move>
+			<Name>Bite</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

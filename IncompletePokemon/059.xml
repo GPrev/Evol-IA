@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Poliwag</Name>
+	<Level>50</Level>
+	<HP>130</HP>
+	<Attack>85</Attack>
+	<Defense>76</Defense>
+	<SpAttack>75</SpAttack>
+	<SpDefense>75</SpDefense>
+	<Speed>126</Speed>
+	<Moves>
+		<Move>
+			<Name>Hydro Pump</Name>
+		</Move>
+		<Move>
+			<Name>Body Slam</Name>
+		</Move>
+		<Move>
+			<Name>Hypnosis</Name>
+		</Move>
+		<Move>
+			<Name>Rain Dance</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

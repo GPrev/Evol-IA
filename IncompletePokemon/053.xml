@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Psyduck</Name>
+	<Level>50</Level>
+	<HP>140</HP>
+	<Attack>87</Attack>
+	<Defense>84</Defense>
+	<SpAttack>100</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>91</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Swagger</Name>
+		</Move>
+		<Move>
+			<Name>Psych Up</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

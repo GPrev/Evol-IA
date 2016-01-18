@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Squirtle</Name>
+	<Level>50</Level>
+	<HP>134</HP>
+	<Attack>83</Attack>
+	<Defense>101</Defense>
+	<SpAttack>85</SpAttack>
+	<SpDefense>99</SpDefense>
+	<Speed>79</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Bite</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Rain Dance</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

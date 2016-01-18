@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Nidoran&#9792;</Name>
+	<Level>50</Level>
+	<HP>147</HP>
+	<Attack>84</Attack>
+	<Defense>90</Defense>
+	<SpAttack>77</SpAttack>
+	<SpDefense>77</SpDefense>
+	<Speed>78</Speed>
+	<Moves>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Iron Tail</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Igglybuff</Name>
+	<Level>50</Level>
+	<HP>184</HP>
+	<Attack>69</Attack>
+	<Defense>54</Defense>
+	<SpAttack>81</SpAttack>
+	<SpDefense>61</SpDefense>
+	<Speed>55</Speed>
+	<Moves>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Dream Eater</Name>
+		</Move>
+		<Move>
+			<Name>Sing</Name>
+		</Move>
+		<Move>
+			<Name>Sweet Kiss</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

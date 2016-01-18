@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Rapidash</Name>
+	<Level>50</Level>
+	<HP>144</HP>
+	<Attack>125</Attack>
+	<Defense>95</Defense>
+	<SpAttack>104</SpAttack>
+	<SpDefense>104</SpDefense>
+	<Speed>129</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Spin</Name>
+		</Move>
+		<Move>
+			<Name>Stomp</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

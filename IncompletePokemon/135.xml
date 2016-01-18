@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Flareon</Name>
+	<Level>50</Level>
+	<HP>143</HP>
+	<Attack>153</Attack>
+	<Defense>83</Defense>
+	<SpAttack>118</SpAttack>
+	<SpDefense>133</SpDefense>
+	<Speed>87</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Smog</Name>
+		</Move>
+		<Move>
+			<Name>Quick Attack</Name>
+		</Move>
+		<Move>
+			<Name>Tail Whip</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Starmie</Name>
+	<Level>50</Level>
+	<HP>138</HP>
+	<Attack>98</Attack>
+	<Defense>108</Defense>
+	<SpAttack>123</SpAttack>
+	<SpDefense>108</SpDefense>
+	<Speed>137</Speed>
+	<Moves>
+		<Move>
+			<Name>Waterfall</Name>
+		</Move>
+		<Move>
+			<Name>Zap Cannon</Name>
+		</Move>
+		<Move>
+			<Name>Rapid Spin</Name>
+		</Move>
+		<Move>
+			<Name>Harden</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

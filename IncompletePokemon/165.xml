@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Ariados</Name>
+	<Level>50</Level>
+	<HP>157</HP>
+	<Attack>123</Attack>
+	<Defense>102</Defense>
+	<SpAttack>92</SpAttack>
+	<SpDefense>92</SpDefense>
+	<Speed>72</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Protect</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+		<Move>
+			<Name>Spider Web</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

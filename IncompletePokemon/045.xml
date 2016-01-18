@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Paras</Name>
+	<Level>50</Level>
+	<HP>127</HP>
+	<Attack>107</Attack>
+	<Defense>93</Defense>
+	<SpAttack>82</SpAttack>
+	<SpDefense>92</SpDefense>
+	<Speed>62</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Spore</Name>
+		</Move>
+		<Move>
+			<Name>Growth</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

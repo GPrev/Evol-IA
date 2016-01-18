@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Primeape</Name>
+	<Level>50</Level>
+	<HP>146</HP>
+	<Attack>132</Attack>
+	<Defense>87</Defense>
+	<SpAttack>86</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>121</Speed>
+	<Moves>
+		<Move>
+			<Name>Cross Chop</Name>
+		</Move>
+		<Move>
+			<Name>Thrash</Name>
+		</Move>
+		<Move>
+			<Name>Curse</Name>
+		</Move>
+		<Move>
+			<Name>Focus Energy</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

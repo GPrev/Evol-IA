@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Rattata</Name>
+	<Level>50</Level>
+	<HP>122</HP>
+	<Attack>93</Attack>
+	<Defense>73</Defense>
+	<SpAttack>62</SpAttack>
+	<SpDefense>72</SpDefense>
+	<Speed>109</Speed>
+	<Moves>
+		<Move>
+			<Name>Super Fang</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Shadow Ball</Name>
+		</Move>
+		<Move>
+			<Name>Focus Energy</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

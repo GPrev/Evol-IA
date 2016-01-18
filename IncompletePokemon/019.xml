@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Raticate</Name>
+	<Level>50</Level>
+	<HP>140</HP>
+	<Attack>112</Attack>
+	<Defense>90</Defense>
+	<SpAttack>80</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>128</Speed>
+	<Moves>
+		<Move>
+			<Name>Super Fang</Name>
+		</Move>
+		<Move>
+			<Name>Hyper Fang</Name>
+		</Move>
+		<Move>
+			<Name>Pursuit</Name>
+		</Move>
+		<Move>
+			<Name>Scary Face</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

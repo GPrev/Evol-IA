@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Cyndaquil</Name>
+	<Level>50</Level>
+	<HP>129</HP>
+	<Attack>87</Attack>
+	<Defense>79</Defense>
+	<SpAttack>95</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>101</Speed>
+	<Moves>
+		<Move>
+			<Name>Flamethrower</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Sunny Day</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

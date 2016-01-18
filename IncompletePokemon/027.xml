@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Sandslash</Name>
+	<Level>50</Level>
+	<HP>156</HP>
+	<Attack>127</Attack>
+	<Defense>137</Defense>
+	<SpAttack>71</SpAttack>
+	<SpDefense>81</SpDefense>
+	<Speed>91</Speed>
+	<Moves>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Fury Swipes</Name>
+		</Move>
+		<Move>
+			<Name>Sand-attack</Name>
+		</Move>
+		<Move>
+			<Name>Sandstorm</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

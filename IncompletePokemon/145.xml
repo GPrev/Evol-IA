@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Moltres</Name>
+	<Level>50</Level>
+	<HP>155</HP>
+	<Attack>109</Attack>
+	<Defense>100</Defense>
+	<SpAttack>135</SpAttack>
+	<SpDefense>95</SpDefense>
+	<Speed>99</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Sky Attack</Name>
+		</Move>
+		<Move>
+			<Name>Roar</Name>
+		</Move>
+		<Move>
+			<Name>Endure</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

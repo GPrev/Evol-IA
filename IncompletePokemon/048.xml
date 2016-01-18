@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Venomoth</Name>
+	<Level>50</Level>
+	<HP>153</HP>
+	<Attack>94</Attack>
+	<Defense>89</Defense>
+	<SpAttack>118</SpAttack>
+	<SpDefense>103</SpDefense>
+	<Speed>118</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Leech Life</Name>
+		</Move>
+		<Move>
+			<Name>Foresight</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

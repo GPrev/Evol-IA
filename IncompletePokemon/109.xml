@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Weezing</Name>
+	<Level>50</Level>
+	<HP>146</HP>
+	<Attack>117</Attack>
+	<Defense>147</Defense>
+	<SpAttack>111</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>86</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge</Name>
+		</Move>
+		<Move>
+			<Name>Zap Cannon</Name>
+		</Move>
+		<Move>
+			<Name>Selfdestruct</Name>
+		</Move>
+		<Move>
+			<Name>Haze</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

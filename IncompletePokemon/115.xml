@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Horsea</Name>
+	<Level>50</Level>
+	<HP>122</HP>
+	<Attack>77</Attack>
+	<Defense>108</Defense>
+	<SpAttack>107</SpAttack>
+	<SpDefense>62</SpDefense>
+	<Speed>97</Speed>
+	<Moves>
+		<Move>
+			<Name>Hydro Pump</Name>
+		</Move>
+		<Move>
+			<Name>Blizzard</Name>
+		</Move>
+		<Move>
+			<Name>Rain Dance</Name>
+		</Move>
+		<Move>
+			<Name>Smokescreen</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

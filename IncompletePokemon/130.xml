@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Lapras</Name>
+	<Level>50</Level>
+	<HP>208</HP>
+	<Attack>108</Attack>
+	<Defense>103</Defense>
+	<SpAttack>108</SpAttack>
+	<SpDefense>118</SpDefense>
+	<Speed>82</Speed>
+	<Moves>
+		<Move>
+			<Name>Whirlpool</Name>
+		</Move>
+		<Move>
+			<Name>Icy Wind</Name>
+		</Move>
+		<Move>
+			<Name>Perish Song</Name>
+		</Move>
+		<Move>
+			<Name>Mist</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

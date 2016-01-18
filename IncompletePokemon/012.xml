@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Weedle</Name>
+	<Level>50</Level>
+	<HP>134</HP>
+	<Attack>74</Attack>
+	<Defense>69</Defense>
+	<SpAttack>61</SpAttack>
+	<SpDefense>61</SpDefense>
+	<Speed>90</Speed>
+	<Moves>
+		<Move>
+			<Name>Poison Sting</Name>
+		</Move>
+		<Move>
+			<Name>String Shot</Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

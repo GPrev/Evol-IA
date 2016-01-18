@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Scyther</Name>
+	<Level>50</Level>
+	<HP>149</HP>
+	<Attack>135</Attack>
+	<Defense>105</Defense>
+	<SpAttack>79</SpAttack>
+	<SpDefense>104</SpDefense>
+	<Speed>129</Speed>
+	<Moves>
+		<Move>
+			<Name>Wing Attack</Name>
+		</Move>
+		<Move>
+			<Name>Pursuit</Name>
+		</Move>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Focus Energy</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

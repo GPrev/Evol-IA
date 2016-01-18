@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Arcanine</Name>
+	<Level>50</Level>
+	<HP>164</HP>
+	<Attack>129</Attack>
+	<Defense>99</Defense>
+	<SpAttack>119</SpAttack>
+	<SpDefense>99</SpDefense>
+	<Speed>114</Speed>
+	<Moves>
+		<Move>
+			<Name>Flame Wheel</Name>
+		</Move>
+		<Move>
+			<Name>Extremespeed</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+		<Move>
+			<Name>Roar</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

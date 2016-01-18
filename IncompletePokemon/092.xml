@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Haunter</Name>
+	<Level>50</Level>
+	<HP>130</HP>
+	<Attack>81</Attack>
+	<Defense>75</Defense>
+	<SpAttack>145</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>126</Speed>
+	<Moves>
+		<Move>
+			<Name>Shadow Ball</Name>
+		</Move>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Spite</Name>
+		</Move>
+		<Move>
+			<Name>Destiny Bond</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Granbull</Name>
+	<Level>50</Level>
+	<HP>173</HP>
+	<Attack>149</Attack>
+	<Defense>103</Defense>
+	<SpAttack>88</SpAttack>
+	<SpDefense>88</SpDefense>
+	<Speed>74</Speed>
+	<Moves>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Dynamicpunch</Name>
+		</Move>
+		<Move>
+			<Name>Bite</Name>
+		</Move>
+		<Move>
+			<Name>Scary Face</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

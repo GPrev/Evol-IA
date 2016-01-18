@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Forretress</Name>
+	<Level>50</Level>
+	<HP>156</HP>
+	<Attack>117</Attack>
+	<Defense>167</Defense>
+	<SpAttack>86</SpAttack>
+	<SpDefense>86</SpDefense>
+	<Speed>66</Speed>
+	<Moves>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Rollout</Name>
+		</Move>
+		<Move>
+			<Name>Sandstorm</Name>
+		</Move>
+		<Move>
+			<Name>Spikes</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Hoppip</Name>
+	<Level>50</Level>
+	<HP>129</HP>
+	<Attack>74</Attack>
+	<Defense>79</Defense>
+	<SpAttack>76</SpAttack>
+	<SpDefense>96</SpDefense>
+	<Speed>90</Speed>
+	<Moves>
+		<Move>
+			<Name>Giga Drain</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Leech Seed</Name>
+		</Move>
+		<Move>
+			<Name>Sleep Powder</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

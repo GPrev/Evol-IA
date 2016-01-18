@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Staryu</Name>
+	<Level>50</Level>
+	<HP>120</HP>
+	<Attack>80</Attack>
+	<Defense>91</Defense>
+	<SpAttack>105</SpAttack>
+	<SpDefense>90</SpDefense>
+	<Speed>121</Speed>
+	<Moves>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Hydro Pump</Name>
+		</Move>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Recover</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

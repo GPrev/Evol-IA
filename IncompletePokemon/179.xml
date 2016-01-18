@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Bellossom</Name>
+	<Level>50</Level>
+	<HP>156</HP>
+	<Attack>107</Attack>
+	<Defense>112</Defense>
+	<SpAttack>116</SpAttack>
+	<SpDefense>126</SpDefense>
+	<Speed>76</Speed>
+	<Moves>
+		<Move>
+			<Name>Petal Dance</Name>
+		</Move>
+		<Move>
+			<Name>Cut</Name>
+		</Move>
+		<Move>
+			<Name>Poisonpowder</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

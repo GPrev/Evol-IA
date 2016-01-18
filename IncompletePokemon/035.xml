@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Clefable</Name>
+	<Level>50</Level>
+	<HP>176</HP>
+	<Attack>97</Attack>
+	<Defense>100</Defense>
+	<SpAttack>111</SpAttack>
+	<SpDefense>116</SpDefense>
+	<Speed>86</Speed>
+	<Moves>
+		<Move>
+			<Name>Metronome</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Ice Punch</Name>
+		</Move>
+		<Move>
+			<Name>Encore</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

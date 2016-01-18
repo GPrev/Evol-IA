@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Kadabra</Name>
+	<Level>50</Level>
+	<HP>125</HP>
+	<Attack>66</Attack>
+	<Defense>60</Defense>
+	<SpAttack>150</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>136</Speed>
+	<Moves>
+		<Move>
+			<Name>Psychic</Name>
+		</Move>
+		<Move>
+			<Name>Thunderpunch</Name>
+		</Move>
+		<Move>
+			<Name>Reflect</Name>
+		</Move>
+		<Move>
+			<Name>Kinesis</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

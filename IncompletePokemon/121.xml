@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Mr. Mime</Name>
+	<Level>50</Level>
+	<HP>121</HP>
+	<Attack>72</Attack>
+	<Defense>92</Defense>
+	<SpAttack>126</SpAttack>
+	<SpDefense>146</SpDefense>
+	<Speed>116</Speed>
+	<Moves>
+		<Move>
+			<Name>Psybeam</Name>
+		</Move>
+		<Move>
+			<Name>Barrier</Name>
+		</Move>
+		<Move>
+			<Name>Baton Pass</Name>
+		</Move>
+		<Move>
+			<Name>Substitute</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

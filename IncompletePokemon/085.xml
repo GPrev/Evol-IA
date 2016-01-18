@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Seel</Name>
+	<Level>50</Level>
+	<HP>155</HP>
+	<Attack>80</Attack>
+	<Defense>91</Defense>
+	<SpAttack>80</SpAttack>
+	<SpDefense>105</SpDefense>
+	<Speed>81</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Ice Beam</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Safeguard</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

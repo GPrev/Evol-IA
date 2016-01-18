@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Noctowl</Name>
+	<Level>50</Level>
+	<HP>185</HP>
+	<Attack>81</Attack>
+	<Defense>80</Defense>
+	<SpAttack>106</SpAttack>
+	<SpDefense>126</SpDefense>
+	<Speed>101</Speed>
+	<Moves>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Take Down</Name>
+		</Move>
+		<Move>
+			<Name>Confusion</Name>
+		</Move>
+		<Move>
+			<Name>Foresight</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

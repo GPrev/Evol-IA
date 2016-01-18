@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Seaking</Name>
+	<Level>50</Level>
+	<HP>163</HP>
+	<Attack>121</Attack>
+	<Defense>93</Defense>
+	<SpAttack>93</SpAttack>
+	<SpDefense>108</SpDefense>
+	<Speed>97</Speed>
+	<Moves>
+		<Move>
+			<Name>Waterfall</Name>
+		</Move>
+		<Move>
+			<Name>Flail</Name>
+		</Move>
+		<Move>
+			<Name>Horn Drill</Name>
+		</Move>
+		<Move>
+			<Name>Supersonic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

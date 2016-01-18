@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Spearow</Name>
+	<Level>50</Level>
+	<HP>132</HP>
+	<Attack>97</Attack>
+	<Defense>68</Defense>
+	<SpAttack>68</SpAttack>
+	<SpDefense>68</SpDefense>
+	<Speed>107</Speed>
+	<Moves>
+		<Move>
+			<Name>Drill Peck</Name>
+		</Move>
+		<Move>
+			<Name>Frustration</Name>
+		</Move>
+		<Move>
+			<Name>Steel Wing</Name>
+		</Move>
+		<Move>
+			<Name>Mirror Move</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

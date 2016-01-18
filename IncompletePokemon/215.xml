@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Slugma</Name>
+	<Level>50</Level>
+	<HP>134</HP>
+	<Attack>79</Attack>
+	<Defense>79</Defense>
+	<SpAttack>111</SpAttack>
+	<SpDefense>81</SpDefense>
+	<Speed>60</Speed>
+	<Moves>
+		<Move>
+			<Name>Flamethrower</Name>
+		</Move>
+		<Move>
+			<Name>Rock Slide</Name>
+		</Move>
+		<Move>
+			<Name>Body Slam</Name>
+		</Move>
+		<Move>
+			<Name>Amnesia</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

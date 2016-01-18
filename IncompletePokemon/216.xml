@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Magcargo</Name>
+	<Level>50</Level>
+	<HP>135</HP>
+	<Attack>81</Attack>
+	<Defense>150</Defense>
+	<SpAttack>110</SpAttack>
+	<SpDefense>110</SpDefense>
+	<Speed>61</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Rock Slide</Name>
+		</Move>
+		<Move>
+			<Name>Smog</Name>
+		</Move>
+		<Move>
+			<Name>Amnesia</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

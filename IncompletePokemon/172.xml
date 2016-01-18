@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Togepi</Name>
+	<Level>50</Level>
+	<HP>129</HP>
+	<Attack>59</Attack>
+	<Defense>104</Defense>
+	<SpAttack>81</SpAttack>
+	<SpDefense>106</SpDefense>
+	<Speed>60</Speed>
+	<Moves>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Metronome</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+		<Move>
+			<Name>Sweet Kiss</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

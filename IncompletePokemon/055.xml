@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Mankey</Name>
+	<Level>50</Level>
+	<HP>130</HP>
+	<Attack>115</Attack>
+	<Defense>71</Defense>
+	<SpAttack>70</SpAttack>
+	<SpDefense>80</SpDefense>
+	<Speed>106</Speed>
+	<Moves>
+		<Move>
+			<Name>Cross Chop</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Double Team</Name>
+		</Move>
+		<Move>
+			<Name>Screech</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

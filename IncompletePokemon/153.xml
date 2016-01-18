@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Quilava</Name>
+	<Level>50</Level>
+	<HP>143</HP>
+	<Attack>95</Attack>
+	<Defense>88</Defense>
+	<SpAttack>110</SpAttack>
+	<SpDefense>95</SpDefense>
+	<Speed>111</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Rollout</Name>
+		</Move>
+		<Move>
+			<Name>Strength</Name>
+		</Move>
+		<Move>
+			<Name>Smokescreen</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

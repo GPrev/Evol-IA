@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Qwilfish</Name>
+	<Level>50</Level>
+	<HP>150</HP>
+	<Attack>126</Attack>
+	<Defense>105</Defense>
+	<SpAttack>85</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>116</Speed>
+	<Moves>
+		<Move>
+			<Name>Sludge Bomb</Name>
+		</Move>
+		<Move>
+			<Name>Hydro Pump</Name>
+		</Move>
+		<Move>
+			<Name>Pin Missile</Name>
+		</Move>
+		<Move>
+			<Name>Minimize</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

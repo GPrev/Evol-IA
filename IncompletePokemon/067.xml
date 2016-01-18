@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Machamp</Name>
+	<Level>50</Level>
+	<HP>170</HP>
+	<Attack>155</Attack>
+	<Defense>105</Defense>
+	<SpAttack>90</SpAttack>
+	<SpDefense>110</SpDefense>
+	<Speed>79</Speed>
+	<Moves>
+		<Move>
+			<Name>Submission</Name>
+		</Move>
+		<Move>
+			<Name>Scary Face</Name>
+		</Move>
+		<Move>
+			<Name>Thunderpunch</Name>
+		</Move>
+		<Move>
+			<Name>Fire Punch</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Dragonair</Name>
+	<Level>50</Level>
+	<HP>146</HP>
+	<Attack>115</Attack>
+	<Defense>95</Defense>
+	<SpAttack>100</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>101</Speed>
+	<Moves>
+		<Move>
+			<Name>Dragonbreath</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Thunder Wave</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

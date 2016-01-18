@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Entei</Name>
+	<Level>50</Level>
+	<HP>182</HP>
+	<Attack>127</Attack>
+	<Defense>97</Defense>
+	<SpAttack>102</SpAttack>
+	<SpDefense>87</SpDefense>
+	<Speed>112</Speed>
+	<Moves>
+		<Move>
+			<Name>Fire Blast</Name>
+		</Move>
+		<Move>
+			<Name>Rock Smash</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+		<Move>
+			<Name>Roar</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

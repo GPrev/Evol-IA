@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Jigglypuff</Name>
+	<Level>50</Level>
+	<HP>207</HP>
+	<Attack>82</Attack>
+	<Defense>58</Defense>
+	<SpAttack>82</SpAttack>
+	<SpDefense>62</SpDefense>
+	<Speed>57</Speed>
+	<Moves>
+		<Move>
+			<Name>Body Slam</Name>
+		</Move>
+		<Move>
+			<Name>Rollout</Name>
+		</Move>
+		<Move>
+			<Name>Defense Curl</Name>
+		</Move>
+		<Move>
+			<Name>Sing</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

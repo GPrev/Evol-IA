@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Goldeen</Name>
+	<Level>50</Level>
+	<HP>135</HP>
+	<Attack>102</Attack>
+	<Defense>96</Defense>
+	<SpAttack>70</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>99</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Horn Attack</Name>
+		</Move>
+		<Move>
+			<Name>Horn Drill</Name>
+		</Move>
+		<Move>
+			<Name>Supersonic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

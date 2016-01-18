@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Sandshrew</Name>
+	<Level>50</Level>
+	<HP>140</HP>
+	<Attack>110</Attack>
+	<Defense>121</Defense>
+	<SpAttack>55</SpAttack>
+	<SpDefense>65</SpDefense>
+	<Speed>76</Speed>
+	<Moves>
+		<Move>
+			<Name>Earthquake</Name>
+		</Move>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Fury Cutter</Name>
+		</Move>
+		<Move>
+			<Name>Sandstorm</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

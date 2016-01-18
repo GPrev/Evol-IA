@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Mantine</Name>
+	<Level>50</Level>
+	<HP>146</HP>
+	<Attack>67</Attack>
+	<Defense>97</Defense>
+	<SpAttack>106</SpAttack>
+	<SpDefense>166</SpDefense>
+	<Speed>96</Speed>
+	<Moves>
+		<Move>
+			<Name>Wing Attack</Name>
+		</Move>
+		<Move>
+			<Name>Waterfall</Name>
+		</Move>
+		<Move>
+			<Name>Take Down</Name>
+		</Move>
+		<Move>
+			<Name>Supersonic</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

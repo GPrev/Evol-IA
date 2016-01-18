@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Growlithe</Name>
+	<Level>50</Level>
+	<HP>142</HP>
+	<Attack>103</Attack>
+	<Defense>77</Defense>
+	<SpAttack>102</SpAttack>
+	<SpDefense>82</SpDefense>
+	<Speed>92</Speed>
+	<Moves>
+		<Move>
+			<Name>Flamethrower</Name>
+		</Move>
+		<Move>
+			<Name>Dig</Name>
+		</Move>
+		<Move>
+			<Name>Sunny Day</Name>
+		</Move>
+		<Move>
+			<Name>Roar</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

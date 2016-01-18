@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Pichu</Name>
+	<Level>50</Level>
+	<HP>114</HP>
+	<Attack>79</Attack>
+	<Defense>54</Defense>
+	<SpAttack>76</SpAttack>
+	<SpDefense>76</SpDefense>
+	<Speed>100</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunder</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Attract</Name>
+		</Move>
+		<Move>
+			<Name>Sweet Kiss</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

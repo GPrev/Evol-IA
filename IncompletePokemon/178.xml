@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Ampharos</Name>
+	<Level>50</Level>
+	<HP>169</HP>
+	<Attack>100</Attack>
+	<Defense>100</Defense>
+	<SpAttack>139</SpAttack>
+	<SpDefense>114</SpDefense>
+	<Speed>79</Speed>
+	<Moves>
+		<Move>
+			<Name>Zap Cannon</Name>
+		</Move>
+		<Move>
+			<Name>Dynamicpunch</Name>
+		</Move>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Flash</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

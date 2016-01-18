@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Bayleef</Name>
+	<Level>50</Level>
+	<HP>145</HP>
+	<Attack>93</Attack>
+	<Defense>110</Defense>
+	<SpAttack>93</SpAttack>
+	<SpDefense>110</SpDefense>
+	<Speed>91</Speed>
+	<Moves>
+		<Move>
+			<Name>Razor Leaf</Name>
+		</Move>
+		<Move>
+			<Name>Body Slam</Name>
+		</Move>
+		<Move>
+			<Name>Safeguard</Name>
+		</Move>
+		<Move>
+			<Name>Synthesis</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

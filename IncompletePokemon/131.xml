@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Ditto</Name>
+	<Level>50</Level>
+	<HP>138</HP>
+	<Attack>83</Attack>
+	<Defense>84</Defense>
+	<SpAttack>83</SpAttack>
+	<SpDefense>83</SpDefense>
+	<Speed>84</Speed>
+	<Moves>
+		<Move>
+			<Name>Transform</Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+		<Move>
+			<Name></Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

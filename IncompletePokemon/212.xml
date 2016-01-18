@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Sneasel</Name>
+	<Level>50</Level>
+	<HP>140</HP>
+	<Attack>126</Attack>
+	<Defense>85</Defense>
+	<SpAttack>65</SpAttack>
+	<SpDefense>105</SpDefense>
+	<Speed>146</Speed>
+	<Moves>
+		<Move>
+			<Name>Ice Punch</Name>
+		</Move>
+		<Move>
+			<Name>Beat Up</Name>
+		</Move>
+		<Move>
+			<Name>Slash</Name>
+		</Move>
+		<Move>
+			<Name>Screech</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

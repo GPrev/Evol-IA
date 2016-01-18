@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Electabuzz</Name>
+	<Level>50</Level>
+	<HP>146</HP>
+	<Attack>110</Attack>
+	<Defense>84</Defense>
+	<SpAttack>121</SpAttack>
+	<SpDefense>111</SpDefense>
+	<Speed>131</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunderpunch</Name>
+		</Move>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Light Screen</Name>
+		</Move>
+		<Move>
+			<Name>Leer</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

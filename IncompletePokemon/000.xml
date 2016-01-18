@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Bulbasaur</Name>
+	<Level>50</Level>
+	<HP>135</HP>
+	<Attack>84</Attack>
+	<Defense>85</Defense>
+	<SpAttack>100</SpAttack>
+	<SpDefense>100</SpDefense>
+	<Speed>81</Speed>
+	<Moves>
+		<Move>
+			<Name>Razor Leaf</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Toxic</Name>
+		</Move>
+		<Move>
+			<Name>Growth</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

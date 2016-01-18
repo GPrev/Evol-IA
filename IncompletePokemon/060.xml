@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Poliwhirl</Name>
+	<Level>50</Level>
+	<HP>152</HP>
+	<Attack>98</Attack>
+	<Defense>97</Defense>
+	<SpAttack>82</SpAttack>
+	<SpDefense>82</SpDefense>
+	<Speed>122</Speed>
+	<Moves>
+		<Move>
+			<Name>Surf</Name>
+		</Move>
+		<Move>
+			<Name>Snore</Name>
+		</Move>
+		<Move>
+			<Name>Belly Drum</Name>
+		</Move>
+		<Move>
+			<Name>Rest</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Hoothoot</Name>
+	<Level>50</Level>
+	<HP>152</HP>
+	<Attack>67</Attack>
+	<Defense>68</Defense>
+	<SpAttack>73</SpAttack>
+	<SpDefense>93</SpDefense>
+	<Speed>87</Speed>
+	<Moves>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Swift</Name>
+		</Move>
+		<Move>
+			<Name>Dream Eater</Name>
+		</Move>
+		<Move>
+			<Name>Hypnosis</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Flaaffy</Name>
+	<Level>50</Level>
+	<HP>157</HP>
+	<Attack>88</Attack>
+	<Defense>87</Defense>
+	<SpAttack>112</SpAttack>
+	<SpDefense>92</SpDefense>
+	<Speed>77</Speed>
+	<Moves>
+		<Move>
+			<Name>Thunderpunch</Name>
+		</Move>
+		<Move>
+			<Name>Fire Punch</Name>
+		</Move>
+		<Move>
+			<Name>Cotton Spore</Name>
+		</Move>
+		<Move>
+			<Name>Light Screen</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

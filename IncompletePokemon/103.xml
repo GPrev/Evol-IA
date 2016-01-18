@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Cubone</Name>
+	<Level>50</Level>
+	<HP>140</HP>
+	<Attack>85</Attack>
+	<Defense>131</Defense>
+	<SpAttack>75</SpAttack>
+	<SpDefense>85</SpDefense>
+	<Speed>71</Speed>
+	<Moves>
+		<Move>
+			<Name>Bonemerang</Name>
+		</Move>
+		<Move>
+			<Name>Headbutt</Name>
+		</Move>
+		<Move>
+			<Name>Icy Wind</Name>
+		</Move>
+		<Move>
+			<Name>Focus Energy</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+

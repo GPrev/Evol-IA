@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Name>Dodrio</Name>
+	<Level>50</Level>
+	<HP>141</HP>
+	<Attack>137</Attack>
+	<Defense>97</Defense>
+	<SpAttack>86</SpAttack>
+	<SpDefense>86</SpDefense>
+	<Speed>126</Speed>
+	<Moves>
+		<Move>
+			<Name>Fly</Name>
+		</Move>
+		<Move>
+			<Name>Tri Attack</Name>
+		</Move>
+		<Move>
+			<Name>Pursuit</Name>
+		</Move>
+		<Move>
+			<Name>Growl</Name>
+		</Move>
+	</Moves>
+</PokeData>
+
+
