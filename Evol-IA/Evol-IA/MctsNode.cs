@@ -30,9 +30,53 @@ namespace Evol_IA
         {
             BattleDecisionState s2 = State.GetChild(a, id);
             if (s2 != null)
-                return new MctsNode(s2, this, a);
+            {
+                MctsNode n2 = new MctsNode(s2, this, a);
+                this.Children.Add(n2);
+                return n2;
+            }
             //else
             return null;
+        }
+
+        public override string ToString()
+        {
+            string res = "";
+            if (Action == null)
+                res += "Initial State";
+            else if (Action.GetActionType() == ActionType.FIGHT)
+                res += "Fight - " + (Action as FightAction).Move.Name;
+            else
+                res += "Pokemon - " + (Action as PokemonAction).getPokemon(State.State).Name;
+
+            res += "\\n (" + GetHashCode() + " )";
+
+            res += "\\n Val=" + Value + " Vis=" + Visits;
+
+            return res;
+        }
+
+        public string ToGrapVizString(int level = 0)
+        {
+            string res = "";
+
+            if (level == 0)
+                res += "digraph g{" + System.Environment.NewLine;
+
+            foreach (MctsNode c in Children)
+            {
+                res += "\"(" + level + ") " + ToString() + "\" -> \"(" + (level+1) + ") " + c.ToString() + "\"" + System.Environment.NewLine;
+            }
+
+            foreach (MctsNode c in Children)
+            {
+                res += c.ToGrapVizString(level + 1);
+            }
+
+            if (level == 0)
+                res += "}";
+
+            return res;
         }
     }
 }

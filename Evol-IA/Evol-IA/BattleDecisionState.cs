@@ -31,6 +31,11 @@ namespace Evol_IA
 
         public BattleDecisionState GetChild(BattleAction a, int id)
         {
+            if(a == null)
+            {
+                return new BattleDecisionState(State, pendingActions);
+            }
+            //else
             List<BattleAction> newActions = new List<BattleAction>();
             for (int i = 0; i < pendingActions.Count; ++i)
             {

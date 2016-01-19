@@ -7,7 +7,7 @@ using PokeRules;
 
 namespace Evol_IA
 {
-    class MctsAI : BattleAI
+    public class MctsAI : BattleAI
     {
         // Regular values are positive so these values are safe
         const double absoluteWin = -1;
@@ -15,6 +15,9 @@ namespace Evol_IA
 
         public Trainer trainer;
         int maxiter;
+        int nbSimuPerIter;
+
+        int totalVisits;
 
         public override Trainer Trainer
         {
@@ -28,7 +31,8 @@ namespace Evol_IA
             else
                 trainer = t;
 
-            maxiter = 100;
+            maxiter = 20;
+            nbSimuPerIter = 10;
         }
 
         public override Trainer MakeTeam(List<Pokemon> availablePokemon, bool allowDoubles = false, int nbPokemon = 3)
@@ -41,12 +45,19 @@ namespace Evol_IA
             MctsNode root = new MctsNode(s);
 
             // 4 steps : selection, rollout and update
-            for (int iteration = 0; iteration < 1000; iteration++)
+            for (totalVisits = 1; totalVisits <= maxiter; totalVisits++)
             {
                 MctsNode current = Selection(root, myId);
                 double Value = Rollout(current, myId);
                 Update(current, Value, myId);
             }
+
+            //TEST
+            Console.WriteLine("=================");
+            Console.WriteLine(root.ToGrapVizString());
+            Console.WriteLine("=================");
+            //TEST
+
             // Chooses best node
             return BestChildUCB(root, 0).Action;
         }
@@ -58,7 +69,7 @@ namespace Evol_IA
             int id = myId;
             while (!state.State.HasWinner())
             {
-                List<BattleAction> actions = state.State.GetNextActions(id);
+                List<BattleAction> actions = state.State.GetNextActions(id, true);
 
                 if (actions.Count > current.Children.Count)
                     return Expand(current, myId);
@@ -93,21 +104,26 @@ namespace Evol_IA
         // Evaluates which child node should be expanded. With C=0, evaluates which node should be chosen
         private double UCB(MctsNode n, double C = 1.44)
         {
-            return ((double)n.Value / (double)n.Visits) + C * Math.Sqrt((2.0 * Math.Log((double)n.Visits)) / (double)n.Visits);
+            return ((double)n.Value / (double)n.Visits) + C * Math.Sqrt((2.0 * Math.Log((double)totalVisits)) / (double)n.Visits);
         }
 
         // Makes a new child to the node and returns it
         private MctsNode Expand(MctsNode current, int myId)
         {
             BattleDecisionState state = current.State;
-            int id = current.Action.GetActorId();
 
-            List<BattleAction> actions = state.State.GetNextActions(id);
+            int id;
+            if (current.Action == null) // At root, start with first player
+                id = myId;
+            else
+                id = Opponent(current.Action.GetActorId());
+
+            List<BattleAction> actions = state.State.GetNextActions(id, true);
 
             for (int i = 0; i < actions.Count; i++)
             {
                 //We already have evaluated this move
-                if (current.Children.Exists(c => c.Action == actions[i]))
+                if (current.Children.Exists(c => c.Action.Equals(actions[i])))
                     continue;
 
                 id = Opponent(id);
@@ -125,29 +141,35 @@ namespace Evol_IA
         {
             BattleDecisionState state = current.State;
             //If this state is a loss, we shouldn't reach the parent state
-            if (state.State.Winner() == Opponent(myId))
+            if (state.State.HasWinner() && state.State.Winner() == Opponent(myId))
             {
                 current.Parent.Value = int.MinValue;
                 return 0;
             }
-
+            //else
             Random r = new Random();
-            int id = Opponent(current.Action.GetActorId());
+            double res = 0;
 
-            // Loop until the match is over
-            while (state.State.Winner() == 0)
+            for (int i = 0; i < nbSimuPerIter; ++i)
             {
-                //Random
-                List<BattleAction> actions = state.State.GetNextActions(id);
-                BattleAction a = actions[r.Next(0, actions.Count)];
-                state = state.GetChild(a, id);
-                id = Opponent(id);
+                state = current.State;
+                int id = Opponent(current.Action.GetActorId());
+
+                // Loop until the match is over
+                while (!state.State.HasWinner())
+                {
+                    //Random
+                    List<BattleAction> actions = state.State.GetNextActions(id, true);
+                    BattleAction a = actions[r.Next(0, actions.Count)];
+                    state = state.GetChild(a, id);
+                    id = Opponent(id);
+                }
+
+                if (state.State.Winner() == myId)
+                    res += 1;
+                //else 0
             }
-
-            if (state.State.Winner() == myId)
-                return 1;
-
-            return 0;
+            return res;
         }
 
         // Updates the current node and its parents with the result of the rollout (visits + 1, value + v)
@@ -158,7 +180,7 @@ namespace Evol_IA
             while (current != null)
             {
                 current.Visits++;
-                if(current.Action.GetActorId() == myId)
+                if(current.Action == null || current.Action.GetActorId() == myId)
                     current.Value += value;
                 else // The enemy moves have a reversed score
                     current.Value += reversed;
@@ -174,7 +196,7 @@ namespace Evol_IA
         // Converts the score of one player into the score of the other
         private double ReverseScore(double score)
         {
-            return 1 - score;
+            return nbSimuPerIter - score;
         }
     }
 }

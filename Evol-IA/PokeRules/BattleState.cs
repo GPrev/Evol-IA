@@ -37,7 +37,7 @@ namespace PokeRules
             outD(Trainers[1].Name + " sends out " + Trainers[1].ActivePokemon.Name + " !");
         }
 
-        public List<BattleAction> GetNextActions(int trainerId)
+        public List<BattleAction> GetNextActions(int trainerId, bool nullElementIfEmpty = false)
         {
             List<BattleAction> res;
             switch(NextActionTypes[trainerId])
@@ -56,6 +56,10 @@ namespace PokeRules
                     res = new List<BattleAction>();
                     break;
             }
+
+            if (nullElementIfEmpty && res.Count == 0)
+                res.Add(null);
+
             return res;
         }
 
