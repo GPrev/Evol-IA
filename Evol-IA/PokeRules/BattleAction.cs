@@ -22,6 +22,8 @@ namespace PokeRules
             return (a.GetActionType() == GetActionType());
         }
 
+        public abstract int GetActorId();
+
         public abstract bool CanBeExecuted(BattleState s);
         protected abstract void Execute(BattleState s, OutDel outD = null);
         public void SafeExecute(BattleState s, OutDel outD = null)
@@ -93,6 +95,11 @@ namespace PokeRules
             //else
             return attackerID == aa.attackerID && defenderID == aa.defenderID && Move.Equals(aa.Move);
         }
+
+        public override int GetActorId()
+        {
+            return attackerID;
+        }
     }
 
     public class PokemonAction : BattleAction
@@ -140,6 +147,11 @@ namespace PokeRules
                 return false;
             //else
             return trainerID == aa.trainerID && pokemonID == aa.pokemonID;
+        }
+
+        public override int GetActorId()
+        {
+            return trainerID;
         }
     }
 }

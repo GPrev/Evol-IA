@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="BattleAI.cs" />
     <Compile Include="BattleDecisionState.cs" />
+    <Compile Include="MctsAI.cs" />
+    <Compile Include="MctsNode.cs" />
     <Compile Include="MinMaxAI.cs" />
     <Compile Include="RandomAI.cs" />
     <Compile Include="DumbAI.cs" />
