@@ -72,6 +72,9 @@ namespace Evol_UI
             TeamA.Add(p4);
             TeamA.Add(p5);
             TeamA.Add(p6);
+            /*les deux lignes servent à créer la team via l'IA*/
+            //TeamAI t = new TeamAI(4, 3, new List<PokeData>() { d1, d2, d3, d4, d5, d6 },2,3);
+            //TeamA = t.selectTeamAI();
             List<Trainer> trainers  =new List<Trainer>();
             trainers.Add(new TrainerVM("Red", TeamA));
             trainers.Add(new TrainerVM("Blue", TeamB));
