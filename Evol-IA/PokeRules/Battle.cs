@@ -8,9 +8,7 @@ namespace PokeRules
 {
     public class Battle
     {
-        public delegate void OutDel(string str);
-
-        public OutDel outDel = message => { Console.WriteLine(message); };
+        public OutDel outDel = message => { return; };
 
         List<Trainer> Trainers { get; set; }
         List<Intelligence> Intelligences { get; set; }
@@ -25,15 +23,15 @@ namespace PokeRules
             foreach (Intelligence i in Intelligences)
                 Trainers.Add(i.Trainer);
 
-            state = new BattleState(Trainers);
-
             if (del != null)
                 outDel = del;
+
+            state = new BattleState(Trainers, outDel);
         }
 
-        public Trainer PlayBattle()
+        public int PlayBattle()
         {
-            while (state.Winner() < 0)
+            while (!state.HasWinner())
             {
                 List<BattleAction> actions = new List<BattleAction>();
                 List<ActionType> expected = state.NextActionTypes;
@@ -42,11 +40,11 @@ namespace PokeRules
                     if (expected[i] == ActionType.NONE)
                         actions.Add(null);
                     else
-                        Intelligences[i].ChooseAction(state, i, expected[i]);
+                        actions.Add(Intelligences[i].ChooseAction(state, i, expected[i]));
                 }
                 state.MakeActions(actions);
             }
-            return Trainers[state.Winner()];
+            return state.Winner();
         }
     }
 }

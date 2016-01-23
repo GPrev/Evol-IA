@@ -136,7 +136,7 @@ namespace Evol_IA
                         Battle battle = new Battle(ais);
                         Console.WriteLine("Pendant la bataille ?" + i + j + k);
 
-                        Trainer w = battle.PlayBattle(); //il boucle pendant un temps insupportable
+                        Trainer w = trainers[battle.PlayBattle()]; //il boucle pendant un temps insupportable
                         Console.WriteLine("Après la bataille"+i+j+k);
 
                         if (dresseurs[pools[i, j]].Equals(w)) { scores[pools[i, j]]++; scores[pools[i, k]]--; } //on rajoute un point au vainqueur, on enlève 1 point au perdant
