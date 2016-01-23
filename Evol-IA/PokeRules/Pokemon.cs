@@ -18,11 +18,11 @@ namespace PokeRules
 
         public int Level { get { return data.Level; } }
         public int HP { get { return data.HP; } }
-        public int Attack { get { return data.Attack; } }
-        public int SpAttack { get { return data.SpAttack; } }
-        public int Defense { get { return data.Defense; } }
-        public int SpDefense { get { return data.SpDefense; } }
-        public int Speed { get { return data.Speed; } }
+        public int Attack { get { return (int)((float)data.Attack * GetStatMuliplier(Statistic.ATTACK)); } }
+        public int SpAttack { get { return (int)((float)data.SpAttack * GetStatMuliplier(Statistic.SPATTACK)); } }
+        public int Defense { get { return (int)((float)data.Defense * GetStatMuliplier(Statistic.DEFENSE)); } }
+        public int SpDefense { get { return (int)((float)data.SpDefense * GetStatMuliplier(Statistic.SPDEFENSE)); } }
+        public int Speed { get { return (int)((float)data.Speed * GetStatMuliplier(Statistic.SPEED)); } }
 
         public Type Type { get { return data.Type; } }
         public Type Type2 { get { return data.Type2; } }
@@ -42,6 +42,8 @@ namespace PokeRules
                     currHP = HP;
             }
         }
+
+        private int statModifiers = 6 + 6*13 + 6*13*13 + 6*13*13*13 + 6*13*13*13*13;
 
         public bool Ko()
         {
@@ -66,6 +68,50 @@ namespace PokeRules
         {
             this.data = data;
             FullHeal();
+        }
+
+        public void SetStatModifier(Statistic stat, int val)
+        {
+            if(val >= -6 && val <= 6 && stat != Statistic.NONE)
+            {
+                int oldVal = GetStatModifier(stat);
+                AddStatModifier(stat, val - oldVal);
+            }
+        }
+
+        public void AddStatModifier(Statistic stat, int val)
+        {
+            int newVal = GetStatModifier(stat) + val;
+            if (newVal >= -6 && newVal <= 6 && stat != Statistic.NONE)
+            {
+                int statID = (int)stat - 1; //-1 because HP doesn't change
+
+                statModifiers += val * (int)Math.Pow(13, statID);
+            }
+        }
+
+        public int GetStatModifier(Statistic stat)
+        {
+            if (stat == Statistic.NONE)
+                return 0;
+            //else
+            int statID = (int)stat - 1; //-1 because HP doesn't change
+
+            int res = ((statModifiers / (int)Math.Pow(13, statID)) % 13) - 6;
+            return res;
+        }
+
+        public float GetStatMuliplier(Statistic stat)
+        {
+            int modifier = GetStatModifier(stat);
+
+            if (modifier > 0)
+                return (2 + modifier) / 2;
+            //else
+            if (modifier < 0)
+                return 2 / (2 - modifier);
+            //else (= 0)
+            return 1;
         }
 
         public void FullHeal()

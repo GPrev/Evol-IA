@@ -73,9 +73,20 @@ namespace PokeRules
                     outD(getDefender(s).Name + " fainted !");
             }
 
-            // Condition status
             if (!getDefender(s).Ko())
             {
+                // Stats alterations
+                if(Move.AlteredStat != Statistic.NONE && Move.StatModifier != 0)
+                {
+                    int oldModifier = getDefender(s).GetStatModifier(Move.AlteredStat);
+                    getDefender(s).AddStatModifier(Move.AlteredStat, Move.StatModifier);
+                    int realModification = getDefender(s).GetStatModifier(Move.AlteredStat) - oldModifier;
+
+                    if (outD != null)
+                        outD(getStatModMessage(getDefender(s), Move.AlteredStat, realModification));
+                }
+
+                // Condition status
                 if (Move.Condition != Condition.OK && Rules.ActiveRules.CanApplyCondition(Move.Condition, getDefender(s)))
                 {
                     getDefender(s).Condition = Move.Condition;
@@ -83,6 +94,24 @@ namespace PokeRules
                         outD(GetConditionMessage(Move.Condition, getDefender(s)));
                 }
             }
+        }
+
+        private string getStatModMessage(Pokemon pokemon, Statistic alteredStat, int realModification)
+        {
+            if (realModification == 0)
+                return "Nothing happened !";
+            //else
+            string res = pokemon.Name + "'s " + alteredStat.ToString().ToLower();
+
+            if (realModification > 1 || realModification < -1)
+                res += " greatly";
+
+            if (realModification > 0)
+                res += " rose !";
+            else if (realModification < 0)
+                res += " fell !";
+
+            return res;
         }
 
         private string GetConditionMessage(Condition condition, Pokemon pokemon)
