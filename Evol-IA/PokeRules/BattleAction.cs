@@ -72,6 +72,31 @@ namespace PokeRules
                 if(getDefender(s).Ko())
                     outD(getDefender(s).Name + " fainted !");
             }
+
+            // Condition status
+            if (!getDefender(s).Ko())
+            {
+                if (Move.Condition != Condition.OK && Rules.ActiveRules.CanApplyCondition(Move.Condition, getDefender(s)))
+                {
+                    getDefender(s).Condition = Move.Condition;
+                    if(outD != null)
+                        outD(GetConditionMessage(Move.Condition, getDefender(s)));
+                }
+            }
+        }
+
+        private string GetConditionMessage(Condition condition, Pokemon pokemon)
+        {
+            string res = "";
+
+            switch(condition)
+            {
+                case Condition.POISONED:
+                    res = pokemon.Name + " was poisoned !";
+                    break;
+            }
+
+            return res;
         }
 
         public Pokemon getAttacker(BattleState s)

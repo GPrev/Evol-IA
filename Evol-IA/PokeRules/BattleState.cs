@@ -121,6 +121,9 @@ namespace PokeRules
                 NextActionTypes[i] = ActionType.NONE;
             }
 
+            // Deals with status, etc.
+            EndTrurn();
+
             // Resolve KOs
             bool needsChange = false;
             for (int i = 0; i < Trainers.Count; ++i)
@@ -153,6 +156,23 @@ namespace PokeRules
                 }
             }
             makingMoves = false;
+        }
+
+        // Applies status conditions, etc. at the end of a turn
+        private void EndTrurn()
+        {
+            foreach (Trainer t in Trainers)
+            {
+                // Poison
+                if(!t.ActivePokemon.Ko() && t.ActivePokemon.Condition == Condition.POISONED)
+                {
+                    int psnDamage = (int)t.ActivePokemon.HP / 8;
+                    t.ActivePokemon.CurrHP -= psnDamage;
+                    outD(t.ActivePokemon.Name + " is hurt by poison !");
+                    if (t.ActivePokemon.Ko())
+                        outD(t.ActivePokemon.Name + " fainted !");
+                }
+            }
         }
 
         public bool HasWinner()

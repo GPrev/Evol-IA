@@ -101,6 +101,21 @@ namespace PokeRules
             // Compare speeds
             return a2.getAttacker(s).Speed - a1.getAttacker(s).Speed;
         }
+
+        public override bool CanApplyCondition(Condition condition, Pokemon pokemon)
+        {
+            if (pokemon.Condition != Condition.OK)
+                return false;
+            //else
+            switch(condition)
+            {
+                case Condition.POISONED: // Poison and Steel pokemon can't be poisoned
+                    return !((pokemon.HasType(Type.STEEL) || pokemon.HasType(Type.POISON)));
+
+                default:
+                    return true;
+            }
+        }
     }
 
 }

@@ -47,5 +47,10 @@ namespace PokeRules
 
             this.Moves = moves;
         }
+
+        public bool HasType(Type type)
+        {
+            return Type == type || Type2 == type;
+        }
     }
 }

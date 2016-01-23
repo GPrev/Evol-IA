@@ -31,6 +31,7 @@
       <Special>false</Special>
       <Type>POISON</Type>
       <Name>Poison Powder</Name>
+      <Condition>POISONED</Condition>
     </Move>
     <Move>
       <Power>0</Power>

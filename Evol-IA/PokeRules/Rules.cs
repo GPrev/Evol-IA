@@ -45,5 +45,7 @@ namespace PokeRules
         {
             return obj == null;
         }
+
+        public abstract bool CanApplyCondition(Condition condition, Pokemon pokemon);
     }
 }

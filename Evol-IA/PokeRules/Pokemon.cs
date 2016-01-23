@@ -74,6 +74,11 @@ namespace PokeRules
             this.Condition = Condition.OK;
         }
 
+        public bool HasType(Type type)
+        {
+            return data.HasType(type);
+        }
+
         public object Clone()
         {
             return new Pokemon(data)
