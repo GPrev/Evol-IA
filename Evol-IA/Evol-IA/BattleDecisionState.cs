@@ -11,6 +11,7 @@ namespace Evol_IA
     {
         public BattleState State { get; private set; }
         List<BattleAction> pendingActions;
+        private int ChooseCount { get; set; }
 
         public BattleDecisionState(BattleState s, List<BattleAction> pActions = null)
         {
@@ -29,27 +30,36 @@ namespace Evol_IA
             }
         }
 
+        public BattleDecisionState GetChild(BattleAction a)
+        {
+            return GetChild(a, a.GetActorId());
+        }
+
         public BattleDecisionState GetChild(BattleAction a, int id)
         {
-            if(a == null)
+            List<BattleAction> newActions;
+            if (a == null)
             {
-                return new BattleDecisionState(State, pendingActions);
+                newActions = pendingActions;
             }
-            //else
-            List<BattleAction> newActions = new List<BattleAction>();
-            for (int i = 0; i < pendingActions.Count; ++i)
+            else
             {
-                if(i == id)
+                newActions = new List<BattleAction>();
+                for (int i = 0; i < pendingActions.Count; ++i)
                 {
-                    newActions.Add(a);
-                }
-                else
-                {
-                    newActions.Add(this.pendingActions[i]);
+                    if(i == id)
+                    {
+                        newActions.Add(a);
+                    }
+                    else
+                    {
+                        newActions.Add(this.pendingActions[i]);
+                    }
                 }
             }
+
             BattleDecisionState res;
-            if (State.CanMakeActions(newActions))
+            if (ChooseCount >= (State.Trainers.Count - 1) && State.CanMakeActions(newActions))
             {
                 BattleState newState = State.Clone() as BattleState;
                 newState.MakeActions(newActions);
@@ -57,7 +67,7 @@ namespace Evol_IA
             }
             else
             {
-                res = new BattleDecisionState(State, newActions);
+                res = new BattleDecisionState(State, newActions) { ChooseCount = this.ChooseCount + 1 };
             }
             return res;
         }
@@ -74,7 +84,7 @@ namespace Evol_IA
             // If no possible action, returns a clone
             if(res.Count == 0)
             {
-                res.Add(new BattleDecisionState(State, pendingActions));
+                res.Add(GetChild(null, id));
             }
 
             return res;

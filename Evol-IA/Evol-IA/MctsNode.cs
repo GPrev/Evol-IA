@@ -26,6 +26,11 @@ namespace Evol_IA
             Visits = 0;
         }
 
+        public MctsNode MakeChild(BattleAction a)
+        {
+            return MakeChild(a, a.GetActorId());
+        }
+
         public MctsNode MakeChild(BattleAction a, int id)
         {
             BattleDecisionState s2 = State.GetChild(a, id);
@@ -49,7 +54,7 @@ namespace Evol_IA
             else
                 res += "Pokemon - " + (Action as PokemonAction).getPokemon(State.State).Name;
 
-            res += "\\n (" + GetHashCode() + " )";
+            res += "\\n (" + GetHashCode() + ")";
 
             res += "\\n Val=" + Value + " Vis=" + Visits;
 

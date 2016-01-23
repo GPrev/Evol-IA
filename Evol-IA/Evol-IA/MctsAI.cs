@@ -9,15 +9,17 @@ namespace Evol_IA
 {
     public class MctsAI : BattleAI
     {
-        // Regular values are positive so these values are safe
-        const double absoluteWin = -1;
-        const double absoluteLoss = -2;
+        const double absoluteWin = 1;
+        const double absoluteLoss = 0;
+        const int maxVisits = int.MaxValue/2;
 
         public Trainer trainer;
         int maxiter;
         int nbSimuPerIter;
 
         int totalVisits;
+
+        Random r = new Random();
 
         public override Trainer Trainer
         {
@@ -31,7 +33,7 @@ namespace Evol_IA
             else
                 trainer = t;
 
-            maxiter = 20;
+            maxiter = 40;
             nbSimuPerIter = 10;
         }
 
@@ -75,6 +77,7 @@ namespace Evol_IA
                     return Expand(current, myId);
                 //else
                 current = BestChildUCB(current);
+                state = current.State;
                 id = Opponent(id);
             }
 
@@ -120,34 +123,50 @@ namespace Evol_IA
 
             List<BattleAction> actions = state.State.GetNextActions(id, true);
 
+            // Remove already evaluated moves
             for (int i = 0; i < actions.Count; i++)
             {
-                //We already have evaluated this move
                 if (current.Children.Exists(c => c.Action.Equals(actions[i])))
-                    continue;
-
-                id = Opponent(id);
-
-                MctsNode node = current.MakeChild(actions[i], id);
-
-                return node;
+                {
+                    actions.RemoveAt(i);
+                    i--;
+                }
             }
-            // This shouldn't be reached
-            return null;
+            //Choses one option at random (there should be at least 1 action left)
+            int newActionId = r.Next() % actions.Count;
+
+            MctsNode node = current.MakeChild(actions[newActionId], id);
+            return node;
         }
 
         // Makes random moves from the current node and returns the score
         private double Rollout(MctsNode current, int myId)
         {
             BattleDecisionState state = current.State;
-            //If this state is a loss, we shouldn't reach the parent state
-            if (state.State.HasWinner() && state.State.Winner() == Opponent(myId))
+            // If this state is terminal, we don't need to explore it more than once
+            if (state.State.HasWinner())
             {
-                current.Parent.Value = int.MinValue;
-                return 0;
+                current.Visits = maxVisits;
+
+                int score1simu;
+                if (state.State.Winner() == myId)
+                    score1simu = 1;
+                else
+                    score1simu = 0;
+
+                current.Value = maxVisits * score1simu;
+                
+                // If the winning player made the last decision, it will take it no matter what
+                if(current.Action.GetActorId() == state.State.Winner())
+                {
+                    current.Parent.Visits = maxVisits;
+                    current.Parent.Value = maxVisits * score1simu;
+                }
+
+                return score1simu;
             }
+
             //else
-            Random r = new Random();
             double res = 0;
 
             for (int i = 0; i < nbSimuPerIter; ++i)
@@ -169,7 +188,7 @@ namespace Evol_IA
                     res += 1;
                 //else 0
             }
-            return res;
+            return res / nbSimuPerIter;
         }
 
         // Updates the current node and its parents with the result of the rollout (visits + 1, value + v)
@@ -196,7 +215,7 @@ namespace Evol_IA
         // Converts the score of one player into the score of the other
         private double ReverseScore(double score)
         {
-            return nbSimuPerIter - score;
+            return 1.0 - score;
         }
     }
 }
