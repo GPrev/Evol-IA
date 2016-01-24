@@ -77,6 +77,7 @@ namespace Evol_UI
                 return data[i];
             //else
             string number = "_" + i.ToString("D3");
+            string number2 = "_" + i;
 
             Stream file = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString(number));
             if (file == null)
@@ -86,8 +87,8 @@ namespace Evol_UI
             data.Add(i, (PokeData)serializer.Deserialize(file));
 
             string name = GetData(i).Name;
-            Bitmap front = Properties.SpritesFrontResources.ResourceManager.GetObject(number) as Bitmap;
-            Bitmap back = Properties.SpritesBackResources.ResourceManager.GetObject(number) as Bitmap;
+            Bitmap front = Properties.SpritesFrontResources.ResourceManager.GetObject(number2) as Bitmap;
+            Bitmap back = Properties.SpritesBackResources.ResourceManager.GetObject(number2) as Bitmap;
             spritesFront.Add(name, front);
             spritesBack.Add(name, back);
 

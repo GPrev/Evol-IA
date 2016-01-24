@@ -185,26 +185,30 @@
     <EmbeddedResource Include="Resources\PokeData\197.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Sprites\Front\003.png">
-      <CustomToolNamespace>Front</CustomToolNamespace>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Sprites\Front\006.png">
-      <CustomToolNamespace>Front</CustomToolNamespace>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Sprites\Front\009.png">
-      <CustomToolNamespace>Front</CustomToolNamespace>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Sprites\Front\6.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\Sprites\Back\003.png">
-      <CustomToolNamespace>Back</CustomToolNamespace>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Sprites\Back\006.png">
-      <CustomToolNamespace>Back</CustomToolNamespace>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Sprites\Back\009.png">
-      <CustomToolNamespace>Back</CustomToolNamespace>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Sprites\Front\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Sprites\Front\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Sprites\Front\135.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Sprites\Back\135.png" />
+    <EmbeddedResource Include="Resources\Sprites\Back\196.png" />
+    <EmbeddedResource Include="Resources\Sprites\Back\197.png" />
+    <EmbeddedResource Include="Resources\Sprites\Back\3.png" />
+    <EmbeddedResource Include="Resources\Sprites\Back\6.png" />
+    <EmbeddedResource Include="Resources\Sprites\Back\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Sprites\Front\196.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Sprites\Front\197.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -63,9 +63,9 @@ namespace Evol_UI.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _003 {
+        internal static System.Drawing.Bitmap _135 {
             get {
-                object obj = ResourceManager.GetObject("_003", resourceCulture);
+                object obj = ResourceManager.GetObject("_135", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace Evol_UI.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _006 {
+        internal static System.Drawing.Bitmap _196 {
             get {
-                object obj = ResourceManager.GetObject("_006", resourceCulture);
+                object obj = ResourceManager.GetObject("_196", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,39 @@ namespace Evol_UI.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _009 {
+        internal static System.Drawing.Bitmap _197 {
             get {
-                object obj = ResourceManager.GetObject("_009", resourceCulture);
+                object obj = ResourceManager.GetObject("_197", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3 {
+            get {
+                object obj = ResourceManager.GetObject("_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6 {
+            get {
+                object obj = ResourceManager.GetObject("_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _9 {
+            get {
+                object obj = ResourceManager.GetObject("_9", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
