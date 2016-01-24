@@ -77,5 +77,17 @@ namespace PokeRules
             res.activeID = this.activeID;
             return res;
         }
+
+        public String teampokemontoString()
+        {
+            String t = "";
+            foreach(Pokemon p in Team)
+            {
+                t += " a " + p;
+            }
+
+
+            return t;
+        }
     }
 }

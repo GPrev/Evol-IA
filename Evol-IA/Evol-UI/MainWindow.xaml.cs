@@ -66,15 +66,22 @@ namespace Evol_UI
 
             List<Pokemon> TeamA = new List<Pokemon>();
             List<Pokemon> TeamB = new List<Pokemon>();
-            TeamB.Add(p1);
-            TeamB.Add(p2);
-            TeamB.Add(p3);
+
+            TeamAI t = new TeamAI(4, 3, new List<PokeData>() { d1, d2, d3, d4, d5, d6 },2,3);
+            List< PokeData> iat= t.selectTeamAI();
+            foreach(PokeData p in iat)
+            {
+                TeamB.Add(new PokemonVM(p));
+            }
+            //TeamB.Add(p1);
+            //TeamB.Add(p2);
+            //TeamB.Add(p3);
             TeamA.Add(p4);
             TeamA.Add(p5);
             TeamA.Add(p6);
             /*les deux lignes servent à créer la team via l'IA*/
             //TeamAI t = new TeamAI(4, 3, new List<PokeData>() { d1, d2, d3, d4, d5, d6 },2,3);
-            //TeamA = t.selectTeamAI();
+            //TeamB = t.selectTeamAI();
             List<Trainer> trainers  =new List<Trainer>();
             trainers.Add(new TrainerVM("Red", TeamA));
             trainers.Add(new TrainerVM("Blue", TeamB));
