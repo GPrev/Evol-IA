@@ -192,30 +192,45 @@ namespace Evol_IA
 
             for (int j = 0; j+1 < nbpokemonequipe; j=j+2)
             {
-                Console.WriteLine("Debut boucle faire 1 enfant");
+                Console.WriteLine("Debut boucle faire 1 enfant"); 
+                //de temps en temps il part en boucle infinie. Par plaisir.
+                //Check la min max ia qui a eu un léger doute. Ou pas en fait. Je sais pas trop.
 
                 int r1 = r.Next(0, nbpokemonequipe); //l'indice d'un des pokémons de la team du premier parent
                 int r2 = r.Next(nbpokemonequipe, nbpokemonequipe * 2); //l'indice d'un des pokémons de la team du deuxième parent
+                Console.WriteLine("Avant les while");
+
                 while (team.Contains(teamdes2parents[r1])) //si le pokémon est déjà présent, on en prend un autre
                 {
                     r1 = r.Next(0, nbpokemonequipe);
                 }
+                Console.WriteLine("Entre les while");
                 while (team.Contains(teamdes2parents[r2]))
                 {
                     r2 = r.Next(nbpokemonequipe, nbpokemonequipe * 2);
                 }
+                Console.WriteLine("Après les while");
+
                 team.Add(teamdes2parents[r1]);
                 team.Add(teamdes2parents[r2]);
             }
 
             if(nbpokemonequipe % 2 == 1) //si le nombre de pokémons par équipe est impair, on en rajoute un totalement au pif
             {
+                Console.WriteLine("Dans le début du if");
+
                 //Console.WriteLine("If faire 1 enfant avec nombre impair de pokemon");
-                int rand = r.Next(nbpokemonequipe);
-                while (team.Contains(teamdes2parents[rand])){
-                    rand = r.Next(nbpokemonequipe);
+                int rand = r.Next(teamdes2parents.Length);
+                while (team.Contains(teamdes2parents[rand])){   //il est des fois parti en boucle infinie sans raison, et des fois non. J'ai pas l'impression qu'il y aie de problèmes dans le code
+                    //en vrai j'ai plus l'impression que le problème de boucle infiie était lié à MVS qu'au code...
+                    //Console.WriteLine("-----------------------------"+rand+"------------------------------");
+                    rand = r.Next(teamdes2parents.Length);
+                    //Console.WriteLine("_____________________________"+rand+"______________________________");
+
                 }
                 team.Add(teamdes2parents[rand]);
+                Console.WriteLine("Vers la fin du if, encore dedans");
+
             }
             //Console.WriteLine("Fin Faire 1 enfant");
 
