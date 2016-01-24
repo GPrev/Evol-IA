@@ -71,16 +71,16 @@ namespace Evol_UI
                 BitmapSizeOptions.FromEmptyOptions());
         }
 
-        public bool LoadPokemon(int i)
+        public PokeData LoadPokemon(int i)
         {
             if (data.ContainsKey(i))
-                return true;
+                return data[i];
             //else
             string number = "_" + i.ToString("D3");
 
             Stream file = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString(number));
             if (file == null)
-                return false;
+                return null;
             //else
             XmlSerializer serializer = new XmlSerializer(typeof(PokeData));
             data.Add(i, (PokeData)serializer.Deserialize(file));
@@ -91,7 +91,7 @@ namespace Evol_UI
             spritesFront.Add(name, front);
             spritesBack.Add(name, back);
 
-            return true;
+            return data[i];
         }
 
 
