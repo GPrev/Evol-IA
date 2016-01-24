@@ -18,6 +18,8 @@ namespace PokeRules
         public int Power { get; set; }
         public int Accuracy { get; set; }
         public bool Special { get; set; }
+        
+        public bool TargetSelf { get { return Accuracy == 0; } }
 
         [OptionalField]
         public Condition Condition = Condition.OK;

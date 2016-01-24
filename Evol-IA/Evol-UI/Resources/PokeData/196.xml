@@ -26,11 +26,13 @@
       <Name>Swift</Name>
     </Move>
     <Move>
+      <Name>Tail Whip</Name>
+      <Type>NORMAL</Type>
+      <Special>false</Special>
       <Power>0</Power>
       <Accuracy>100</Accuracy>
-      <Special>false</Special>
-      <Type>NORMAL</Type>
-      <Name>Tail Whip</Name>
+      <AlteredStat>DEFENSE</AlteredStat>
+      <StatModifier>-1</StatModifier>
     </Move>
     <Move>
       <Power>0</Power>

@@ -50,48 +50,58 @@ namespace PokeRules
 
         public override bool CanBeExecuted(BattleState s)
         {
+            if(Move.TargetSelf)
+                return !getAttacker(s).Ko() && !s.Trainers[defenderID].IsOutOfPokemon();
+            //else
             return !getAttacker(s).Ko() && !getDefender(s).Ko();
         }
 
         protected override void Execute(BattleState s, OutDel outD = null)
         {
-            if (outD != null)
-                outD(getAttacker(s).Name + " uses " + Move.Name + ".");
+            Pokemon attacker = getAttacker(s);
+            Pokemon target;
+            if (Move.TargetSelf)
+                target = attacker;
+            else
+                target = getDefender(s);
 
-            int damage = Rules.ActiveRules.DamageFormula(getAttacker(s), getDefender(s), Move);
-            getDefender(s).CurrHP -= damage;
+            if (outD != null)
+                outD(attacker.Name + " uses " + Move.Name + ".");
+
+            int damage = Rules.ActiveRules.DamageFormula(attacker, target, Move);
+            target.CurrHP -= damage;
 
             if (damage > 0 && outD != null)
             {
-                float effective = Rules.ActiveRules.GetTypeModifier(Move, getDefender(s));
+                float effective = Rules.ActiveRules.GetTypeModifier(Move, target);
                 if (effective > 1)
                     outD("It's super effective !");
                 else if (effective < 1)
                     outD("It's not very effective...");
 
-                if(getDefender(s).Ko())
-                    outD(getDefender(s).Name + " fainted !");
+                if(target.Ko())
+                    outD(target.Name + " fainted !");
             }
 
-            if (!getDefender(s).Ko())
+            if (!target.Ko())
             {
                 // Stats alterations
                 if(Move.AlteredStat != Statistic.NONE && Move.StatModifier != 0)
                 {
-                    int oldModifier = getDefender(s).GetStatModifier(Move.AlteredStat);
-                    getDefender(s).AddStatModifier(Move.AlteredStat, Move.StatModifier);
-                    int realModification = getDefender(s).GetStatModifier(Move.AlteredStat) - oldModifier;
+                    int oldModifier = target.GetStatModifier(Move.AlteredStat);
+                    target.AddStatModifier(Move.AlteredStat, Move.StatModifier);
+                    int realModification = target.GetStatModifier(Move.AlteredStat) - oldModifier;
 
                     if (outD != null)
-                        outD(getStatModMessage(getDefender(s), Move.AlteredStat, realModification));
+                        outD(getStatModMessage(target, Move.AlteredStat, realModification));
                 }
 
                 // Condition status
-                if (Move.Condition != Condition.OK && Rules.ActiveRules.CanApplyCondition(Move.Condition, getDefender(s)))
+                if (Move.Condition != Condition.OK && Rules.ActiveRules.CanApplyCondition(Move.Condition, target))
                 {
-                    getDefender(s).Condition = Move.Condition;
+                    target.Condition = Move.Condition;
                     if(outD != null)
-                        outD(GetConditionMessage(Move.Condition, getDefender(s)));
+                        outD(GetConditionMessage(Move.Condition, target));
                 }
             }
         }
@@ -176,9 +186,13 @@ namespace PokeRules
 
         protected override void Execute(BattleState s, OutDel outD = null)
         {
+            Pokemon oldPokemon = getTrainer(s).ActivePokemon;
+
             if (outD != null)
                 outD(getTrainer(s).Name + " sends out " + getPokemon(s).Name + " !");
             getTrainer(s).ActivePokemon = getPokemon(s);
+
+            oldPokemon.ResetStatModifiers();
         }
 
         public Trainer getTrainer(BattleState s)

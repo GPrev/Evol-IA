@@ -47,13 +47,17 @@ namespace PokeRules
             if (m.Power == 0)
                 return 0;
 
-            int att = attP.Attack;
+            int att;
             if (m.Special)
                 att = attP.SpAttack;
+            else
+                att = attP.Attack;
 
-            int def = attP.Defense;
+            int def;
             if (m.Special)
-                def = attP.SpDefense;
+                def = defP.SpDefense;
+            else
+                def = defP.Defense;
 
             int mod1 = 1;
             int mod2 = 1;

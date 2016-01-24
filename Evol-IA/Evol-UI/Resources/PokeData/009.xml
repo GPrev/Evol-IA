@@ -33,11 +33,13 @@
       <Name>Mud-slap</Name>
     </Move>
     <Move>
+      <Name>Withdraw</Name>
+      <Type>WATER</Type>
+      <Special>false</Special>
       <Power>0</Power>
       <Accuracy>0</Accuracy>
-      <Special>false</Special>
-      <Type>WATER</Type>
-      <Name>Withdraw</Name>
+      <AlteredStat>DEFENSE</AlteredStat>
+      <StatModifier>1</StatModifier>
     </Move>
   </Moves>
 </PokeData>

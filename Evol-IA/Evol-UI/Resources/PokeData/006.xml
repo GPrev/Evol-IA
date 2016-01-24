@@ -26,18 +26,22 @@
       <Name>Wing Attack</Name>
     </Move>
     <Move>
+      <Name>Growl</Name>
+      <Type>NORMAL</Type>
+      <Special>false</Special>
       <Power>0</Power>
       <Accuracy>100</Accuracy>
-      <Special>false</Special>
-      <Type>NORMAL</Type>
-      <Name>Growl</Name>
+      <AlteredStat>ATTACK</AlteredStat>
+      <StatModifier>-1</StatModifier>
     </Move>
     <Move>
+      <Name>Scary Face</Name>
+      <Type>NORMAL</Type>
+      <Special>false</Special>
       <Power>0</Power>
       <Accuracy>100</Accuracy>
-      <Special>false</Special>
-      <Type>NORMAL</Type>
-      <Name>Scary Face</Name>
+      <AlteredStat>SPEED</AlteredStat>
+      <StatModifier>-2</StatModifier>
     </Move>
   </Moves>
 </PokeData>

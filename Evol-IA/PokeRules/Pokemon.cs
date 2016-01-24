@@ -81,9 +81,15 @@ namespace PokeRules
 
         public void AddStatModifier(Statistic stat, int val)
         {
-            int newVal = GetStatModifier(stat) + val;
-            if (newVal >= -6 && newVal <= 6 && stat != Statistic.NONE)
+            if (stat != Statistic.NONE)
             {
+                int newVal = GetStatModifier(stat) + val;
+
+                if (newVal > 6)
+                    newVal = 6;
+                else if (newVal < -6)
+                    newVal = -6;
+
                 int statID = (int)stat - 1; //-1 because HP doesn't change
 
                 statModifiers += val * (int)Math.Pow(13, statID);
@@ -106,12 +112,20 @@ namespace PokeRules
             int modifier = GetStatModifier(stat);
 
             if (modifier > 0)
-                return (2 + modifier) / 2;
+                return (float)(2 + modifier) / 2;
             //else
             if (modifier < 0)
-                return 2 / (2 - modifier);
+                return (float)2 / (2 - modifier);
             //else (= 0)
             return 1;
+        }
+
+        public void ResetStatModifiers()
+        {
+            for(int i = (int)Statistic.ATTACK; i < (int)Statistic.NONE; ++i)
+            {
+                SetStatModifier((Statistic)i, 0);
+            }
         }
 
         public void FullHeal()
@@ -128,7 +142,7 @@ namespace PokeRules
         public object Clone()
         {
             return new Pokemon(data)
-            { CurrHP = this.CurrHP, Condition = this.Condition };
+            { CurrHP = this.CurrHP, Condition = this.Condition, statModifiers = this.statModifiers };
         }
     }
 }
