@@ -40,29 +40,22 @@ namespace Evol_UI
             LayoutRoot.DataContext = this;
 
             Assembly a = Assembly.GetExecutingAssembly();
-            Stream file1 = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString("_003"));
-            Stream file2 = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString("_006"));
-            Stream file3 = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString("_009"));
-            Stream file4 = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString("_135"));
-            Stream file5 = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString("_196"));
-            Stream file6 = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString("_197"));
 
-            PokeData d1, d2, d3, d4, d5, d6;
-            XmlSerializer serializer = new XmlSerializer(typeof(PokeData));
-            d1 = (PokeData)serializer.Deserialize(file1);
-            d2 = (PokeData)serializer.Deserialize(file2);
-            d3 = (PokeData)serializer.Deserialize(file3);
-            d4 = (PokeData)serializer.Deserialize(file4);
-            d5 = (PokeData)serializer.Deserialize(file5);
-            d6 = (PokeData)serializer.Deserialize(file6);
+            Pokedex dex = Pokedex.ActivePokedex;
+            dex.LoadPokemon(3);
+            dex.LoadPokemon(6);
+            dex.LoadPokemon(9);
+            dex.LoadPokemon(135);
+            dex.LoadPokemon(196);
+            dex.LoadPokemon(197);
 
             PokemonVM p1, p2, p3, p4, p5, p6;
-            p1 = new PokemonVM(d1);
-            p2 = new PokemonVM(d2);
-            p3 = new PokemonVM(d3);
-            p4 = new PokemonVM(d4);
-            p5 = new PokemonVM(d5);
-            p6 = new PokemonVM(d6);
+            p1 = new PokemonVM(dex.GetData(3));
+            p2 = new PokemonVM(dex.GetData(6));
+            p3 = new PokemonVM(dex.GetData(9));
+            p4 = new PokemonVM(dex.GetData(135));
+            p5 = new PokemonVM(dex.GetData(196));
+            p6 = new PokemonVM(dex.GetData(197));
 
             List<Pokemon> TeamA = new List<Pokemon>();
             List<Pokemon> TeamB = new List<Pokemon>();

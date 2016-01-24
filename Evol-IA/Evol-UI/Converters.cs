@@ -89,4 +89,44 @@ namespace Evol_UI
             throw new NotImplementedException();
         }
     }
+
+
+
+    public class PokemonToFrontSpriteConverter : IValueConverter
+    {
+        public object Convert(object value, System.Type targetType, object parameter, CultureInfo culture)
+        {
+            Pokemon p = value as Pokemon;
+            if(p != null)
+            {
+                return Pokedex.ActivePokedex.GetFrontSpriteSource(p.Name);
+            }
+            //else
+            return null;
+        }
+
+        public object ConvertBack(object value, System.Type targetType, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class PokemonToBackSpriteConverter : IValueConverter
+    {
+        public object Convert(object value, System.Type targetType, object parameter, CultureInfo culture)
+        {
+            Pokemon p = value as Pokemon;
+            if (p != null)
+            {
+                return Pokedex.ActivePokedex.GetBackSpriteSource(p.Name);
+            }
+            //else
+            return null;
+        }
+
+        public object ConvertBack(object value, System.Type targetType, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }

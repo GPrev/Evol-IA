@@ -6,6 +6,10 @@
              xmlns:local="clr-namespace:Evol_UI"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
+    <UserControl.Resources>
+        <local:PokemonToFrontSpriteConverter x:Key="FrontSpriteConverter" />
+        <local:PokemonToBackSpriteConverter x:Key="BackSpriteConverter" />
+    </UserControl.Resources>
     <Grid Name="LayoutRoot">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -18,7 +22,9 @@
         </Grid.RowDefinitions>
 
         <local:PokemonControl VerticalAlignment="Center" Pokemon="{Binding VM.Oponent.ActivePokemon}"/>
+        <Image Grid.Column="1" Source="{Binding VM.Oponent.ActivePokemon, Converter={StaticResource FrontSpriteConverter}}" />
         <local:PokemonControl Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Pokemon="{Binding VM.Ally.ActivePokemon}"/>
+        <Image Grid.Row="1" Source="{Binding VM.Ally.ActivePokemon, Converter={StaticResource BackSpriteConverter}}" />
         <local:PokemonChoiceControl Grid.Row="2" Trainer="{Binding VM.Ally}"
                                     IsEnabled="{Binding VM.CanSwitch}"
                                     Selected="{Binding VM.PendingSwitch, Mode=TwoWay}"/>

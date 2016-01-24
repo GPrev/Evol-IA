@@ -38,6 +38,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -57,10 +58,21 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Converters.cs" />
+    <Compile Include="Pokedex.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\SpritesBackResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpritesBackResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\SpritesFrontResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpritesFrontResources.resx</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\BattleControlVM.cs" />
     <Compile Include="UserControls\BattleControl.xaml.cs">
@@ -148,6 +160,14 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\PokeData\003.xml" />
+    <EmbeddedResource Include="Properties\SpritesBackResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SpritesBackResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\SpritesFrontResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SpritesFrontResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\PokeData\006.xml" />
@@ -163,6 +183,28 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\PokeData\197.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Sprites\Front\003.png">
+      <CustomToolNamespace>Front</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Sprites\Front\006.png">
+      <CustomToolNamespace>Front</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Sprites\Front\009.png">
+      <CustomToolNamespace>Front</CustomToolNamespace>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Sprites\Back\003.png">
+      <CustomToolNamespace>Back</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Sprites\Back\006.png">
+      <CustomToolNamespace>Back</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Sprites\Back\009.png">
+      <CustomToolNamespace>Back</CustomToolNamespace>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
