@@ -59,7 +59,6 @@ namespace Evol_IA
                     //pour qu'il prenne la première action qui le fait gagner pour gagner du temps
                     if (max == 1)
                     {
-                        Console.WriteLine("IA should win");
                         return act;
                     }
                 }
