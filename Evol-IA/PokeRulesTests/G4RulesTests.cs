@@ -29,12 +29,16 @@ namespace PokeRulesTests
         [TestMethod]
         public void DamageFormulaTest()
         {
-            Pokemon attP = new Pokemon("a", 50, Type.ELECTRIC, Type.NONE, 100, 50, 50, 50, 50, 50, new List<Move>());
-            Pokemon defP = new Pokemon("b", 50, Type.WATER, Type.NONE, 100, 50, 50, 50, 50, 50, new List<Move>());
+            Pokemon p1 = new Pokemon("a", 50, Type.ELECTRIC, Type.NONE, 100, 50, 50, 50, 50, 50, new List<Move>());
+            Pokemon p2 = new Pokemon("b", 50, Type.WATER, Type.NONE, 100, 50, 50, 50, 50, 50, new List<Move>());
             Move m = new Move("m", Type.ELECTRIC, 50, 100, true);
+            Move m2 = new Move("m2", Type.WATER, 50, 100, true);
             //http://nuggetbridge.com/damagecalc/
-            Assert.IsTrue(60 <= rules.DamageFormula(attP, defP, m));
-            Assert.IsTrue(72 >= rules.DamageFormula(attP, defP, m));
+            Assert.IsTrue(60 <= rules.DamageFormula(p1, p2, m));
+            Assert.IsTrue(72 >= rules.DamageFormula(p1, p2, m));
+
+            Assert.IsTrue(30 <= rules.DamageFormula(p2, p1, m2));
+            Assert.IsTrue(36 >= rules.DamageFormula(p2, p1, m2));
         }
 
         [TestMethod]

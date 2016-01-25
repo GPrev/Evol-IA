@@ -66,7 +66,7 @@ namespace PokeRules
             int cc = 1; //no criticals
             int r = 92; //no random damage reductions (85 < r < 100)
             float stab = 1;
-            if(attP.Type == m.Type || attP.Type2 == m.Type)
+            if(attP.HasType(m.Type))
                 stab = 1.5f;
 
             float typeMod = GetTypeModifier(m.Type, defP.Type, defP.Type2);
@@ -77,7 +77,7 @@ namespace PokeRules
             res *= mod1;
             res += 2;
             res = (int)((float)res * cc * mod2 * r / 100);
-            res *= (int)(stab * typeMod * mod3);
+            res = (int)((float)res * stab * typeMod * mod3);
 
             if (res < 1)
                 res = 1;
