@@ -80,7 +80,7 @@ namespace Evol_UI
             string number2 = "_" + i;
 
             Stream file = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString(number));
-            if (file == null)
+            if (file == null || file.Length == 0)
                 return null;
             //else
             XmlSerializer serializer = new XmlSerializer(typeof(PokeData));
@@ -104,6 +104,24 @@ namespace Evol_UI
             writer.Flush();
             stream.Position = 0;
             return stream;
+        }
+
+        public void LoadAllPokemon(int maxID)
+        {
+            for (int i = 0; i <= maxID; ++i)
+                LoadPokemon(i);
+        }
+
+        public List<PokeData> GetAllData(int maxID)
+        {
+            List<PokeData> res = new List<PokeData>();
+            for (int i = 0; i <= maxID; ++i)
+            {
+                PokeData d = GetData(i);
+                if(d != null)
+                    res.Add(d);
+            }
+            return res;
         }
     }
 }

@@ -42,12 +42,14 @@ namespace Evol_UI
             Assembly a = Assembly.GetExecutingAssembly();
 
             Pokedex dex = Pokedex.ActivePokedex;
-            PokeData d1 = dex.LoadPokemon(3);
-            PokeData d2 = dex.LoadPokemon(6);
-            PokeData d3 = dex.LoadPokemon(9);
-            PokeData d4 = dex.LoadPokemon(135);
-            PokeData d5 = dex.LoadPokemon(196);
-            PokeData d6 = dex.LoadPokemon(197);
+            dex.LoadAllPokemon(251);
+
+            PokeData d1 = dex.GetData(3);
+            PokeData d2 = dex.GetData(6);
+            PokeData d3 = dex.GetData(9);
+            PokeData d4 = dex.GetData(135);
+            PokeData d5 = dex.GetData(196);
+            PokeData d6 = dex.GetData(197);
 
             PokemonVM p1, p2, p3, p4, p5, p6;
             p1 = new PokemonVM(dex.GetData(3));
