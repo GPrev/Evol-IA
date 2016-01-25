@@ -48,6 +48,9 @@ namespace Evol_UI
             PokeData d4 = dex.LoadPokemon(135);
             PokeData d5 = dex.LoadPokemon(196);
             PokeData d6 = dex.LoadPokemon(197);
+            PokeData d7 = dex.LoadPokemon(24);
+            //PokeData d8 = dex.LoadPokemon(34);
+
 
             PokemonVM p1, p2, p3, p4, p5, p6;
             p1 = new PokemonVM(dex.GetData(3));
@@ -56,6 +59,8 @@ namespace Evol_UI
             p4 = new PokemonVM(dex.GetData(135));
             p5 = new PokemonVM(dex.GetData(196));
             p6 = new PokemonVM(dex.GetData(197));
+            //p7 = new PokemonVM(dex.GetData(24));
+            //p8 = new PokemonVM(dex.GetData(34));
 
             List<Pokemon> TeamA = new List<Pokemon>();
             List<Pokemon> TeamB = new List<Pokemon>();
@@ -66,9 +71,9 @@ namespace Evol_UI
             {
                 TeamB.Add(new PokemonVM(p));
             }
-            //TeamB.Add(p1);
-            //TeamB.Add(p2);
-            //TeamB.Add(p3);
+            TeamB.Add(p1);
+            TeamB.Add(p2);
+            TeamB.Add(p3);
             TeamA.Add(p4);
             TeamA.Add(p5);
             TeamA.Add(p6);
