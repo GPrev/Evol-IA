@@ -42,42 +42,32 @@ namespace Evol_UI
             Assembly a = Assembly.GetExecutingAssembly();
 
             Pokedex dex = Pokedex.ActivePokedex;
+			
             dex.LoadAllPokemon(251);
-
-            PokeData d1 = dex.GetData(3);
-            PokeData d2 = dex.GetData(6);
-            PokeData d3 = dex.GetData(9);
-            PokeData d4 = dex.GetData(135);
-            PokeData d5 = dex.GetData(196);
-            PokeData d6 = dex.GetData(197);
-
-            PokemonVM p1, p2, p3, p4, p5, p6;
-            p1 = new PokemonVM(dex.GetData(3));
-            p2 = new PokemonVM(dex.GetData(6));
-            p3 = new PokemonVM(dex.GetData(9));
-            p4 = new PokemonVM(dex.GetData(135));
-            p5 = new PokemonVM(dex.GetData(196));
-            p6 = new PokemonVM(dex.GetData(197));
 
             List<Pokemon> TeamA = new List<Pokemon>();
             List<Pokemon> TeamB = new List<Pokemon>();
 
-            TeamAI t = new TeamAI(4, 3, new List<PokeData>() { d1, d2, d3, d4, d5, d6 },2,3);
+            // AI Team
+            List<PokeData> allData = dex.GetAllData(251);
+
+            TeamAI t = new TeamAI(4, 3, allData, 2, 3);
             List< PokeData> iat= t.selectTeamAI();
             foreach(PokeData p in iat)
             {
                 TeamB.Add(new PokemonVM(p));
             }
-            //TeamB.Add(p1);
-            //TeamB.Add(p2);
-            //TeamB.Add(p3);
-            TeamA.Add(p4);
-            TeamA.Add(p5);
-            TeamA.Add(p6);
-            /*les deux lignes servent à créer la team via l'IA*/
-            //TeamAI t = new TeamAI(4, 3, new List<PokeData>() { d1, d2, d3, d4, d5, d6 },2,3);
-            //TeamB = t.selectTeamAI();
-            List<Trainer> trainers  =new List<Trainer>();
+
+            // Player team
+            PokemonVM p1, p2, p3;
+            p1 = new PokemonVM(dex.GetData(3));
+            p2 = new PokemonVM(dex.GetData(6));
+            p3 = new PokemonVM(dex.GetData(9));
+            TeamA.Add(p1);
+            TeamA.Add(p2);
+            TeamA.Add(p3);
+
+            List<Trainer> trainers = new List<Trainer>();
             trainers.Add(new TrainerVM("Red", TeamA));
             trainers.Add(new TrainerVM("Blue", TeamB));
 

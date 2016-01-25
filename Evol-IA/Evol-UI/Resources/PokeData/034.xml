@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Nidoking</Name>
+  <Level>50</Level>
+  <HP>162</HP>
+  <Attack>119</Attack>
+  <SpAttack>111</SpAttack>
+  <Defense>104</Defense>
+  <SpDefense>101</SpDefense>
+  <Speed>111</Speed>
+  <Type>POISON</Type>
+  <Type2>GROUND</Type2>
+  <Moves>
+    <Move>
+      <Power>65</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>NORMAL</Type>
+      <Name>Horn Attack</Name>
+    </Move>
+    <Move>
+      <Power>20</Power>
+      <Accuracy>100</Accuracy>
+      <Special>true</Special>
+      <Type>GROUND</Type>
+      <Name>Mud-slap</Name>
+    </Move>
+    <Move>
+      <Power>120</Power>
+      <Accuracy>70</Accuracy>
+      <Special>true</Special>
+      <Type>ELECTRIC</Type>
+      <Name>Thunder</Name>
+    </Move>
+    <Move>
+      <Power>0</Power>
+      <Accuracy>0</Accuracy>
+      <Special>false</Special>
+      <Type>NORMAL</Type>
+      <Name>Horn Drill</Name>
+    </Move>
+  </Moves>
+</PokeData>

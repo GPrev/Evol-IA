@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Arbok</Name>
+  <Level>50</Level>
+  <HP>145</HP>
+  <Attack>116</Attack>
+  <SpAttack>95</SpAttack>
+  <Defense>99</Defense>
+  <SpDefense>109</SpDefense>
+  <Speed>111</Speed>
+  <Type>POISON</Type>
+  <Type2>NONE</Type2>
+  <Moves>
+    <Move>
+      <Power>90</Power>
+      <Accuracy>100</Accuracy>
+      <Special>true</Special>
+      <Type>POISON</Type>
+      <Name>Sludge Bomb</Name>
+    </Move>
+    <Move>
+      <Power>60</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>DARK</Type>
+      <Name>Bite</Name>
+    </Move>
+    <Move>
+      <Name>Dig</Name>
+      <Type>GROUND</Type>
+      <Special>false</Special>
+      <Power>80</Power>
+      <Accuracy>100</Accuracy>
+    </Move>
+    <Move>
+      <Power>0</Power>
+      <Accuracy>0</Accuracy>
+      <Special>false</Special>
+      <Type>NORMAL</Type>
+      <Name>Glare</Name>
+    </Move>
+  </Moves>
+</PokeData>
