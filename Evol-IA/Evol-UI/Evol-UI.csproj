@@ -159,7 +159,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Resources\PokeData\003.xml" />
+    <EmbeddedResource Include="Resources\PokeData\003.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\SpritesBackResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SpritesBackResources.Designer.cs</LastGenOutput>
@@ -170,16 +172,22 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\PokeData\006.xml" />
+    <EmbeddedResource Include="Resources\PokeData\006.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\PokeData\009.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\PokeData\135.xml" />
+    <EmbeddedResource Include="Resources\PokeData\135.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\PokeData\196.xml" />
+    <EmbeddedResource Include="Resources\PokeData\196.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\PokeData\197.xml" />
@@ -211,7 +219,24 @@
     <EmbeddedResource Include="Resources\Sprites\Front\197.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\PokeData\XMLFile1.xml" />
+    <EmbeddedResource Include="Resources\PokeData\024.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\PokeData\034.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Sprites\Front\24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Sprites\Front\34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Sprites\Back\24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Sprites\Back\34.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

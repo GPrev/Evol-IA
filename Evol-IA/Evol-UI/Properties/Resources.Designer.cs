@@ -141,6 +141,58 @@ namespace Evol_UI.Properties {
         /// <summary>
         ///   Recherche une chaîne localisée semblable à &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
         ///&lt;PokeData xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        ///  &lt;Name&gt;Arbok&lt;/Name&gt;
+        ///  &lt;Level&gt;50&lt;/Level&gt;
+        ///  &lt;HP&gt;145&lt;/HP&gt;
+        ///  &lt;Attack&gt;116&lt;/Attack&gt;
+        ///  &lt;SpAttack&gt;95&lt;/SpAttack&gt;
+        ///  &lt;Defense&gt;99&lt;/Defense&gt;
+        ///  &lt;SpDefense&gt;109&lt;/SpDefense&gt;
+        ///  &lt;Speed&gt;111&lt;/Speed&gt;
+        ///  &lt;Type&gt;POISON&lt;/Type&gt;
+        ///  &lt;Type2&gt;NONE&lt;/Type2&gt;
+        ///  &lt;Moves&gt;
+        ///    &lt;Move&gt;
+        ///      &lt;Power&gt;90&lt;/Power&gt;
+        ///      &lt;Accuracy&gt;100&lt;/Accuracy&gt;
+        ///      &lt;Special&gt;true&lt;/Special&gt;
+        ///      &lt;Type&gt;POISO [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string _024 {
+            get {
+                return ResourceManager.GetString("_024", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;PokeData xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        ///  &lt;Name&gt;Nidoking&lt;/Name&gt;
+        ///  &lt;Level&gt;50&lt;/Level&gt;
+        ///  &lt;HP&gt;162&lt;/HP&gt;
+        ///  &lt;Attack&gt;119&lt;/Attack&gt;
+        ///  &lt;SpAttack&gt;111&lt;/SpAttack&gt;
+        ///  &lt;Defense&gt;104&lt;/Defense&gt;
+        ///  &lt;SpDefense&gt;101&lt;/SpDefense&gt;
+        ///  &lt;Speed&gt;111&lt;/Speed&gt;
+        ///  &lt;Type&gt;POISON&lt;/Type&gt;
+        ///  &lt;Type2&gt;GROUND&lt;/Type2&gt;
+        ///  &lt;Moves&gt;
+        ///    &lt;Move&gt;
+        ///      &lt;Power&gt;65&lt;/Power&gt;
+        ///      &lt;Accuracy&gt;100&lt;/Accuracy&gt;
+        ///      &lt;Special&gt;false&lt;/Special&gt;
+        ///      &lt;Ty [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string _034 {
+            get {
+                return ResourceManager.GetString("_034", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;PokeData xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
         ///  &lt;Name&gt;Jolteon&lt;/Name&gt;
         ///  &lt;Level&gt;50&lt;/Level&gt;
         ///  &lt;HP&gt;143&lt;/HP&gt;

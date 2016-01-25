@@ -48,24 +48,24 @@ namespace Evol_UI
             PokeData d4 = dex.LoadPokemon(135);
             PokeData d5 = dex.LoadPokemon(196);
             PokeData d6 = dex.LoadPokemon(197);
-            //PokeData d7 = dex.LoadPokemon(24);
-            //PokeData d8 = dex.LoadPokemon(34);
+            PokeData d7 = dex.LoadPokemon(24);
+            PokeData d8 = dex.LoadPokemon(34);
 
 
-            PokemonVM p1, p2, p3, p4, p5, p6;
+            PokemonVM p1, p2, p3, p4, p5, p6, p7, p8;
             p1 = new PokemonVM(dex.GetData(3));
             p2 = new PokemonVM(dex.GetData(6));
             p3 = new PokemonVM(dex.GetData(9));
             p4 = new PokemonVM(dex.GetData(135));
             p5 = new PokemonVM(dex.GetData(196));
             p6 = new PokemonVM(dex.GetData(197));
-            //p7 = new PokemonVM(dex.GetData(24));
-            //p8 = new PokemonVM(dex.GetData(34));
+            p7 = new PokemonVM(dex.GetData(24));
+            p8 = new PokemonVM(dex.GetData(34));
 
             List<Pokemon> TeamA = new List<Pokemon>();
             List<Pokemon> TeamB = new List<Pokemon>();
 
-            TeamAI t = new TeamAI(4, 3, new List<PokeData>() { d1, d2, d3, d4, d5, d6 },2,3);
+            TeamAI t = new TeamAI(4, 3, new List<PokeData>() { d1, d2, d3, d4, d5, d6, d7, d8 },2,3);
             List< PokeData> iat= t.selectTeamAI();
             foreach(PokeData p in iat)
             {
