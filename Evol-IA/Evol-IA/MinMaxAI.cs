@@ -130,7 +130,7 @@ namespace Evol_IA
             if (res == 0.0)
             {
                 int om = getMaxTotalLife(other);
-                return (float)o / om;
+                return (float) -(o / om);
             }
 
             return res;
