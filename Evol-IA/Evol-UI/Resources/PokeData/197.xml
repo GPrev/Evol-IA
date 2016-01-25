@@ -13,7 +13,7 @@
   <Moves>
     <Move>
       <Power>60</Power>
-      <Accuracy>0</Accuracy>
+      <Accuracy>100</Accuracy>
       <Special>false</Special>
       <Type>DARK</Type>
       <Name>Faint Attack</Name>

@@ -127,6 +127,12 @@
   <data name="_009" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PokeData\009.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
+  <data name="_024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\pokedata\024.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="_034" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\pokedata\034.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="_135" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PokeData\135.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>

@@ -79,6 +79,7 @@ namespace Evol_UI
             string number = "_" + i.ToString("D3");
             string number2 = "_" + i;
 
+            //Properties.Resources.ResourceManager.GetString(number)
             Stream file = GenerateStreamFromString(Properties.Resources.ResourceManager.GetString(number));
             if (file == null || file.Length == 0)
                 return null;

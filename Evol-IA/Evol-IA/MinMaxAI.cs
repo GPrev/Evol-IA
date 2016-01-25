@@ -126,7 +126,14 @@ namespace Evol_IA
             int o = getLifeTotal(other);
             int m = getLifeTotal(me);
 
-            return (float)m / (o + m);
+            float res= (float)m / (o + m);
+            if (res == 0.0)
+            {
+                int om = getMaxTotalLife(other);
+                return (float) -(o / om);
+            }
+
+            return res;
         }
 
         private int getLifeTotal(Trainer t)
@@ -135,6 +142,17 @@ namespace Evol_IA
             foreach(Pokemon p in t.Team)
             {
                 res += p.CurrHP;
+            }
+
+            return res;
+        }
+
+        private int getMaxTotalLife(Trainer t)
+        {
+            int res = 0;
+            foreach(Pokemon p in t.Team)
+            {
+                res += p.HP;
             }
             return res;
         }
