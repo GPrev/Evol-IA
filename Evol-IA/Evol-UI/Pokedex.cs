@@ -35,6 +35,13 @@ namespace Evol_UI
             else
                 return null;
         }
+        public Pokemon GetSamplePokemon(int i)
+        {
+            if (data.ContainsKey(i))
+                return new Pokemon(data[i]);
+            else
+                return null;
+        }
         public Bitmap GetFrontSprite(string name)
         {
             if (spritesFront.ContainsKey(name))
@@ -119,7 +126,19 @@ namespace Evol_UI
             for (int i = 0; i <= maxID; ++i)
             {
                 PokeData d = GetData(i);
-                if(d != null)
+                if (d != null)
+                    res.Add(d);
+            }
+            return res;
+        }
+
+        public List<Pokemon> GetAllSamplePokemon(int maxID)
+        {
+            List<Pokemon> res = new List<Pokemon>();
+            for (int i = 0; i <= maxID; ++i)
+            {
+                Pokemon d = GetSamplePokemon(i);
+                if (d != null)
                     res.Add(d);
             }
             return res;

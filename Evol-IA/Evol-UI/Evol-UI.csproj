@@ -57,6 +57,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="UserControls\AIMakerControl.xaml.cs">
+      <DependentUpon>AIMakerControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Converters.cs" />
     <Compile Include="Pokedex.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -74,12 +77,30 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SpritesFrontResources.resx</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\MatchMakerControl.xaml.cs">
+      <DependentUpon>MatchMakerControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TeamEditControl.xaml.cs">
+      <DependentUpon>TeamEditControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewModel\BattleControlVM.cs" />
     <Compile Include="UserControls\BattleControl.xaml.cs">
       <DependentUpon>BattleControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModel\BattleVM.cs" />
     <Compile Include="ViewModel\TrainerVM.cs" />
+    <Page Include="UserControls\AIMakerControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\MatchMakerControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\TeamEditControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="UserControls\BattleControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -198,7 +219,6 @@
     <EmbeddedResource Include="Resources\Sprites\Back\196.png" />
     <EmbeddedResource Include="Resources\Sprites\Back\197.png" />
   </ItemGroup>
-
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

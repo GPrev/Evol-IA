@@ -119,7 +119,7 @@ namespace Evol_IA
             if (current.Action == null) // At root, start with first player
                 id = myId;
             else
-                id = Opponent(current.Action.GetActorId());
+                id = Opponent(GetActorId(current, myId));
 
             List<BattleAction> actions = state.State.GetNextActions(id, true);
 
@@ -157,7 +157,7 @@ namespace Evol_IA
                 current.Value = maxVisits * score1simu;
                 
                 // If the winning player made the last decision, it will take it no matter what
-                if(current.Action.GetActorId() == state.State.Winner())
+                if(GetActorId(current, myId) == state.State.Winner())
                 {
                     current.Parent.Visits = maxVisits;
                     current.Parent.Value = maxVisits * score1simu;
@@ -172,7 +172,7 @@ namespace Evol_IA
             for (int i = 0; i < nbSimuPerIter; ++i)
             {
                 state = current.State;
-                int id = Opponent(current.Action.GetActorId());
+                int id = Opponent(GetActorId(current, myId));
 
                 // Loop until the match is over
                 while (!state.State.HasWinner())
@@ -199,7 +199,7 @@ namespace Evol_IA
             while (current != null)
             {
                 current.Visits++;
-                if(current.Action == null || current.Action.GetActorId() == myId)
+                if(current.Action == null || GetActorId(current, myId) == myId)
                     current.Value += value;
                 else // The enemy moves have a reversed score
                     current.Value += reversed;
@@ -216,6 +216,27 @@ namespace Evol_IA
         private double ReverseScore(double score)
         {
             return 1.0 - score;
+        }
+
+        private int GetActorId(MctsNode node, int myId)
+        {
+            MctsNode n = node;
+            bool reverse = false;
+            int res;
+            while (n.Action == null && n.Parent != null)
+            {
+                n = n.Parent;
+                reverse = !reverse;
+            }
+            if (n.Parent == null) //root
+                res = myId;
+            else
+                res = n.Action.GetActorId();
+
+            if (reverse)
+                res = Opponent(res);
+
+            return res;
         }
     }
 }

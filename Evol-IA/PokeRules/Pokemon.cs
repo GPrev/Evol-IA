@@ -11,7 +11,7 @@ namespace PokeRules
     [Serializable]
     public class Pokemon : ICloneable
     {
-        private PokeData data;
+        public readonly PokeData data;
 
         #region Proxys
         public string Name { get { return data.Name; } }

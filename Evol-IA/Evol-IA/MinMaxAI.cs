@@ -26,13 +26,12 @@ namespace Evol_IA
         J'ai testé, normalement ça marche aussi bien qu'avant
         J'ai juste laissé en commentaires les anciennes déclarations de fonctions au cas ou
         */
-        public MinMaxAI(Trainer t = null, int m=5, int id=1) //on peut choisir le nombre d'itérations dans le constructeur
+        public MinMaxAI(Trainer t = null, int m=5) //on peut choisir le nombre d'itérations dans le constructeur
         {
             if (t == null)
                 trainer = new Trainer("MinMax AI", new List<Pokemon>());
             else
                 trainer = t;
-            myId=id;
             maxprof = m;
         }
 
@@ -40,6 +39,7 @@ namespace Evol_IA
         public override BattleAction ChooseAction(BattleDecisionState s, int myID, ActionType type = ActionType.ANY)
         {
             //Console.WriteLine("In MinMaxIA");
+            this.myId = myID;
             float max = -10000;
             float tmp;
             BattleAction act=null;

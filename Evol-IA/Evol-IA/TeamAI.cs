@@ -146,8 +146,8 @@ namespace Evol_IA
                         trainers.Add(t2);
 
                         List<Intelligence> ais = new List<Intelligence>();
-                        ais.Add(new MinMaxAI(trainers[0],2,0)); // AI 1 (2 = nb d'itérations ; 0 = myId)
-                        ais.Add(new MinMaxAI(trainers[1],2,1)); // AI 2
+                        ais.Add(new MinMaxAI(trainers[0],2)); // AI 1 (2 = nb d'itérations ; 0 = myId)
+                        ais.Add(new MinMaxAI(trainers[1],2)); // AI 2
 
                         Battle battle = new Battle(ais);
 

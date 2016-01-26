@@ -41,41 +41,8 @@ namespace Evol_UI
 
             Assembly a = Assembly.GetExecutingAssembly();
 
-            Pokedex dex = Pokedex.ActivePokedex;
-			
-            dex.LoadAllPokemon(251);
-
-            List<Pokemon> TeamA = new List<Pokemon>();
-            List<Pokemon> TeamB = new List<Pokemon>();
-
-            // AI Team
-            List<PokeData> allData = dex.GetAllData(251);
-
-            TeamAI t = new TeamAI(4, 3, allData, 2, 3);
-            List< PokeData> iat= t.selectTeamAI();
-            foreach(PokeData p in iat)
-            {
-                TeamB.Add(new PokemonVM(p));
-            }
-
-            // Player team
-            PokemonVM p1, p2, p3;
-            p1 = new PokemonVM(dex.GetData(3));
-            p2 = new PokemonVM(dex.GetData(6));
-            p3 = new PokemonVM(dex.GetData(9));
-            TeamA.Add(p1);
-            TeamA.Add(p2);
-            TeamA.Add(p3);
-
-            List<Trainer> trainers = new List<Trainer>();
-            trainers.Add(new TrainerVM("Red", TeamA));
-            trainers.Add(new TrainerVM("Blue", TeamB));
-
-            List<BattleAI> ais = new List<BattleAI>();
-            ais.Add(null); // Player
-            ais.Add(new MinMaxAI(trainers[1])); // AI
-
-            Battle = new BattleVM(ais, trainers);
+            AIone.SetName("Red");
+            AItwo.SetName("Blue");
         }
 
         private Stream GenerateStreamFromString(string s)
@@ -92,6 +59,42 @@ namespace Evol_UI
         {
             TextBox textBox = sender as TextBox;
             textBox.ScrollToEnd();
+        }
+
+        private void Battle_Click(object sender, RoutedEventArgs e)
+        {
+            List<Pokemon> TeamA = new List<Pokemon>();
+            List<Pokemon> TeamB = new List<Pokemon>();
+            foreach (Pokemon p in MatchMaker.TrainerA)
+                TeamA.Add(new PokemonVM(p.data));
+            foreach (Pokemon p in MatchMaker.TrainerB)
+                TeamB.Add(new PokemonVM(p.data));
+
+            List<Trainer> trainers = new List<Trainer>();
+            trainers.Add(new TrainerVM("Red", TeamA));
+            trainers.Add(new TrainerVM("Blue", TeamB));
+
+            List<BattleAI> ais = new List<BattleAI>();
+            ais.Add(AIone.MakeAI(trainers[0]));
+            ais.Add(AItwo.MakeAI(trainers[1]));
+
+            StartBattle(trainers, ais);
+        }
+
+        private void StartBattle(List<Trainer> trainers, List<BattleAI> ais)
+        {
+            foreach(Trainer t in trainers)
+            {
+                if (t.Team.Count == 0)
+                    return;
+            }
+            Battle = new BattleVM(ais, trainers);
+        }
+
+        private void Reset_Click(object sender, RoutedEventArgs e)
+        {
+            MatchMaker.Reset();
+            Battle = null;
         }
     }
 }
