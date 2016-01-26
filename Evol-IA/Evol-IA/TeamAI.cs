@@ -214,6 +214,10 @@ namespace Evol_IA
                 {
                     rp = r.Next(pokemons.Length);
                 }
+                while (!team.Contains(pokemons[rm]))
+                {
+                    rm = r.Next(pokemons.Length);
+                }
                 //il prend au hasard le pokémon qu'il va supprimer et celui qu'il va ajouter
                 //le while est là pour éviter les doublons
                 team.Remove(pokemons[rm]);
