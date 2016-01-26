@@ -2,47 +2,36 @@
 using System;
 using System.Collections.Generic;
 
-/*
-    GROS PROBLEME : LE FAIT QU'IL Y AIE PLUSIEURS BATAILLES AVEC LES MEMES POKEMONS
-    FAIRE UN TABLEAU DE POKEDATA A LA PLACE DU TABLEAU DE TRAINERS ?
-    EN VRAI CA DOIT ETRE VIABLE JE PENSE
-    JE SUIS MAUVAISEEEEEE
-    MAIS OUI POKEDATA A LA PLACE DE TRAINERS CA DOIT ETRE VIABLEEEEEEEEEEEEEEEEEEE
-    BORDEEEEEEEEEEEEEEEEEEEL
-    PUTAIN DE BORDEL DE MERDEEEE
-*/
 
 namespace Evol_IA
 {
     public class TeamAI
     {
-        //nb dresseurs : nb de dresseurs qui vont s'entretuer ; nbpools = nombre de pools qu'on prend ; nbiterations = nb de fois où on va boucler
-        private int nbdresseurs, nbpools, nbiterations;
-        private int nbpokemonequipe;    //nombre de pokemons par equpe
-        private List<PokeData>[] equipes;
-        private int[] scores;           //score[i]=nombre de victoires de dresseurs[i] pour le combat en cours (remis à 0 après les simulations)
-        private PokeData[] pokemons;     //tableau de tous les pokémons possibles
-        private Random r;
+        //trainersnb = number of trainers, pools nb = number of pools, iterations nb = number of time we repeat the algorithm
+        private int trainersnb, poolsnb, iterationsnb;
+        private int pokemonnbteam;      //number of pokemons in a team
+        private List<PokeData>[] teams; //this table contains all the teams which will be used
+        private int[] scores;           //score[i]=score of the team teams[i]
+        private PokeData[] pokemons;    //contains pokedata of all pokemons
+        private Random r;               //better to have one random for all the algorithm than one per function
 
-        public TeamAI(int n, int p, List<PokeData> pokeDatalist, int pool = 5, int nbit=5)
+        public TeamAI(int number_trainers, int number_pokemon_team, List<PokeData> list_all_pokedata, int pools_number = 5, int iteration_number=5)
         {
             r = new Random();
-            nbpokemonequipe = p;
-            nbpools = pool;
-            nbiterations = nbit;
-            while ((n % nbpools) != 0)  //valable surtout si on rentre le chiffre. Si n est pas divisble par le nombre c'est nul...
+            pokemonnbteam = number_pokemon_team;
+            poolsnb = pools_number;
+            iterationsnb = iteration_number;
+            while ((number_trainers % poolsnb) != 0)  //to be sure every trainer will be in a pool
             {
-                n=n+1; 
-                //si le nombre de dresseurs est pas divisible par le nombre de pools, on augmente jusqu'à ce qu'il le soit
-                //comme ça on est sûr qu'ils combattent tous
+                number_trainers=number_trainers+1; 
             }
-            nbdresseurs = n;
+            trainersnb = number_trainers;
 
-            equipes = new List<PokeData>[nbdresseurs];
-            pokemons = new PokeData[pokeDatalist.Count];
-            scores = new int[nbdresseurs];
-            initializePokemons(pokeDatalist); //ça stocke dans le tableau pokemons la liste de pokedata
-            initializeTrainersTeams();        //ça fout des équipes random à tous les dresseurs
+            teams = new List<PokeData>[trainersnb];
+            pokemons = new PokeData[list_all_pokedata.Count];
+            scores = new int[trainersnb];
+            initializePokemons(list_all_pokedata);  //initialize the pokedata table with the given pokedata list
+            initializeTrainersTeams();              //initialize the teams table with random teams
         }
 
 
@@ -59,8 +48,8 @@ namespace Evol_IA
 
         public void initializeTrainersTeams()
         {
-            for (int i = 0; i < nbdresseurs; i++) {
-                equipes[i] = randomTeam();
+            for (int i = 0; i < trainersnb; i++) {
+                teams[i] = randomTeam();
             }
         }
 
@@ -69,11 +58,11 @@ namespace Evol_IA
         {
             List<PokeData> poke = new List<PokeData>();
 
-            for (int i = 0; i < nbpokemonequipe; i++)
+            for (int i = 0; i < pokemonnbteam; i++)
             {
                 int rand = r.Next(pokemons.Length);
                 PokeData p = pokemons[rand];
-                while (poke.Contains(p))                //on vérifie si le pokémon est déjà dans la liste. Si c'est le cas, on en prend un autre
+                while (poke.Contains(p))  //if the pokemon is already in the team, we choose another one
                 {
                     rand = r.Next(pokemons.Length);
                     p = pokemons[rand];
@@ -87,54 +76,54 @@ namespace Evol_IA
         {
             List<PokeData> bestTeam = new List<PokeData>();
 
-            for (int i = 0; i < nbiterations; i++) {
-                //dresseurstoString();      //affiche toutes les équipes actuelles
-                int nbdresseurspool = nbdresseurs / nbpools;
-                //dans le tableau pool, pour le numéro de chaque pool, on prend les nbdresseurspool premiers dresseurs du tableau d'aléatoire (puis les suivants)
-                //cela correspond à l'indice des dresseurs qui vont jouer dans chaque pool
+            for (int i = 0; i < iterationsnb; i++) {    //the algorithm will be done interationsnb times
+                int pooltrainersnb = trainersnb / poolsnb;
+                //pooltrainersnb = number of trainer in each pool = number of trainers / numer of pools
 
-                int[,] pools = poolAleat(nbdresseurspool);
-                //pools : un double tableau rempli avec le numéro de la pool 
-                //et des nombres aléatoires qui vont représenter les indices des dresseurs qui vont combattre dans la pool
+                int[,] pools = randomPool(pooltrainersnb);
+                //The first column contains the number of each pool 
+                //The others columns contains pooltrainersnb numbers, which are the indexs of the trainers who will fight in this pool
 
-                simulationBatailles(nbdresseurspool, pools); 
-                //on fait les combats et on rempli à chaque fois le tableau score de chaque dresseur (en théorie)
+                fightsSimulating(pooltrainersnb, pools); 
+                //We do all the fights and fill the scores tab with the results
 
-                trierDresseursScore();
-                //on trie le tableau dresseur dans l'ordre croissant des scores. Les Nbdresseurs / 2 derniers seront les parents sélectionnés
+                teamsScoresSort();
+                //the teams and scores tables are now sorted by the scores of each team, the worest team is at index 0
 
-                faireTousLesEnfantsAleat();
-                //on remplit le tableau dresseur en remplacaçant les n/2 moins bons dresseurs par des enfants faits totalement au pif
-                // on prend 2 bons dresseurs au pif, età chaque fois, on prend la moitié des pokémons de l'un et de l'autre au pif
+                doAllRandomChildren();
+                //the first part of the table is now fill with children of the best teams
 
-                reinitialiserScores();
-                //on remet les scores à 0 avant la simulation suivante
+                reinitializeScores();
+                //set all scores at 0
             }
 
-            //quand on a finit de boucler, on prend le dernier dresseur (le plus fort après le tri)
-            bestTeam = equipes[nbdresseurs - 1];
+            //once it has done enough iterations, it return the best team
+            bestTeam = teams[trainersnb - 1];
 
             return bestTeam;
         }
         
 
-        public void simulationBatailles(int nbd, int[,] pools)
+        public void fightsSimulating(int tnb, int[,] pools)
         {
-            for (int i = 0; i < nbpools; i++)  //pour chaque pool
+            //tnb = number of trainers per pool
+
+            for (int i = 0; i < poolsnb; i++)  //for each pool
             {
-                for (int j = 0; j < nbd; j++) //pour chaque dresseur dans la pool
+                for (int j = 0; j < tnb; j++) //for each team in the pool
                 {
-                    for (int k = j + 1; k < nbd; k++) //il combat ceux qu'il a pas encore combattu
+                    for (int k = j + 1; k < tnb; k++) //each teams fights every other in the same pool
                     {
                         List<Pokemon> p1 = new List<Pokemon>();
                         List<Pokemon> p2 = new List<Pokemon>();
 
-                        foreach (PokeData p in equipes[pools[i, j]])
+                        //we do pokemons team with the pokedata sotred in teams
+                        foreach (PokeData p in teams[pools[i, j]])
                         {
                             p1.Add(new Pokemon(p));
                         }
 
-                        foreach (PokeData p in equipes[pools[i, k]])
+                        foreach (PokeData p in teams[pools[i, k]])
                         {
                             p2.Add(new Pokemon(p));
                         }
@@ -145,15 +134,16 @@ namespace Evol_IA
                         trainers.Add(t1);
                         trainers.Add(t2);
 
+                        //we make them fight with minmax AI
                         List<Intelligence> ais = new List<Intelligence>();
-                        ais.Add(new MinMaxAI(trainers[0],2,0)); // AI 1 (2 = nb d'itérations ; 0 = myId)
+                        ais.Add(new MinMaxAI(trainers[0],2,0)); // AI 1 (2 = maximum tree depth ; 0 = myId)
                         ais.Add(new MinMaxAI(trainers[1],2,1)); // AI 2
 
                         Battle battle = new Battle(ais);
 
-                        Trainer w = trainers[battle.PlayBattle()]; //il boucle pendant un temps insupportable
+                        Trainer w = trainers[battle.PlayBattle()]; //simulate the fight
 
-                        if (t1.Equals(w)) { scores[pools[i, j]]++; scores[pools[i, k]]--; } //on rajoute un point au vainqueur, on enlève 1 point au perdant
+                        if (t1.Equals(w)) { scores[pools[i, j]]++; scores[pools[i, k]]--; } //the winner earns 1 points, the loser loses 1
                         else { scores[pools[i, j]]--; scores[pools[i, k]]++; }
                     }
                 }
@@ -161,39 +151,41 @@ namespace Evol_IA
         }
 
 
-        public List<PokeData> faireEnfantAleat(int t1, int t2) //t1 et t2 les indices des 2 parents
+        public List<PokeData> doRandomChild(int t1, int t2) //t1 and t2 are the index of the two parents in the team table
         {
             List <PokeData> team = new List<PokeData>();
-            List<PokeData> teamp1 = equipes[t1];
-            List<PokeData> teamp2 = equipes[t2];
+            List<PokeData> teamp1 = teams[t1];
+            List<PokeData> teamp2 = teams[t2];
 
-            PokeData[] teamdes2parents = new PokeData[teamp1.Count+teamp2.Count]; //tableau qui va contenir les pokémons des deux parents
+            PokeData[] teamdes2parents = new PokeData[teamp1.Count+teamp2.Count]; //this table will contains the pokemons of the two parents
             int i = 0;
 
             foreach (PokeData p in teamp1) { teamdes2parents[i] = p; i++; }
 
             foreach (PokeData p in teamp2) { teamdes2parents[i] = p; i++; }
-            for (int j = 0; j+1 < nbpokemonequipe; j=j+2)
-            {
-                int r1 = r.Next(0, nbpokemonequipe); //l'indice d'un des pokémons de la team du premier parent
-                int r2 = r.Next(nbpokemonequipe, nbpokemonequipe * 2); //l'indice d'un des pokémons de la team du deuxième parent
+            //we had the parents' pokemons in the table
 
-                while (team.Contains(teamdes2parents[r1])) //si le pokémon est déjà présent, on en prend un autre
+            for (int j = 0; j+1 < pokemonnbteam; j=j+2)
+            {
+                int r1 = r.Next(0, pokemonnbteam);                  //gives a random index of one of the first parent's pokemon
+                int r2 = r.Next(pokemonnbteam, pokemonnbteam * 2);  //gives a random index of one of the second parent's pokemon
+
+                while (team.Contains(teamdes2parents[r1])) //if the pokemon is already in the child's team, we choose another one
                 {
-                    r1 = r.Next(0, nbpokemonequipe);
+                    r1 = r.Next(0, pokemonnbteam);
                 }
 
                 team.Add(teamdes2parents[r1]);
 
                 while (team.Contains(teamdes2parents[r2]))
                 {
-                    r2 = r.Next(nbpokemonequipe, nbpokemonequipe * 2);
+                    r2 = r.Next(pokemonnbteam, pokemonnbteam * 2);
                 }
 
                 team.Add(teamdes2parents[r2]);
             }
 
-            if(nbpokemonequipe % 2 == 1) //si le nombre de pokémons par équipe est impair, on en rajoute un totalement au pif
+            if(pokemonnbteam % 2 == 1) //if the number of pokemons per team is an odd number, we take a last random pokemon from one of the parents
             {
                 int rand = r.Next(teamdes2parents.Length);
                 while (team.Contains(teamdes2parents[rand]))
@@ -204,134 +196,116 @@ namespace Evol_IA
                 team.Add(teamdes2parents[rand]);
             }
 
-            //On prend la mutation, avec 5% de chances d'arriver
+            //5% chance of mutation which gives a random pokemon which does not from the parents
             int mut = r.Next(100);
             if (mut < 5)
             {
-                int rm = r.Next(nbpokemonequipe);
+                int rm = r.Next(pokemonnbteam);
                 int rp = r.Next(pokemons.Length);
                 while (team.Contains(pokemons[rp]))
                 {
                     rp = r.Next(pokemons.Length);
                 }
-                //il prend au hasard le pokémon qu'il va supprimer et celui qu'il va ajouter
-                //le while est là pour éviter les doublons
+                //rp is the index in the pokemons table of the pokemons it will add
                 team.Remove(pokemons[rm]);
                 team.Add(pokemons[rp]);
             }
-            //Console.WriteLine("Fin Faire 1 enfant");
-
-           /* String t = "";
-            foreach (PokeData p in team)
-            {
-                t += " " + p.Name;
-            }
-            Console.WriteLine("----Enfant :  " + t);
-        */
 
             return team;
         }
 
-        public void faireTousLesEnfantsAleat()
+        public void doAllRandomChildren()
         {
 
-            for (int i = 0; i < nbdresseurs / 2; i++)
+            for (int i = 0; i < trainersnb / 2; i++)
             {
-                int r1 = r.Next(nbdresseurs / 2, nbdresseurs); //on prend deux parents au pif dans la deuxième moitié de dresseurs (ceux avec un bon score)
-                int r2 = r.Next(nbdresseurs / 2, nbdresseurs);
-                equipes[i] = faireEnfantAleat(r1, r2);
+                int r1 = r.Next(trainersnb / 2, trainersnb); //we take 2 random trainers in the better half
+                int r2 = r.Next(trainersnb / 2, trainersnb);
+                teams[i] = doRandomChild(r1, r2);
             }
 
         }
 
-        public void reinitialiserScores()
+        public void reinitializeScores()
         {
-            for(int i = 0; i < nbdresseurs; i++)
+            for(int i = 0; i < trainersnb; i++)
             {
                 scores[i] = 0;
             }
         }
 
-        public int[,] poolAleat(int nbd)
+        public int[,] randomPool(int tnb)
         {
-            //nbd = nombre de dresseurs par pool
-            int[,] pools = new int[nbpools, nbd];
-            int[] aleat = aleatIntTab(); //un tableau rempli d'aléatoires entre 0 et nb dresseurs
+            //tnb = number of trainers in each pool
+            int[,] pools = new int[poolsnb, tnb];
+            int[] randomtab = randomIntTab(); //table fill in with numbers between 0 and trainersnb (each number appears once)
 
-            for (int i = 0; i < nbpools; i++) //i numéro de la pool
+            for (int i = 0; i < poolsnb; i++) //i = index of the pool
             {
-                for (int j = 0; j < nbd; j++) //j numéro du dresseur dans sa pool
+                for (int j = 0; j < tnb; j++) //j = index of trainer in the pool
                 {
-                    pools[i, j] = aleat[i * nbd + j]; 
+                    pools[i, j] = randomtab[i * tnb + j]; 
                 }
             }
             return pools;
         }
 
-        public int[] aleatIntTab()
+        public int[] randomIntTab()
         {
-            //renvoie un tableau contenant des chiffres de 0 à nbdresseurs - 1 ayant subit n permutations pour le rendre le plus aléatoire possible
-            int[] aleat = new int[nbdresseurs];
+            //return a table with all numbers from 0 to trainersnb-1 which had trainersnb random permutations to make it random
+            int[] randomtable = new int[trainersnb];
 
-            for (int i = 0; i < nbdresseurs; i++)
+            for (int i = 0; i < trainersnb; i++)
             {
-                aleat[i] = i;
+                randomtable[i] = i;
             }
 
-            for (int i = 0; i < nbdresseurs; i++)
+            for (int i = 0; i < trainersnb; i++)
             {
-                int a = r.Next(nbdresseurs);
-                int b = r.Next(nbdresseurs);
-                int tmp = aleat[a];
-                aleat[a] = aleat[b];
-                aleat[b] = tmp;
+                int a = r.Next(trainersnb);
+                int b = r.Next(trainersnb);
+                int tmp = randomtable[a];
+                randomtable[a] = randomtable[b];
+                randomtable[b] = tmp;
             }
-            return aleat;
+            return randomtable;
         }
 
-        public void trierDresseursScore()
+        public void teamsScoresSort()
         {
-            //Console.WriteLine("Je suis au début de la fonction qui bug");
-            /* on trie le table des scores dans l'ordre croissant pour prendre les n-1 dernier*/
-            /* c'est un algorithme de tri à bulles opti chopé sur internet*/
-            int n = nbdresseurs;
+            //Optimazed bubble sort algorithm
+            int n = trainersnb;
             bool echange = true;
             while ((n > 0) && echange)
             {
-                //Console.WriteLine("Je suis dans la première boucle");
                 echange = false;
                 for (int j = 0; j < n-1; j++)
                 {
                     echange = false;
-                    //Console.WriteLine("Je suis dans le for");
                     if (scores[j] > scores[j + 1])
                     {
-                        //Console.WriteLine("Je suis dans le if");
-                        List<PokeData> tmpt = equipes[j];
+                        List<PokeData> tmpt = teams[j];
                         int tmps = scores[j];
-                        equipes[j] = equipes[j + 1];
+                        teams[j] = teams[j + 1];
                         scores[j] = scores[j + 1];
-                        equipes[j + 1] = tmpt;
+                        teams[j + 1] = tmpt;
                         scores[j + 1] = tmps;
                         echange = true;
-                        //Console.WriteLine("Je suis à la fin du if");
                     }
-                    //Console.WriteLine("Je ne suis plus dans le if");
                 }
-                //Console.WriteLine("Je ne suis plus dans le for");
                 n--;
-
             }
-            //Console.WriteLine("Je suis à la fin de la fonction");
         }
 
 
-        public void dresseurstoString()
+        //displays in the console all the teams contained in the teams table
+        //currently not used but was used for testing and debbuging
+        public void displayTrainers()
         {
-            for(int i = 0; i < nbdresseurs; i++)
+            for(int i = 0; i < trainersnb; i++)
             {
                 String t = "";
-                foreach(PokeData p in equipes[i])
+                foreach(PokeData p in teams[i])
                 {
                     t += " " + p.Name;
                 }

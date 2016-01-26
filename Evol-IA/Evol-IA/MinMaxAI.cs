@@ -10,7 +10,7 @@ namespace Evol_IA
     public class MinMaxAI : BattleAI
     {
         public Trainer trainer;
-        int maxprof;
+        int maxdepth;
         int myId;
 
         public override Trainer Trainer
@@ -18,28 +18,19 @@ namespace Evol_IA
             get { return trainer; }
         }
 
-        /*modif de MinMax AI
-        On peut choisir le nombre d'itérations dans le constructreur
-        Le myId n'est plus en paramètres dans chaque fonction mais est un attribut de l'IA
-        Il est ajouté à la création (1 par défaut)
-        Pour ChooseAction, il a toujours en paramètres myID. Il sert à rien mais sinon il ralait niveau héritage. Et vu qu'on le mettait toujours à myId...
-        J'ai testé, normalement ça marche aussi bien qu'avant
-        J'ai juste laissé en commentaires les anciennes déclarations de fonctions au cas ou
-        */
-        public MinMaxAI(Trainer t = null, int m=5, int id=1) //on peut choisir le nombre d'itérations dans le constructeur
+        //m is the maximal depth of the min max tree, and id is the id of the IA "player"
+        public MinMaxAI(Trainer t = null, int m=5, int id=1)
         {
             if (t == null)
                 trainer = new Trainer("MinMax AI", new List<Pokemon>());
             else
                 trainer = t;
             myId=id;
-            maxprof = m;
+            maxdepth = m;
         }
 
-        //        public override BattleAction ChooseAction(BattleDecisionState s, int myId = 1, ActionType type = ActionType.ANY)
         public override BattleAction ChooseAction(BattleDecisionState s, int myID, ActionType type = ActionType.ANY)
         {
-            //Console.WriteLine("In MinMaxIA");
             float max = -10000;
             float tmp;
             BattleAction act=null;
@@ -56,22 +47,16 @@ namespace Evol_IA
                 {
                     act = a;
                     max = tmp;
-                    //pour qu'il prenne la première action qui le fait gagner pour gagner du temps
-                    if (max == 1)
-                    {
-                        return act;
-                    }
                 }
             }
             
             return act;
         }
 
-        //        public float Max(BattleDecisionState s, int prof, int myId)
 
         public float Max(BattleDecisionState s, int prof)
         {
-            if (s.State.HasWinner() || prof == maxprof)
+            if (s.State.HasWinner() || prof == maxdepth)
             {
                 return eval(s.State);
             }
@@ -92,13 +77,12 @@ namespace Evol_IA
             return max;
         }
 
-        //        public float Min(BattleDecisionState s, int prof, int myId)
 
         public float Min(BattleDecisionState s, int prof)
         {
             int otherId = 1 - myId;
 
-            if (s.State.HasWinner()|| prof==maxprof)
+            if (s.State.HasWinner()|| prof==maxdepth)
             {
                    return eval(s.State); }
 
@@ -117,7 +101,7 @@ namespace Evol_IA
             }
             return min;
         }
-        //        public float eval(BattleState s, int myID)
+
 
         public float eval(BattleState s)
         {
@@ -126,11 +110,14 @@ namespace Evol_IA
             int o = getLifeTotal(other);
             int m = getLifeTotal(me);
 
+            //IA tries to keep the biggest amount of life possible while trying to do the biggest damages possible
             float res= (float)m / (o + m);
-            if (res == 0.0)
+
+            if (res == 0.0) //if the IA thinks it will lose
             {
                 int om = getMaxTotalLife(other);
-                return (float) -(o / om);
+
+                return (float) (-1)*(o / om); //it tries to do as much damages as it can, so it may still win if the ennemy makes a mistake
             }
 
             return res;
@@ -157,9 +144,10 @@ namespace Evol_IA
             return res;
         }
 
+
+        //currently not used
         public override Trainer MakeTeam(List<Pokemon> availablePokemon, bool allowDoubles = false, int nbPokemon = 3)
         {
-            //pour l'instant j'ai copié/collé le code de dumbAI, je verrais après pour la construction de team
             if (availablePokemon.Count >= nbPokemon)
             {
                 trainer.Team.Clear();
