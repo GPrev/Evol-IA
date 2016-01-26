@@ -9,7 +9,7 @@
   <SpDefense>108</SpDefense>
   <Speed>122</Speed>
   <Type>FIRE</Type>
-  <Type2>NONE</Type2>
+  <Type2>FLYING</Type2>
   <Moves>
     <Move>
       <Power>75</Power>

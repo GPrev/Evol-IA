@@ -167,13 +167,12 @@ namespace Evol_IA
             List<PokeData> teamp1 = equipes[t1];
             List<PokeData> teamp2 = equipes[t2];
 
-            PokeData[] teamdes2parents = new PokeData[nbpokemonequipe*2]; //tableau qui va contenir les pokémons des deux parents
+            PokeData[] teamdes2parents = new PokeData[teamp1.Count+teamp2.Count]; //tableau qui va contenir les pokémons des deux parents
             int i = 0;
 
             foreach (PokeData p in teamp1) { teamdes2parents[i] = p; i++; }
 
             foreach (PokeData p in teamp2) { teamdes2parents[i] = p; i++; }
-
             for (int j = 0; j+1 < nbpokemonequipe; j=j+2)
             {
                 int r1 = r.Next(0, nbpokemonequipe); //l'indice d'un des pokémons de la team du premier parent

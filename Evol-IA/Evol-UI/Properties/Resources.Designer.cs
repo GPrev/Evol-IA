@@ -72,13 +72,13 @@ namespace Evol_UI.Properties {
         ///  &lt;SpDefense&gt;123&lt;/SpDefense&gt;
         ///  &lt;Speed&gt;102&lt;/Speed&gt;
         ///  &lt;Type&gt;GRASS&lt;/Type&gt;
-        ///  &lt;Type2&gt;NONE&lt;/Type2&gt;
+        ///  &lt;Type2&gt;POISON&lt;/Type2&gt;
         ///  &lt;Moves&gt;
         ///    &lt;Move&gt;
         ///      &lt;Power&gt;75&lt;/Power&gt;
         ///      &lt;Accuracy&gt;100&lt;/Accuracy&gt;
         ///      &lt;Special&gt;true&lt;/Special&gt;
-        ///      &lt;Type&gt;G [le reste de la chaîne a été tronqué]&quot;;.
+        ///      &lt;Type [le reste de la chaîne a été tronqué]&quot;;.
         /// </summary>
         internal static string _003 {
             get {
@@ -98,13 +98,13 @@ namespace Evol_UI.Properties {
         ///  &lt;SpDefense&gt;108&lt;/SpDefense&gt;
         ///  &lt;Speed&gt;122&lt;/Speed&gt;
         ///  &lt;Type&gt;FIRE&lt;/Type&gt;
-        ///  &lt;Type2&gt;NONE&lt;/Type2&gt;
+        ///  &lt;Type2&gt;FLYING&lt;/Type2&gt;
         ///  &lt;Moves&gt;
         ///    &lt;Move&gt;
         ///      &lt;Power&gt;75&lt;/Power&gt;
         ///      &lt;Accuracy&gt;100&lt;/Accuracy&gt;
         ///      &lt;Special&gt;false&lt;/Special&gt;
-        ///      &lt;Type&gt; [le reste de la chaîne a été tronqué]&quot;;.
+        ///      &lt;Typ [le reste de la chaîne a été tronqué]&quot;;.
         /// </summary>
         internal static string _006 {
             get {
@@ -193,6 +193,32 @@ namespace Evol_UI.Properties {
         /// <summary>
         ///   Recherche une chaîne localisée semblable à &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
         ///&lt;PokeData xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        ///  &lt;Name&gt;Kangaskhan&lt;/Name&gt;
+        ///  &lt;Level&gt;50&lt;/Level&gt;
+        ///  &lt;HP&gt;186&lt;/HP&gt;
+        ///  &lt;Attack&gt;122&lt;/Attack&gt;
+        ///  &lt;SpAttack&gt;66&lt;/SpAttack&gt;
+        ///  &lt;Defense&gt;107&lt;/Defense&gt;
+        ///  &lt;SpDefense&gt;106&lt;/SpDefense&gt;
+        ///  &lt;Speed&gt;116&lt;/Speed&gt;
+        ///  &lt;Type&gt;NORMAL&lt;/Type&gt;
+        ///  &lt;Type2&gt;NONE&lt;/Type2&gt;
+        ///  &lt;Moves&gt;
+        ///    &lt;Move&gt;
+        ///      &lt;Power&gt;70&lt;/Power&gt;
+        ///      &lt;Accuracy&gt;100&lt;/Accuracy&gt;
+        ///      &lt;Special&gt;false&lt;/Special&gt;
+        ///      &lt;Typ [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string _115 {
+            get {
+                return ResourceManager.GetString("_115", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;PokeData xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
         ///  &lt;Name&gt;Jolteon&lt;/Name&gt;
         ///  &lt;Level&gt;50&lt;/Level&gt;
         ///  &lt;HP&gt;143&lt;/HP&gt;
@@ -213,6 +239,32 @@ namespace Evol_UI.Properties {
         internal static string _135 {
             get {
                 return ResourceManager.GetString("_135", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;PokeData xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        ///  &lt;Name&gt;Dragonite&lt;/Name&gt;
+        ///  &lt;Level&gt;50&lt;/Level&gt;
+        ///  &lt;HP&gt;151&lt;/HP&gt;
+        ///  &lt;Attack&gt;139&lt;/Attack&gt;
+        ///  &lt;SpAttack&gt;105&lt;/SpAttack&gt;
+        ///  &lt;Defense&gt;100&lt;/Defense&gt;
+        ///  &lt;SpDefense&gt;105&lt;/SpDefense&gt;
+        ///  &lt;Speed&gt;85&lt;/Speed&gt;
+        ///  &lt;Type&gt;DRAGON&lt;/Type&gt;
+        ///  &lt;Type2&gt;FLYING&lt;/Type2&gt;
+        ///  &lt;Moves&gt;
+        ///    &lt;Move&gt;
+        ///      &lt;Power&gt;40&lt;/Power&gt;
+        ///      &lt;Accuracy&gt;100&lt;/Accuracy&gt;
+        ///      &lt;Special&gt;true&lt;/Special&gt;
+        ///      &lt;Typ [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string _149 {
+            get {
+                return ResourceManager.GetString("_149", resourceCulture);
             }
         }
         
@@ -258,13 +310,91 @@ namespace Evol_UI.Properties {
         ///  &lt;Moves&gt;
         ///    &lt;Move&gt;
         ///      &lt;Power&gt;60&lt;/Power&gt;
-        ///      &lt;Accuracy&gt;0&lt;/Accuracy&gt;
+        ///      &lt;Accuracy&gt;100&lt;/Accuracy&gt;
         ///      &lt;Special&gt;false&lt;/Special&gt;
-        ///      &lt;Type&gt;DARK&lt;/T [le reste de la chaîne a été tronqué]&quot;;.
+        ///      &lt;Type&gt;DARK&lt; [le reste de la chaîne a été tronqué]&quot;;.
         /// </summary>
         internal static string _197 {
             get {
                 return ResourceManager.GetString("_197", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;PokeData xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        ///  &lt;Name&gt;Steelix&lt;/Name&gt;
+        ///  &lt;Level&gt;50&lt;/Level&gt;
+        ///  &lt;HP&gt;153&lt;/HP&gt;
+        ///  &lt;Attack&gt;108&lt;/Attack&gt;
+        ///  &lt;SpAttack&gt;78&lt;/SpAttack&gt;
+        ///  &lt;Defense&gt;223&lt;/Defense&gt;
+        ///  &lt;SpDefense&gt;88&lt;/SpDefense&gt;
+        ///  &lt;Speed&gt;52&lt;/Speed&gt;
+        ///  &lt;Type&gt;STEEL&lt;/Type&gt;
+        ///  &lt;Type2&gt;GROUND&lt;/Type2&gt;
+        ///  &lt;Moves&gt;
+        ///    &lt;Move&gt;
+        ///      &lt;Power&gt;100&lt;/Power&gt;
+        ///      &lt;Accuracy&gt;75&lt;/Accuracy&gt;
+        ///      &lt;Special&gt;false&lt;/Special&gt;
+        ///      &lt;Type&gt;ST [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string _208 {
+            get {
+                return ResourceManager.GetString("_208", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;PokeData xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        ///  &lt;Name&gt;Sneasel&lt;/Name&gt;
+        ///  &lt;Level&gt;50&lt;/Level&gt;
+        ///  &lt;HP&gt;140&lt;/HP&gt;
+        ///  &lt;Attack&gt;126&lt;/Attack&gt;
+        ///  &lt;SpAttack&gt;65&lt;/SpAttack&gt;
+        ///  &lt;Defense&gt;85&lt;/Defense&gt;
+        ///  &lt;SpDefense&gt;105&lt;/SpDefense&gt;
+        ///  &lt;Speed&gt;146&lt;/Speed&gt;
+        ///  &lt;Type&gt;DARK&lt;/Type&gt;
+        ///  &lt;Type2&gt;ICE&lt;/Type2&gt;
+        ///  &lt;Moves&gt;
+        ///    &lt;Move&gt;
+        ///      &lt;Power&gt;60&lt;/Power&gt;
+        ///      &lt;Accuracy&gt;100&lt;/Accuracy&gt;
+        ///      &lt;Special&gt;false&lt;/Special&gt;
+        ///      &lt;Type&gt;DARK&lt; [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string _215 {
+            get {
+                return ResourceManager.GetString("_215", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;PokeData xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        ///  &lt;Name&gt;Skarmory&lt;/Name&gt;
+        ///  &lt;Level&gt;50&lt;/Level&gt;
+        ///  &lt;HP&gt;146&lt;/HP&gt;
+        ///  &lt;Attack&gt;107&lt;/Attack&gt;
+        ///  &lt;SpAttack&gt;66&lt;/SpAttack&gt;
+        ///  &lt;Defense&gt;167&lt;/Defense&gt;
+        ///  &lt;SpDefense&gt;96&lt;/SpDefense&gt;
+        ///  &lt;Speed&gt;96&lt;/Speed&gt;
+        ///  &lt;Type&gt;STEEL&lt;/Type&gt;
+        ///  &lt;Type2&gt;FLYING&lt;/Type2&gt;
+        ///  &lt;Moves&gt;
+        ///    &lt;Move&gt;
+        ///      &lt;Power&gt;70&lt;/Power&gt;
+        ///      &lt;Accuracy&gt;90&lt;/Accuracy&gt;
+        ///      &lt;Special&gt;false&lt;/Special&gt;
+        ///      &lt;Type&gt;ST [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string _227 {
+            get {
+                return ResourceManager.GetString("_227", resourceCulture);
             }
         }
     }

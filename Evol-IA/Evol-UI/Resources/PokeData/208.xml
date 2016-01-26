@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Steelix</Name>
+  <Level>50</Level>
+  <HP>153</HP>
+  <Attack>108</Attack>
+  <SpAttack>78</SpAttack>
+  <Defense>223</Defense>
+  <SpDefense>88</SpDefense>
+  <Speed>52</Speed>
+  <Type>STEEL</Type>
+  <Type2>GROUND</Type2>
+  <Moves>
+    <Move>
+      <Power>100</Power>
+      <Accuracy>75</Accuracy>
+      <Special>false</Special>
+      <Type>STEEL</Type>
+      <Name>Iron Tail</Name>
+    </Move>
+    <Move>
+      <Power>50</Power>
+      <Accuracy>90</Accuracy>
+      <Special>false</Special>
+      <Type>ROCK</Type>
+      <Name>Rock Throw</Name>
+    </Move>
+    <Move>
+      <Power>20</Power>
+      <Accuracy>100</Accuracy>
+      <Special>true</Special>
+      <Type>GROUND</Type>
+      <Name>Mud-slap</Name>
+    </Move>
+    <Move>
+      <Name>Sandstorm</Name>
+      <Type>GROUND</Type>
+      <Special>false</Special>
+      <Power>0</Power>
+      <Accuracy>0</Accuracy>
+    </Move>
+  </Moves>
+</PokeData>

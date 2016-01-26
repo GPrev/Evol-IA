@@ -51,7 +51,7 @@ namespace Evol_UI
             // AI Team
             List<PokeData> allData = dex.GetAllData(251);
 
-            TeamAI t = new TeamAI(4, 3, allData, 2, 3);
+            TeamAI t = new TeamAI(20, 3, allData, 5, 5);
             List< PokeData> iat= t.selectTeamAI();
             foreach(PokeData p in iat)
             {

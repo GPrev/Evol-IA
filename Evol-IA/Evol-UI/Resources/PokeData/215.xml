@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Sneasel</Name>
+  <Level>50</Level>
+  <HP>140</HP>
+  <Attack>126</Attack>
+  <SpAttack>65</SpAttack>
+  <Defense>85</Defense>
+  <SpDefense>105</SpDefense>
+  <Speed>146</Speed>
+  <Type>DARK</Type>
+  <Type2>ICE</Type2>
+  <Moves>
+    <Move>
+      <Power>60</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>DARK</Type>
+      <Name>Faint Attack</Name>
+    </Move>
+    <Move>
+      <Power>75</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>ICE</Type>
+      <Name>Ice Punch</Name>
+    </Move>
+    <Move>
+      <Power>70</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>NORMAL</Type>
+      <Name>Slash</Name>
+    </Move>
+    <Move>
+      <Power>0</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>NORMAL</Type>
+      <Name>Screech</Name>
+      <AlteredStat>DEFENSE</AlteredStat>
+      <StatModifier>-1</StatModifier>
+    </Move>
+  </Moves>
+</PokeData>
