@@ -73,6 +73,16 @@ namespace Evol_UI.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _123 {
+            get {
+                object obj = ResourceManager.GetObject("_123", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _135 {
             get {
                 object obj = ResourceManager.GetObject("_135", resourceCulture);
@@ -176,6 +186,16 @@ namespace Evol_UI.Properties {
         internal static System.Drawing.Bitmap _6 {
             get {
                 object obj = ResourceManager.GetObject("_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _68 {
+            get {
+                object obj = ResourceManager.GetObject("_68", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

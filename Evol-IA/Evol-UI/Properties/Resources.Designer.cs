@@ -193,6 +193,33 @@ namespace Evol_UI.Properties {
         /// <summary>
         ///   Recherche une chaîne localisée semblable à &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
         ///&lt;PokeData xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        ///	&lt;Name&gt;Machamp&lt;/Name&gt;
+        ///	&lt;Level&gt;50&lt;/Level&gt;
+        ///	&lt;HP&gt;170&lt;/HP&gt;
+        ///	&lt;Attack&gt;155&lt;/Attack&gt;
+        ///	&lt;Defense&gt;105&lt;/Defense&gt;
+        ///	&lt;SpAttack&gt;90&lt;/SpAttack&gt;
+        ///	&lt;SpDefense&gt;110&lt;/SpDefense&gt;
+        ///	&lt;Speed&gt;79&lt;/Speed&gt;
+        ///	&lt;Type&gt;FIGHTING&lt;/Type&gt;
+        ///	&lt;Type2&gt;NONE&lt;/Type2&gt;
+        ///	&lt;Moves&gt;
+        ///		&lt;Move&gt;
+        ///			&lt;Name&gt;Submission&lt;/Name&gt;
+        ///			&lt;Power&gt;80&lt;/Power&gt;
+        ///			&lt;Accuracy&gt;100&lt;/Accuracy&gt;
+        ///			&lt;Special&gt;false&lt;/Special&gt;
+        ///			&lt;Ty [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string _068 {
+            get {
+                return ResourceManager.GetString("_068", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;PokeData xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
         ///  &lt;Name&gt;Kangaskhan&lt;/Name&gt;
         ///  &lt;Level&gt;50&lt;/Level&gt;
         ///  &lt;HP&gt;186&lt;/HP&gt;
@@ -213,6 +240,33 @@ namespace Evol_UI.Properties {
         internal static string _115 {
             get {
                 return ResourceManager.GetString("_115", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;PokeData xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&gt;
+        ///	&lt;Name&gt;Scyther&lt;/Name&gt;
+        ///	&lt;Level&gt;50&lt;/Level&gt;
+        ///	&lt;HP&gt;149&lt;/HP&gt;
+        ///	&lt;Attack&gt;135&lt;/Attack&gt;
+        ///	&lt;Defense&gt;105&lt;/Defense&gt;
+        ///	&lt;SpAttack&gt;79&lt;/SpAttack&gt;
+        ///	&lt;SpDefense&gt;104&lt;/SpDefense&gt;
+        ///	&lt;Speed&gt;129&lt;/Speed&gt;
+        ///	&lt;Type&gt;BUG&lt;/Type&gt;
+        ///	&lt;Type2&gt;FLYING&lt;/Type2&gt;
+        ///	&lt;Moves&gt;
+        ///		&lt;Move&gt;
+        ///			&lt;Name&gt;Wing Attack&lt;/Name&gt;
+        ///			&lt;Power&gt;60&lt;/Power&gt;
+        ///			&lt;Accuracy&gt;100&lt;/Accuracy&gt;
+        ///			&lt;Special&gt;false&lt;/Special&gt;
+        ///			&lt;Typ [le reste de la chaîne a été tronqué]&quot;;.
+        /// </summary>
+        internal static string _123 {
+            get {
+                return ResourceManager.GetString("_123", resourceCulture);
             }
         }
         
