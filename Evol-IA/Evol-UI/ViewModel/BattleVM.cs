@@ -68,7 +68,7 @@ namespace Evol_UI
 
             for(int i = 0; i < Trainers.Count; ++i)
             {
-                if(AIs[i] != null)
+                if (AIs[i] != null)
                 {
                     BackgroundWorker worker = new BackgroundWorker();
                     worker.WorkerReportsProgress = true;
@@ -76,6 +76,8 @@ namespace Evol_UI
                     worker.RunWorkerCompleted += worker_RunWorkerCompleted;
                     workers.Add(worker);
                 }
+                else
+                    workers.Add(null);
             }
 
             // AIs first move
