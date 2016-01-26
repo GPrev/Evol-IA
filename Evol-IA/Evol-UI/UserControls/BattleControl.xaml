@@ -11,25 +11,36 @@
         <local:PokemonToBackSpriteConverter x:Key="BackSpriteConverter" />
     </UserControl.Resources>
     <Grid Name="LayoutRoot">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <local:PokemonControl VerticalAlignment="Center" Pokemon="{Binding VM.Oponent.ActivePokemon}"/>
-        <Image Grid.Column="1" Source="{Binding VM.Oponent.ActivePokemon, Converter={StaticResource FrontSpriteConverter}}" />
-        <local:PokemonControl Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Pokemon="{Binding VM.Ally.ActivePokemon}"/>
-        <Image Grid.Row="1" Source="{Binding VM.Ally.ActivePokemon, Converter={StaticResource BackSpriteConverter}}" />
-        <local:PokemonChoiceControl Grid.Row="2" Trainer="{Binding VM.Ally}"
-                                    IsEnabled="{Binding VM.CanSwitch}"
-                                    Selected="{Binding VM.PendingSwitch, Mode=TwoWay}"/>
-        <local:MoveChoiceControl Grid.Row="2" Grid.Column="1" Pokemon="{Binding VM.Ally.ActivePokemon}"
-                                 IsEnabled="{Binding VM.CanFight}"
-                                 Selected="{Binding VM.PendingMove, Mode=TwoWay}"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <local:PokemonControl VerticalAlignment="Center" Pokemon="{Binding VM.Oponent.ActivePokemon}"/>
+            <Image Grid.Column="1" Source="{Binding VM.Oponent.ActivePokemon, Converter={StaticResource FrontSpriteConverter}}" />
+            <local:PokemonControl Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" Pokemon="{Binding VM.Ally.ActivePokemon}"/>
+            <Image Grid.Row="1" Source="{Binding VM.Ally.ActivePokemon, Converter={StaticResource BackSpriteConverter}}" />
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <local:PokemonChoiceControl Trainer="{Binding VM.Ally}"
+                                        IsEnabled="{Binding VM.CanSwitch}"
+                                        Selected="{Binding VM.PendingSwitch, Mode=TwoWay}"/>
+            <local:MoveChoiceControl Grid.Column="1" Pokemon="{Binding VM.Ally.ActivePokemon}"
+                                     IsEnabled="{Binding VM.CanFight}"
+                                     Selected="{Binding VM.PendingMove, Mode=TwoWay}"/>
+        </Grid>
     </Grid>
 </UserControl>
