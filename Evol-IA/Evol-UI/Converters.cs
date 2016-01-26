@@ -131,6 +131,25 @@ namespace Evol_UI
         }
     }
 
+    public class PokemonToIconSpriteConverter : IValueConverter
+    {
+        public object Convert(object value, System.Type targetType, object parameter, CultureInfo culture)
+        {
+            Pokemon p = value as Pokemon;
+            if (p != null)
+            {
+                return Pokedex.ActivePokedex.GetIconSpriteSource(p.Name);
+            }
+            //else
+            return null;
+        }
+
+        public object ConvertBack(object value, System.Type targetType, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
     public class NullToBoolConverter : IValueConverter
     {
         public object Convert(object value, System.Type targetType, object parameter, CultureInfo culture)
