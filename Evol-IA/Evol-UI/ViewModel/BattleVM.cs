@@ -20,6 +20,8 @@ namespace Evol_UI
 
         private List<BattleAI> AIs;
 
+        private List<BackgroundWorker> workers = new List<BackgroundWorker>();
+
         public String Log { get; private set; } = "";
 
         // Give as many ais as trainers (set some to null if necessary)
@@ -63,6 +65,18 @@ namespace Evol_UI
 
             NotifyPropertyChanged("PendingActions");
             NotifyPropertyChanged("BattleControls");
+
+            for(int i = 0; i < Trainers.Count; ++i)
+            {
+                if(AIs[i] != null)
+                {
+                    BackgroundWorker worker = new BackgroundWorker();
+                    worker.WorkerReportsProgress = true;
+                    worker.DoWork += worker_DoWork;
+                    worker.RunWorkerCompleted += worker_RunWorkerCompleted;
+                    workers.Add(worker);
+                }
+            }
 
             // AIs first move
             MakeAIChoice();
@@ -125,11 +139,29 @@ namespace Evol_UI
                 {
                     if (AIs[i] != null && NextActionTypes[i] != ActionType.NONE)
                     {
-                        BattleAction choice = AIs[i].ChooseAction(this, i, NextActionTypes[i]);
-                        SeletAction(i, choice);
+                        if(workers[i] != null)
+                            workers[i].RunWorkerAsync(i);
+                        else
+                        {
+                            BattleAction choice = AIs[i].ChooseAction(this, i, NextActionTypes[i]);
+                            SeletAction(choice.GetActorId(), choice);
+                        }
                     }
                 }
             }
+        }
+
+        void worker_DoWork(object sender, DoWorkEventArgs e)
+        {
+            int i = (int)e.Argument;
+            BattleAction choice = AIs[i].ChooseAction(this, i, NextActionTypes[i]);
+            e.Result = choice;
+        }
+
+        void worker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            BattleAction choice = e.Result as BattleAction;
+            SeletAction(choice.GetActorId(), choice);
         }
 
         private void AppendLog(string message)
