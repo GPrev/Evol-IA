@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -96,7 +97,9 @@ namespace Evol_UI
 
         private void MakeTeam(int teamId, int size)
         {
-            TeamAI t = new TeamAI(20, size, Pokedex.ActivePokedex.GetAllData(251), 5, 5);
+            int nbTesters = Int32.Parse(NbTestersText.Text);
+            int nbPools = Int32.Parse(NbPoolsText.Text);
+            TeamAI t = new TeamAI(nbTesters*nbPools, size, Pokedex.ActivePokedex.GetAllData(251), nbPools, 2);
             List<PokeData> iat = t.selectTeamAI();
 
             ObservableCollection<Pokemon> team;
@@ -116,6 +119,16 @@ namespace Evol_UI
         {
             TrainerA.Clear();
             TrainerB.Clear();
+        }
+
+        private void PreviewNumericTextInput(object sender, TextCompositionEventArgs e)
+        {
+            e.Handled = !IsTextAllowed(e.Text);
+        }
+        private static bool IsTextAllowed(string text)
+        {
+            Regex regex = new Regex("[^0-9.-]+"); //regex that matches disallowed text
+            return !regex.IsMatch(text);
         }
     }
 }

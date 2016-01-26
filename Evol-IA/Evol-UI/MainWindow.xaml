@@ -26,11 +26,10 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
             <local:AIMakerControl x:Name="AIone"/>
             <local:AIMakerControl Grid.Column="2" x:Name="AItwo"/>
-            <Button Content="Battle" Click="Battle_Click" Grid.Column="1" Grid.Row="2" Margin="5"/>
+            <Button Content="Battle" Click="Battle_Click" Grid.Column="1" Padding="50,10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <local:MatchMakerControl x:Name="MatchMaker" Grid.Row="1" Grid.ColumnSpan="3"/>
         </Grid>
         

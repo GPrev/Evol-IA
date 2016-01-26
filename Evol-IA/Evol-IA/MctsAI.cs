@@ -26,15 +26,15 @@ namespace Evol_IA
             get { return trainer; }
         }
 
-        public MctsAI(Trainer t = null)
+        public MctsAI(Trainer t = null, int nbIterations = 40, int nbSimu = 10)
         {
             if (t == null)
                 trainer = new Trainer("MCTS AI", new List<Pokemon>());
             else
                 trainer = t;
 
-            maxiter = 40;
-            nbSimuPerIter = 10;
+            maxiter = nbIterations;
+            nbSimuPerIter = nbSimu;
         }
 
         public override Trainer MakeTeam(List<Pokemon> availablePokemon, bool allowDoubles = false, int nbPokemon = 3)
