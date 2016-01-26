@@ -133,13 +133,28 @@
   <data name="_034" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\pokedata\034.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="_115" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\pokedata\115.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="_135" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PokeData\135.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="_149" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\pokedata\149.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="_196" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PokeData\196.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
   <data name="_197" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PokeData\197.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="_208" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\pokedata\208.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="_215" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\pokedata\215.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="_227" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\pokedata\227.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
 </root>

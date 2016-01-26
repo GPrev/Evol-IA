@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Kangaskhan</Name>
+  <Level>50</Level>
+  <HP>186</HP>
+  <Attack>122</Attack>
+  <SpAttack>66</SpAttack>
+  <Defense>107</Defense>
+  <SpDefense>106</SpDefense>
+  <Speed>116</Speed>
+  <Type>NORMAL</Type>
+  <Type2>NONE</Type2>
+  <Moves>
+    <Move>
+      <Power>70</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>NORMAL</Type>
+      <Name>Dizzy Punch</Name>
+    </Move>
+    <Move>
+      <Power>60</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>DARK</Type>
+      <Name>Bite</Name>
+    </Move>
+    <Move>
+      <Name>Surf</Name>
+      <Type>WATER</Type>
+      <Special>true</Special>
+      <Power>95</Power>
+      <Accuracy>100</Accuracy>
+    </Move>
+    <Move>
+      <Power>0</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>NORMAL</Type>
+      <Name>Leer</Name>
+      <AlteredStat>DEFENSE</AlteredStat>
+      <StatModifier>-1</StatModifier>
+    </Move>
+  </Moves>
+</PokeData>

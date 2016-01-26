@@ -96,7 +96,7 @@ namespace Evol_UI
 
         private void MakeTeam(int teamId, int size)
         {
-            TeamAI t = new TeamAI(4, size, Pokedex.ActivePokedex.GetAllData(251), 2, 3);
+            TeamAI t = new TeamAI(20, size, Pokedex.ActivePokedex.GetAllData(251), 5, 5);
             List<PokeData> iat = t.selectTeamAI();
 
             ObservableCollection<Pokemon> team;

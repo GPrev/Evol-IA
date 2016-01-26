@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Skarmory</Name>
+  <Level>50</Level>
+  <HP>146</HP>
+  <Attack>107</Attack>
+  <SpAttack>66</SpAttack>
+  <Defense>167</Defense>
+  <SpDefense>96</SpDefense>
+  <Speed>96</Speed>
+  <Type>STEEL</Type>
+  <Type2>FLYING</Type2>
+  <Moves>
+    <Move>
+      <Power>70</Power>
+      <Accuracy>90</Accuracy>
+      <Special>false</Special>
+      <Type>STEEL</Type>
+      <Name>Steel Wing</Name>
+    </Move>
+    <Move>
+      <Power>15</Power>
+      <Accuracy>85</Accuracy>
+      <Special>false</Special>
+      <Type>NORMAL</Type>
+      <Name>Fury Attack</Name>
+    </Move>
+    <Move>
+      <Power>90</Power>
+      <Accuracy>95</Accuracy>
+      <Special>false</Special>
+      <Type>FLYING</Type>
+      <Name>Fly</Name>
+    </Move>
+    <Move>
+      <Name>Agility</Name>
+      <Type>PSYCHIC</Type>
+      <Special>false</Special>
+      <Power>0</Power>
+      <Accuracy>0</Accuracy>
+      <AlteredStat>SPEED</AlteredStat>
+      <StatModifier>1</StatModifier>
+    </Move>
+  </Moves>
+</PokeData>

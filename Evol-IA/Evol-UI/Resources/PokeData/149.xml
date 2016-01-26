@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PokeData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Dragonite</Name>
+  <Level>50</Level>
+  <HP>151</HP>
+  <Attack>139</Attack>
+  <SpAttack>105</SpAttack>
+  <Defense>100</Defense>
+  <SpDefense>105</SpDefense>
+  <Speed>85</Speed>
+  <Type>DRAGON</Type>
+  <Type2>FLYING</Type2>
+  <Moves>
+    <Move>
+      <Power>40</Power>
+      <Accuracy>100</Accuracy>
+      <Special>true</Special>
+      <Type>DRAGON</Type>
+      <Name>Twister</Name>
+    </Move>
+    <Move>
+      <Power>60</Power>
+      <Accuracy>100</Accuracy>
+      <Special>false</Special>
+      <Type>FLYING</Type>
+      <Name>Wing Attack</Name>
+    </Move>
+    <Move>
+      <Power>1</Power>
+      <Accuracy>100</Accuracy>
+      <Special>true</Special>
+      <Type>DRAGON</Type>
+      <Name>Dragon Rage</Name>
+    </Move>
+    <Move>
+      <Name>Leer</Name>
+      <Type>NORMAL</Type>
+      <Special>false</Special>
+      <Power>0</Power>
+      <Accuracy>100</Accuracy>
+      <AlteredStat>DEFENSE</AlteredStat>
+      <StatModifier>-1</StatModifier>
+    </Move>
+  </Moves>
+</PokeData>

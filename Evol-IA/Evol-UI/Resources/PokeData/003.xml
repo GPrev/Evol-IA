@@ -9,7 +9,7 @@
   <SpDefense>123</SpDefense>
   <Speed>102</Speed>
   <Type>GRASS</Type>
-  <Type2>NONE</Type2>
+  <Type2>POISON</Type2>
   <Moves>
     <Move>
       <Power>75</Power>

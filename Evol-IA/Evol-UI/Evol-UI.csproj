@@ -195,9 +195,14 @@
     <EmbeddedResource Include="Resources\PokeData\009.xml" />
     <EmbeddedResource Include="Resources\PokeData\024.xml" />
     <EmbeddedResource Include="Resources\PokeData\034.xml" />
+    <EmbeddedResource Include="Resources\PokeData\115.xml" />
     <EmbeddedResource Include="Resources\PokeData\135.xml" />
+    <EmbeddedResource Include="Resources\PokeData\149.xml" />
     <EmbeddedResource Include="Resources\PokeData\196.xml" />
     <EmbeddedResource Include="Resources\PokeData\197.xml" />
+    <EmbeddedResource Include="Resources\PokeData\208.xml" />
+    <EmbeddedResource Include="Resources\PokeData\215.xml" />
+    <EmbeddedResource Include="Resources\PokeData\227.xml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Sprites\Front\3.png" />
@@ -205,9 +210,14 @@
     <EmbeddedResource Include="Resources\Sprites\Front\9.png" />
     <EmbeddedResource Include="Resources\Sprites\Front\24.png" />
     <EmbeddedResource Include="Resources\Sprites\Front\34.png" />
+    <EmbeddedResource Include="Resources\Sprites\Front\115.png" />
     <EmbeddedResource Include="Resources\Sprites\Front\135.png" />
+    <EmbeddedResource Include="Resources\Sprites\Front\149.png" />
     <EmbeddedResource Include="Resources\Sprites\Front\196.png" />
     <EmbeddedResource Include="Resources\Sprites\Front\197.png" />
+    <EmbeddedResource Include="Resources\Sprites\Front\208.png" />
+    <EmbeddedResource Include="Resources\Sprites\Front\215.png" />
+    <EmbeddedResource Include="Resources\Sprites\Front\227.png" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Sprites\Back\3.png" />
@@ -215,10 +225,16 @@
     <EmbeddedResource Include="Resources\Sprites\Back\9.png" />
     <EmbeddedResource Include="Resources\Sprites\Back\24.png" />
     <EmbeddedResource Include="Resources\Sprites\Back\34.png" />
+    <EmbeddedResource Include="Resources\Sprites\Back\115.png" />
     <EmbeddedResource Include="Resources\Sprites\Back\135.png" />
+    <EmbeddedResource Include="Resources\Sprites\Back\149.png" />
     <EmbeddedResource Include="Resources\Sprites\Back\196.png" />
     <EmbeddedResource Include="Resources\Sprites\Back\197.png" />
+    <EmbeddedResource Include="Resources\Sprites\Back\208.png" />
+    <EmbeddedResource Include="Resources\Sprites\Back\215.png" />
+    <EmbeddedResource Include="Resources\Sprites\Back\227.png" />
   </ItemGroup>
+  
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
