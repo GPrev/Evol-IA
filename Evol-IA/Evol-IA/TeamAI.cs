@@ -204,17 +204,20 @@ namespace Evol_IA
                 int rm = r.Next(pokemons.Length);
                 int rp = r.Next(pokemons.Length);
 
+                //rm is the index in the pokemons table of the pokemons it will remove
                 while (!team.Contains(pokemons[rm]))
                 {
                     rm = r.Next(pokemons.Length);
                 }
 
-
+                //rp is the index in the pokemons table of the pokemons it will add
                 while (team.Contains(pokemons[rp]))
                 {
                     rp = r.Next(pokemons.Length);
                 }
-                //rp is the index in the pokemons table of the pokemons it will add
+
+
+  
                 team.Remove(pokemons[rm]);
                 team.Add(pokemons[rp]);
             }

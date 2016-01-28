@@ -204,7 +204,9 @@
     <EmbeddedResource Include="Resources\PokeData\009.xml" />
     <EmbeddedResource Include="Resources\PokeData\024.xml" />
     <EmbeddedResource Include="Resources\PokeData\034.xml" />
+    <EmbeddedResource Include="Resources\PokeData\068.xml" />
     <EmbeddedResource Include="Resources\PokeData\115.xml" />
+    <EmbeddedResource Include="Resources\PokeData\123.xml" />
     <EmbeddedResource Include="Resources\PokeData\135.xml" />
     <EmbeddedResource Include="Resources\PokeData\149.xml" />
     <EmbeddedResource Include="Resources\PokeData\196.xml" />
@@ -219,8 +221,10 @@
     <EmbeddedResource Include="Resources\Sprites\Front\9.png" />
     <EmbeddedResource Include="Resources\Sprites\Front\24.png" />
     <EmbeddedResource Include="Resources\Sprites\Front\34.png" />
+    <EmbeddedResource Include="Resources\Sprites\Front\68.png" />
     <EmbeddedResource Include="Resources\Sprites\Front\115.png" />
     <EmbeddedResource Include="Resources\Sprites\Front\135.png" />
+    <EmbeddedResource Include="Resources\Sprites\Front\123.png" />
     <EmbeddedResource Include="Resources\Sprites\Front\149.png" />
     <EmbeddedResource Include="Resources\Sprites\Front\196.png" />
     <EmbeddedResource Include="Resources\Sprites\Front\197.png" />
@@ -234,8 +238,10 @@
     <EmbeddedResource Include="Resources\Sprites\Back\9.png" />
     <EmbeddedResource Include="Resources\Sprites\Back\24.png" />
     <EmbeddedResource Include="Resources\Sprites\Back\34.png" />
+    <EmbeddedResource Include="Resources\Sprites\Back\68.png" />
     <EmbeddedResource Include="Resources\Sprites\Back\115.png" />
     <EmbeddedResource Include="Resources\Sprites\Back\135.png" />
+    <EmbeddedResource Include="Resources\Sprites\Back\123.png" />
     <EmbeddedResource Include="Resources\Sprites\Back\149.png" />
     <EmbeddedResource Include="Resources\Sprites\Back\196.png" />
     <EmbeddedResource Include="Resources\Sprites\Back\197.png" />
@@ -249,8 +255,10 @@
     <EmbeddedResource Include="Resources\Sprites\Icons\9.png" />
     <EmbeddedResource Include="Resources\Sprites\Icons\24.png" />
     <EmbeddedResource Include="Resources\Sprites\Icons\34.png" />
+    <EmbeddedResource Include="Resources\Sprites\Icons\68.png" />
     <EmbeddedResource Include="Resources\Sprites\Icons\115.png" />
     <EmbeddedResource Include="Resources\Sprites\Icons\135.png" />
+    <EmbeddedResource Include="Resources\Sprites\Icons\123.png" />
     <EmbeddedResource Include="Resources\Sprites\Icons\149.png" />
     <EmbeddedResource Include="Resources\Sprites\Icons\196.png" />
     <EmbeddedResource Include="Resources\Sprites\Icons\197.png" />
