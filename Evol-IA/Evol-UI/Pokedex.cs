@@ -27,11 +27,19 @@ namespace Evol_UI
         private Dictionary<int, PokeData> data = new Dictionary<int, PokeData>();
         private Dictionary<string, Bitmap> spritesFront = new Dictionary<string, Bitmap>();
         private Dictionary<string, Bitmap> spritesBack = new Dictionary<string, Bitmap>();
+        private Dictionary<string, Bitmap> spritesIcon = new Dictionary<string, Bitmap>();
 
         public PokeData GetData(int i)
         {
             if (data.ContainsKey(i))
                 return data[i];
+            else
+                return null;
+        }
+        public Pokemon GetSamplePokemon(int i)
+        {
+            if (data.ContainsKey(i))
+                return new Pokemon(data[i]);
             else
                 return null;
         }
@@ -49,6 +57,13 @@ namespace Evol_UI
             else
                 return null;
         }
+        public Bitmap GetIconSprite(string name)
+        {
+            if (spritesIcon.ContainsKey(name))
+                return spritesIcon[name];
+            else
+                return null;
+        }
         public BitmapSource GetFrontSpriteSource(string name)
         {
             return GetSourceFromBitmap(GetFrontSprite(name));
@@ -57,6 +72,11 @@ namespace Evol_UI
         public BitmapSource GetBackSpriteSource(string name)
         {
             return GetSourceFromBitmap(GetBackSprite(name));
+        }
+
+        public BitmapSource GetIconSpriteSource(string name)
+        {
+            return GetSourceFromBitmap(GetIconSprite(name));
         }
 
         private static BitmapSource GetSourceFromBitmap(Bitmap bmp)
@@ -90,8 +110,10 @@ namespace Evol_UI
             string name = GetData(i).Name;
             Bitmap front = Properties.SpritesFrontResources.ResourceManager.GetObject(number2) as Bitmap;
             Bitmap back = Properties.SpritesBackResources.ResourceManager.GetObject(number2) as Bitmap;
+            Bitmap icon = Properties.IconsResources.ResourceManager.GetObject(number2) as Bitmap;
             spritesFront.Add(name, front);
             spritesBack.Add(name, back);
+            spritesIcon.Add(name, icon);
 
             return data[i];
         }
@@ -119,7 +141,19 @@ namespace Evol_UI
             for (int i = 0; i <= maxID; ++i)
             {
                 PokeData d = GetData(i);
-                if(d != null)
+                if (d != null)
+                    res.Add(d);
+            }
+            return res;
+        }
+
+        public List<Pokemon> GetAllSamplePokemon(int maxID)
+        {
+            List<Pokemon> res = new List<Pokemon>();
+            for (int i = 0; i <= maxID; ++i)
+            {
+                Pokemon d = GetSamplePokemon(i);
+                if (d != null)
                     res.Add(d);
             }
             return res;

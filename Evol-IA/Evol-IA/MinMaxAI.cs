@@ -19,18 +19,20 @@ namespace Evol_IA
         }
 
         //m is the maximal depth of the min max tree, and id is the id of the IA "player"
-        public MinMaxAI(Trainer t = null, int m=5, int id=1)
+        public MinMaxAI(Trainer t = null, int m=5) 
         {
             if (t == null)
                 trainer = new Trainer("MinMax AI", new List<Pokemon>());
             else
                 trainer = t;
-            myId=id;
             maxdepth = m;
+
         }
 
         public override BattleAction ChooseAction(BattleDecisionState s, int myID, ActionType type = ActionType.ANY)
         {
+
+            this.myId = myID;
             float max = -10000;
             float tmp;
             BattleAction act=null;

@@ -10,7 +10,7 @@ namespace Evol_IA
     public class BattleDecisionState
     {
         public BattleState State { get; private set; }
-        List<BattleAction> pendingActions;
+        private List<BattleAction> pendingActions;
         private int ChooseCount { get; set; }
 
         public BattleDecisionState(BattleState s, List<BattleAction> pActions = null)
@@ -30,10 +30,10 @@ namespace Evol_IA
             }
         }
 
-        public BattleDecisionState GetChild(BattleAction a)
-        {
-            return GetChild(a, a.GetActorId());
-        }
+        //public BattleDecisionState GetChild(BattleAction a)
+        //{
+        //    return GetChild(a, a.GetActorId());
+        //}
 
         public BattleDecisionState GetChild(BattleAction a, int id)
         {
@@ -57,18 +57,26 @@ namespace Evol_IA
                     }
                 }
             }
-
+            
             BattleDecisionState res;
             if (ChooseCount >= (State.Trainers.Count - 1) && State.CanMakeActions(newActions))
             {
                 BattleState newState = State.Clone() as BattleState;
-                newState.MakeActions(newActions);
+
+                List<BattleAction> clonedActionList = new List<BattleAction>();
+                foreach(BattleAction act in newActions)
+                {
+                    clonedActionList.Add(act);
+                }
+                newState.MakeActions(clonedActionList);
+
                 res = new BattleDecisionState(newState);
             }
             else
             {
                 res = new BattleDecisionState(State, newActions) { ChooseCount = this.ChooseCount + 1 };
             }
+
             return res;
         }
 

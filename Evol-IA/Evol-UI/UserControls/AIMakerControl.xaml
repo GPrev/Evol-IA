@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="Evol_UI.AIMakerControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Evol_UI"
+             mc:Ignorable="d" 
+             d:DesignWidth="300" MinWidth="200">
+    <UserControl.Resources>
+        <Style x:Key="WhenMinMaxStyle">
+            <Setter Property="Control.Visibility" Value="Hidden"/>
+            <Style.Triggers>
+                <DataTrigger 
+                        Binding="{Binding ElementName=AIType, Path=SelectedValue.Tag}" Value="minmax">
+                    <Setter Property="Control.Visibility" Value="Visible"></Setter>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="WhenMctsStyle">
+            <Setter Property="Control.Visibility" Value="Hidden"/>
+            <Style.Triggers>
+                <DataTrigger 
+                        Binding="{Binding ElementName=AIType, Path=SelectedValue.Tag}" Value="mcts">
+                    <Setter Property="Control.Visibility" Value="Visible"></Setter>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+    <Grid Margin="5">
+        <StackPanel>
+            <TextBox x:Name="NameText" />
+            <ComboBox x:Name="AIType">
+                <ComboBoxItem Tag="none" IsSelected="True">Human</ComboBoxItem>
+                <ComboBoxItem Tag="minmax">MinMax AI</ComboBoxItem>
+                <ComboBoxItem Tag="mcts">MCTS AI</ComboBoxItem>
+            </ComboBox>
+            <Grid>
+                <StackPanel Orientation="Horizontal" Style="{StaticResource ResourceKey=WhenMinMaxStyle}">
+                    <Label Content="Maximum Depth "/>
+                    <TextBox x:Name="MaxProfText" Text="6" PreviewTextInput="PreviewNumericTextInput"
+                             VerticalAlignment="Center" MinWidth="25" TextAlignment="Right"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Style="{StaticResource ResourceKey=WhenMctsStyle}">
+                    <Label Content="Iteration Count "/>
+                    <TextBox x:Name="NbIteText" Text="40" PreviewTextInput="PreviewNumericTextInput"
+                             VerticalAlignment="Center" MinWidth="25" TextAlignment="Right"/>
+                    <Label Content="Simulations per Iteration "/>
+                    <TextBox x:Name="NbSimuText" Text="10" PreviewTextInput="PreviewNumericTextInput"
+                             VerticalAlignment="Center" MinWidth="25" TextAlignment="Right"/>
+                </StackPanel>
+            </Grid>
+
+
+        </StackPanel>
+    </Grid>
+</UserControl>

@@ -5,27 +5,32 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Evol_UI"
              mc:Ignorable="d" 
-             MinWidth="150">
+             MinWidth="220">
+    <UserControl.Resources>
+        <local:PokemonToIconSpriteConverter x:Key="IconSpriteConverter" />
+    </UserControl.Resources>
     <Grid Name="LayoutRoot">
         <Grid>
             <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
-            <StackPanel Orientation="Horizontal" Grid.Row="1">
+            <Image Grid.RowSpan="2" Source="{Binding Pokemon, Converter={StaticResource IconSpriteConverter}}" />
+            <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1">
                 <TextBlock Text="Lv"/>
                 <TextBlock Name="LevelText" Width="22" Text="{Binding Pokemon.Level}"/>
             </StackPanel>
-            <TextBlock Name="NameText" Text="{Binding Pokemon.Name}"/>
-            <DockPanel Grid.Column="1">
+            <TextBlock Name="NameText" Text="{Binding Pokemon.Name}" Grid.Column="1"/>
+            <DockPanel Grid.Column="2" >
                 <TextBlock Name="ConditionText" DockPanel.Dock="Left" Width="25" Text="{Binding Pokemon.ConditionStr}" TextAlignment="Center"/>
                 <ProgressBar Name="LifeBar" Maximum="{Binding Pokemon.HP}" Value="{Binding Pokemon.CurrHP}"/>
             </DockPanel>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Column="1" Grid.Row="1">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Column="2" Grid.Row="1">
                 <TextBlock Name="LifeText" Width="22" Text="{Binding Pokemon.CurrHP}" TextAlignment="Right"/>
                 <TextBlock Text ="/"/>
                 <TextBlock Name="MaxLifeText" Width="22" Text="{Binding Pokemon.HP}" TextAlignment="Right"/>

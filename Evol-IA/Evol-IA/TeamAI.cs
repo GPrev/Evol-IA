@@ -136,8 +136,9 @@ namespace Evol_IA
 
                         //we make them fight with minmax AI
                         List<Intelligence> ais = new List<Intelligence>();
-                        ais.Add(new MinMaxAI(trainers[0],2,0)); // AI 1 (2 = maximum tree depth ; 0 = myId)
-                        ais.Add(new MinMaxAI(trainers[1],2,1)); // AI 2
+
+                        ais.Add(new MinMaxAI(trainers[0],2)); // AI 1 (2 = nb d'itérations ; 0 = myId)
+                        ais.Add(new MinMaxAI(trainers[1],2)); // AI 2
 
                         Battle battle = new Battle(ais);
 
@@ -200,8 +201,15 @@ namespace Evol_IA
             int mut = r.Next(100);
             if (mut < 5)
             {
-                int rm = r.Next(pokemonnbteam);
+                int rm = r.Next(pokemons.Length);
                 int rp = r.Next(pokemons.Length);
+
+                while (!team.Contains(pokemons[rm]))
+                {
+                    rm = r.Next(pokemons.Length);
+                }
+
+
                 while (team.Contains(pokemons[rp]))
                 {
                     rp = r.Next(pokemons.Length);

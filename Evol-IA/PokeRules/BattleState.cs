@@ -107,6 +107,7 @@ namespace PokeRules
             return true;
         }
 
+        // Attention, la liste sera modifiée
         public void MakeActions(List<BattleAction> actions)
         {
             makingMoves = true;

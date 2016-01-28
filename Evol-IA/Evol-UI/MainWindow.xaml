@@ -6,15 +6,34 @@
         xmlns:diag="clr-namespace:System.Diagnostics;assembly=WindowsBase"
         xmlns:local="clr-namespace:Evol_UI"
         mc:Ignorable="d"
-        Title="Evol'IA" Height="500" MinWidth="600">
+        Title="Evol'IA" Height="600" MinWidth="600">
     <Window.Resources>
+        <local:NullToVisibilityConverter x:Key="NullToVisibilityConverter" />
+        <local:NotNullToVisibilityConverter x:Key="NotNullToVisibilityConverter" />
+        
         <Style TargetType="ListBox">
             <Setter Property="BorderThickness" Value="0"/>
         </Style>
     </Window.Resources>
     
     <Grid Name="LayoutRoot">
-        <Grid Margin="0,10,0,-10">
+        <Grid Visibility="{Binding Battle, Converter={StaticResource NullToVisibilityConverter}}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <local:AIMakerControl x:Name="AIone"/>
+            <local:AIMakerControl Grid.Column="2" x:Name="AItwo"/>
+            <Button Content="Battle" Click="Battle_Click" Grid.Column="1" Padding="50,10" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <local:MatchMakerControl x:Name="MatchMaker" Grid.Row="1" Grid.ColumnSpan="3"/>
+        </Grid>
+        
+        <Grid Visibility="{Binding Battle, Converter={StaticResource NotNullToVisibilityConverter}}">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -22,6 +41,7 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="100"/>
+                <RowDefinition Height="auto"/>
             </Grid.RowDefinitions>
 
             <local:BattleControl VM="{Binding Battle.BattleControls[0]}" />
@@ -29,6 +49,8 @@
             <TextBox Grid.ColumnSpan="2" Grid.Row="1" IsReadOnly="True"
                      VerticalScrollBarVisibility="Auto" Margin="0,10"
                      Text="{Binding Battle.Log, Mode=OneWay}" TextChanged="OnLogChanged"/>
+            <Button Content="Reset" Grid.Row="2" Grid.ColumnSpan="2" Padding="15,3"
+                    HorizontalAlignment="Center" Click="Reset_Click"/>
         </Grid>
     </Grid>
 </Window>
